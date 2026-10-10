@@ -1,0 +1,446 @@
+{
+  "is_example": true,
+  "note": "EXAMPLE DATA - tickers/names/market caps from watchlist.csv; prices, moves, reasons and sources are invented.",
+  "session_date": "2026-10-06",
+  "market_context": "EXAMPLE: Nasdaq Composite +0.4%, S&P 500 +0.2% in a made-up session; memory chipmakers led (placeholder text).",
+  "tickers": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 653.24,
+      "previous_close": 653.37,
+      "pct_change": -0.02,
+      "market_cap": 5756338502000,
+      "mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 514.02,
+      "previous_close": 503.94,
+      "pct_change": 2.0,
+      "market_cap": 4955421711804,
+      "mover": false
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 255.64,
+      "previous_close": 252.21,
+      "pct_change": 1.36,
+      "market_cap": 4294955762160,
+      "mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 689.11,
+      "previous_close": 685.0,
+      "pct_change": 0.6,
+      "market_cap": 3923146468849,
+      "mover": false
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 743.73,
+      "previous_close": 731.08,
+      "pct_change": 1.73,
+      "market_cap": 2758591282715,
+      "mover": false
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 249.37,
+      "previous_close": 254.15,
+      "pct_change": -1.88,
+      "market_cap": 2278517179647,
+      "mover": false
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 268.68,
+      "previous_close": 274.19,
+      "pct_change": -2.01,
+      "market_cap": 1852005971475,
+      "mover": false
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 376.74,
+      "previous_close": 375.39,
+      "pct_change": 0.36,
+      "market_cap": 1736718321185,
+      "mover": false
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 114.15,
+      "previous_close": 118.17,
+      "pct_change": -3.4,
+      "market_cap": 1444954473656,
+      "mover": true,
+      "reason": "EXAMPLE reason text for TSLA: placeholder explanation of a sell-off used only to preview the layout. Not real news.",
+      "sources": [
+        {
+          "outlet": "Example News",
+          "title": "Placeholder headline about TSLA",
+          "url": "https://example.com"
+        },
+        {
+          "outlet": "Sample Wire",
+          "title": "Another placeholder story on TSLA",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 244.93,
+      "previous_close": 233.04,
+      "pct_change": 5.1,
+      "market_cap": 1493926606503,
+      "mover": true,
+      "reason": "EXAMPLE reason text for SKHY: placeholder explanation of a rally used only to preview the layout. Not real news.",
+      "sources": [
+        {
+          "outlet": "Example News",
+          "title": "Placeholder headline about SKHY",
+          "url": "https://example.com"
+        },
+        {
+          "outlet": "Sample Wire",
+          "title": "Another placeholder story on SKHY",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "close": 753.32,
+      "previous_close": 705.36,
+      "pct_change": 6.8,
+      "market_cap": 1283339918250,
+      "mover": true,
+      "reason": "EXAMPLE reason text for MU: placeholder explanation of a rally used only to preview the layout. Not real news.",
+      "sources": [
+        {
+          "outlet": "Example News",
+          "title": "Placeholder headline about MU",
+          "url": "https://example.com"
+        },
+        {
+          "outlet": "Sample Wire",
+          "title": "Another placeholder story on MU",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "close": 66.48,
+      "previous_close": 66.61,
+      "pct_change": -0.2,
+      "market_cap": 1029253475568,
+      "mover": false
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "close": 428.42,
+      "previous_close": 436.85,
+      "pct_change": -1.93,
+      "market_cap": 817510262293,
+      "mover": false
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 284.09,
+      "previous_close": 288.47,
+      "pct_change": -1.52,
+      "market_cap": 705927190371,
+      "mover": false
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 255.6,
+      "previous_close": 247.43,
+      "pct_change": 3.3,
+      "market_cap": 634336609957,
+      "mover": true,
+      "reason": "EXAMPLE reason text for INTC: placeholder explanation of a rally used only to preview the layout. Not real news.",
+      "sources": [
+        {
+          "outlet": "Example News",
+          "title": "Placeholder headline about INTC",
+          "url": "https://example.com"
+        },
+        {
+          "outlet": "Sample Wire",
+          "title": "Another placeholder story on INTC",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 235.12,
+      "previous_close": 246.46,
+      "pct_change": -4.6,
+      "market_cap": 434021278373,
+      "mover": true,
+      "reason": "EXAMPLE reason text for PLTR: placeholder explanation of a sell-off used only to preview the layout. Not real news.",
+      "sources": [
+        {
+          "outlet": "Example News",
+          "title": "Placeholder headline about PLTR",
+          "url": "https://example.com"
+        },
+        {
+          "outlet": "Sample Wire",
+          "title": "Another placeholder story on PLTR",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 491.55,
+      "previous_close": 491.3,
+      "pct_change": 0.05,
+      "market_cap": 445025052338,
+      "mover": false
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 264.02,
+      "previous_close": 262.39,
+      "pct_change": 0.62,
+      "market_cap": 435425548155,
+      "mover": false
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 127.12,
+      "previous_close": 128.91,
+      "pct_change": -1.39,
+      "market_cap": 424370128293,
+      "mover": false
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 912.28,
+      "previous_close": 893.52,
+      "pct_change": 2.1,
+      "market_cap": 418162337516,
+      "mover": false
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 749.77,
+      "previous_close": 749.92,
+      "pct_change": -0.02,
+      "market_cap": 332663134064,
+      "mover": false
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 78.42,
+      "previous_close": 76.81,
+      "pct_change": 2.1,
+      "market_cap": 329070684883,
+      "mover": false
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc. Common Stock",
+      "close": 597.2,
+      "previous_close": 591.17,
+      "pct_change": 1.02,
+      "market_cap": 283932800597,
+      "mover": false
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 145.52,
+      "previous_close": 146.56,
+      "pct_change": -0.71,
+      "market_cap": 277214019543,
+      "mover": false
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 344.29,
+      "previous_close": 341.05,
+      "pct_change": 0.95,
+      "market_cap": 272505028502,
+      "mover": false
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 300.13,
+      "previous_close": 306.94,
+      "pct_change": -2.22,
+      "market_cap": 263337910915,
+      "mover": false
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation Common Stock",
+      "close": 531.3,
+      "previous_close": 492.4,
+      "pct_change": 7.9,
+      "market_cap": 269233595719,
+      "mover": true,
+      "reason": "EXAMPLE reason text for SNDK: placeholder explanation of a rally used only to preview the layout. Not real news.",
+      "sources": [
+        {
+          "outlet": "Example News",
+          "title": "Placeholder headline about SNDK",
+          "url": "https://example.com"
+        },
+        {
+          "outlet": "Sample Wire",
+          "title": "Another placeholder story on SNDK",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 839.05,
+      "previous_close": 853.21,
+      "pct_change": -1.66,
+      "market_cap": 233910663525,
+      "mover": false
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 139.16,
+      "previous_close": 141.68,
+      "pct_change": -1.78,
+      "market_cap": 218409467552,
+      "mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 133.66,
+      "previous_close": 136.72,
+      "pct_change": -2.24,
+      "market_cap": 212983734343,
+      "mover": false
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 483.07,
+      "previous_close": 479.76,
+      "pct_change": 0.69,
+      "market_cap": 208903862105,
+      "mover": false
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 521.64,
+      "previous_close": 530.77,
+      "pct_change": -1.72,
+      "market_cap": 199588386536,
+      "mover": false
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "close": 847.02,
+      "previous_close": 864.84,
+      "pct_change": -2.06,
+      "market_cap": 198714324255,
+      "mover": false
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 847.57,
+      "previous_close": 837.6,
+      "pct_change": 1.19,
+      "market_cap": 192131264886,
+      "mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 880.08,
+      "previous_close": 876.14,
+      "pct_change": 0.45,
+      "market_cap": 180141720281,
+      "mover": false
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 776.84,
+      "previous_close": 778.08,
+      "pct_change": -0.16,
+      "market_cap": 176322086917,
+      "mover": false
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 607.33,
+      "previous_close": 594.61,
+      "pct_change": 2.14,
+      "market_cap": 175168694822,
+      "mover": false
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 835.88,
+      "previous_close": 851.98,
+      "pct_change": -1.89,
+      "market_cap": 156219868691,
+      "mover": false
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 108.35,
+      "previous_close": 107.93,
+      "pct_change": 0.39,
+      "market_cap": 144160498668,
+      "mover": false
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet Inc. Common Stock",
+      "close": 61.45,
+      "previous_close": 60.84,
+      "pct_change": 1.0,
+      "market_cap": 136449681876,
+      "mover": false
+    }
+  ]
+}

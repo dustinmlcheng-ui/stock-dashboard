@@ -1,0 +1,953 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nasdaq 40 Dashboard · 2026-10-09</title>
+<style>
+:root {
+  --bg: #f5f7fb; --panel: #fff; --text: #0f172a; --muted: #64748b; --line: #e2e8f0;
+  --up: #059669; --up-bg: #ecfdf5; --down: #dc2626; --down-bg: #fef2f2;
+  --accent: #4f46e5; --head: #0b1220; --head-text: #e2e8f0;
+  --radius: 14px; --shadow: 0 1px 2px rgba(15,23,42,.06), 0 4px 16px rgba(15,23,42,.06);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0b1020; --panel: #121a2e; --text: #e5e7eb; --muted: #94a3b8; --line: #23304a;
+    --up: #34d399; --up-bg: rgba(52,211,153,.12); --down: #f87171; --down-bg: rgba(248,113,113,.12);
+    --accent: #818cf8; --head: #060a16; --shadow: none; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+
+.example-banner { background: repeating-linear-gradient(-45deg, #fde68a 0 14px, #fcd34d 14px 28px);
+  color: #451a03; text-align: center; font-weight: 700; padding: 10px 16px; font-size: 15px;
+  border-bottom: 2px solid #b45309; position: sticky; top: 0; z-index: 10; }
+.example-banner small { display: block; font-weight: 500; font-size: 12.5px; }
+
+.site-header { background: linear-gradient(135deg, #0b1220 0%, #1e1b4b 100%); color: var(--head-text);
+  padding: 28px 0 24px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 11.5px; color: #a5b4fc; font-weight: 600; }
+h1 { margin: 6px 0 8px; font-size: 28px; line-height: 1.2; color: #fff; }
+h1 .session { display: inline-block; font-size: 15px; font-weight: 600; color: #c7d2fe;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15);
+  padding: 3px 10px; border-radius: 999px; vertical-align: middle; margin-left: 6px; }
+.context { margin: 0; font-size: 16px; max-width: 900px; color: #cbd5e1; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.stat { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px; padding: 6px 12px; font-size: 13px; color: #cbd5e1; }
+.stat b { color: #fff; font-size: 15px; margin-right: 4px; }
+.stat .up { color: #6ee7b7; } .stat .down { color: #fca5a5; }
+
+section { margin-top: 28px; }
+.section-head { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  flex-wrap: wrap; margin-bottom: 12px; }
+h2 { margin: 0; font-size: 20px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 16px 18px; border-top: 4px solid var(--line);
+  display: flex; flex-direction: column; min-width: 0; }
+.card.up { border-top-color: var(--up); } .card.down { border-top-color: var(--down); }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.card .tk { font-size: 20px; font-weight: 800; letter-spacing: .01em; }
+.card .nm { color: var(--muted); font-size: 13px; }
+.pill { font-weight: 700; font-size: 16px; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.pill.up { color: var(--up); background: var(--up-bg); } .pill.down { color: var(--down); background: var(--down-bg); }
+.card .px { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.card .reason { margin: 12px 0 0; font-size: 14.5px; overflow-wrap: anywhere; }
+.card .sources { list-style: none; margin: 12px 0 0; padding: 12px 0 0; border-top: 1px dashed var(--line);
+  font-size: 13.5px; display: grid; gap: 6px; }
+.card .sources li { overflow-wrap: anywhere; }
+.card .sources .outlet { font-weight: 700; }
+.empty { background: var(--panel); border: 1px dashed var(--line); border-radius: var(--radius);
+  padding: 20px; color: var(--muted); }
+
+#filter { font: inherit; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--panel); color: var(--text); width: 240px; max-width: 100%; }
+.table-wrap { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 640px; }
+th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+tbody tr:last-child td { border-bottom: 0; }
+th { position: sticky; top: 0; background: var(--panel); font-size: 12px; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--muted); cursor: pointer; user-select: none; }
+th:hover { color: var(--text); }
+th::after { content: "↕"; opacity: .35; margin-left: 5px; font-size: 11px; }
+th[aria-sort="ascending"]::after { content: "▲"; opacity: 1; color: var(--accent); }
+th[aria-sort="descending"]::after { content: "▼"; opacity: 1; color: var(--accent); }
+th[aria-sort="ascending"], th[aria-sort="descending"] { color: var(--text); }
+.r { text-align: right; }
+td.tk { font-weight: 700; }
+td.col-name { max-width: 340px; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
+td.up { color: var(--up); font-weight: 600; } td.down { color: var(--down); font-weight: 600; }
+tbody tr:hover td { background: rgba(79,70,229,.04); }
+tr.is-mover td.tk::after { content: "●"; color: var(--accent); font-size: 9px; vertical-align: super; margin-left: 4px; }
+th:first-child, td:first-child { position: sticky; left: 0; background: var(--panel); z-index: 1; }
+th:first-child { z-index: 2; }
+.hint { font-size: 12.5px; margin: 8px 2px 0; }
+footer { margin: 36px auto 40px; font-size: 12.5px; }
+footer p { margin: 4px 0; overflow-wrap: anywhere; }
+
+@media (max-width: 640px) {
+  body { font-size: 14px; }
+  .wrap { padding: 0 14px; }
+  .site-header { padding: 20px 0 18px; }
+  h1 { font-size: 22px; }
+  h1 .session { display: block; width: fit-content; margin: 8px 0 0; font-size: 13px; }
+  .context { font-size: 14.5px; }
+  .cards { grid-template-columns: 1fr; gap: 12px; }
+  #filter { width: 100%; }
+  th, td { padding: 9px 6px; font-size: 13px; }
+  th { font-size: 10.5px; letter-spacing: .03em; white-space: normal; line-height: 1.25; vertical-align: bottom; }
+  th::after { margin-left: 2px; }
+  th:first-child, td:first-child { padding-left: 10px; }
+  th:last-child, td:last-child { padding-right: 10px; }
+  table { min-width: 0; }
+  .col-name { display: none; }
+  td:first-child { box-shadow: 1px 0 0 var(--line); }
+}
+
+</style>
+</head>
+<body>
+<div id="banner-slot"></div>
+<header class="site-header">
+  <div class="wrap">
+    <div class="eyebrow">Nasdaq top 40 by market cap</div>
+    <h1>Daily Market Digest <span id="session-date" class="session"></span></h1>
+    <p id="market-context" class="context"></p>
+    <div id="stats" class="stats"></div>
+  </div>
+</header>
+<main class="wrap">
+  <section aria-labelledby="movers-h">
+    <div class="section-head">
+      <h2 id="movers-h">Movers</h2>
+      <span id="movers-sub" class="muted"></span>
+    </div>
+    <div id="movers" class="cards"></div>
+  </section>
+  <section aria-labelledby="all-h">
+    <div class="section-head">
+      <h2 id="all-h">All stocks</h2>
+      <input id="filter" type="search" placeholder="Filter ticker or name…" aria-label="Filter stocks">
+    </div>
+    <div class="table-wrap">
+      <table id="tbl">
+        <thead><tr>
+          <th data-key="ticker" data-type="str">Ticker</th>
+          <th data-key="name" data-type="str" class="col-name">Name</th>
+          <th data-key="close" data-type="num" class="r">Close</th>
+          <th data-key="prev_close" data-type="num" class="r">Prev close</th>
+          <th data-key="pct_change" data-type="num" class="r">% Change</th>
+          <th data-key="market_cap" data-type="num" class="r">Market cap</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="hint muted">Tap a column header to sort; tap again to reverse. <span style="color:var(--accent)">●</span> = flagged mover.</p>
+  </section>
+</main>
+<footer class="wrap muted" id="footer"></footer>
+<script>
+window.DASHBOARD_DATA = {
+ "is_example": false,
+ "session_date": "2026-10-09",
+ "market_context": "The Nasdaq-100 rose 0.51% to 30,883.15 (QQQ +0.49% to $751.27) as software and cybersecurity led a rebound after Thursday's OpenAI-driven selloff, while SpaceX's Grain Management 800 MHz spectrum deal crushed telecom shares; the Nasdaq Composite gained 0.64% and the S&P 500 rose 0.59%.",
+ "generated_at": "2026-10-10T12:15:36+08:00",
+ "source": "latest.json (Stock Watcher, modified 2026-10-10 12:15 HKT)",
+ "mover_threshold": 3.0,
+ "notes": [
+  "Market-cap basis: Shares outstanding x 2026-10-09 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
+ ],
+ "stocks": [
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation",
+   "close": 229.28,
+   "prev_close": 230.48,
+   "pct_change": -0.52,
+   "market_cap": 5525648111753.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple Inc.",
+   "close": 336.64,
+   "prev_close": 340.42,
+   "pct_change": -1.11,
+   "market_cap": 4912984752792.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc.",
+   "close": 351.66,
+   "prev_close": 348.29,
+   "pct_change": 0.97,
+   "market_cap": 4300801829635.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation",
+   "close": 535.07,
+   "prev_close": 522.61,
+   "pct_change": 2.38,
+   "market_cap": 3973186735666.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon.com Inc.",
+   "close": 262.43,
+   "prev_close": 254.06,
+   "pct_change": 3.29,
+   "market_cap": 2830652260422.0,
+   "mover": true,
+   "reason": "No clear company-specific same-day catalyst; rebounded with large-cap tech after Thursday's OpenAI scare as investors refocused on AWS AI growth and custom-chip demand narratives, and Amazon was among the Dow's notable gainers.",
+   "sources": [
+    {
+     "outlet": "MarketBeat",
+     "title": "Amazon.com Stock Price Up 3.3% - Here's Why",
+     "url": "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-up-33-heres-why-2026-10-09/"
+    },
+    {
+     "outlet": "The Core Quant",
+     "title": "The Wall Street Wrap: October 9, 2026",
+     "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "The Market Is Underestimating What AI Could Mean for This Company",
+     "url": "https://247wallst.com/investing/2026/10/09/the-market-is-underestimating-what-ai-could-mean-for-this-company/"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "SPCX",
+   "name": "Space Exploration Technologies Corp.",
+   "close": 162.57,
+   "prev_close": 160.57,
+   "pct_change": 1.25,
+   "market_cap": 2206533758216.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms Inc.",
+   "close": 718.67,
+   "prev_close": 720.89,
+   "pct_change": -0.31,
+   "market_cap": 1830816194937.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom Inc.",
+   "close": 361.54,
+   "prev_close": 360.14,
+   "pct_change": 0.39,
+   "market_cap": 1725858135690.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla Inc.",
+   "close": 382.7,
+   "prev_close": 375.0,
+   "pct_change": 2.05,
+   "market_cap": 1511491792051.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "SKHY",
+   "name": "SK hynix Inc.",
+   "close": 169.03,
+   "prev_close": 170.5,
+   "pct_change": -0.86,
+   "market_cap": 1232001318762.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology Inc.",
+   "close": 1029.0,
+   "prev_close": 1035.84,
+   "pct_change": -0.66,
+   "market_cap": 1162145595046.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices Inc.",
+   "close": 608.1,
+   "prev_close": 620.68,
+   "pct_change": -2.03,
+   "market_cap": 992708033185.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart Inc.",
+   "close": 111.35,
+   "prev_close": 110.56,
+   "pct_change": 0.71,
+   "market_cap": 883422634395.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "ASML",
+   "name": "ASML Holding N.V.",
+   "close": 1780.34,
+   "prev_close": 1769.79,
+   "pct_change": 0.6,
+   "market_cap": 686174477937.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "INTC",
+   "name": "Intel Corporation",
+   "close": 104.7,
+   "prev_close": 107.08,
+   "pct_change": -2.22,
+   "market_cap": 553346750046.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "PLTR",
+   "name": "Palantir Technologies Inc.",
+   "close": 209.05,
+   "prev_close": 198.78,
+   "pct_change": 5.17,
+   "market_cap": 502149303507.0,
+   "mover": true,
+   "reason": "Hit a fresh all-time high after Barclays initiated coverage at Overweight with a $265 target, a day after Goldman Sachs upgraded to Buy with a $230 target on sovereign-AI and custom-application demand.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Palantir stock hits all-time high after Wall Street grows bullish on next phase of growth",
+     "url": "https://finance.yahoo.com/technology/article/palantir-stock-hits-all-time-high-after-wall-street-grows-bullish-on-next-phase-of-growth-200507650.html"
+    },
+    {
+     "outlet": "MarketScreener / MT Newswires",
+     "title": "Barclays Initiates Palantir Technologies at Overweight With $265 Price Target",
+     "url": "https://ca.marketscreener.com/news/barclays-initiates-palantir-technologies-at-overweight-with-265-price-target-ce785ddfd08ef024"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco Systems Inc.",
+   "close": 118.39,
+   "prev_close": 114.89,
+   "pct_change": 3.05,
+   "market_cap": 466762858751.0,
+   "mover": true,
+   "reason": "Rose after Cisco's Oct 7 WebexOne agentic-collaboration launch (Claude Managed Agents, OpenAI dots integration, Dialog customer agents) stayed in focus, and networking/software names participated in Friday's tech rebound; Amazon, Cisco, and Visa were among the Dow's biggest gainers.",
+   "sources": [
+    {
+     "outlet": "Cisco Newsroom",
+     "title": "Cisco Unveils New Agentic Collaboration Experiences",
+     "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/cisco-unveils-new-agentic-collaboration-experiences.html"
+    },
+    {
+     "outlet": "GuruFocus",
+     "title": "Cisco Stocks Rise Higher as Webex Gives AI Agents Shared Context",
+     "url": "https://www.gurufocus.com/news/9117378/cisco-stocks-rise-higher-as-webex-gives-ai-agents-shared-context"
+    },
+    {
+     "outlet": "The Core Quant",
+     "title": "The Wall Street Wrap: October 9, 2026",
+     "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research Corporation",
+   "close": 318.84,
+   "prev_close": 320.59,
+   "pct_change": -0.55,
+   "market_cap": 399004153083.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AMAT",
+   "name": "Applied Materials Inc.",
+   "close": 507.03,
+   "prev_close": 509.57,
+   "pct_change": -0.5,
+   "market_cap": 402377688817.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco Wholesale Corporation",
+   "close": 946.92,
+   "prev_close": 947.92,
+   "pct_change": -0.11,
+   "market_cap": 419938932623.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks Inc.",
+   "close": 418.78,
+   "prev_close": 398.5,
+   "pct_change": 5.09,
+   "market_cap": 342562030777.0,
+   "mover": true,
+   "reason": "Rallied with cybersecurity peers after Zscaler reaffirmed full-year revenue guidance ($3.91B–$3.94B) and its IBM/Red Hat security collaboration eased fears that enterprise security spend was slowing (CIBR ~+3%); Palo Alto also announced same-day GA of Advanced DNS Security with Amazon Route 53 DNS Firewall.",
+   "sources": [
+    {
+     "outlet": "Palo Alto Networks Blog",
+     "title": "Palo Alto Networks and AWS Bring Advanced DNS Security to Amazon Route 53 DNS Firewall",
+     "url": "https://www.paloaltonetworks.com/blog/network-security/adns_amazon_route_53_general_availability/"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Zscaler Jumps 6% on Reaffirmed Revenue Outlook and IBM Security Pact; Palo Alto and CrowdStrike Gain 4%",
+     "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "ARM",
+   "name": "Arm Holdings plc",
+   "close": 266.28,
+   "prev_close": 275.29,
+   "pct_change": -3.27,
+   "market_cap": 283336636913.0,
+   "mover": true,
+   "reason": "Fell as the Delaware jury in Qualcomm's contract-breach case deliberated about four hours Friday without a verdict (returns Tuesday), keeping licensing/royalty risk in focus; chips lagged Friday's software-led rebound (AMD and Intel also down).",
+   "sources": [
+    {
+     "outlet": "Reuters (via Investing.com)",
+     "title": "Qualcomm and Arm jury to return next week after deliberations in contract dispute case",
+     "url": "https://www.investing.com/news/stock-market-news/qualcomm-and-arm-set-for-jury-verdict-in-contract-breach-feud-4941018"
+    },
+    {
+     "outlet": "The Core Quant",
+     "title": "The Wall Street Wrap: October 9, 2026",
+     "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix Inc.",
+   "close": 70.3,
+   "prev_close": 71.57,
+   "pct_change": -1.77,
+   "market_cap": 292724971930.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings Inc.",
+   "close": 275.04,
+   "prev_close": 263.01,
+   "pct_change": 4.57,
+   "market_cap": 281623033824.0,
+   "mover": true,
+   "reason": "Gained with the cybersecurity group as Zscaler's reaffirmed revenue outlook and IBM/Red Hat pact lifted sector sentiment (CIBR ~+3%); no separate company-specific headline drove the move.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Zscaler Jumps 6% on Reaffirmed Revenue Outlook and IBM Security Pact; Palo Alto and CrowdStrike Gain 4%",
+     "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/"
+    },
+    {
+     "outlet": "The Core Quant",
+     "title": "The Wall Street Wrap: October 9, 2026",
+     "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA Corporation",
+   "close": 195.57,
+   "prev_close": 196.72,
+   "pct_change": -0.58,
+   "market_cap": 255220121668.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "close": 283.74,
+   "prev_close": 288.2,
+   "pct_change": -1.55,
+   "market_cap": 259124894870.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "SNDK",
+   "name": "Sandisk Corporation",
+   "close": 1581.82,
+   "prev_close": 1609.46,
+   "pct_change": -1.72,
+   "market_cap": 231608491652.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "MRVL",
+   "name": "Marvell Technology Inc.",
+   "close": 275.28,
+   "prev_close": 274.66,
+   "pct_change": 0.23,
+   "market_cap": 241393030930.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "LIN",
+   "name": "Linde plc",
+   "close": 483.73,
+   "prev_close": 481.7,
+   "pct_change": 0.42,
+   "market_cap": 222989937055.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AMGN",
+   "name": "Amgen Inc.",
+   "close": 414.87,
+   "prev_close": 407.44,
+   "pct_change": 1.82,
+   "market_cap": 224291991160.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "SHOP",
+   "name": "Shopify Inc.",
+   "close": 170.85,
+   "prev_close": 164.56,
+   "pct_change": 3.82,
+   "market_cap": 221389320687.0,
+   "mover": true,
+   "reason": "Rose with software/e-commerce peers in Friday's rebound; JPMorgan's Oct 6 Overweight reiteration and price-target raise to $200 (from $185) remained in focus, alongside ongoing GMV/AI commerce commentary—no larger same-day company PR.",
+   "sources": [
+    {
+     "outlet": "Benzinga",
+     "title": "JP Morgan Maintains Overweight on Shopify, Raises Price Target to $200",
+     "url": "https://www.benzinga.com/news/26/10/62194562/jp-morgan-maintains-overweight-shopify-raises-price-target-200"
+    },
+    {
+     "outlet": "Motley Fool",
+     "title": "1 Stat That Makes Shopify Hard to Ignore Right Now",
+     "url": "https://www.fool.com/investing/2026/10/09/1-stat-that-makes-shopify-hard-to-ignore-right-now/"
+    },
+    {
+     "outlet": "The Core Quant",
+     "title": "The Wall Street Wrap: October 9, 2026",
+     "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "ADI",
+   "name": "Analog Devices Inc.",
+   "close": 406.19,
+   "prev_close": 405.93,
+   "pct_change": 0.06,
+   "market_cap": 196825644545.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "STX",
+   "name": "Seagate Technology Holdings PLC",
+   "close": 783.0,
+   "prev_close": 774.83,
+   "pct_change": 1.05,
+   "market_cap": 179086620012.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "QCOM",
+   "name": "QUALCOMM Incorporated",
+   "close": 175.5,
+   "prev_close": 176.01,
+   "pct_change": -0.29,
+   "market_cap": 184316059981.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "GILD",
+   "name": "Gilead Sciences Inc.",
+   "close": 151.17,
+   "prev_close": 147.1,
+   "pct_change": 2.77,
+   "market_cap": 187444012183.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "TMUS",
+   "name": "T-Mobile US Inc.",
+   "close": 148.58,
+   "prev_close": 171.31,
+   "pct_change": -13.27,
+   "market_cap": 159377550814.0,
+   "mover": true,
+   "reason": "Plunged after SpaceX (prior session) agreed to buy Grain Management's nationwide 800 MHz low-band spectrum (up to 14 MHz paired, FCC approval required; ~$8B per WSJ reports) to push Starlink Mobile as a U.S. wireless competitor—spectrum Grain had bought from T-Mobile in August; AT&T and Verizon also sold off hard, and Elon Musk called it a \"very big deal\" and \"the last critical piece of the spectrum puzzle.\"",
+   "sources": [
+    {
+     "outlet": "Grain Management",
+     "title": "Grain Management Announces Definitive Agreement to Sell Nationwide 800 MHz Spectrum Portfolio to SpaceX",
+     "url": "https://graingp.com/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex/"
+    },
+    {
+     "outlet": "X (@SpaceX)",
+     "title": "Agreement to acquire nationwide low-band spectrum for Starlink Mobile as a major U.S. carrier",
+     "url": "https://x.com/SpaceX/status/2108291133025698301"
+    },
+    {
+     "outlet": "X (@elonmusk)",
+     "title": "Very big deal (quoting SpaceX spectrum announcement)",
+     "url": "https://x.com/elonmusk/status/2108296638263652416"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Verizon, AT&T and T-Mobile sell off on SpaceX U.S. network plans",
+     "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "PEP",
+   "name": "PepsiCo Inc.",
+   "close": 125.97,
+   "prev_close": 128.34,
+   "pct_change": -1.85,
+   "market_cap": 171935389140.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "WDC",
+   "name": "Western Digital Corporation",
+   "close": 397.28,
+   "prev_close": 393.31,
+   "pct_change": 1.01,
+   "market_cap": 143235701041.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical Inc.",
+   "close": 423.96,
+   "prev_close": 415.41,
+   "pct_change": 2.06,
+   "market_cap": 149775749923.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "FTNT",
+   "name": "Fortinet Inc.",
+   "close": 194.75,
+   "prev_close": 189.1,
+   "pct_change": 2.99,
+   "market_cap": 142890730133.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  }
+ ]
+};
+</script>
+<script>
+(function () {
+  "use strict";
+  var D = window.DASHBOARD_DATA || { stocks: [] };
+  var stocks = (D.stocks || []).slice();
+
+  function $(id) { return document.getElementById(id); }
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function isNum(v) { return typeof v === "number" && isFinite(v); }
+  function fmtPrice(v) {
+    return isNum(v) ? "$" + v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "—";
+  }
+  function fmtPct(v) {
+    if (!isNum(v)) return "—";
+    var s = Math.abs(v).toFixed(2) + "%";
+    return (v > 0 ? "+" : v < 0 ? "−" : "") + s;
+  }
+  function fmtCap(v) {
+    if (!isNum(v)) return "—";
+    var a = Math.abs(v), u = [[1e12, "T"], [1e9, "B"], [1e6, "M"], [1e3, "K"]];
+    for (var i = 0; i < u.length; i++) {
+      if (a >= u[i][0]) return "$" + (v / u[i][0]).toFixed(2) + u[i][1];
+    }
+    return "$" + v.toFixed(0);
+  }
+  function dir(v) { return !isNum(v) || v === 0 ? "" : v > 0 ? "up" : "down"; }
+  function fmtDate(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+    if (!m) return s || "";
+    var d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+    return d.toLocaleDateString("en-US", { weekday: "short", year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+  }
+  function fmtStamp(s) {
+    var d = new Date(s);
+    if (!s || isNaN(d)) return s || "";
+    try {
+      return d.toLocaleString("en-GB", { timeZone: "Asia/Hong_Kong", day: "numeric", month: "short", year: "numeric",
+        hour: "2-digit", minute: "2-digit", hour12: false }) + " HKT";
+    } catch (e) { return s; }
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+
+  // ---- example banner
+  if (D.is_example) {
+    var b = el("div", "example-banner", "⚠ Example data — not real prices");
+    b.setAttribute("role", "alert");
+    b.appendChild(el("small", null, "Prices, moves, reasons and sources are invented for layout preview. Real Stock Watcher results will replace this automatically on rebuild."));
+    $("banner-slot").appendChild(b);
+  }
+
+  // ---- header
+  $("session-date").textContent = D.session_date ? "Session " + fmtDate(D.session_date) : "Session date unavailable";
+  $("market-context").textContent = D.market_context || "No market context provided.";
+
+  var withPct = stocks.filter(function (s) { return isNum(s.pct_change); });
+  var up = withPct.filter(function (s) { return s.pct_change > 0; }).length;
+  var down = withPct.filter(function (s) { return s.pct_change < 0; }).length;
+  var movers = stocks.filter(function (s) { return s.mover; })
+    .sort(function (a, b) { return Math.abs(b.pct_change || 0) - Math.abs(a.pct_change || 0); });
+  var stats = $("stats");
+  function stat(n, label, cls) {
+    var s = el("div", "stat"); var bb = el("b", cls || null, String(n));
+    s.appendChild(bb); s.appendChild(document.createTextNode(label)); stats.appendChild(s);
+  }
+  stat(stocks.length, "stocks");
+  stat(up, "up", "up");
+  stat(down, "down", "down");
+  stat(movers.length, "movers");
+  if (withPct.length) {
+    var best = withPct.reduce(function (a, b) { return b.pct_change > a.pct_change ? b : a; });
+    var worst = withPct.reduce(function (a, b) { return b.pct_change < a.pct_change ? b : a; });
+    stat(best.ticker, " best " + fmtPct(best.pct_change), "up");
+    stat(worst.ticker, " worst " + fmtPct(worst.pct_change), "down");
+  }
+
+  // ---- movers
+  var thr = D.mover_threshold || 3;
+  $("movers-sub").textContent = movers.length ? movers.length + " flagged (moves ≥ " + thr + "%)" : "";
+  var box = $("movers");
+  if (!movers.length) {
+    box.appendChild(el("div", "empty", "No movers flagged this session."));
+  }
+  movers.forEach(function (s) {
+    var d = dir(s.pct_change);
+    var c = el("article", "card " + d);
+    var top = el("div", "card-top");
+    var left = el("div");
+    left.appendChild(el("div", "tk", s.ticker));
+    left.appendChild(el("div", "nm", s.name || ""));
+    top.appendChild(left);
+    top.appendChild(el("span", "pill num " + d, fmtPct(s.pct_change)));
+    c.appendChild(top);
+    var px = [];
+    if (isNum(s.close)) px.push("Close " + fmtPrice(s.close));
+    if (isNum(s.prev_close)) px.push("prev " + fmtPrice(s.prev_close));
+    if (isNum(s.market_cap)) px.push("cap " + fmtCap(s.market_cap));
+    if (px.length) c.appendChild(el("div", "px num", px.join(" · ")));
+    c.appendChild(el("p", "reason" + (s.reason ? "" : " muted"), s.reason || "No reason text provided."));
+    if (s.sources && s.sources.length) {
+      var ul = el("ul", "sources");
+      s.sources.forEach(function (src) {
+        var li = el("li");
+        li.appendChild(el("span", "outlet", (src.outlet || "Source") + ": "));
+        var url = safeUrl(src.url), t = src.title || src.url || "(untitled)";
+        if (url) {
+          var a = el("a", null, t);
+          a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
+          li.appendChild(a);
+        } else {
+          li.appendChild(document.createTextNode(t));
+        }
+        ul.appendChild(li);
+      });
+      c.appendChild(ul);
+    }
+    box.appendChild(c);
+  });
+
+  // ---- table
+  var tbody = document.querySelector("#tbl tbody");
+  var ths = document.querySelectorAll("#tbl th");
+  var sortKey = "market_cap", sortDir = -1, query = "";
+
+  function render() {
+    var col = document.querySelector('#tbl th[data-key="' + sortKey + '"]');
+    var type = col ? col.getAttribute("data-type") : "num";
+    var rows = stocks.filter(function (s) {
+      if (!query) return true;
+      return (s.ticker + " " + (s.name || "")).toLowerCase().indexOf(query) !== -1;
+    });
+    rows.sort(function (a, b) {
+      var x = a[sortKey], y = b[sortKey];
+      var xm = type === "num" ? !isNum(x) : !x, ym = type === "num" ? !isNum(y) : !y;
+      if (xm || ym) return xm === ym ? 0 : xm ? 1 : -1;  // blanks always last
+      var r = type === "num" ? x - y : String(x).localeCompare(String(y));
+      return r * sortDir || a.ticker.localeCompare(b.ticker);
+    });
+    tbody.textContent = "";
+    rows.forEach(function (s) {
+      var tr = el("tr", s.mover ? "is-mover" : "");
+      var tdT = el("td", "tk", s.ticker);
+      tdT.title = s.name || "";
+      tr.appendChild(tdT);
+      var tdN = el("td", "col-name", s.name || ""); tdN.title = s.name || ""; tr.appendChild(tdN);
+      tr.appendChild(el("td", "r num", fmtPrice(s.close)));
+      tr.appendChild(el("td", "r num", fmtPrice(s.prev_close)));
+      tr.appendChild(el("td", "r num " + dir(s.pct_change), fmtPct(s.pct_change)));
+      tr.appendChild(el("td", "r num", fmtCap(s.market_cap)));
+      tbody.appendChild(tr);
+    });
+    if (!rows.length) {
+      var tr0 = el("tr"), td0 = el("td", "muted", "No matches.");
+      td0.colSpan = 6; tr0.appendChild(td0); tbody.appendChild(tr0);
+    }
+    ths.forEach(function (th) {
+      th.setAttribute("aria-sort", th.getAttribute("data-key") === sortKey ? (sortDir > 0 ? "ascending" : "descending") : "none");
+    });
+  }
+  ths.forEach(function (th) {
+    th.tabIndex = 0;
+    function go() {
+      var k = th.getAttribute("data-key");
+      if (k === sortKey) sortDir = -sortDir;
+      else { sortKey = k; sortDir = th.getAttribute("data-type") === "str" ? 1 : -1; }
+      render();
+    }
+    th.addEventListener("click", go);
+    th.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+  });
+  $("filter").addEventListener("input", function (e) { query = e.target.value.trim().toLowerCase(); render(); });
+  render();
+
+  // ---- footer
+  var f = $("footer");
+  f.appendChild(el("p", null, (D.is_example ? "EXAMPLE DATA. " : "") + "Source: " + (D.source || "unknown") +
+    (D.generated_at ? " · digest generated " + fmtStamp(D.generated_at) : "")));
+  (D.notes || []).forEach(function (n) { f.appendChild(el("p", null, "Note: " + n)); });
+  f.appendChild(el("p", null, "Not investment advice. Rebuilt from Stock Watcher output (python3 build.py). Hosted on GitHub Pages."));
+})();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<style>
+/*{{CSS}}*/
+</style>
+</head>
+<body>
+<div id="banner-slot"></div>
+<header class="site-header">
+  <div class="wrap">
+    <div class="eyebrow">Nasdaq top 40 by market cap</div>
+    <h1>Daily Market Digest <span id="session-date" class="session"></span></h1>
+    <p id="market-context" class="context"></p>
+    <div id="stats" class="stats"></div>
+  </div>
+</header>
+<main class="wrap">
+  <section aria-labelledby="movers-h">
+    <div class="section-head">
+      <h2 id="movers-h">Movers</h2>
+      <span id="movers-sub" class="muted"></span>
+    </div>
+    <div id="movers" class="cards"></div>
+  </section>
+  <section aria-labelledby="all-h">
+    <div class="section-head">
+      <h2 id="all-h">All stocks</h2>
+      <input id="filter" type="search" placeholder="Filter ticker or name…" aria-label="Filter stocks">
+    </div>
+    <div class="table-wrap">
+      <table id="tbl">
+        <thead><tr>
+          <th data-key="ticker" data-type="str">Ticker</th>
+          <th data-key="name" data-type="str" class="col-name">Name</th>
+          <th data-key="close" data-type="num" class="r">Close</th>
+          <th data-key="prev_close" data-type="num" class="r">Prev close</th>
+          <th data-key="pct_change" data-type="num" class="r">% Change</th>
+          <th data-key="market_cap" data-type="num" class="r">Market cap</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="hint muted">Tap a column header to sort; tap again to reverse. <span style="color:var(--accent)">●</span> = flagged mover.</p>
+  </section>
+</main>
+<footer class="wrap muted" id="footer"></footer>
+<script>
+/*{{DATA}}*/
+</script>
+<script>
+/*{{JS}}*/
+</script>
+</body>
+</html>

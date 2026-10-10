@@ -1,0 +1,498 @@
+{
+  "session_date": "2026-10-09",
+  "generated_at": "2026-10-10T12:15:36+08:00",
+  "threshold_pct": 3,
+  "market_context": "The Nasdaq-100 rose 0.51% to 30,883.15 (QQQ +0.49% to $751.27) as software and cybersecurity led a rebound after Thursday's OpenAI-driven selloff, while SpaceX's Grain Management 800 MHz spectrum deal crushed telecom shares; the Nasdaq Composite gained 0.64% and the S&P 500 rose 0.59%.",
+  "market_cap_basis": "Shares outstanding x 2026-10-09 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "stocks": [
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 148.58,
+      "prev_close": 171.31,
+      "pct_change": -13.27,
+      "market_cap_usd": 159377550814,
+      "is_mover": true,
+      "reason": "Plunged after SpaceX (prior session) agreed to buy Grain Management's nationwide 800 MHz low-band spectrum (up to 14 MHz paired, FCC approval required; ~$8B per WSJ reports) to push Starlink Mobile as a U.S. wireless competitor—spectrum Grain had bought from T-Mobile in August; AT&T and Verizon also sold off hard, and Elon Musk called it a \"very big deal\" and \"the last critical piece of the spectrum puzzle.\"",
+      "sources": [
+        {
+          "outlet": "Grain Management",
+          "title": "Grain Management Announces Definitive Agreement to Sell Nationwide 800 MHz Spectrum Portfolio to SpaceX",
+          "url": "https://graingp.com/grain-management-announces-definitive-agreement-to-sell-nationwide-800-mhz-spectrum-portfolio-to-spacex/"
+        },
+        {
+          "outlet": "X (@SpaceX)",
+          "title": "Agreement to acquire nationwide low-band spectrum for Starlink Mobile as a major U.S. carrier",
+          "url": "https://x.com/SpaceX/status/2108291133025698301"
+        },
+        {
+          "outlet": "X (@elonmusk)",
+          "title": "Very big deal (quoting SpaceX spectrum announcement)",
+          "url": "https://x.com/elonmusk/status/2108296638263652416"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Verizon, AT&T and T-Mobile sell off on SpaceX U.S. network plans",
+          "url": "https://www.cnbc.com/2026/10/09/verizon-att-tmobile-stocks-spacex-network.html"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 209.05,
+      "prev_close": 198.78,
+      "pct_change": 5.17,
+      "market_cap_usd": 502149303507,
+      "is_mover": true,
+      "reason": "Hit a fresh all-time high after Barclays initiated coverage at Overweight with a $265 target, a day after Goldman Sachs upgraded to Buy with a $230 target on sovereign-AI and custom-application demand.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Palantir stock hits all-time high after Wall Street grows bullish on next phase of growth",
+          "url": "https://finance.yahoo.com/technology/article/palantir-stock-hits-all-time-high-after-wall-street-grows-bullish-on-next-phase-of-growth-200507650.html"
+        },
+        {
+          "outlet": "MarketScreener / MT Newswires",
+          "title": "Barclays Initiates Palantir Technologies at Overweight With $265 Price Target",
+          "url": "https://ca.marketscreener.com/news/barclays-initiates-palantir-technologies-at-overweight-with-265-price-target-ce785ddfd08ef024"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 418.78,
+      "prev_close": 398.5,
+      "pct_change": 5.09,
+      "market_cap_usd": 342562030777,
+      "is_mover": true,
+      "reason": "Rallied with cybersecurity peers after Zscaler reaffirmed full-year revenue guidance ($3.91B–$3.94B) and its IBM/Red Hat security collaboration eased fears that enterprise security spend was slowing (CIBR ~+3%); Palo Alto also announced same-day GA of Advanced DNS Security with Amazon Route 53 DNS Firewall.",
+      "sources": [
+        {
+          "outlet": "Palo Alto Networks Blog",
+          "title": "Palo Alto Networks and AWS Bring Advanced DNS Security to Amazon Route 53 DNS Firewall",
+          "url": "https://www.paloaltonetworks.com/blog/network-security/adns_amazon_route_53_general_availability/"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Zscaler Jumps 6% on Reaffirmed Revenue Outlook and IBM Security Pact; Palo Alto and CrowdStrike Gain 4%",
+          "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 275.04,
+      "prev_close": 263.01,
+      "pct_change": 4.57,
+      "market_cap_usd": 281623033824,
+      "is_mover": true,
+      "reason": "Gained with the cybersecurity group as Zscaler's reaffirmed revenue outlook and IBM/Red Hat pact lifted sector sentiment (CIBR ~+3%); no separate company-specific headline drove the move.",
+      "sources": [
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Zscaler Jumps 6% on Reaffirmed Revenue Outlook and IBM Security Pact; Palo Alto and CrowdStrike Gain 4%",
+          "url": "https://247wallst.com/investing/2026/10/09/zscaler-jumps-6-on-reaffirmed-revenue-outlook-and-ibm-security-pact-palo-alto-and-crowdstrike-gain-4/"
+        },
+        {
+          "outlet": "The Core Quant",
+          "title": "The Wall Street Wrap: October 9, 2026",
+          "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 170.85,
+      "prev_close": 164.56,
+      "pct_change": 3.82,
+      "market_cap_usd": 221389320687,
+      "is_mover": true,
+      "reason": "Rose with software/e-commerce peers in Friday's rebound; JPMorgan's Oct 6 Overweight reiteration and price-target raise to $200 (from $185) remained in focus, alongside ongoing GMV/AI commerce commentary—no larger same-day company PR.",
+      "sources": [
+        {
+          "outlet": "Benzinga",
+          "title": "JP Morgan Maintains Overweight on Shopify, Raises Price Target to $200",
+          "url": "https://www.benzinga.com/news/26/10/62194562/jp-morgan-maintains-overweight-shopify-raises-price-target-200"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "1 Stat That Makes Shopify Hard to Ignore Right Now",
+          "url": "https://www.fool.com/investing/2026/10/09/1-stat-that-makes-shopify-hard-to-ignore-right-now/"
+        },
+        {
+          "outlet": "The Core Quant",
+          "title": "The Wall Street Wrap: October 9, 2026",
+          "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 262.43,
+      "prev_close": 254.06,
+      "pct_change": 3.29,
+      "market_cap_usd": 2830652260422,
+      "is_mover": true,
+      "reason": "No clear company-specific same-day catalyst; rebounded with large-cap tech after Thursday's OpenAI scare as investors refocused on AWS AI growth and custom-chip demand narratives, and Amazon was among the Dow's notable gainers.",
+      "sources": [
+        {
+          "outlet": "MarketBeat",
+          "title": "Amazon.com Stock Price Up 3.3% - Here's Why",
+          "url": "https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-up-33-heres-why-2026-10-09/"
+        },
+        {
+          "outlet": "The Core Quant",
+          "title": "The Wall Street Wrap: October 9, 2026",
+          "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "The Market Is Underestimating What AI Could Mean for This Company",
+          "url": "https://247wallst.com/investing/2026/10/09/the-market-is-underestimating-what-ai-could-mean-for-this-company/"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 266.28,
+      "prev_close": 275.29,
+      "pct_change": -3.27,
+      "market_cap_usd": 283336636913,
+      "is_mover": true,
+      "reason": "Fell as the Delaware jury in Qualcomm's contract-breach case deliberated about four hours Friday without a verdict (returns Tuesday), keeping licensing/royalty risk in focus; chips lagged Friday's software-led rebound (AMD and Intel also down).",
+      "sources": [
+        {
+          "outlet": "Reuters (via Investing.com)",
+          "title": "Qualcomm and Arm jury to return next week after deliberations in contract dispute case",
+          "url": "https://www.investing.com/news/stock-market-news/qualcomm-and-arm-set-for-jury-verdict-in-contract-breach-feud-4941018"
+        },
+        {
+          "outlet": "The Core Quant",
+          "title": "The Wall Street Wrap: October 9, 2026",
+          "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 118.39,
+      "prev_close": 114.89,
+      "pct_change": 3.05,
+      "market_cap_usd": 466762858751,
+      "is_mover": true,
+      "reason": "Rose after Cisco's Oct 7 WebexOne agentic-collaboration launch (Claude Managed Agents, OpenAI dots integration, Dialog customer agents) stayed in focus, and networking/software names participated in Friday's tech rebound; Amazon, Cisco, and Visa were among the Dow's biggest gainers.",
+      "sources": [
+        {
+          "outlet": "Cisco Newsroom",
+          "title": "Cisco Unveils New Agentic Collaboration Experiences",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/cisco-unveils-new-agentic-collaboration-experiences.html"
+        },
+        {
+          "outlet": "GuruFocus",
+          "title": "Cisco Stocks Rise Higher as Webex Gives AI Agents Shared Context",
+          "url": "https://www.gurufocus.com/news/9117378/cisco-stocks-rise-higher-as-webex-gives-ai-agents-shared-context"
+        },
+        {
+          "outlet": "The Core Quant",
+          "title": "The Wall Street Wrap: October 9, 2026",
+          "url": "https://www.thecorequant.com/the-wall-street-wrap-october-9-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet Inc. Common Stock",
+      "close": 194.75,
+      "prev_close": 189.1,
+      "pct_change": 2.99,
+      "market_cap_usd": 142890730133,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 151.17,
+      "prev_close": 147.1,
+      "pct_change": 2.77,
+      "market_cap_usd": 187444012183,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 535.07,
+      "prev_close": 522.61,
+      "pct_change": 2.38,
+      "market_cap_usd": 3973186735666,
+      "is_mover": false
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 104.7,
+      "prev_close": 107.08,
+      "pct_change": -2.22,
+      "market_cap_usd": 553346750046,
+      "is_mover": false
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 423.96,
+      "prev_close": 415.41,
+      "pct_change": 2.06,
+      "market_cap_usd": 149775749923,
+      "is_mover": false
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 382.7,
+      "prev_close": 375.0,
+      "pct_change": 2.05,
+      "market_cap_usd": 1511491792051,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "close": 608.1,
+      "prev_close": 620.68,
+      "pct_change": -2.03,
+      "market_cap_usd": 992708033185,
+      "is_mover": false
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 125.97,
+      "prev_close": 128.34,
+      "pct_change": -1.85,
+      "market_cap_usd": 171935389140,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 414.87,
+      "prev_close": 407.44,
+      "pct_change": 1.82,
+      "market_cap_usd": 224291991160,
+      "is_mover": false
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc. Common Stock",
+      "close": 70.3,
+      "prev_close": 71.57,
+      "pct_change": -1.77,
+      "market_cap_usd": 292724971930,
+      "is_mover": false
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation Common Stock",
+      "close": 1581.82,
+      "prev_close": 1609.46,
+      "pct_change": -1.72,
+      "market_cap_usd": 231608491652,
+      "is_mover": false
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 283.74,
+      "prev_close": 288.2,
+      "pct_change": -1.55,
+      "market_cap_usd": 259124894870,
+      "is_mover": false
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 162.57,
+      "prev_close": 160.57,
+      "pct_change": 1.25,
+      "market_cap_usd": 2206533758216,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 336.64,
+      "prev_close": 340.42,
+      "pct_change": -1.11,
+      "market_cap_usd": 4912984752792,
+      "is_mover": false
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "close": 783.0,
+      "prev_close": 774.83,
+      "pct_change": 1.05,
+      "market_cap_usd": 179086620012,
+      "is_mover": false
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 397.28,
+      "prev_close": 393.31,
+      "pct_change": 1.01,
+      "market_cap_usd": 143235701041,
+      "is_mover": false
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 351.66,
+      "prev_close": 348.29,
+      "pct_change": 0.97,
+      "market_cap_usd": 4300801829635,
+      "is_mover": false
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 169.03,
+      "prev_close": 170.5,
+      "pct_change": -0.86,
+      "market_cap_usd": 1232001318762,
+      "is_mover": false
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "close": 111.35,
+      "prev_close": 110.56,
+      "pct_change": 0.71,
+      "market_cap_usd": 883422634395,
+      "is_mover": false
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "close": 1029.0,
+      "prev_close": 1035.84,
+      "pct_change": -0.66,
+      "market_cap_usd": 1162145595046,
+      "is_mover": false
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1780.34,
+      "prev_close": 1769.79,
+      "pct_change": 0.6,
+      "market_cap_usd": 686174477937,
+      "is_mover": false
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 195.57,
+      "prev_close": 196.72,
+      "pct_change": -0.58,
+      "market_cap_usd": 255220121668,
+      "is_mover": false
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 318.84,
+      "prev_close": 320.59,
+      "pct_change": -0.55,
+      "market_cap_usd": 399004153083,
+      "is_mover": false
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 229.28,
+      "prev_close": 230.48,
+      "pct_change": -0.52,
+      "market_cap_usd": 5525648111753,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 507.03,
+      "prev_close": 509.57,
+      "pct_change": -0.5,
+      "market_cap_usd": 402377688817,
+      "is_mover": false
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 483.73,
+      "prev_close": 481.7,
+      "pct_change": 0.42,
+      "market_cap_usd": 222989937055,
+      "is_mover": false
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 361.54,
+      "prev_close": 360.14,
+      "pct_change": 0.39,
+      "market_cap_usd": 1725858135690,
+      "is_mover": false
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 718.67,
+      "prev_close": 720.89,
+      "pct_change": -0.31,
+      "market_cap_usd": 1830816194937,
+      "is_mover": false
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 175.5,
+      "prev_close": 176.01,
+      "pct_change": -0.29,
+      "market_cap_usd": 184316059981,
+      "is_mover": false
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 275.28,
+      "prev_close": 274.66,
+      "pct_change": 0.23,
+      "market_cap_usd": 241393030930,
+      "is_mover": false
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 946.92,
+      "prev_close": 947.92,
+      "pct_change": -0.11,
+      "market_cap_usd": 419938932623,
+      "is_mover": false
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 406.19,
+      "prev_close": 405.93,
+      "pct_change": 0.06,
+      "market_cap_usd": 196825644545,
+      "is_mover": false
+    }
+  ]
+}

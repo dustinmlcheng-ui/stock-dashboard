@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Local screenshots / previews (keep out of the Pages repo)
+*.png
+*.jpg
+*.jpeg
+*.webp
+screenshots/
