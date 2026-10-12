@@ -10,5 +10,7 @@ if git diff --cached --quiet; then
   exit 0
 fi
 git commit -m "Update dashboard $(date +%Y-%m-%d) HKT"
+# Ensure HTTPS push uses the authenticated gh token (non-interactive).
+gh auth setup-git >/dev/null 2>&1 || true
 git push origin HEAD
 echo "Pushed. Live: https://dustinmlcheng-ui.github.io/stock-dashboard/"
