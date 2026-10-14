@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nasdaq 40 Dashboard · 2026-10-13</title>
+<title>Nasdaq 40 Dashboard · 2026-10-14</title>
 <style>
 :root {
   --bg: #f5f7fb; --panel: #fff; --text: #0f172a; --muted: #64748b; --line: #e2e8f0;
@@ -158,34 +158,50 @@ footer p { margin: 4px 0; overflow-wrap: anywhere; }
 <script>
 window.DASHBOARD_DATA = {
  "is_example": false,
- "session_date": "2026-10-13",
- "market_context": "The Nasdaq-100 slipped 0.31% to 30,569.48 (QQQ −0.33% to $743.57) as memory and chip-equipment shares extended Monday’s selloff after South Korea’s KOSPI plunged ~5.5% on CXMT DRAM-competition fears, while Applied Materials led the Nasdaq-100 lower after declining to give a near-term WFE forecast at its SEMICON West investor day; SpaceX fell on an FAA environmental review of its Starbase expansion, and Meta stayed bid after Muse Wonder.",
- "generated_at": "2026-10-14T06:22:22+08:00",
- "source": "latest.json (Stock Watcher, modified 2026-10-14 06:22 HKT)",
+ "session_date": "2026-10-14",
+ "market_context": "The Nasdaq-100 fell 2.02% to 29,950.82 as hotter-than-expected September CPI (headline +0.6% m/m / 3.7% y/y; core +0.3% / 2.6%) lifted Fed rate-hike odds and hit richly valued AI and chip names; the Philadelphia Semiconductor Index slid ~4% for a sixth straight session, while defensives such as Walmart and biotech/healthcare outperformed.",
+ "generated_at": "2026-10-15T06:20:04+08:00",
+ "source": "latest.json (Stock Watcher, modified 2026-10-15 06:20 HKT)",
  "mover_threshold": 3.0,
  "notes": [
-  "Market-cap basis: Shares outstanding x 2026-10-13 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
+  "Market-cap basis: Shares outstanding x 2026-10-14 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
  ],
  "stocks": [
   {
    "ticker": "NVDA",
    "name": "NVIDIA Corporation",
-   "close": 228.52,
-   "prev_close": 226.32,
-   "pct_change": 0.97,
-   "market_cap": 5507332243670.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 221.3,
+   "prev_close": 228.52,
+   "pct_change": -3.16,
+   "market_cap": 5333330209805.0,
+   "mover": true,
+   "reason": "Declined with megacap AI and semiconductor peers as hotter CPI raised Fed hike odds and hit AI-infrastructure names sensitive to higher borrowing costs; no Nvidia-specific company news drove the session move.",
+   "sources": [
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually…",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AAPL",
    "name": "Apple Inc.",
-   "close": 341.27,
-   "prev_close": 340.97,
-   "pct_change": 0.09,
-   "market_cap": 4980555429100.0,
+   "close": 342.96,
+   "prev_close": 341.27,
+   "pct_change": 0.5,
+   "market_cap": 5005219627845.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -194,10 +210,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GOOGL",
    "name": "Alphabet Inc.",
-   "close": 353.78,
-   "prev_close": 352.72,
-   "pct_change": 0.3,
-   "market_cap": 4326729369827.0,
+   "close": 347.64,
+   "prev_close": 353.78,
+   "pct_change": -1.74,
+   "market_cap": 4251637364171.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -206,10 +222,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
-   "close": 543.45,
-   "prev_close": 541.15,
-   "pct_change": 0.43,
-   "market_cap": 4035412844006.0,
+   "close": 533.69,
+   "prev_close": 543.45,
+   "pct_change": -1.8,
+   "market_cap": 3962939446488.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -218,10 +234,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMZN",
    "name": "Amazon.com Inc.",
-   "close": 258.58,
-   "prev_close": 259.53,
-   "pct_change": -0.37,
-   "market_cap": 2789124886327.0,
+   "close": 254.08,
+   "prev_close": 258.58,
+   "pct_change": -1.74,
+   "market_cap": 2740586638661.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -230,62 +246,78 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SPCX",
    "name": "Space Exploration Technologies Corp.",
-   "close": 156.54,
-   "prev_close": 163.42,
-   "pct_change": -4.21,
-   "market_cap": 2124689451529.0,
-   "mover": true,
-   "reason": "Fell after the FAA announced it will prepare an environmental impact statement and hold public scoping meetings on SpaceX’s proposal to raise Starbase (Boca Chica) operations from the current authorization of 25 launches/50 landings a year to as many as 456 launches and 912 landings annually in two phases—adding regulatory-timeline uncertainty even as the company also flew a Falcon 9 CRS-35 resupply mission.",
-   "sources": [
-    {
-     "outlet": "Federal Register (public inspection)",
-     "title": "Environmental Impact Statements; Availability, etc.: SpaceX Starship-Super Heavy Launch and Landing Operations at the Boca Chica Launch Site at Starbase, TX",
-     "url": "https://www.federalregister.gov/public-inspection/2026-20963/environmental-impact-statements-availability-etc-spacex-starship-super-heavy-launch-and-landing"
-    },
-    {
-     "outlet": "Quartz",
-     "title": "FAA reviewing SpaceX plan for 456 Starship launches a year in Texas",
-     "url": "https://qz.com/faa-spacex-starship-456-launches-environmental-review-101326"
-    },
-    {
-     "outlet": "Insurance Journal (Bloomberg)",
-     "title": "SpaceX Plan to Launch 456 Starships a Year in Texas Under Review",
-     "url": "https://www.insurancejournal.com/news/southcentral/2026/10/13/888753.htm"
-    }
-   ],
+   "close": 152.16,
+   "prev_close": 156.54,
+   "pct_change": -2.8,
+   "market_cap": 2065240632371.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "META",
    "name": "Meta Platforms Inc.",
-   "close": 762.5,
-   "prev_close": 742.96,
-   "pct_change": 2.63,
-   "market_cap": 1942473432641.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 737.54,
+   "prev_close": 762.5,
+   "pct_change": -3.27,
+   "market_cap": 1878887623382.0,
+   "mover": true,
+   "reason": "Fell after Goldman Sachs cut its price target to $762 from $860 (still Buy), citing higher expected 2027 operating expenses tied to AI investment, while UBS and Guggenheim raised targets on AI monetization; the hot-CPI AI-stock selloff added pressure ahead of Oct. 21 earnings.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance / Stocktwits",
+     "title": "Meta's AI Push Draws Fresh Street Calls – Goldman Flags Higher Costs, UBS Sees Monetization Potential",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/metas-ai-push-draws-fresh-132147471.html"
+    },
+    {
+     "outlet": "MarketBeat",
+     "title": "Meta Platforms Shares Down 3.3% Following Analyst Downgrade",
+     "url": "https://www.marketbeat.com/instant-alerts/price-meta-platforms-nasdaq-meta-shares-down-33-following-analyst-downgrade-2026-10-14/"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AVGO",
    "name": "Broadcom Inc.",
-   "close": 357.31,
-   "prev_close": 354.73,
-   "pct_change": 0.73,
-   "market_cap": 1705665629460.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 346.25,
+   "prev_close": 357.31,
+   "pct_change": -3.1,
+   "market_cap": 1652869296230.0,
+   "mover": true,
+   "reason": "Fell with AI chip/networking peers on hot CPI and rate-hike fears, with residual pressure from CEO Hock Tan’s recent comments likening some AI investors to casino gamblers and warning financing—not just hardware—could constrain AI buildout.",
+   "sources": [
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "Investing.com / Reuters",
+     "title": "Broadcom CEO says biggest hurdle in AI-fuelled tech growth is capital, not memory chips",
+     "url": "https://www.investing.com/news/stock-market-news/broadcom-ceo-says-biggest-hurdle-in-aifuelled-tech-growth-is-capital-not-memory-chips-4943267"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "TSLA",
    "name": "Tesla Inc.",
-   "close": 375.23,
-   "prev_close": 378.03,
-   "pct_change": -0.74,
-   "market_cap": 1481988669052.0,
+   "close": 367.16,
+   "prev_close": 375.23,
+   "pct_change": -2.15,
+   "market_cap": 1450115793580.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -294,27 +326,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SKHY",
    "name": "SK hynix Inc.",
-   "close": 157.06,
-   "prev_close": 162.23,
-   "pct_change": -3.19,
-   "market_cap": 1144756111426.0,
+   "close": 147.55,
+   "prev_close": 157.06,
+   "pct_change": -6.06,
+   "market_cap": 1075441043933.0,
    "mover": true,
-   "reason": "U.S. ADRs tracked the Seoul plunge in SK hynix common shares (~−10% on the KOSPI’s ~5.5% drop) as foreign investors dumped Korean chip stocks amid CXMT DRAM-competition headlines and AI/memory valuation anxiety; the ADR move was milder than the local close but still cleared the 3% threshold.",
+   "reason": "Memory shares kept sliding with the broader chip complex after hot U.S. CPI and lingering CXMT DRAM-competition worries that had already hammered Seoul peers earlier in the week; no separate SK Hynix ADR company-specific catalyst.",
    "sources": [
     {
-     "outlet": "Invezz",
-     "title": "Dow closes 170 pts lower as chip stock sell off continues",
-     "url": "https://invezz.com/news/2026/10/13/dow-closes-170-pts-lower-as-chip-stock-sell-off-continues/"
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
     },
     {
-     "outlet": "FinanceFeeds",
-     "title": "SK hynix at 1,443,000 Won, Down 10.09%: Did the 4F2 Claim Do the Selling?",
-     "url": "https://financefeeds.com/sk-hynix-1443000-won-down-10-09-bull-2334000-bear-631000/"
+     "outlet": "X (@YahooFinance)",
+     "title": "Goldman thinks AI-driven inflation is near its peak… Bad news for Micron and SanDisk",
+     "url": "https://x.com/YahooFinance/status/2110365880412418168"
     },
     {
-     "outlet": "South China Morning Post",
-     "title": "China's CXMT unveils 'key progress' on chip structure pursued by Samsung, SK Hynix",
-     "url": "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix"
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
     }
    ],
    "missing": false
@@ -322,27 +354,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MU",
    "name": "Micron Technology Inc.",
-   "close": 953.19,
-   "prev_close": 989.04,
-   "pct_change": -3.62,
-   "market_cap": 1076526299883.0,
+   "close": 914.13,
+   "prev_close": 953.19,
+   "pct_change": -4.1,
+   "market_cap": 1032412204543.0,
    "mover": true,
-   "reason": "Extended the memory-complex selloff as South Korea’s KOSPI crashed ~5.5% (SK Hynix ~−10% in Seoul) on valuation worries and China’s CXMT claiming denser 4F² DRAM progress with a year-end server-memory plan; U.S. memory and storage peers also weakened with no separate Micron company-specific negative catalyst.",
+   "reason": "Extended the memory-complex selloff as the SOX fell for a sixth session on hot CPI and AI-spending/funding worries; Yahoo Finance highlighted Goldman commentary that memory-chip prices could drop in 2027, adding pressure to Micron and SanDisk with no separate Micron earnings catalyst.",
    "sources": [
     {
-     "outlet": "Invezz",
-     "title": "Dow closes 170 pts lower as chip stock sell off continues",
-     "url": "https://invezz.com/news/2026/10/13/dow-closes-170-pts-lower-as-chip-stock-sell-off-continues/"
+     "outlet": "X (@YahooFinance)",
+     "title": "Goldman thinks AI-driven inflation is near its peak… Bad news for Micron and SanDisk",
+     "url": "https://x.com/YahooFinance/status/2110365880412418168"
     },
     {
-     "outlet": "Investing.com",
-     "title": "Memory stocks selloff: Buy the dip or sell as competition and AI risks rise?",
-     "url": "https://in.investing.com/news/stock-market-news/memory-stocks-selloff-buy-the-dip-or-sell-as-competiton-and-ai-risks-rise-93CH-5631014"
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
     },
     {
-     "outlet": "South China Morning Post",
-     "title": "China's CXMT unveils 'key progress' on chip structure pursued by Samsung, SK Hynix",
-     "url": "https://www.scmp.com/tech/big-tech/article/3370505/chinas-cxmt-unveils-key-progress-chip-structure-pursued-samsung-sk-hynix"
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
     }
    ],
    "missing": false
@@ -350,70 +382,150 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMD",
    "name": "Advanced Micro Devices Inc.",
-   "close": 605.53,
-   "prev_close": 594.24,
-   "pct_change": 1.9,
-   "market_cap": 988512660009.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 570.82,
+   "prev_close": 605.53,
+   "pct_change": -5.73,
+   "market_cap": 931849415431.0,
+   "mover": true,
+   "reason": "Fell with other AI GPU/chip names as hotter-than-expected CPI lifted Treasury yields and rate-hike odds, pressuring high-multiple semiconductor stocks for a sixth SOX down day; no AMD-specific negative catalyst.",
+   "sources": [
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "WMT",
    "name": "Walmart Inc.",
-   "close": 112.28,
-   "prev_close": 113.08,
-   "pct_change": -0.71,
-   "market_cap": 890801020842.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 116.16,
+   "prev_close": 112.28,
+   "pct_change": 3.46,
+   "market_cap": 921583995086.0,
+   "mover": true,
+   "reason": "Advanced as investors rotated into defensive consumer staples after hotter-than-expected September CPI; Costco and Target also edged higher while the broad market fell, and Walmart had also told associates it is expanding benefits including a zero-dollar prescription tier.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Walmart Advances 3% as Inflation Data Sends Money Into Defensives; Costco and Target Edge Higher",
+     "url": "https://247wallst.com/investing/2026/10/14/walmart-advances-3-as-inflation-data-sends-money-into-defensives-costco-and-target-edge-higher/"
+    },
+    {
+     "outlet": "Benzinga",
+     "title": "Walmart Stock Moves Higher: What's Happening?",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62364387/walmart-stock-moves-higher-whats-happening"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "ASML",
    "name": "ASML Holding N.V.",
-   "close": 1717.76,
-   "prev_close": 1750.24,
-   "pct_change": -1.86,
-   "market_cap": 662055057209.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 1650.0,
+   "prev_close": 1717.76,
+   "pct_change": -3.94,
+   "market_cap": 635939152259.0,
+   "mover": true,
+   "reason": "Sold off with U.S.-listed chip equipment despite a strong Q3: profit smashed estimates (~€4.96B vs ~€4.1B expected), the company raised the low end of 2026 sales guidance to €44–45B, and CEO Fouquet said some customers are expressing interest in 2029–2030 orders—but the broader SOX/CPI-driven AI selloff outweighed the beat in U.S. trading.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
+     "url": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html"
+    },
+    {
+     "outlet": "X (@CNBC)",
+     "title": "ASML said Wednesday that some of its customers are expressing interest in placing orders… for 2029 and 2030",
+     "url": "https://x.com/CNBC/status/2110252499756097697"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "INTC",
    "name": "Intel Corporation",
-   "close": 102.81,
-   "prev_close": 101.35,
-   "pct_change": 1.44,
-   "market_cap": 543357972106.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 98.12,
+   "prev_close": 102.81,
+   "pct_change": -4.56,
+   "market_cap": 518571024039.0,
+   "mover": true,
+   "reason": "Participated in the sixth consecutive Philly Semiconductor Index decline as hotter CPI and AI-capex funding worries weighed on chipmakers; Intel has been among the larger losers over the multi-day SOX skid (~11% over the stretch) with no separate same-day company catalyst.",
+   "sources": [
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "PLTR",
    "name": "Palantir Technologies Inc.",
-   "close": 208.67,
-   "prev_close": 209.0,
-   "pct_change": -0.16,
-   "market_cap": 501236511426.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 200.97,
+   "prev_close": 208.67,
+   "pct_change": -3.69,
+   "market_cap": 482740706364.0,
+   "mover": true,
+   "reason": "Dropped with other high-multiple AI software names as hotter September CPI boosted Fed hike odds and investors rotated away from richly valued AI beneficiaries; no separate Palantir product or earnings catalyst for the session.",
+   "sources": [
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "CSCO",
    "name": "Cisco Systems Inc.",
-   "close": 115.07,
-   "prev_close": 115.34,
-   "pct_change": -0.23,
-   "market_cap": 453673471500.0,
+   "close": 113.64,
+   "prev_close": 115.07,
+   "pct_change": -1.24,
+   "market_cap": 448035571053.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -422,39 +534,55 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LRCX",
    "name": "Lam Research Corporation",
-   "close": 301.11,
-   "prev_close": 309.56,
-   "pct_change": -2.73,
-   "market_cap": 376816384613.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 286.92,
+   "prev_close": 301.11,
+   "pct_change": -4.71,
+   "market_cap": 359058707424.0,
+   "mover": true,
+   "reason": "Chip-equipment shares kept falling with the SOX’s sixth straight down session after hot CPI, rate-hike bets, and ongoing profit-taking in wafer-fab equipment names that had already sold off earlier in the week after Applied Materials’ SEMICON West commentary.",
+   "sources": [
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "X (@business / Bloomberg)",
+     "title": "Semiconductor stocks are on pace to lose more than $1 trillion…",
+     "url": "https://x.com/business/status/2110443062270832904"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AMAT",
    "name": "Applied Materials Inc.",
-   "close": 464.24,
-   "prev_close": 497.53,
-   "pct_change": -6.69,
-   "market_cap": 368419649284.0,
+   "close": 446.63,
+   "prev_close": 464.24,
+   "pct_change": -3.79,
+   "market_cap": 354444410693.0,
    "mover": true,
-   "reason": "Slumped after its SEMICON West investor day in San Francisco: management laid out bullish long-term/2030 AI and EPIC Center plans but explicitly declined to give a near-term wafer-fab-equipment (WFE) industry spending forecast, citing cleanroom capacity, supply-chain, energy-financing and trade variables—prompting profit-taking after a huge year-to-date run and making AMAT the Nasdaq-100’s worst performer.",
+   "reason": "Continued to slide with wafer-fab equipment peers as the SOX’s sixth down day met hot CPI and rate-hike fears, extending the selloff that began after management declined to give a near-term WFE forecast at its SEMICON West investor day earlier in the week.",
    "sources": [
     {
-     "outlet": "X (@barronsonline)",
-     "title": "Applied Materials Stock Could Be Flashing a Sell Signal on This Investor Day Omission",
-     "url": "https://x.com/barronsonline/status/2110083963720999327"
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
     },
     {
-     "outlet": "Yahoo Finance / 24/7 Wall St.",
-     "title": "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4%",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-equipment-stocks-slide-investors-165346449.html"
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
     },
     {
-     "outlet": "Morningstar / Dow Jones",
-     "title": "Applied Materials Down Over 6%, Worst Performer in the Nasdaq 100 So Far Today — Data Talk",
-     "url": "https://www.morningstar.com/news/dow-jones/202610136472/applied-materials-down-over-6-worst-performer-in-the-nasdaq-100-so-far-today-data-talk"
+     "outlet": "X (@business / Bloomberg)",
+     "title": "Semiconductor stocks are on pace to lose more than $1 trillion…",
+     "url": "https://x.com/business/status/2110443062270832904"
     }
    ],
    "missing": false
@@ -462,10 +590,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "COST",
    "name": "Costco Wholesale Corporation",
-   "close": 954.63,
-   "prev_close": 959.44,
-   "pct_change": -0.5,
-   "market_cap": 423358163874.0,
+   "close": 982.0,
+   "prev_close": 954.63,
+   "pct_change": 2.87,
+   "market_cap": 435496176318.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -474,34 +602,66 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks Inc.",
-   "close": 397.03,
-   "prev_close": 403.83,
-   "pct_change": -1.68,
-   "market_cap": 324770531204.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 375.04,
+   "prev_close": 397.03,
+   "pct_change": -5.54,
+   "market_cap": 306782719624.0,
+   "mover": true,
+   "reason": "Cybersecurity peers sold off after The Information reported OpenAI is in early talks to acquire security-research firm Trail of Bits—raising fears OpenAI could become a direct enterprise-security competitor rather than only an AI supplier—on top of the broader risk-off tape from hot CPI.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Report: OpenAI Interested in Acquiring Trail of Bits",
+     "url": "https://finance.yahoo.com/technology/ai/articles/report-openai-interested-acquiring-trail-160554835.html"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Palo Alto Falls 4% as Report of OpenAI Cybersecurity Deal Hits Sector; CrowdStrike Drops 3%, Fortinet Slips",
+     "url": "https://247wallst.com/investing/2026/10/14/palo-alto-falls-4-as-report-of-openai-cybersecurity-deal-hits-sector-crowdstrike-drops-3-fortinet-slips/"
+    },
+    {
+     "outlet": "Investor's Business Daily",
+     "title": "Cybersecurity Stocks Fall Amid Report Of OpenAI Acquisition",
+     "url": "https://www.investors.com/news/technology/cybersecurity-stocks-fall-report-openai-acquisition-sparks-competition-worries/"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "ARM",
    "name": "Arm Holdings plc",
-   "close": 255.39,
-   "prev_close": 255.24,
-   "pct_change": 0.06,
-   "market_cap": 271749075635.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 238.01,
+   "prev_close": 255.39,
+   "pct_change": -6.81,
+   "market_cap": 253255789787.0,
+   "mover": true,
+   "reason": "Extended a multi-session semiconductor wipeout (Arm down roughly 20% over the six-session SOX slide) as hot CPI and higher-rate fears hit richly valued chip designers; no Arm-specific negative news on the day.",
+   "sources": [
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "NFLX",
    "name": "Netflix Inc.",
-   "close": 70.46,
-   "prev_close": 70.61,
-   "pct_change": -0.21,
-   "market_cap": 293391185759.0,
+   "close": 70.57,
+   "prev_close": 70.46,
+   "pct_change": 0.16,
+   "market_cap": 293849221665.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -510,45 +670,50 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "CRWD",
    "name": "CrowdStrike Holdings Inc.",
-   "close": 261.21,
-   "prev_close": 263.01,
-   "pct_change": -0.68,
-   "market_cap": 267461998158.0,
+   "close": 249.29,
+   "prev_close": 261.21,
+   "pct_change": -4.56,
+   "market_cap": 255256697317.0,
+   "mover": true,
+   "reason": "Fell with other cybersecurity names after reports OpenAI is in early talks to buy Trail of Bits, stoking AI-competition fears for incumbents; BTIG’s Gray Powell kept a Buy and raised his target to $312 from $245, but the sector still sold off on the OpenAI news and risk-off tape.",
+   "sources": [
+    {
+     "outlet": "The Motley Fool",
+     "title": "Why CrowdStrike Stock Slumped on Wednesday",
+     "url": "https://www.fool.com/investing/2026/10/14/why-crowdstrike-stock-slumped-on-wednesday/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Report: OpenAI Interested in Acquiring Trail of Bits",
+     "url": "https://finance.yahoo.com/technology/ai/articles/report-openai-interested-acquiring-trail-160554835.html"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Palo Alto Falls 4% as Report of OpenAI Cybersecurity Deal Hits Sector; CrowdStrike Drops 3%, Fortinet Slips",
+     "url": "https://247wallst.com/investing/2026/10/14/palo-alto-falls-4-as-report-of-openai-cybersecurity-deal-hits-sector-crowdstrike-drops-3-fortinet-slips/"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA Corporation",
+   "close": 178.81,
+   "prev_close": 184.0,
+   "pct_change": -2.82,
+   "market_cap": 233348200763.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
-   "ticker": "KLAC",
-   "name": "KLA Corporation",
-   "close": 184.0,
-   "prev_close": 190.12,
-   "pct_change": -3.22,
-   "market_cap": 240121187443.0,
-   "mover": true,
-   "reason": "Sold off with semiconductor-equipment peers (AMAT, LRCX) as investors took profits on large year-to-date gains and fretted about fabrication-budget/AI-capex visibility after Applied Materials skipped a near-term WFE outlook; no separate KLA-specific negative headline drove the move.",
-   "sources": [
-    {
-     "outlet": "Yahoo Finance / 24/7 Wall St.",
-     "title": "Semiconductor Equipment Stocks Slide as Investors Take Profits on a Huge Year: Applied Materials Sinks 7%, Lam Research and KLA Drop 4%",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-equipment-stocks-slide-investors-165346449.html"
-    },
-    {
-     "outlet": "MarketWatch",
-     "title": "KLA Corp. stock outperforms competitors despite losses on the day",
-     "url": "https://www.marketwatch.com/data-news/kla-corp-stock-outperforms-competitors-despite-losses-on-the-day-239a1f1c-bbb7dc5af770"
-    }
-   ],
-   "missing": false
-  },
-  {
    "ticker": "TXN",
    "name": "Texas Instruments Incorporated",
-   "close": 287.85,
-   "prev_close": 281.74,
-   "pct_change": 2.17,
-   "market_cap": 262878357429.0,
+   "close": 280.65,
+   "prev_close": 287.85,
+   "pct_change": -2.5,
+   "market_cap": 256302962806.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -557,34 +722,66 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SNDK",
    "name": "Sandisk Corporation",
-   "close": 1482.33,
-   "prev_close": 1487.33,
-   "pct_change": -0.34,
-   "market_cap": 217041266965.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 1403.34,
+   "prev_close": 1482.33,
+   "pct_change": -5.33,
+   "market_cap": 205475631738.0,
+   "mover": true,
+   "reason": "Storage/memory names extended the multi-day semiconductor selloff as hot CPI and AI-infrastructure funding worries hit the SOX; Yahoo Finance also flagged Goldman commentary that memory prices could ease in 2027, adding pressure to Micron and SanDisk.",
+   "sources": [
+    {
+     "outlet": "X (@YahooFinance)",
+     "title": "Goldman thinks AI-driven inflation is near its peak… Bad news for Micron and SanDisk",
+     "url": "https://x.com/YahooFinance/status/2110365880412418168"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "MRVL",
    "name": "Marvell Technology Inc.",
-   "close": 268.73,
-   "prev_close": 265.86,
-   "pct_change": 1.08,
-   "market_cap": 235644957852.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 245.28,
+   "prev_close": 268.73,
+   "pct_change": -8.73,
+   "market_cap": 215086030930.0,
+   "mover": true,
+   "reason": "Led watchlist losers in a broad AI-chip rout after hotter September CPI raised Fed hike odds and borrowing-cost fears for AI infrastructure; Marvell had no separate negative company catalyst and was among the worst SOX-related names as the Philly Semiconductor Index fell for a sixth straight session.",
+   "sources": [
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "X (@business / Bloomberg)",
+     "title": "Semiconductor stocks are on pace to lose more than $1 trillion…",
+     "url": "https://x.com/business/status/2110443062270832904"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "LIN",
    "name": "Linde plc",
-   "close": 492.11,
-   "prev_close": 487.35,
-   "pct_change": 0.98,
-   "market_cap": 226852938965.0,
+   "close": 492.7,
+   "prev_close": 492.11,
+   "pct_change": 0.12,
+   "market_cap": 227124929638.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -593,22 +790,38 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMGN",
    "name": "Amgen Inc.",
-   "close": 412.84,
-   "prev_close": 417.57,
-   "pct_change": -1.13,
-   "market_cap": 223194508880.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 426.11,
+   "prev_close": 412.84,
+   "pct_change": 3.21,
+   "market_cap": 230368689451.0,
+   "mover": true,
+   "reason": "Gained with healthcare defensives on the hot-CPI risk-off day, helped by recent Street support including Goldman Sachs raising its Amgen target to $475 from $450 (Oct. 13) and UBS lifting its target to $470.",
+   "sources": [
+    {
+     "outlet": "Fiscal.ai / Goldman Sachs note",
+     "title": "Goldman Sachs Adjusts Price Target on Amgen to $475 From $450",
+     "url": "https://fiscal.ai/company/NASDAQ_AMGN/news/2026-10-13/goldman-sachs-adjusts-price-target-on-amgen-to-475-from-450/"
+    },
+    {
+     "outlet": "ad-hoc-news (UBS)",
+     "title": "UBS raises target for Amgen stock to USD 470.00",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ubs-raises-target-for-amgen-stock-to-usd-470-00/70323089"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "SHOP",
    "name": "Shopify Inc.",
-   "close": 176.52,
-   "prev_close": 179.22,
-   "pct_change": -1.51,
-   "market_cap": 228736566798.0,
+   "close": 172.5,
+   "prev_close": 176.52,
+   "pct_change": -2.28,
+   "market_cap": 223527400961.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -617,10 +830,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ADI",
    "name": "Analog Devices Inc.",
-   "close": 414.7,
-   "prev_close": 406.25,
-   "pct_change": 2.08,
-   "market_cap": 200949301325.0,
+   "close": 403.57,
+   "prev_close": 414.7,
+   "pct_change": -2.68,
+   "market_cap": 195556085412.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -629,22 +842,38 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "STX",
    "name": "Seagate Technology Holdings PLC",
-   "close": 747.2,
-   "prev_close": 753.25,
-   "pct_change": -0.8,
-   "market_cap": 170898498926.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 713.54,
+   "prev_close": 747.2,
+   "pct_change": -4.5,
+   "market_cap": 163199824915.0,
+   "mover": true,
+   "reason": "Hard-drive/storage peers dropped with the memory and semiconductor complex as hot CPI and AI-infrastructure funding concerns drove a sixth SOX losing session; no Seagate-specific company news cited for the move.",
+   "sources": [
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "X (@YahooFinance)",
+     "title": "Goldman thinks AI-driven inflation is near its peak… Bad news for Micron and SanDisk",
+     "url": "https://x.com/YahooFinance/status/2110365880412418168"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "QCOM",
    "name": "QUALCOMM Incorporated",
-   "close": 176.86,
-   "prev_close": 174.43,
-   "pct_change": 1.39,
-   "market_cap": 185744378807.0,
+   "close": 172.62,
+   "prev_close": 176.86,
+   "pct_change": -2.4,
+   "market_cap": 181291381048.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -653,22 +882,38 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GILD",
    "name": "Gilead Sciences Inc.",
-   "close": 147.92,
-   "prev_close": 150.43,
-   "pct_change": -1.67,
-   "market_cap": 183414158065.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 153.54,
+   "prev_close": 147.92,
+   "pct_change": 3.8,
+   "market_cap": 190382699747.0,
+   "mover": true,
+   "reason": "Rose after Vir Biotechnology announced a multi-program collaboration and license deal with Gilead to discover three PRO-XTEN dual-masked T-cell engagers for solid tumors; Gilead gets exclusive development/commercialization rights, with Vir eligible for up to $135M upfront/near-term preclinical payments and up to $1.74B in further milestones.",
+   "sources": [
+    {
+     "outlet": "Vir Biotechnology IR (Business Wire)",
+     "title": "Vir Biotechnology Enters Multi-Program Collaboration and License Agreement with Gilead Sciences…",
+     "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx"
+    },
+    {
+     "outlet": "Yahoo Finance / Business Wire",
+     "title": "Vir Biotechnology Enters Multi-Program Collaboration and License Agreement with Gilead Sciences…",
+     "url": "https://finance.yahoo.com/healthcare/articles/vir-biotechnology-enters-multi-program-123000045.html"
+    },
+    {
+     "outlet": "X (@BioStocks)",
+     "title": "$VIR Enters Multi-Program Collaboration… with $GILD… $90M upfront…",
+     "url": "https://x.com/BioStocks/status/2110349122733498416"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "TMUS",
    "name": "T-Mobile US Inc.",
-   "close": 153.73,
-   "prev_close": 151.87,
-   "pct_change": 1.22,
-   "market_cap": 164901803095.0,
+   "close": 157.79,
+   "prev_close": 153.73,
+   "pct_change": 2.64,
+   "market_cap": 169256847241.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -677,10 +922,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PEP",
    "name": "PepsiCo Inc.",
-   "close": 127.3,
-   "prev_close": 126.68,
-   "pct_change": 0.49,
-   "market_cap": 173750697389.0,
+   "close": 129.27,
+   "prev_close": 127.3,
+   "pct_change": 1.55,
+   "market_cap": 176439535392.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -689,22 +934,38 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "WDC",
    "name": "Western Digital Corporation",
-   "close": 380.71,
-   "prev_close": 386.94,
-   "pct_change": -1.61,
-   "market_cap": 137261535157.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 364.1,
+   "prev_close": 380.71,
+   "pct_change": -4.36,
+   "market_cap": 131272955557.0,
+   "mover": true,
+   "reason": "Storage shares sold off alongside memory and chip names on hotter CPI, rising rate-hike odds, and the ongoing semiconductor valuation reset; no separate Western Digital company-specific catalyst.",
+   "sources": [
+    {
+     "outlet": "Quartz",
+     "title": "Chip stocks are on pace to erase $1 trillion as AI selloff deepens",
+     "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+     "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+     "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "ISRG",
    "name": "Intuitive Surgical Inc.",
-   "close": 422.06,
-   "prev_close": 427.64,
-   "pct_change": -1.3,
-   "market_cap": 149104523826.0,
+   "close": 420.24,
+   "prev_close": 422.06,
+   "pct_change": -0.43,
+   "market_cap": 148461555226.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -713,13 +974,29 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "FTNT",
    "name": "Fortinet Inc.",
-   "close": 190.76,
-   "prev_close": 192.94,
-   "pct_change": -1.13,
-   "market_cap": 139963208704.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 184.05,
+   "prev_close": 190.76,
+   "pct_change": -3.52,
+   "market_cap": 135039996493.0,
+   "mover": true,
+   "reason": "Slipped with cybersecurity peers after The Information reported OpenAI is in early talks to acquire Trail of Bits, raising competition worries for security incumbents amid the broader risk-off move from hot CPI.",
+   "sources": [
+    {
+     "outlet": "The Motley Fool",
+     "title": "Why Fortinet Stock Slumped on Wednesday",
+     "url": "https://www.fool.com/investing/2026/10/14/why-fortinet-stock-slumped-on-wednesday/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Report: OpenAI Interested in Acquiring Trail of Bits",
+     "url": "https://finance.yahoo.com/technology/ai/articles/report-openai-interested-acquiring-trail-160554835.html"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Palo Alto Falls 4% as Report of OpenAI Cybersecurity Deal Hits Sector; CrowdStrike Drops 3%, Fortinet Slips",
+     "url": "https://247wallst.com/investing/2026/10/14/palo-alto-falls-4-as-report-of-openai-cybersecurity-deal-hits-sector-crowdstrike-drops-3-fortinet-slips/"
+    }
+   ],
    "missing": false
   }
  ]
