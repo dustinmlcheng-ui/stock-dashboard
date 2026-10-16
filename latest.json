@@ -1,471 +1,728 @@
 {
-  "session_date": "2026-10-15",
-  "generated_at": "2026-10-16T06:23:29+08:00",
+  "session_date": "2026-10-16",
+  "generated_at": "2026-10-17T06:26:57+08:00",
   "threshold_pct": 3,
-  "market_context": "The Nasdaq-100 was little changed (−0.05% to 29,935.59; QQQ −0.13% to $728.00) in a volatile session that opened lower after Asia’s tech rout (Kospi −7.6%) and hotter September PPI (+1.3% m/m / +6.3% y/y), then recovered as Treasury yields fell and AI selling moderated; the Dow jumped ~1.1% as investors rotated toward industrials while wafer-fab equipment names kept sliding.",
-  "market_cap_basis": "Shares outstanding x 2026-10-15 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 fell 2.50% to 29,187.55 (QQQ −2.50% to $709.80) as AI-related tech sold off on debt-financing fears centered on CoreWeave (~−12% Friday / ~−25% week); the Philadelphia Semiconductor Index was on track for an eighth straight decline (longest streak since 2008), while cybersecurity and software names were hit especially hard.",
+  "market_cap_basis": "Shares outstanding x 2026-10-16 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 430.01,
-      "prev_close": 446.63,
-      "pct_change": -3.72,
-      "market_cap_usd": 341254825778,
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 342.0,
+      "prev_close": 370.27,
+      "pct_change": -7.63,
+      "market_cap_usd": 279755993284,
       "is_mover": true,
-      "reason": "Extended a multi-session wafer-fab-equipment selloff into an eighth straight decline (on track for the longest streak since 2018) as investors kept digesting Tuesday’s Investor Day, where Applied declined to give a specific WFE spending forecast despite bullish long-term AI commentary; Dow Jones flagged it among the Nasdaq-100’s worst performers mid-session.",
+      "reason": "Led the watchlist lower (−7.6%) as cybersecurity sold with the AI financing scare and after CISA this week added Palo Alto’s actively exploited PAN-OS management-interface RCE (CVE-2026-0322) to its Known Exploited Vulnerabilities catalog; Palo Alto’s own advisory (published Oct. 14, updated Oct. 15) said very limited exploitation had been observed and Cloud NGFW/Prisma Access were not impacted.",
       "sources": [
         {
-          "outlet": "Morningstar / Dow Jones",
-          "title": "Applied Materials Currently Down Eight Consecutive Days, On Track for Longest Losing Streak Since September 2018",
-          "url": "https://www.morningstar.com/news/dow-jones/202610155634/applied-materials-currently-down-eight-consecutive-days-on-track-for-longest-losing-streak-since-september-2018-data-talk"
+          "outlet": "Palo Alto Networks Security Advisory",
+          "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-0322/"
         },
         {
-          "outlet": "Investing.com",
-          "title": "Applied Materials shares slide as chip equipment outlook remains uncertain",
-          "url": "https://www.investing.com/news/stock-market-news/applied-materials-shares-slide-as-chip-equipment-outlook-remains-uncertain-4947269"
+          "outlet": "CISA",
+          "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
         },
         {
-          "outlet": "Benzinga",
-          "title": "Lam Research Stock Hits Longest Losing Streak Ever: Are There Buyers Around?",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62398300/lam-research-stock-longest-losing-streak-since-1984-analyst-price-target"
-        }
-      ]
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 178.4,
-      "prev_close": 172.62,
-      "pct_change": 3.35,
-      "market_cap_usd": 187361732055,
-      "is_mover": true,
-      "reason": "Bounced ~3.3% while many chip peers stayed soft, with coverage tying the rebound to recent catalysts: a Delaware jury’s Oct. 13 finding that Arm breached Qualcomm’s Architectural License Agreement (supporting custom Oryon CPU work) and the renewed Apple licensing agreement that removed a key licensing-revenue overhang.",
-      "sources": [
-        {
-          "outlet": "Qualcomm IR",
-          "title": "Qualcomm Statement on Trial Verdict Win",
-          "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Statement-on-Trial-Verdict-Win/default.aspx"
+          "outlet": "Investor's Business Daily",
+          "title": "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability",
+          "url": "https://www.investors.com/news/technology/cybersecurity-stocks-sell-off-amid-palo-alto-vulnerability/"
         },
         {
-          "outlet": "CNBC",
-          "title": "Delaware jury awards Qualcomm $2 in damages, finds Arm breached license agreement",
-          "url": "https://www.cnbc.com/2026/10/13/delaware-jury-qualcomm-arm-license-agreement.html"
-        },
-        {
-          "outlet": "MarketBeat",
-          "title": "Qualcomm (NASDAQ:QCOM) Stock Price Up 3.3% - Time to Buy?",
-          "url": "https://www.marketbeat.com/instant-alerts/price-qualcomm-nasdaq-qcom-stock-price-up-33-time-to-buy-2026-10-15/"
-        }
-      ]
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 109.85,
-      "prev_close": 113.64,
-      "pct_change": -3.34,
-      "market_cap_usd": 433093163155,
-      "is_mover": true,
-      "reason": "Fell after Cisco’s Oct. 14 PSIRT advisory disclosed a critical (CVSS 9.8) Secure Email Gateway arbitrary-file-write flaw under active exploitation, with no workarounds; Benzinga tied Thursday’s drop to that advisory plus broader tech weakness.",
-      "sources": [
-        {
-          "outlet": "Cisco PSIRT",
-          "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp"
-        },
-        {
-          "outlet": "Benzinga",
-          "title": "Why Is Cisco Stock Falling on Thursday?",
-          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62395652/why-is-cisco-stock-falling-on-thursday"
-        },
-        {
-          "outlet": "CSO Online",
-          "title": "Cisco warns of actively exploited Secure Email Gateway flaw",
-          "url": "https://www.csoonline.com/article/4235801/cisco-warns-of-actively-exploited-secure-email-gateway-flaw.html"
-        }
-      ]
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation Common Stock",
-      "close": 277.46,
-      "prev_close": 286.92,
-      "pct_change": -3.3,
-      "market_cap_usd": 347220205045,
-      "is_mover": true,
-      "reason": "Logged a ninth straight decline—its longest losing streak since going public in 1984—as the whole wafer-fab equipment complex was sold together after Applied Materials’ Investor Day left WFE spending visibility cloudy; no separate Lam-specific negative company catalyst on the day, with Oct. 21 earnings next up.",
-      "sources": [
-        {
-          "outlet": "Benzinga",
-          "title": "Lam Research Stock Hits Longest Losing Streak Ever: Are There Buyers Around?",
-          "url": "https://www.benzinga.com/markets/tech/26/10/62398300/lam-research-stock-longest-losing-streak-since-1984-analyst-price-target"
-        },
-        {
-          "outlet": "Trefis",
-          "title": "Lam Research Stock Slides 17% Over 8 Straight Down Days",
-          "url": "https://www.trefis.com/stock/lrcx/articles/618820/lam-research-stock-slides-17-over-8-straight-down-days/2026-10-15"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "Applied Materials shares slide as chip equipment outlook remains uncertain",
-          "url": "https://www.investing.com/news/stock-market-news/applied-materials-shares-slide-as-chip-equipment-outlook-remains-uncertain-4947269"
-        }
-      ]
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 178.14,
-      "prev_close": 172.5,
-      "pct_change": 3.27,
-      "market_cap_usd": 230835774323,
-      "is_mover": true,
-      "reason": "Rallied after Baird raised its price target to $190 from $160 (Outperform) and Jefferies reiterated Buy with a $175 target, citing potential GMV upside from third-party data plus the Meta Muse/Shop Pay agentic-checkout partnership ahead of Nov. 3 earnings.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance / Stocktwits",
-          "title": "SHOP Stock Heads For 4th Green Week: Analysts See Up To 10% Upside For Shopify Ahead Of Earnings",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/shop-stock-heads-4th-green-075304452.html"
-        },
-        {
-          "outlet": "StreetInsider",
-          "title": "Shopify (SHOP) PT Raised to $190 at Baird",
-          "url": "https://www.streetinsider.com/Analyst+PT+Change/Shopify+%28SHOP%29+PT+Raised+to+%24190+at+Baird/27183775.html"
+          "outlet": "SecurityWeek",
+          "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+          "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/"
         }
       ]
     },
     {
       "ticker": "STX",
       "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 690.81,
-      "prev_close": 713.54,
-      "pct_change": -3.19,
-      "market_cap_usd": 158001056875,
+      "close": 639.01,
+      "prev_close": 690.81,
+      "pct_change": -7.5,
+      "market_cap_usd": 146153439084,
       "is_mover": true,
-      "reason": "Dropped with the broader storage/HDD complex on China tech-competition and memory/supply-chain worries (and lingering concern about Toshiba’s planned HDD capacity expansion), without a fresh Seagate-specific company announcement on Oct. 15; volume ran above average into the pullback ahead of Oct. 27 earnings.",
+      "reason": "Dropped ~7.5% after Wells Fargo’s Joseph Quatrochi cut Seagate’s price target to $865 from $1,180 while keeping Overweight, citing underperformance vs. chips since quarter-start; the cut landed amid a broader HDD/storage selloff tied to Toshiba’s planned AI-HDD capacity expansion and AI-infrastructure financing jitters ahead of Oct. 27 earnings.",
       "sources": [
         {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "WDC, STX Stocks Headed For Third Straight Weekly Loss — Wells Fargo Slashes Targets But Sees Opportunity",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wdc-stx-stocks-headed-third-112120609.html"
+        },
+        {
+          "outlet": "TipRanks",
+          "title": "Storage Stocks WDC and STX Fall as Wells Fargo Slashes Price Targets Ahead of Q1 Earnings — Here’s Why",
+          "url": "https://www.tipranks.com/news/storage-stocks-wdc-and-stx-fall-as-wells-fargo-slashes-price-targets-ahead-of-q1-earnings-heres-why"
+        },
+        {
           "outlet": "MarketBeat",
-          "title": "Seagate Technology (NASDAQ:STX) Stock Price Down 3.2% - Here's Why",
-          "url": "https://www.marketbeat.com/instant-alerts/price-seagate-technology-nasdaq-stx-stock-price-down-32-heres-why-2026-10-15/"
+          "title": "Seagate Technology (NASDAQ:STX) Given New $865.00 Price Target at Wells Fargo & Company",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-seagate-technology-nasdaq-stx-given-new-86500-price-target-at-wells-fargo-company-2026-10-16/"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 186.03,
+      "prev_close": 200.5,
+      "pct_change": -7.22,
+      "market_cap_usd": 446854020352,
+      "is_mover": true,
+      "reason": "Fell ~7.2% (~$34B market value) as a Yahoo Finance basket of software stocks shed more than $260B and Palantir’s brief breakout above its Nov. 2025 record reversed into correction territory; no fresh company-specific press release—selling tracked the broader AI/software valuation purge.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Palantir's record breakout unravels as software stocks shed $260 billion",
+          "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet Inc. Common Stock",
+      "close": 169.13,
+      "prev_close": 181.91,
+      "pct_change": -7.03,
+      "market_cap_usd": 124092990424,
+      "is_mover": true,
+      "reason": "Slid ~7.0% with the cybersecurity complex as the First Trust Nasdaq Cybersecurity ETF (CIBR) was on track for its worst week since March 2020; coverage tied the sector move to AI-financing jitters and the Palo Alto KEV vulnerability overhang rather than a Fortinet-specific announcement.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Palantir's record breakout unravels as software stocks shed $260 billion",
+          "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html"
+        },
+        {
+          "outlet": "Investor's Business Daily",
+          "title": "Sell-Off In Cybersecurity Stocks Intensifies Amid Palo Alto Vulnerability",
+          "url": "https://www.investors.com/news/technology/cybersecurity-stocks-sell-off-amid-palo-alto-vulnerability/"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Cybersecurity Stocks Slide as AI Financing Jitters Spread: Palo Alto Falls 7%, SentinelOne Sinks 9%, Zscaler Drops 6%",
+          "url": "https://247wallst.com/investing/2026/10/16/cybersecurity-stocks-slide-as-ai-financing-jitters-spread-palo-alto-falls-7-sentinelone-sinks-9-zscaler-drops-6/"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 227.39,
+      "prev_close": 244.57,
+      "pct_change": -7.02,
+      "market_cap_usd": 232832531631,
+      "is_mover": true,
+      "reason": "Dropped ~7.0% (roughly −18% for the week with PANW) as cybersecurity ETFs and AI-exposed software were sold on debt-financing fears and competition headlines; no CrowdStrike company-specific earnings or IR catalyst on the day.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Palantir's record breakout unravels as software stocks shed $260 billion",
+          "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Cybersecurity Stocks Slide as AI Financing Jitters Spread: Palo Alto Falls 7%, SentinelOne Sinks 9%, Zscaler Drops 6%",
+          "url": "https://247wallst.com/investing/2026/10/16/cybersecurity-stocks-slide-as-ai-financing-jitters-spread-palo-alto-falls-7-sentinelone-sinks-9-zscaler-drops-6/"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 227.8,
+      "prev_close": 244.79,
+      "pct_change": -6.94,
+      "market_cap_usd": 242391794537,
+      "is_mover": true,
+      "reason": "Fell ~6.9% with the Philadelphia Semiconductor Index as SOX headed for an eighth consecutive down day (longest since 2008) on AI-spending, rate, and memory-competition worries; no separate Arm company press release drove Friday’s move.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "TradingKey",
+          "title": "US Stocks Close: Nasdaq Drops Over 2%, Chip Stocks Fall Broadly, Micron Falls Over 5%, CoreWeave Plunges Nearly 12%",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262221811-us-stock-market-close-nasdaq-drop-chip-stocks-fall-coreweave-micron-tradingkey"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 332.0,
+      "prev_close": 356.45,
+      "pct_change": -6.86,
+      "market_cap_usd": 119699589438,
+      "is_mover": true,
+      "reason": "Fell ~6.9% after Wells Fargo cut Western Digital’s price target to $450 from $730 (Overweight retained) ahead of Oct. 22 earnings, alongside the same Toshiba AI-HDD expansion overhang and AI-infrastructure financing selloff hitting storage peers.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "WDC, STX Stocks Headed For Third Straight Weekly Loss — Wells Fargo Slashes Targets But Sees Opportunity",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wdc-stx-stocks-headed-third-112120609.html"
+        },
+        {
+          "outlet": "TipRanks",
+          "title": "Storage Stocks WDC and STX Fall as Wells Fargo Slashes Price Targets Ahead of Q1 Earnings — Here’s Why",
+          "url": "https://www.tipranks.com/news/storage-stocks-wdc-and-stx-fall-as-wells-fargo-slashes-price-targets-ahead-of-q1-earnings-heres-why"
         },
         {
           "outlet": "Investing.com",
-          "title": "Seagate and Western Digital shares fall on Toshiba HDD expansion",
-          "url": "https://www.investing.com/news/stock-market-news/seagate-and-western-digital-shares-fall-on-toshiba-hdd-expansion-4929584"
+          "title": "Why is Western Digital stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-4954397"
+        }
+      ]
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation Common Stock",
+      "close": 1299.3,
+      "prev_close": 1394.83,
+      "pct_change": -6.85,
+      "market_cap_usd": 190242211333,
+      "is_mover": true,
+      "reason": "Dropped ~6.9% with memory and storage names as investors sold AI-linked hardware on Chinese competition worries, hotter inflation/yields, and CoreWeave-centered debt fears; no Sandisk-specific IR release on Oct. 16.",
+      "sources": [
+        {
+          "outlet": "TradingKey",
+          "title": "Memory Stocks Fall Across the Board as SK Hynix Slumps Over 3% to Lead Losses",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262220965-stock-memory-ai-skhy-micron-wdc-sndk-stx-cpi-ppi-tradingkey"
         },
         {
-          "outlet": "AFP",
-          "title": "US stocks end higher as AI shares stabilize",
-          "url": "https://www.afp.com/en/us-stocks-end-higher-ai-shares-stabilize"
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 136.49,
+      "prev_close": 146.11,
+      "pct_change": -6.58,
+      "market_cap_usd": 994828539193,
+      "is_mover": true,
+      "reason": "Fell ~6.6% leading memory ADR losses as the sector extended a multi-day correction on Chinese competition, valuation pressure from higher yields, and the broader AI-debt selloff; no SK hynix company-specific U.S. filing on the session.",
+      "sources": [
+        {
+          "outlet": "TradingKey",
+          "title": "Memory Stocks Fall Across the Board as SK Hynix Slumps Over 3% to Lead Losses",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262220965-stock-memory-ai-skhy-micron-wdc-sndk-stx-cpi-ppi-tradingkey"
+        },
+        {
+          "outlet": "TradingKey",
+          "title": "US Stocks Close: Nasdaq Drops Over 2%, Chip Stocks Fall Broadly, Micron Falls Over 5%, CoreWeave Plunges Nearly 12%",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262221811-us-stock-market-close-nasdaq-drop-chip-stocks-fall-coreweave-micron-tradingkey"
+        },
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "close": 528.75,
+      "prev_close": 562.23,
+      "pct_change": -5.95,
+      "market_cap_usd": 863171178458,
+      "is_mover": true,
+      "reason": "Dropped ~6.0% with other AI chipmakers as CBS and peers flagged AMD among Friday’s named losers (−6%) in the CoreWeave-centered debt selloff and SOX’s multi-day slide; no AMD-specific earnings catalyst on the day.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady",
+          "url": "https://247wallst.com/investing/2026/10/16/intel-and-amd-drop-3-as-rotation-out-of-ai-chip-stocks-continues-nvidia-holds-steady/"
+        },
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 89.85,
+      "prev_close": 95.37,
+      "pct_change": -5.79,
+      "market_cap_usd": 474863477521,
+      "is_mover": true,
+      "reason": "Fell ~5.8% as CBS listed Intel among Friday’s chip losers and investors kept rotating out of AI-linked processors amid capital-cost worries that Intel’s own CEO had flagged earlier in the week alongside Broadcom’s Hock Tan.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Intel, Broadcom CEOs warn capital crunch could become AI bottleneck",
+          "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Intel and AMD Drop 3% as Rotation Out of AI Chip Stocks Continues; NVIDIA Holds Steady",
+          "url": "https://247wallst.com/investing/2026/10/16/intel-and-amd-drop-3-as-rotation-out-of-ai-chip-stocks-continues-nvidia-holds-steady/"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "close": 878.84,
+      "prev_close": 931.24,
+      "pct_change": -5.63,
+      "market_cap_usd": 992555943596,
+      "is_mover": true,
+      "reason": "Slid ~5.6% (CBS: −5.6%) with memory peers as SOX extended its losing streak and Roundhill’s Dave Maza cited Chinese competition, Broadcom CEO Hock Tan’s capital comments, and a tough macro backdrop turning sentiment on memory negative despite still-strong HBM demand commentary.",
+      "sources": [
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        },
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "TradingKey",
+          "title": "Memory Stocks Fall Across the Board as SK Hynix Slumps Over 3% to Lead Losses",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262220965-stock-memory-ai-skhy-micron-wdc-sndk-stx-cpi-ppi-tradingkey"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 227.83,
+      "prev_close": 241.24,
+      "pct_change": -5.56,
+      "market_cap_usd": 199784128606,
+      "is_mover": true,
+      "reason": "Fell ~5.6% with custom AI ASIC peers as coverage linked Marvell and Broadcom to Hock Tan’s warning that capital—not chips—could become AI’s next bottleneck, amplifying Friday’s CoreWeave debt scare for cloud-customer funding risk.",
+      "sources": [
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Broadcom Falls 4% as CEO Hock Tan's Capital Warning Hangs Over AI Chips; Marvell Drops 4%",
+          "url": "https://247wallst.com/investing/2026/10/16/broadcom-falls-4-as-ceo-hock-tans-capital-warning-hangs-over-ai-chips-marvell-drops-4/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Intel, Broadcom CEOs warn capital crunch could become AI bottleneck",
+          "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html"
+        },
+        {
+          "outlet": "TradingKey",
+          "title": "US Stocks Close: Nasdaq Drops Over 2%, Chip Stocks Fall Broadly, Micron Falls Over 5%, CoreWeave Plunges Nearly 12%",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262221811-us-stock-market-close-nasdaq-drop-chip-stocks-fall-coreweave-micron-tradingkey"
+        }
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 165.74,
+      "prev_close": 174.46,
+      "pct_change": -5.0,
+      "market_cap_usd": 216291776770,
+      "is_mover": true,
+      "reason": "Dropped 5.0% as wafer-fab equipment names kept sliding with SOX’s multi-day correction; Yahoo/Stocktwits coverage flagged KLA and Applied among steeper pullbacks from highs with no separate KLA company announcement on Friday.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "TradingKey",
+          "title": "US Stocks Close: Nasdaq Drops Over 2%, Chip Stocks Fall Broadly, Micron Falls Over 5%, CoreWeave Plunges Nearly 12%",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262221811-us-stock-market-close-nasdaq-drop-chip-stocks-fall-coreweave-micron-tradingkey"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 263.94,
+      "prev_close": 277.46,
+      "pct_change": -4.87,
+      "market_cap_usd": 330300960822,
+      "is_mover": true,
+      "reason": "Fell ~4.9% extending the wafer-fab equipment selloff as SOX headed for an eighth straight decline on AI-spending and rate worries; no fresh Lam-specific negative IR item on Oct. 16 (earnings still ahead).",
+      "sources": [
+        {
+          "outlet": "MarketBeat",
+          "title": "Lam Research (NASDAQ:LRCX) Stock Price Down 4.9% - What's Next?",
+          "url": "https://www.marketbeat.com/instant-alerts/price-lam-research-nasdaq-lrcx-stock-price-down-49-whats-next-2026-10-16/"
+        },
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 169.52,
+      "prev_close": 178.14,
+      "pct_change": -4.84,
+      "market_cap_usd": 219665889657,
+      "is_mover": true,
+      "reason": "Dropped ~4.8% with the broad software/tech selloff that erased more than $260B from a Yahoo software basket; no Shopify-specific press release or same-day analyst action identified for Oct. 16—move tracked AI/software risk-off.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Palantir's record breakout unravels as software stocks shed $260 billion",
+          "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        },
+        {
+          "outlet": "X (@MarketWatch)",
+          "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+          "url": "https://x.com/MarketWatch/status/2111216765204140088"
+        }
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 409.29,
+      "prev_close": 430.01,
+      "pct_change": -4.82,
+      "market_cap_usd": 324811486679,
+      "is_mover": true,
+      "reason": "Fell ~4.8% as semiconductor equipment kept giving back gains with SOX’s multi-day slide and lingering uncertainty after Applied’s recent Investor Day left near-term WFE spending visibility cloudy; no new Applied press release on Friday.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Applied Materials shares slide as chip equipment outlook remains uncertain",
+          "url": "https://www.investing.com/news/stock-market-news/applied-materials-shares-slide-as-chip-equipment-outlook-remains-uncertain-4947269"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 328.75,
+      "prev_close": 344.33,
+      "pct_change": -4.52,
+      "market_cap_usd": 1569330775843,
+      "is_mover": true,
+      "reason": "Dropped ~4.5% (CBS: −4.5%) as Broadcom CEO Hock Tan’s Oct. 12 Singapore warning—that capital, not chips/memory, may be AI’s biggest constraint—hung over custom AI ASIC names while Friday’s CoreWeave debt scare hit cloud-customer funding assumptions.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Intel, Broadcom CEOs warn capital crunch could become AI bottleneck",
+          "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Broadcom Falls 4% as CEO Hock Tan's Capital Warning Hangs Over AI Chips; Marvell Drops 4%",
+          "url": "https://247wallst.com/investing/2026/10/16/broadcom-falls-4-as-ceo-hock-tans-capital-warning-hangs-over-ai-chips-marvell-drops-4/"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 709.33,
+      "prev_close": 736.72,
+      "pct_change": -3.72,
+      "market_cap_usd": 1807009824682,
+      "is_mover": true,
+      "reason": "Fell ~3.7% with AI mega-caps after Goldman Sachs on Oct. 14 cut its Meta price target to $762 from $860 (Buy retained), citing potential upward pressure on 2027 opex from product/AI investment even while raising revenue estimates on digital-ad trends.",
+      "sources": [
+        {
+          "outlet": "TipRanks / TheFly",
+          "title": "Meta Platforms price target lowered to $762 from $860 at Goldman Sachs",
+          "url": "https://www.tipranks.com/news/the-fly/meta-platforms-price-target-lowered-to-762-from-860-at-goldman-sachs-thefly-news"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Meta's AI Push Draws Fresh Street Calls – Goldman Flags Higher Costs, UBS Sees Monetization Potential",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/metas-ai-push-draws-fresh-132147471.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 172.11,
+      "prev_close": 178.4,
+      "pct_change": -3.53,
+      "market_cap_usd": 180755767497,
+      "is_mover": true,
+      "reason": "Gave back Thursday’s bounce (−3.5%) as the chip complex sold off with SOX’s multi-day decline and CoreWeave-centered AI financing fears; no new Qualcomm IR release on Oct. 16—move was sector-driven after the prior session’s Arm-verdict/licensing optimism.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "Chip Stocks’ On Track For 8-Day Slide Erasing $2 Trillion, Matches Worst Streak Since Financial Crisis",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-track-8-day-181028043.html"
+        },
+        {
+          "outlet": "CBS News",
+          "title": "Tech stocks tumble as AI debt fears rattle Wall Street",
+          "url": "https://www.cbsnews.com/news/tech-stocks-slide-ai-debt-concerns/"
+        },
+        {
+          "outlet": "X (@MarketWatch)",
+          "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+          "url": "https://x.com/MarketWatch/status/2111216765204140088"
         }
       ]
     },
     {
       "ticker": "NFLX",
       "name": "Netflix Inc. Common Stock",
-      "close": 72.61,
-      "prev_close": 70.57,
-      "pct_change": 2.89,
-      "market_cap_usd": 302343662416,
-      "is_mover": false
-    },
-    {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 244.79,
-      "prev_close": 238.01,
-      "pct_change": 2.85,
-      "market_cap_usd": 260470083242,
-      "is_mover": false
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 95.37,
-      "prev_close": 98.12,
-      "pct_change": -2.8,
-      "market_cap_usd": 504037083189,
-      "is_mover": false
-    },
-    {
-      "ticker": "GILD",
-      "name": "Gilead Sciences Inc. Common Stock",
-      "close": 157.37,
-      "prev_close": 153.54,
-      "pct_change": 2.49,
-      "market_cap_usd": 195131730100,
-      "is_mover": false
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA Corporation Common Stock",
-      "close": 174.46,
-      "prev_close": 178.81,
-      "pct_change": -2.43,
-      "market_cap_usd": 227671434638,
-      "is_mover": false
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 148.62,
-      "prev_close": 152.16,
-      "pct_change": -2.33,
-      "market_cap_usd": 2017192726811,
-      "is_mover": false
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 356.45,
-      "prev_close": 364.1,
-      "pct_change": -2.1,
-      "market_cap_usd": 128514819627,
-      "is_mover": false
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 244.57,
-      "prev_close": 249.29,
-      "pct_change": -1.89,
-      "market_cap_usd": 250423739475,
-      "is_mover": false
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology Inc. Common Stock",
-      "close": 931.24,
-      "prev_close": 914.13,
-      "pct_change": 1.87,
-      "market_cap_usd": 1051736105522,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 434.03,
-      "prev_close": 426.11,
-      "pct_change": 1.86,
-      "market_cap_usd": 234650502073,
-      "is_mover": false
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 217.23,
-      "prev_close": 221.3,
-      "pct_change": -1.84,
-      "market_cap_usd": 5235243030786,
-      "is_mover": false
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 427.86,
-      "prev_close": 420.24,
-      "pct_change": 1.81,
-      "market_cap_usd": 151153532078,
-      "is_mover": false
-    },
-    {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 241.24,
-      "prev_close": 245.28,
-      "pct_change": -1.65,
-      "market_cap_usd": 211543360817,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 562.23,
-      "prev_close": 570.82,
-      "pct_change": -1.5,
-      "market_cap_usd": 917826410980,
-      "is_mover": false
-    },
-    {
-      "ticker": "WMT",
-      "name": "Walmart Inc. Common Stock",
-      "close": 117.87,
-      "prev_close": 116.16,
-      "pct_change": 1.47,
-      "market_cap_usd": 935150693934,
-      "is_mover": false
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla Inc. Common Stock",
-      "close": 362.44,
-      "prev_close": 367.16,
-      "pct_change": -1.29,
-      "market_cap_usd": 1431473925599,
-      "is_mover": false
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 370.27,
-      "prev_close": 375.04,
-      "pct_change": -1.27,
-      "market_cap_usd": 302880843742,
-      "is_mover": false
-    },
-    {
-      "ticker": "FTNT",
-      "name": "Fortinet Inc. Common Stock",
-      "close": 181.91,
-      "prev_close": 184.05,
-      "pct_change": -1.16,
-      "market_cap_usd": 133469849765,
-      "is_mover": false
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation Common Stock",
-      "close": 539.44,
-      "prev_close": 533.69,
-      "pct_change": 1.08,
-      "market_cap_usd": 4005636333656,
-      "is_mover": false
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc. American Depositary Shares",
-      "close": 146.11,
-      "prev_close": 147.55,
-      "pct_change": -0.98,
-      "market_cap_usd": 1064945363168,
-      "is_mover": false
-    },
-    {
-      "ticker": "PEP",
-      "name": "PepsiCo Inc. Common Stock",
-      "close": 128.38,
-      "prev_close": 129.27,
-      "pct_change": -0.69,
-      "market_cap_usd": 175224782753,
-      "is_mover": false
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation Common Stock",
-      "close": 1394.83,
-      "prev_close": 1403.34,
-      "pct_change": -0.61,
-      "market_cap_usd": 204229604634,
-      "is_mover": false
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc. Common Stock",
-      "close": 344.33,
-      "prev_close": 346.25,
-      "pct_change": -0.55,
-      "market_cap_usd": 1643703863037,
-      "is_mover": false
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated Common Stock",
-      "close": 279.12,
-      "prev_close": 280.65,
-      "pct_change": -0.55,
-      "market_cap_usd": 254905694932,
-      "is_mover": false
-    },
-    {
-      "ticker": "TMUS",
-      "name": "T-Mobile US Inc. Common Stock",
-      "close": 157.03,
-      "prev_close": 157.79,
-      "pct_change": -0.48,
-      "market_cap_usd": 168441622704,
+      "close": 70.53,
+      "prev_close": 72.61,
+      "pct_change": -2.86,
+      "market_cap_usd": 293682660265,
       "is_mover": false
     },
     {
       "ticker": "GOOGL",
       "name": "Alphabet Inc. Class A Common Stock",
-      "close": 349.22,
-      "prev_close": 347.64,
-      "pct_change": 0.45,
-      "market_cap_usd": 4270960599882,
+      "close": 340.59,
+      "prev_close": 349.22,
+      "pct_change": -2.47,
+      "market_cap_usd": 4165415640537,
       "is_mover": false
     },
     {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1657.44,
-      "prev_close": 1650.0,
-      "pct_change": 0.45,
-      "market_cap_usd": 638806637126,
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 131.49,
+      "prev_close": 128.38,
+      "pct_change": 2.42,
+      "market_cap_usd": 179469596280,
       "is_mover": false
     },
     {
-      "ticker": "COST",
-      "name": "Costco Wholesale Corporation Common Stock",
-      "close": 978.01,
-      "prev_close": 982.0,
-      "pct_change": -0.41,
-      "market_cap_usd": 433726700258,
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 107.39,
+      "prev_close": 109.85,
+      "pct_change": -2.24,
+      "market_cap_usd": 423394403031,
       "is_mover": false
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 342.0,
-      "prev_close": 342.96,
-      "pct_change": -0.28,
-      "market_cap_usd": 4991209340368,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com Inc. Common Stock",
-      "close": 254.76,
-      "prev_close": 254.08,
-      "pct_change": 0.27,
-      "market_cap_usd": 2747921253066,
-      "is_mover": false
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 200.5,
-      "prev_close": 200.97,
-      "pct_change": -0.23,
-      "market_cap_usd": 481611738260,
-      "is_mover": false
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 736.72,
-      "prev_close": 737.54,
-      "pct_change": -0.11,
-      "market_cap_usd": 1876798649688,
-      "is_mover": false
-    },
-    {
-      "ticker": "LIN",
-      "name": "Linde plc Ordinary Shares",
-      "close": 493.22,
-      "prev_close": 492.7,
-      "pct_change": 0.11,
-      "market_cap_usd": 227364634256,
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 354.72,
+      "prev_close": 362.44,
+      "pct_change": -2.13,
+      "market_cap_usd": 1400983415781,
       "is_mover": false
     },
     {
       "ticker": "ADI",
       "name": "Analog Devices Inc. Common Stock",
-      "close": 403.95,
-      "prev_close": 403.57,
-      "pct_change": 0.09,
-      "market_cap_usd": 195740222652,
+      "close": 395.44,
+      "prev_close": 403.95,
+      "pct_change": -2.11,
+      "market_cap_usd": 191616565873,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 529.05,
+      "prev_close": 539.44,
+      "pct_change": -1.93,
+      "market_cap_usd": 3928484806156,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 250.0,
+      "prev_close": 254.76,
+      "pct_change": -1.87,
+      "market_cap_usd": 2696578458468,
+      "is_mover": false
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 146.03,
+      "prev_close": 148.62,
+      "pct_change": -1.74,
+      "market_cap_usd": 1982039167755,
+      "is_mover": false
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 214.13,
+      "prev_close": 217.23,
+      "pct_change": -1.43,
+      "market_cap_usd": 5160533249519,
+      "is_mover": false
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 159.1,
+      "prev_close": 157.03,
+      "pct_change": 1.32,
+      "market_cap_usd": 170662060808,
+      "is_mover": false
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 989.11,
+      "prev_close": 978.01,
+      "pct_change": 1.13,
+      "market_cap_usd": 438649304051,
+      "is_mover": false
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 498.43,
+      "prev_close": 493.22,
+      "pct_change": 1.06,
+      "market_cap_usd": 229766336942,
+      "is_mover": false
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1641.52,
+      "prev_close": 1657.44,
+      "pct_change": -0.96,
+      "market_cap_usd": 632670817962,
+      "is_mover": false
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 276.48,
+      "prev_close": 279.12,
+      "pct_change": -0.95,
+      "market_cap_usd": 252494735484,
+      "is_mover": false
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "close": 118.81,
+      "prev_close": 117.87,
+      "pct_change": 0.8,
+      "market_cap_usd": 942608374262,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 156.19,
+      "prev_close": 157.37,
+      "pct_change": -0.75,
+      "market_cap_usd": 193668592149,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 343.46,
+      "prev_close": 342.0,
+      "pct_change": 0.43,
+      "market_cap_usd": 5012516717524,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 432.49,
+      "prev_close": 434.03,
+      "pct_change": -0.35,
+      "market_cap_usd": 233817924188,
+      "is_mover": false
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 426.7,
+      "prev_close": 427.86,
+      "pct_change": -0.27,
+      "market_cap_usd": 150743739053,
       "is_mover": false
     }
   ]
