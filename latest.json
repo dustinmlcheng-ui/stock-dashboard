@@ -1,512 +1,731 @@
 {
-  "session_date": "2026-10-21",
-  "generated_at": "2026-10-22T06:24:12+08:00",
+  "session_date": "2026-10-22",
+  "generated_at": "2026-10-23T06:23:46+08:00",
   "threshold_pct": 3,
-  "market_context": "The Nasdaq-100 rose 1.13% to 29,822.52 (QQQ +1.05% to $725.20) as SpaceX’s blowout Q3 and Super Micro’s upbeat AI-server outlook revived AI sentiment, while Netflix lagged after soft Q4 and ad guidance.",
-  "market_cap_basis": "Shares outstanding x 2026-10-21 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 fell 2.90% to 28,958.69 (QQQ −2.86% to $704.47) as AI-spending and dilution fears flared after Meta’s Class C share plan and higher capex, Lam Research flagged supply-chain limits on guidance, and the PHLX Semiconductor Index sank about 6.7%; oil also jumped on Iran-war headlines.",
+  "market_cap_basis": "Shares outstanding x 2026-10-22 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
     {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 159.31,
-      "prev_close": 147.79,
-      "pct_change": 7.79,
-      "market_cap_usd": 2162286226225,
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 230.15,
+      "prev_close": 260.81,
+      "pct_change": -11.76,
+      "market_cap_usd": 288015319444,
       "is_mover": true,
-      "reason": "Surged 7.8% after SpaceX reported Q3 revenue of $14.6 billion (+161% YoY) and net income of $4.4 billion—its first profit as a public company—with Super Intelligence revenue up about ninefold, and CEO Elon Musk said SpaceX and Tesla each formed independent special committees to explore a possible merger (no deal assured).",
+      "reason": "Plunged 11.8% after record September-quarter results ($8.22B revenue, non-GAAP EPS $2.20) as investors focused on December guidance of $8.6B ±$400M that CFO Doug Bettinger said “would have been a bit higher if not for some near-term supply chain constraints,” plus commentary that China’s revenue share (35% in September) is expected to fall sharply next quarter.",
       "sources": [
         {
-          "outlet": "SpaceX / SEC",
-          "title": "SpaceX Reports Third Quarter 2026 Results",
-          "url": "https://ir.spacex.com/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf"
-        },
-        {
-          "outlet": "X (@SpaceX)",
-          "title": "Q3 2026 highlights: revenue $14.6B, up 161% year-over-year",
-          "url": "https://x.com/SpaceX/status/2112638276389790102"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "SpaceX, Tesla shares rise after Musk says committees exploring possible merger",
-          "url": "https://www.investing.com/news/stock-market-news/spacex-and-tesla-form-special-committees-to-evaluate-potential-merger-musk-says-4961262"
-        }
-      ]
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix Inc. Common Stock",
-      "close": 65.04,
-      "prev_close": 68.69,
-      "pct_change": -5.31,
-      "market_cap_usd": 270822640339,
-      "is_mover": true,
-      "reason": "Dropped 5.3% after Q3 EPS of $0.87 beat estimates and revenue of $12.87B was in line, but Q4 revenue guidance of $13.44B missed consensus and 2026 ad-revenue guidance was cut to about $2.7B from $3B; Needham cut the stock to Hold from Buy and other firms trimmed targets on engagement and growth concerns.",
-      "sources": [
-        {
-          "outlet": "Netflix",
-          "title": "Q3 2026 Shareholder Letter",
-          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf"
+          "outlet": "Lam Research",
+          "title": "Lam Research Corporation Reports Financial Results for the Quarter Ended September 27, 2026",
+          "url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "Netflix stock sinks as Wall Street lowers price targets following Q4 revenue forecast miss",
-          "url": "https://finance.yahoo.com/markets/stocks/article/netflix-stock-sinks-after-announcing-q3-earnings-q4-revenue-forecast-falls-short-of-estimates-204545261.html"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance",
-          "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 239.34,
-      "prev_close": 227.37,
-      "pct_change": 5.26,
-      "market_cap_usd": 245068549266,
-      "is_mover": true,
-      "reason": "Gained 5.3% after announcing an expanded NVIDIA collaboration at GTC Berlin: Falcon Guardian AIDR will integrate with NVIDIA OpenShell secure runtime, with planned in-silicon enforcement via NVIDIA Sentry on BlueField-4 DPUs, extending AI-agent security from software to silicon.",
-      "sources": [
-        {
-          "outlet": "CrowdStrike",
-          "title": "CrowdStrike and NVIDIA Expand AI Agent Security from Software to Silicon",
-          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-and-nvidia-expand-ai-agent-security-software-silicon/"
-        },
-        {
-          "outlet": "X (@CrowdStrike)",
-          "title": "CrowdStrike and NVIDIA extending AI agent security from software to silicon",
-          "url": "https://x.com/CrowdStrike/status/2112933741744034237"
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
           "outlet": "Investing.com",
-          "title": "CrowdStrike expands NVIDIA partnership for AI agent security",
-          "url": "https://www.investing.com/news/company-news/crowdstrike-expands-nvidia-partnership-for-ai-agent-security-93CH-4962640"
+          "title": "Why is Lam Research stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-lam-research-stock-sliding-today-93CH-4965056"
         }
       ]
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 201.72,
-      "prev_close": 192.6,
-      "pct_change": 4.74,
-      "market_cap_usd": 484542246532,
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 147.83,
+      "prev_close": 163.43,
+      "pct_change": -9.55,
+      "market_cap_usd": 192919106409,
       "is_mover": true,
-      "reason": "Rose 4.7% with AI and software names as Nasdaq rebounded on SpaceX/Super Micro AI-demand optimism; Knox Systems’ Oct. 19 FedRAMP/IL5 federal-cloud partnership with Palantir remained a recent positive, but no clearer same-day company-specific catalyst stood out versus the sector move.",
+      "reason": "No clear company-specific news; fell with chip-equipment peers after Lam Research’s supply-constrained guidance and a broad AI/semiconductor selloff that sent the PHLX Semiconductor Index down about 6.7%.",
       "sources": [
         {
-          "outlet": "Business Wire / Palantir",
-          "title": "Knox and Palantir Partner to Further Accelerate Delivery of Software through Largest Federal Cloud",
-          "url": "https://www.businesswire.com/news/home/20261019277683/en/Knox-and-Palantir-Partner-to-Further-Accelerate-Delivery-of-Software-through-Largest-Federal-Cloud"
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "24/7 Wall St.",
-          "title": "Palantir Rises 4% as Software Stocks Rally; ServiceNow Gains 3%, Salesforce Holds Flat",
-          "url": "https://247wallst.com/investing/2026/10/21/palantir-rises-4-as-software-stocks-rally-servicenow-gains-3-salesforce-holds-flat/"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "S&P 500 notches 3-day win streak, Nasdaq jumps 1% as SpaceX and Tesla rally",
-          "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
         }
       ]
     },
     {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 378.51,
-      "prev_close": 364.32,
-      "pct_change": 3.89,
-      "market_cap_usd": 136468351708,
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 144.75,
+      "prev_close": 159.31,
+      "pct_change": -9.14,
+      "market_cap_usd": 1964665972271,
       "is_mover": true,
-      "reason": "Climbed 3.9% ahead of Oct. 22 fiscal Q1 results after Bank of America raised its price target to $800 from $720 and kept a Buy rating, extending bullish HDD/AI-storage sentiment that also lifted Seagate; Wedbush likewise expected storage names to beat estimates.",
+      "reason": "Dropped 9.1%, giving back Wednesday’s ~7.8% post-earnings rally, as the AI-capex scare hit high-spenders: SpaceX guided Q4 capex to $35–40B (from $19.6B in Q3) with $36.1B of debt, and MoffettNathanson said the call amplified “enormous calls on capital” ahead; Meta’s dilution fears and Iran/oil headlines added pressure.",
       "sources": [
         {
-          "outlet": "MarketBeat",
-          "title": "Western Digital (NASDAQ:WDC) Stock Gets Price Target Boost from Bank of America",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-western-digital-nasdaq-wdc-stock-gets-price-target-boost-from-bank-of-america-2026-10-21/"
+          "outlet": "Yahoo Finance",
+          "title": "SpaceX stock slips as tech trade tumbles",
+          "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-slips-as-tech-trade-tumbles-155900111.html"
         },
         {
-          "outlet": "MarketBeat",
-          "title": "Western Digital (NASDAQ:WDC) Stock Jumps 3.9% on Analyst Upgrade",
-          "url": "https://www.marketbeat.com/instant-alerts/price-western-digital-nasdaq-wdc-stock-jumps-39-on-analyst-upgrade-2026-10-21/"
-        },
-        {
-          "outlet": "Ava Advisor / Wedbush",
-          "title": "Wedbush Sees Seagate and Western Digital Beating Earnings Estimates",
-          "url": "https://ava.fund/news/wedbush-sees-seagate-and-western-digital-beating-earnings-estimates-21102026"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
         }
       ]
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla Inc. Common Stock",
-      "close": 386.47,
-      "prev_close": 373.71,
-      "pct_change": 3.41,
-      "market_cap_usd": 1526381541903,
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 223.47,
+      "prev_close": 244.76,
+      "pct_change": -8.7,
+      "market_cap_usd": 195960844070,
       "is_mover": true,
-      "reason": "Advanced 3.4% after Elon Musk said Tesla and SpaceX formed independent special committees to evaluate a potential merger (early stage, no certainty), alongside SpaceX’s strong Q3; Tesla was also due to report earnings after the close.",
+      "reason": "No clear company-specific news; sold off with AI chip peers after Lam Research’s cautious guidance and Meta-led AI-funding worries dragged the semiconductor complex lower (MRVL was cited among the session’s larger chip declines).",
       "sources": [
         {
-          "outlet": "Investing.com",
-          "title": "SpaceX, Tesla shares rise after Musk says committees exploring possible merger",
-          "url": "https://www.investing.com/news/stock-market-news/spacex-and-tesla-form-special-committees-to-evaluate-potential-merger-musk-says-4961262"
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "Benzinga",
-          "title": "TSLA, SPCX Stocks Are Trending In Pre-Market After Elon Musk Confirms Tesla-SpaceX Merger Committees",
-          "url": "https://www.benzinga.com/markets/equities/26/10/62487368/tesla-spacex-shares-rise-musk-confirms-merger-committees"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation Common Stock",
+      "close": 1260.93,
+      "prev_close": 1378.22,
+      "pct_change": -8.51,
+      "market_cap_usd": 184624115092,
+      "is_mover": true,
+      "reason": "No clear company-specific news; memory/storage names including Sandisk traded lower with the broader AI and semiconductor selloff tied to Lam Research’s supply-chain commentary and Meta AI-spending fears.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "CNBC",
-          "title": "S&P 500 notches 3-day win streak, Nasdaq jumps 1% as SpaceX and Tesla rally",
-          "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 375.58,
+      "prev_close": 408.94,
+      "pct_change": -8.16,
+      "market_cap_usd": 298059300883,
+      "is_mover": true,
+      "reason": "No clear company-specific news; chip-equipment peer Applied Materials fell alongside Lam Research after Lam’s supply-constrained December guide and China-mix comments sparked a sector-wide de-risking.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
         }
       ]
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 552.72,
-      "prev_close": 534.74,
-      "pct_change": 3.36,
-      "market_cap_usd": 902301557388,
+      "close": 507.93,
+      "prev_close": 552.72,
+      "pct_change": -8.1,
+      "market_cap_usd": 829183036127,
       "is_mover": true,
-      "reason": "Gained 3.4% as Susquehanna raised its price target to $620 from $550 and kept a Positive rating, while AI-chip peers rebounded after Super Micro’s upbeat AI-server guidance and SpaceX’s AI-heavy earnings lifted sector sentiment.",
+      "reason": "No clear company-specific news; declined with AI GPU and semiconductor peers as investors fretted over AI infrastructure funding and Lam Research’s supply-chain-limited outlook.",
       "sources": [
         {
-          "outlet": "TipRanks / The Fly",
-          "title": "AMD price target raised to $620 from $550 at Susquehanna",
-          "url": "https://www.tipranks.com/news/the-fly/amd-price-target-raised-to-620-from-550-at-susquehanna-thefly-news"
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "Investing.com",
-          "title": "Why is Advanced Micro Devices stock climbing today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-climbing-today-93CH-4963330"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 131.69,
+      "prev_close": 143.25,
+      "pct_change": -8.07,
+      "market_cap_usd": 959842973717,
+      "is_mover": true,
+      "reason": "No clear company-specific news; SK hynix ADRs fell with memory and semiconductor peers amid the Lam Research–led chip selloff and broader AI-spending risk-off move.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "CNBC",
-          "title": "Nasdaq jumps 1% as SpaceX and Tesla rally; AMD advanced more than 3%",
-          "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 85.49,
+      "prev_close": 92.96,
+      "pct_change": -8.04,
+      "market_cap_usd": 451820571711,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Intel dropped with the semiconductor complex after Lam Research’s cautious guidance and Meta-driven AI-funding concerns hit chip stocks broadly.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
         }
       ]
     },
     {
       "ticker": "STX",
       "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 696.89,
-      "prev_close": 675.13,
-      "pct_change": 3.22,
-      "market_cap_usd": 159391669532,
+      "close": 642.14,
+      "prev_close": 696.89,
+      "pct_change": -7.86,
+      "market_cap_usd": 146869329244,
       "is_mover": true,
-      "reason": "Rose 3.2% after Bank of America raised its price target to $1,200 from $1,150 and reiterated Buy, citing stronger-than-expected HDD demand, pricing, and a higher fiscal-2027 outlook ahead of Seagate’s next earnings; peer Western Digital also rallied on related analyst support.",
+      "reason": "No clear company-specific news; Seagate fell with storage and semiconductor peers in the AI-trade unwind, reversing recent HDD strength as risk appetite rotated out of AI-linked names.",
       "sources": [
         {
-          "outlet": "Proactive Investors",
-          "title": "Seagate price target raised as Bank of America sees strong demand for hard drives",
-          "url": "https://www.proactiveinvestors.com/companies/news/1100497/seagate-price-target-raised-as-bank-of-america-sees-strong-demand-for-hard-drives-1100497.html"
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "MarketBeat",
-          "title": "Seagate Technology (NASDAQ:STX) Stock Price Target Raised at Bank of America",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-seagate-technology-nasdaq-stx-stock-price-target-raised-at-bank-of-america-2026-10-21/"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 210.1,
+      "prev_close": 226.59,
+      "pct_change": -7.28,
+      "market_cap_usd": 223558019445,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Arm declined with AI/semiconductor peers as Lam Research’s supply-chain comments and Meta AI-spending dilution fears sparked a sector selloff.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
         },
         {
-          "outlet": "Ava Advisor / Wedbush",
-          "title": "Wedbush Sees Seagate and Western Digital Beating Earnings Estimates",
-          "url": "https://ava.fund/news/wedbush-sees-seagate-and-western-digital-beating-earnings-estimates-21102026"
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 648.85,
+      "prev_close": 697.52,
+      "pct_change": -6.98,
+      "market_cap_usd": 1652949297502,
+      "is_mover": true,
+      "reason": "Fell about 7% despite a Q3 revenue beat ($64.6B, +26% YoY) after free cash flow turned negative (−$2.12B), full-year capex guidance was raised at the low end to $135–145B from $130–145B, and Meta said it would create non-voting Class C shares to help finance AI growth—fueling dilution and credit-concern headlines (CDS at records).",
+      "sources": [
+        {
+          "outlet": "Meta",
+          "title": "Meta Reports Third Quarter 2026 Results",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Meta stock sinks nearly 7% as AI spend pushes free cash flow negative",
+          "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        },
+        {
+          "outlet": "X (@MetaNewsroom)",
+          "title": "A few highlights from Q3 2026",
+          "url": "https://x.com/MetaNewsroom/status/2113020000436916736"
+        },
+        {
+          "outlet": "X (@CNBC)",
+          "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+          "url": "https://x.com/CNBC/status/2113296648386326639"
         }
       ]
     },
     {
       "ticker": "ASML",
       "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1676.69,
-      "prev_close": 1630.84,
-      "pct_change": 2.81,
-      "market_cap_usd": 646225927236,
-      "is_mover": false
+      "close": 1560.54,
+      "prev_close": 1676.69,
+      "pct_change": -6.93,
+      "market_cap_usd": 601459702732,
+      "is_mover": true,
+      "reason": "No clear company-specific news; ASML fell with wafer-fab equipment peers after Lam Research’s supply-constrained outlook and the broader AI/semiconductor risk-off session.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 221.97,
-      "prev_close": 216.47,
-      "pct_change": 2.54,
-      "market_cap_usd": 5349477166090,
-      "is_mover": false
-    },
-    {
-      "ticker": "TMUS",
-      "name": "T-Mobile US Inc. Common Stock",
-      "close": 153.75,
-      "prev_close": 157.75,
-      "pct_change": -2.54,
-      "market_cap_usd": 164923261110,
-      "is_mover": false
-    },
-    {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 226.59,
-      "prev_close": 221.06,
-      "pct_change": 2.5,
-      "market_cap_usd": 241104280512,
-      "is_mover": false
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc. American Depositary Shares",
-      "close": 143.25,
-      "prev_close": 139.79,
-      "pct_change": 2.48,
-      "market_cap_usd": 1044099805876,
-      "is_mover": false
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated Common Stock",
-      "close": 284.65,
-      "prev_close": 277.78,
-      "pct_change": 2.47,
-      "market_cap_usd": 259955953626,
-      "is_mover": false
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 428.12,
-      "prev_close": 438.0,
-      "pct_change": -2.26,
-      "market_cap_usd": 151245387815,
-      "is_mover": false
-    },
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices Inc. Common Stock",
-      "close": 405.96,
-      "prev_close": 397.05,
-      "pct_change": 2.24,
-      "market_cap_usd": 196714189166,
-      "is_mover": false
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 347.25,
-      "prev_close": 340.28,
-      "pct_change": 2.05,
-      "market_cap_usd": 284050493180,
-      "is_mover": false
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 354.19,
+      "prev_close": 378.51,
+      "pct_change": -6.43,
+      "market_cap_usd": 127699993600,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Western Digital sold off with memory/storage and AI-linked semis as investors rotated out of the AI trade after Meta and Lam Research headlines.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
     },
     {
       "ticker": "MU",
       "name": "Micron Technology Inc. Common Stock",
-      "close": 913.67,
-      "prev_close": 896.07,
-      "pct_change": 1.96,
-      "market_cap_usd": 1031892658858,
-      "is_mover": false
+      "close": 856.49,
+      "prev_close": 913.67,
+      "pct_change": -6.26,
+      "market_cap_usd": 967313964385,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Micron declined with memory highfliers amid the Lam Research–triggered semiconductor selloff and Meta AI-spending anxiety.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
     },
     {
-      "ticker": "GILD",
-      "name": "Gilead Sciences Inc. Common Stock",
-      "close": 153.57,
-      "prev_close": 156.51,
-      "pct_change": -1.88,
-      "market_cap_usd": 190419915807,
-      "is_mover": false
-    },
-    {
-      "ticker": "FTNT",
-      "name": "Fortinet Inc. Common Stock",
-      "close": 174.05,
-      "prev_close": 170.93,
-      "pct_change": 1.83,
-      "market_cap_usd": 127702860157,
-      "is_mover": false
-    },
-    {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 244.76,
-      "prev_close": 240.42,
-      "pct_change": 1.81,
-      "market_cap_usd": 214630039183,
-      "is_mover": false
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. Class A Common Stock",
-      "close": 334.76,
-      "prev_close": 340.28,
-      "pct_change": -1.62,
-      "market_cap_usd": 4094114905009,
-      "is_mover": false
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 92.96,
-      "prev_close": 91.69,
-      "pct_change": 1.39,
-      "market_cap_usd": 491300046581,
-      "is_mover": false
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 343.99,
-      "prev_close": 339.5,
-      "pct_change": 1.32,
-      "market_cap_usd": 5020251614768,
-      "is_mover": false
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 177.96,
-      "prev_close": 175.71,
-      "pct_change": 1.28,
-      "market_cap_usd": 186899642573,
-      "is_mover": false
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA Corporation Common Stock",
-      "close": 163.43,
-      "prev_close": 161.74,
-      "pct_change": 1.04,
-      "market_cap_usd": 213277195136,
-      "is_mover": false
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc. Common Stock",
-      "close": 337.8,
-      "prev_close": 334.37,
-      "pct_change": 1.03,
-      "market_cap_usd": 1612532066685,
-      "is_mover": false
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation Common Stock",
-      "close": 260.81,
-      "prev_close": 263.45,
-      "pct_change": -1.0,
-      "market_cap_usd": 326383996320,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 408.94,
-      "prev_close": 404.98,
-      "pct_change": 0.98,
-      "market_cap_usd": 324533722745,
-      "is_mover": false
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation Common Stock",
-      "close": 1378.22,
-      "prev_close": 1365.38,
-      "pct_change": 0.94,
-      "market_cap_usd": 201797587221,
-      "is_mover": false
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 107.26,
-      "prev_close": 106.71,
-      "pct_change": 0.52,
-      "market_cap_usd": 422881877564,
-      "is_mover": false
-    },
-    {
-      "ticker": "PEP",
-      "name": "PepsiCo Inc. Common Stock",
-      "close": 134.7,
-      "prev_close": 134.02,
-      "pct_change": 0.51,
-      "market_cap_usd": 183850886465,
-      "is_mover": false
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 697.52,
-      "prev_close": 694.25,
-      "pct_change": 0.47,
-      "market_cap_usd": 1776936533344,
-      "is_mover": false
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 174.29,
-      "prev_close": 173.48,
-      "pct_change": 0.47,
-      "market_cap_usd": 225846893987,
-      "is_mover": false
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco Wholesale Corporation Common Stock",
-      "close": 998.31,
-      "prev_close": 994.61,
-      "pct_change": 0.37,
-      "market_cap_usd": 442729314375,
-      "is_mover": false
-    },
-    {
-      "ticker": "LIN",
-      "name": "Linde plc Ordinary Shares",
-      "close": 500.57,
-      "prev_close": 501.89,
-      "pct_change": -0.26,
-      "market_cap_usd": 230752841234,
-      "is_mover": false
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation Common Stock",
-      "close": 532.95,
-      "prev_close": 531.87,
-      "pct_change": 0.2,
-      "market_cap_usd": 3957444615263,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 438.34,
-      "prev_close": 438.94,
-      "pct_change": -0.14,
-      "market_cap_usd": 236980624631,
-      "is_mover": false
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 385.76,
+      "prev_close": 405.96,
+      "pct_change": -4.98,
+      "market_cap_usd": 186925975789,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Analog Devices fell with semiconductor peers in the broad chip/AI de-risking after Lam Research’s guidance commentary.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc. Common Stock",
-      "close": 262.37,
-      "prev_close": 262.63,
-      "pct_change": -0.1,
-      "market_cap_usd": 2830005107925,
+      "close": 250.38,
+      "prev_close": 262.37,
+      "pct_change": -4.57,
+      "market_cap_usd": 2700677310392,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Amazon fell with other hyperscalers as Meta’s Class C fundraising plan and AI-ROI concerns sparked a rotation out of big AI spenders ahead of Amazon’s own earnings.",
+      "sources": [
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        },
+        {
+          "outlet": "AP News",
+          "title": "How major US stock indexes fared Thursday 10/22/2026",
+          "url": "https://apnews.com/article/stocks-wall-street-nasdaq-dow-1970e79d013cbddcae89c53b4b98f384"
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 212.21,
+      "prev_close": 221.97,
+      "pct_change": -4.4,
+      "market_cap_usd": 5114261292465,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Nvidia, the AI-chip bellwether, dropped with semis as Lam Research’s supply-chain-limited guide and Meta AI-funding fears hit the Philadelphia Semiconductor Index (~−6.7%).",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 323.24,
+      "prev_close": 337.8,
+      "pct_change": -4.31,
+      "market_cap_usd": 1543028029377,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Broadcom declined with AI chip peers in the Lam Research– and Meta-driven semiconductor/AI selloff.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 443.85,
+      "prev_close": 428.12,
+      "pct_change": 3.67,
+      "market_cap_usd": 156802455084,
+      "is_mover": true,
+      "reason": "Rose 3.7% as investors bought the dip after Tuesday’s Q3 report: revenue $3.05B (+22%), non-GAAP EPS $3.00, procedures +15%, and 546 da Vinci placements, despite a $450M antitrust settlement charge and narrowed procedure-growth guide—helped by a defensive rotation out of AI/tech.",
+      "sources": [
+        {
+          "outlet": "Intuitive Surgical",
+          "title": "Intuitive Announces Third Quarter Earnings",
+          "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6/"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        }
+      ]
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 158.79,
+      "prev_close": 153.75,
+      "pct_change": 3.28,
+      "market_cap_usd": 170329518858,
+      "is_mover": true,
+      "reason": "No clear company-specific catalyst (Q3 due later this month); gained with defensive/telecom names as investors rotated out of AI and mega-cap tech into steadier cash-flow stories amid the Nasdaq selloff.",
+      "sources": [
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        },
+        {
+          "outlet": "AP News",
+          "title": "How major US stock indexes fared Thursday 10/22/2026",
+          "url": "https://apnews.com/article/stocks-wall-street-nasdaq-dow-1970e79d013cbddcae89c53b4b98f384"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 324.22,
+      "prev_close": 334.76,
+      "pct_change": -3.15,
+      "market_cap_usd": 3965210600959,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Alphabet fell with other hyperscalers as Meta’s AI fundraising/dilution headlines and AI-ROI worries dragged big tech lower.",
+      "sources": [
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        },
+        {
+          "outlet": "AP News",
+          "title": "How major US stock indexes fared Thursday 10/22/2026",
+          "url": "https://apnews.com/article/stocks-wall-street-nasdaq-dow-1970e79d013cbddcae89c53b4b98f384"
+        }
+      ]
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 168.81,
+      "prev_close": 174.29,
+      "pct_change": -3.14,
+      "market_cap_usd": 218745855133,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Shopify sold off with growth/tech peers in the Nasdaq risk-off session driven by AI-spending and Meta dilution concerns.",
+      "sources": [
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Steep bill for AI buildout punishes Meta, other tech favorites",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187"
+        },
+        {
+          "outlet": "AP News",
+          "title": "How major US stock indexes fared Thursday 10/22/2026",
+          "url": "https://apnews.com/article/stocks-wall-street-nasdaq-dow-1970e79d013cbddcae89c53b4b98f384"
+        }
+      ]
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc. Common Stock",
+      "close": 67.05,
+      "prev_close": 65.04,
+      "pct_change": 3.09,
+      "market_cap_usd": 279192167983,
+      "is_mover": true,
+      "reason": "Rebounded 3.1% after Wednesday’s ~5.3% post-earnings plunge on soft Q4/ad guidance; dip-buyers pointed to the Q3 profitability beat and a record ~$4.8B buyback as the Nasdaq elsewhere sold off.",
+      "sources": [
+        {
+          "outlet": "Motley Fool",
+          "title": "Stock Market Today, Oct. 22: Netflix Rises as Investors Capitalize on Post-Earnings Sell-Off",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/22/stock-market-today-oct-22-netflix-rises-as-investors-capitalize-on-post-earnings-sell-off/"
+        },
+        {
+          "outlet": "Netflix",
+          "title": "Q3 2026 Shareholder Letter",
+          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 374.58,
+      "prev_close": 386.47,
+      "pct_change": -3.08,
+      "market_cap_usd": 1479421366896,
+      "is_mover": true,
+      "reason": "Fell 3.1% despite a Q3 EPS beat as Tesla cut full-year 2026 capex guidance to about $20B from $25B (funding mainly from operating cash flow), which some investors read as slower AI/robotaxi/Optimus spend, while the broader AI/tech selloff and SpaceX-merger overhang added pressure.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend",
+          "url": "https://finance.yahoo.com/markets/stocks/article/tesla-stock-slips-despite-q3-earnings-beat-better-than-expected-capex-spend-101521707.html"
+        },
+        {
+          "outlet": "X (@Reuters)",
+          "title": "Tesla cuts spending before potential SpaceX deal even as Musk bets future on AI, robots",
+          "url": "https://x.com/Reuters/status/2113153404738428929"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Tesla shares slip after capex cut raises doubts over Musk’s AI and robotics push",
+          "url": "https://www.investing.com/news/stock-market-news/tesla-drops-as-spending-pullback-clouds-ai-robotics-ambitions-4965413"
+        }
+      ]
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 138.83,
+      "prev_close": 134.7,
+      "pct_change": 3.07,
+      "market_cap_usd": 189487895196,
+      "is_mover": true,
+      "reason": "Gained 3.1% after PepsiCo and Taco Bell announced an 11-year U.S. beverage partnership renewal through 2036 (keeping Baja Blast and other Pepsi brands in restaurants), a day after KFC’s U.S. switch to Coke—and as investors rotated into staples amid the tech selloff.",
+      "sources": [
+        {
+          "outlet": "PepsiCo",
+          "title": "Taco Bell and PepsiCo commit to 11 more years together",
+          "url": "https://www.pepsico.com/newsroom/press-releases/2026/pepsico-taco-bell-eleven-more-years-keep-mountain-dew-baja-blast-beverage-innovation-moving-forward"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Pepsi renews contract with Taco Bell after KFC Coke deal",
+          "url": "https://www.cnbc.com/2026/10/22/pepsico-taco-bell-beverage-deal.html"
+        },
+        {
+          "outlet": "Yahoo Finance / Stocktwits",
+          "title": "PEP Stock Gains After PepsiCo Locks In 11 More Years With Taco Bell Following KFC Loss To Coke",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/pep-stock-gains-pepsico-locks-181501351.html"
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 172.83,
+      "prev_close": 177.96,
+      "pct_change": -2.88,
+      "market_cap_usd": 181511937231,
       "is_mover": false
     },
     {
       "ticker": "WMT",
       "name": "Walmart Inc. Common Stock",
-      "close": 117.8,
-      "prev_close": 117.85,
-      "pct_change": -0.04,
-      "market_cap_usd": 934595334116,
+      "close": 121.12,
+      "prev_close": 117.8,
+      "pct_change": 2.82,
+      "market_cap_usd": 960935369292,
+      "is_mover": false
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 196.19,
+      "prev_close": 201.72,
+      "pct_change": -2.74,
+      "market_cap_usd": 471258893292,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 157.19,
+      "prev_close": 153.57,
+      "pct_change": 2.36,
+      "market_cap_usd": 194908547262,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 521.08,
+      "prev_close": 532.95,
+      "pct_change": -2.23,
+      "market_cap_usd": 3869303425313,
+      "is_mover": false
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 104.89,
+      "prev_close": 107.26,
+      "pct_change": -2.21,
+      "market_cap_usd": 413537935821,
+      "is_mover": false
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 354.92,
+      "prev_close": 347.25,
+      "pct_change": 2.21,
+      "market_cap_usd": 290324564014,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 447.28,
+      "prev_close": 438.34,
+      "pct_change": 2.04,
+      "market_cap_usd": 241813875944,
+      "is_mover": false
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 1018.21,
+      "prev_close": 998.31,
+      "pct_change": 1.99,
+      "market_cap_usd": 451554553215,
+      "is_mover": false
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 510.36,
+      "prev_close": 500.57,
+      "pct_change": 1.96,
+      "market_cap_usd": 235265826855,
+      "is_mover": false
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 279.5,
+      "prev_close": 284.65,
+      "pct_change": -1.81,
+      "market_cap_usd": 255252733520,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 348.22,
+      "prev_close": 343.99,
+      "pct_change": 1.23,
+      "market_cap_usd": 5081985153788,
+      "is_mover": false
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet Inc. Common Stock",
+      "close": 172.98,
+      "prev_close": 174.05,
+      "pct_change": -0.61,
+      "market_cap_usd": 126917781196,
+      "is_mover": false
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 237.94,
+      "prev_close": 239.34,
+      "pct_change": -0.58,
+      "market_cap_usd": 243635046807,
       "is_mover": false
     }
   ]
