@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nasdaq 40 Dashboard · 2026-10-27</title>
+<title>Nasdaq 40 Dashboard · 2026-10-29</title>
 <style>
 :root {
   --bg: #f5f7fb; --panel: #fff; --text: #0f172a; --muted: #64748b; --line: #e2e8f0;
@@ -158,22 +158,22 @@ footer p { margin: 4px 0; overflow-wrap: anywhere; }
 <script>
 window.DASHBOARD_DATA = {
  "is_example": false,
- "session_date": "2026-10-27",
- "market_context": "The Nasdaq-100 rose 1.29% to 29,651.44 (QQQ +1.27% to $721.25) as chips extended Monday’s Anthropic bounce: Bank of America, Blackstone, Citi and Morgan Stanley lined up $63B to finance Broadcom AI gear for Anthropic, AMD deepened its Meta AI partnership, and investors looked ahead to the Fed decision and megacap earnings.",
- "generated_at": "2026-10-28T06:24:31+08:00",
- "source": "latest.json (Stock Watcher, modified 2026-10-28 06:24 HKT)",
+ "session_date": "2026-10-29",
+ "market_context": "QQQ fell 1.4% to $715.34 as Alphabet's revenue miss and deeper negative free cash flow revived AI-capex jitters a day after the Fed held rates; Fortinet's post-earnings plunge dragged cybersecurity while KLA and Gilead bucked the tape.",
+ "generated_at": "2026-10-30T06:27:38+08:00",
+ "source": "latest.json (Stock Watcher, modified 2026-10-30 06:27 HKT)",
  "mover_threshold": 3.0,
  "notes": [
-  "Market-cap basis: Shares outstanding x 2026-10-27 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
+  "Market-cap basis: Shares outstanding x 2026-10-29 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
  ],
  "stocks": [
   {
    "ticker": "NVDA",
    "name": "NVIDIA Corporation",
-   "close": 217.94,
-   "prev_close": 216.0,
-   "pct_change": 0.9,
-   "market_cap": 5252354193027.0,
+   "close": 213.66,
+   "prev_close": 215.38,
+   "pct_change": -0.8,
+   "market_cap": 5149206219811.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -182,10 +182,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AAPL",
    "name": "Apple Inc.",
-   "close": 347.1,
-   "prev_close": 343.91,
-   "pct_change": 0.93,
-   "market_cap": 5065639744168.0,
+   "close": 348.91,
+   "prev_close": 343.83,
+   "pct_change": 1.48,
+   "market_cap": 5092055173176.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -194,22 +194,43 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GOOGL",
    "name": "Alphabet Inc.",
-   "close": 320.58,
-   "prev_close": 316.8,
-   "pct_change": 1.19,
-   "market_cap": 3920693221965.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 283.82,
+   "prev_close": 324.89,
+   "pct_change": -12.64,
+   "market_cap": 3471118677346.0,
+   "mover": true,
+   "reason": "Worst one-day drop on record after Q3 revenue ($127.58B) and adjusted EPS missed, search ads grew only 12%, and free cash flow went deeper negative at −$9.07B while management held $195–$205B 2026 capex and flagged another big step-up in 2027.",
+   "sources": [
+    {
+     "outlet": "Alphabet IR",
+     "title": "Alphabet Announces Third Quarter 2026 Results",
+     "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Third-Quarter-2026-Results-2026-FCcqxfIfmh/default.aspx"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Alphabet sinks as it holds 2026 capex unchanged, expects significant increase in 2027",
+     "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+    },
+    {
+     "outlet": "X (@sundarpichai)",
+     "title": "Sundar Pichai on Q3: half-trillion revenue run rate, 25% growth",
+     "url": "https://x.com/sundarpichai/status/2115535455156642066"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Alphabet tanks nearly 13% for worst day ever losing $500 billion value",
+     "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
-   "close": 531.33,
-   "prev_close": 532.6,
-   "pct_change": -0.24,
-   "market_cap": 3945415267657.0,
+   "close": 530.14,
+   "prev_close": 531.01,
+   "pct_change": -0.16,
+   "market_cap": 3936578850271.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -218,22 +239,38 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMZN",
    "name": "Amazon.com Inc.",
-   "close": 253.1,
-   "prev_close": 249.09,
-   "pct_change": 1.61,
-   "market_cap": 2730016097187.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 243.79,
+   "prev_close": 254.6,
+   "pct_change": -4.25,
+   "market_cap": 2629595377142.0,
+   "mover": true,
+   "reason": "Sold off into the close on the Alphabet AI-capex read-across ahead of its own Q3 results after the bell (which later missed on EPS/revenue and guided Q4 sales with a midpoint near Street, alongside −$42.4B TTM free cash flow).",
+   "sources": [
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
+     "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
+    },
+    {
+     "outlet": "Amazon IR",
+     "title": "Amazon.com Announces Third Quarter Results",
+     "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Amazon Q3 earnings report 2026",
+     "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "SPCX",
    "name": "Space Exploration Technologies Corp.",
-   "close": 148.58,
-   "prev_close": 146.9,
-   "pct_change": 1.14,
-   "market_cap": 2016649905060.0,
+   "close": 143.89,
+   "prev_close": 145.23,
+   "pct_change": -0.92,
+   "market_cap": 1952993337140.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -242,10 +279,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "META",
    "name": "Meta Platforms Inc.",
-   "close": 620.19,
-   "prev_close": 630.56,
-   "pct_change": -1.64,
-   "market_cap": 1579937839911.0,
+   "close": 624.52,
+   "prev_close": 612.49,
+   "pct_change": 1.96,
+   "market_cap": 1590968585039.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -254,66 +291,34 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AVGO",
    "name": "Broadcom Inc.",
-   "close": 342.33,
-   "prev_close": 329.17,
-   "pct_change": 4.0,
-   "market_cap": 1634156603564.0,
-   "mover": true,
-   "reason": "Bank of America, Blackstone, Citi and Morgan Stanley announced a $63B financing SPV to buy Broadcom XPU accelerators and networking for Anthropic (deliveries from 2027), with Broadcom providing residual-value support. DA Davidson’s Gil Luria also upgraded AVGO to Buy from Neutral and raised the target to $400 from $350 on Anthropic’s S-1.",
-   "sources": [
-    {
-     "outlet": "Broadcom IR",
-     "title": "Bank of America, Blackstone, Citi and Morgan Stanley announce $63B financing with Broadcom for Anthropic",
-     "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce"
-    },
-    {
-     "outlet": "Investing.com / Reuters",
-     "title": "Wall Street banks, Blackstone line up $63 billion to finance Broadcom AI chips for Anthropic",
-     "url": "https://www.investing.com/news/stock-market-news/wall-street-banks-blackstone-line-up-63-billion-to-finance-broadcom-chips-for-anthropic-4973662"
-    },
-    {
-     "outlet": "TipRanks",
-     "title": "DA Davidson upgrades Broadcom to Buy, raises PT to $400",
-     "url": "https://www.tipranks.com/news/broadcom-stock-da-davidson-upgrades-avgo-to-buy-after-anthropic-ipo-filing-raises-price-target-to-400"
-    }
-   ],
+   "close": 345.0,
+   "prev_close": 351.81,
+   "pct_change": -1.94,
+   "market_cap": 1646902259059.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "TSLA",
    "name": "Tesla Inc.",
-   "close": 407.46,
-   "prev_close": 391.62,
-   "pct_change": 4.04,
-   "market_cap": 1609282500728.0,
-   "mover": true,
-   "reason": "Follow-through after Barclays’ Dan Levy upgraded Tesla to Overweight from Equal Weight and raised the price target to $450 from $370, citing a potential SpaceX combination premium plus improving auto, energy, and robotaxi trends.",
-   "sources": [
-    {
-     "outlet": "CNBC",
-     "title": "Buy Tesla ahead of potential SpaceX merger, says Barclays",
-     "url": "https://www.cnbc.com/2026/10/26/tesla-spacex-merger-barclays.html"
-    },
-    {
-     "outlet": "Investing.com",
-     "title": "Why is Tesla stock climbing today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-climbing-today-93CH-4976174"
-    },
-    {
-     "outlet": "Investopedia",
-     "title": "Tesla shares rose 4% after jumping 5% Monday",
-     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10272026-12196175"
-    }
-   ],
+   "close": 403.3,
+   "prev_close": 404.22,
+   "pct_change": -0.23,
+   "market_cap": 1592852369582.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "SKHY",
    "name": "SK hynix Inc.",
-   "close": 145.36,
-   "prev_close": 142.62,
-   "pct_change": 1.92,
-   "market_cap": 1059478872038.0,
+   "close": 162.09,
+   "prev_close": 164.7,
+   "pct_change": -1.58,
+   "market_cap": 1181418036376.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -322,50 +327,45 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MU",
    "name": "Micron Technology Inc.",
-   "close": 928.76,
-   "prev_close": 903.7,
-   "pct_change": 2.77,
-   "market_cap": 1048935232463.0,
+   "close": 934.27,
+   "prev_close": 983.23,
+   "pct_change": -4.98,
+   "market_cap": 1055158199983.0,
+   "mover": true,
+   "reason": "Fell with the memory complex as Samsung Electronics' record-but-below-consensus profit sparked a peer selloff, amplified by Alphabet's AI-spending jitters; no company-specific Micron news.",
+   "sources": [
+    {
+     "outlet": "Investing.com",
+     "title": "Micron shares dip as Samsung's post-earnings selloff spreads to memory peers",
+     "url": "https://www.investing.com/news/stock-market-news/micron-shares-dip-as-samsungs-postearnings-selloff-spreads-to-memory-peers-4983079"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
+     "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices Inc.",
+   "close": 566.42,
+   "prev_close": 578.44,
+   "pct_change": -2.08,
+   "market_cap": 924666485391.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
-   "ticker": "AMD",
-   "name": "Advanced Micro Devices Inc.",
-   "close": 560.26,
-   "prev_close": 531.28,
-   "pct_change": 5.45,
-   "market_cap": 914610482974.0,
-   "mover": true,
-   "reason": "AMD said Helios rack-scale systems are now running at Meta, EPYC powers Meta’s Muse AI agent, and Instinct GPUs are in production there, and it will invest $1B in Meta’s equity raise—cementing a deeper AI infrastructure partnership on a strong chip day.",
-   "sources": [
-    {
-     "outlet": "AMD IR",
-     "title": "AMD and Meta Advance Strategic Partnership to Power Meta’s Superintelligence Infrastructure",
-     "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure"
-    },
-    {
-     "outlet": "X (@AMD)",
-     "title": "AMD Helios is now running at Meta; EPYC powers Muse",
-     "url": "https://x.com/AMD/status/2115072063354400915"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Nvidia, AMD to invest $4 billion in Meta",
-     "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
-    }
-   ],
-   "missing": false
-  },
-  {
    "ticker": "WMT",
    "name": "Walmart Inc.",
-   "close": 119.32,
-   "prev_close": 120.29,
-   "pct_change": -0.81,
-   "market_cap": 946654601805.0,
+   "close": 121.25,
+   "prev_close": 118.77,
+   "pct_change": 2.09,
+   "market_cap": 961966734515.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -374,10 +374,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ASML",
    "name": "ASML Holding N.V.",
-   "close": 1635.57,
-   "prev_close": 1590.9,
-   "pct_change": 2.81,
-   "market_cap": 630377554608.0,
+   "close": 1675.7,
+   "prev_close": 1662.85,
+   "pct_change": 0.77,
+   "market_cap": 645844367508.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -386,27 +386,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "INTC",
    "name": "Intel Corporation",
-   "close": 93.74,
-   "prev_close": 90.47,
-   "pct_change": 3.61,
-   "market_cap": 495422394261.0,
+   "close": 92.07,
+   "prev_close": 95.53,
+   "pct_change": -3.62,
+   "market_cap": 486596338040.0,
    "mover": true,
-   "reason": "Intel and Oracle announced plans to expand Xeon-based computing on Oracle Cloud Infrastructure for enterprise and agentic AI, while shares also kept Monday’s New Street Research upgrade (to Buy, $125 PT) and the broader chip rally in play ahead of Oct 29 earnings.",
+   "reason": "No clear company-specific catalyst in the regular session; slipped with semiconductors on Alphabet's AI-capex scare ahead of Intel's own after-close Q3 report.",
    "sources": [
     {
-     "outlet": "Oracle",
-     "title": "Intel and Oracle Plan Expanded Collaboration on OCI",
-     "url": "https://www.oracle.com/news/announcement/ai-world-intel-and-oracle-plan-expanded-collaboration-to-support-enterprise-and-agentic-ai-on-oracle-cloud-infrastructure-2026-10-27/"
+     "outlet": "Reuters / Investing.com",
+     "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
+     "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
     },
     {
-     "outlet": "X (@intel)",
-     "title": "Intel and OracleCloud announce plans to expand Xeon-based computing on OCI",
-     "url": "https://x.com/intel/status/2115114878788862214"
-    },
-    {
-     "outlet": "Investing.com",
-     "title": "New Street bullish on Intel to Buy as CPU scarcity strengthens turnaround",
-     "url": "https://www.investing.com/news/stock-market-news/new-street-bullish-on-intel-to-buy-as-cpu-scarcity-strengthens-turnaround-4973055"
+     "outlet": "CNBC",
+     "title": "Alphabet tanks nearly 13% for worst day ever",
+     "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
     }
    ],
    "missing": false
@@ -414,10 +409,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PLTR",
    "name": "Palantir Technologies Inc.",
-   "close": 198.73,
-   "prev_close": 198.84,
-   "pct_change": -0.06,
-   "market_cap": 477360093201.0,
+   "close": 196.42,
+   "prev_close": 196.81,
+   "pct_change": -0.2,
+   "market_cap": 471811355348.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -426,10 +421,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "CSCO",
    "name": "Cisco Systems Inc.",
-   "close": 111.38,
-   "prev_close": 110.24,
-   "pct_change": 1.03,
-   "market_cap": 439125316274.0,
+   "close": 108.59,
+   "prev_close": 110.29,
+   "pct_change": -1.54,
+   "market_cap": 428125495259.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -438,10 +433,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LRCX",
    "name": "Lam Research Corporation",
-   "close": 240.85,
-   "prev_close": 237.5,
-   "pct_change": 1.41,
-   "market_cap": 301405575866.0,
+   "close": 254.39,
+   "prev_close": 253.82,
+   "pct_change": 0.22,
+   "market_cap": 318349853924.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -450,10 +445,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMAT",
    "name": "Applied Materials Inc.",
-   "close": 395.93,
-   "prev_close": 387.59,
-   "pct_change": 2.15,
-   "market_cap": 314209012819.0,
+   "close": 421.66,
+   "prev_close": 416.0,
+   "pct_change": 1.36,
+   "market_cap": 334628282643.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -462,10 +457,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "COST",
    "name": "Costco Wholesale Corporation",
-   "close": 992.13,
-   "prev_close": 1005.16,
-   "pct_change": -1.3,
-   "market_cap": 439988618673.0,
+   "close": 996.08,
+   "prev_close": 982.73,
+   "pct_change": 1.36,
+   "market_cap": 441740365325.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -474,34 +469,56 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks Inc.",
-   "close": 401.7,
-   "prev_close": 390.46,
-   "pct_change": 2.88,
-   "market_cap": 328590602096.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 380.57,
+   "prev_close": 394.49,
+   "pct_change": -3.53,
+   "market_cap": 311306258517.0,
+   "mover": true,
+   "reason": "Sympathy selloff with cybersecurity peers after Fortinet's service-guidance cut and product-growth slowdown; no company-specific Palo Alto news in the session.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
+     "url": "https://247wallst.com/investing/2026/10/29/fortinet-tumbles-20-as-service-revenue-forecast-cut-overshadows-beat-palo-alto-drops-5-crowdstrike-falls-4/"
+    },
+    {
+     "outlet": "Reuters / StreetInsider",
+     "title": "Software stocks slide as Fortinet, ServiceNow fail to meet lofty investor expectations",
+     "url": "https://www.streetinsider.com/Reuters/Software+stocks+slide+as+Fortinet%2C+ServiceNow+fail+to+meet+lofty+investor+expectations/27251929.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "ARM",
    "name": "Arm Holdings plc",
-   "close": 226.6,
-   "prev_close": 223.35,
-   "pct_change": 1.46,
-   "market_cap": 241114931456.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 228.77,
+   "prev_close": 235.9,
+   "pct_change": -3.02,
+   "market_cap": 243423929451.0,
+   "mover": true,
+   "reason": "No clear company-specific catalyst; fell with AI/semiconductor peers as Alphabet's miss revived doubts about AI spending returns ahead of Arm's early-November earnings.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Alphabet tanks nearly 13% for worst day ever losing $500 billion value",
+     "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+    },
+    {
+     "outlet": "Reuters / Investing.com",
+     "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
+     "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "NFLX",
    "name": "Netflix Inc.",
-   "close": 62.52,
-   "prev_close": 63.9,
-   "pct_change": -2.16,
-   "market_cap": 260329510450.0,
+   "close": 62.05,
+   "prev_close": 61.99,
+   "pct_change": 0.1,
+   "market_cap": 258372453719.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -510,10 +527,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "CRWD",
    "name": "CrowdStrike Holdings Inc.",
-   "close": 268.02,
-   "prev_close": 261.83,
-   "pct_change": 2.36,
-   "market_cap": 274434991589.0,
+   "close": 261.15,
+   "prev_close": 266.66,
+   "pct_change": -2.07,
+   "market_cap": 267400564570.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -522,67 +539,57 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "KLAC",
    "name": "KLA Corporation",
-   "close": 153.66,
-   "prev_close": 149.21,
-   "pct_change": 2.98,
-   "market_cap": 200527296423.0,
+   "close": 167.43,
+   "prev_close": 158.77,
+   "pct_change": 5.45,
+   "market_cap": 218497220950.0,
+   "mover": true,
+   "reason": "Rallied after Wednesday's after-close beat: fiscal Q1 revenue $4.14B (+29% YoY) and non-GAAP EPS $1.22 topped estimates, and December-quarter guide of ~$4.7B revenue / $1.44 non-GAAP EPS was well above consensus on AI process-control demand.",
+   "sources": [
+    {
+     "outlet": "KLA IR",
+     "title": "KLA Corporation Reports Fiscal 2027 First Quarter Results",
+     "url": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results"
+    },
+    {
+     "outlet": "Motley Fool",
+     "title": "Why KLA Corporation Rallied Today",
+     "url": "https://www.fool.com/investing/2026/10/29/why-kla-corporation-rallied-today/"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "close": 312.94,
+   "prev_close": 309.83,
+   "pct_change": 1.0,
+   "market_cap": 285791739001.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
-   "ticker": "TXN",
-   "name": "Texas Instruments Incorporated",
-   "close": 308.91,
-   "prev_close": 298.12,
-   "pct_change": 3.62,
-   "market_cap": 282111351865.0,
-   "mover": true,
-   "reason": "No major same-day company filing. Texas Instruments extended its rebound with analog/semiconductor peers as AI-infrastructure financing news and Monday’s Anthropic-driven chip bounce carried into Tuesday.",
-   "sources": [
-    {
-     "outlet": "Broadcom IR",
-     "title": "Bank of America, Blackstone, Citi and Morgan Stanley announce $63B financing with Broadcom for Anthropic",
-     "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Stock market news for Oct. 27, 2026",
-     "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
-    },
-    {
-     "outlet": "Investopedia",
-     "title": "Tech shares extend rally; SOXX ended almost 4% higher",
-     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10272026-12196175"
-    }
-   ],
-   "missing": false
-  },
-  {
    "ticker": "SNDK",
    "name": "Sandisk Corporation",
-   "close": 1304.84,
-   "prev_close": 1255.58,
-   "pct_change": 3.92,
-   "market_cap": 191053360428.0,
+   "close": 1330.05,
+   "prev_close": 1404.77,
+   "pct_change": -5.32,
+   "market_cap": 194744595523.0,
    "mover": true,
-   "reason": "No clear company-specific same-day catalyst (Sandisk reports later in the week). Shares rose with the AI memory/storage complex as Western Digital’s post-earnings strength and the broader chip rebound lifted NAND-linked names.",
+   "reason": "Sold off with memory peers after Samsung's post-earnings drop and Alphabet-led AI-capex jitters into Sandisk's own after-close report (which later beat on revenue/EPS and guided Q2 higher, plus an 8-for-1 split).",
    "sources": [
     {
-     "outlet": "Investopedia",
-     "title": "Memory and AI-tied stocks rose; DRAM ETF up roughly 4.5%",
-     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10272026-12196175"
+     "outlet": "Investing.com",
+     "title": "Micron shares dip as Samsung's post-earnings selloff spreads to memory peers",
+     "url": "https://www.investing.com/news/stock-market-news/micron-shares-dip-as-samsungs-postearnings-selloff-spreads-to-memory-peers-4983079"
     },
     {
-     "outlet": "Yahoo Finance",
-     "title": "WDC's Fiscal Q2 Forecast Improves (notes Sandisk reporting Thursday)",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/wdcs-fiscal-q2-forecast-improves-122700484.html"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Stock market news for Oct. 27, 2026",
-     "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
+     "outlet": "Sandisk IR",
+     "title": "Sandisk Reports Fiscal First Quarter 2027 Financial Results",
+     "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results"
     }
    ],
    "missing": false
@@ -590,27 +597,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MRVL",
    "name": "Marvell Technology Inc.",
-   "close": 243.57,
-   "prev_close": 233.78,
-   "pct_change": 4.19,
-   "market_cap": 213586539423.0,
+   "close": 218.34,
+   "prev_close": 251.65,
+   "pct_change": -13.24,
+   "market_cap": 191462342789.0,
    "mover": true,
-   "reason": "No major same-day filing; Marvell moved with data-center/AI connectivity peers as the Broadcom–Anthropic financing news and chip rebound lifted custom ASIC and optical interconnect names. The company also posted about optics moving closer to silicon in AI racks.",
+   "reason": "Bloomberg reported Marvell is in advanced talks to buy AI-optics maker Lumentum in a likely all-stock deal that would dilute shareholders; the stock also took a read-across hit from Alphabet's miss given Marvell's data-center exposure.",
    "sources": [
     {
-     "outlet": "Broadcom IR",
-     "title": "Bank of America, Blackstone, Citi and Morgan Stanley announce $63B financing with Broadcom for Anthropic",
-     "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce"
+     "outlet": "Bloomberg",
+     "title": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal"
     },
     {
-     "outlet": "CNBC",
-     "title": "Stock market news for Oct. 27, 2026",
-     "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
+     "outlet": "Motley Fool",
+     "title": "Why Marvell Stock Is Down Today",
+     "url": "https://www.fool.com/investing/2026/10/29/why-marvell-stock-is-down-today/"
     },
     {
-     "outlet": "X (@MarvellTech)",
-     "title": "Optics as copper hits limits inside AI trays",
-     "url": "https://x.com/MarvellTech/status/2115111775817625924"
+     "outlet": "Investing.com",
+     "title": "Marvell shares sink as Alphabet miss and Lumentum deal reports weigh on sentiment",
+     "url": "https://www.investing.com/news/stock-market-news/marvell-shares-sink-as-alphabet-miss-and-lumentum-deal-reports-weigh-on-sentiment-4983494"
     }
    ],
    "missing": false
@@ -618,10 +625,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LIN",
    "name": "Linde plc",
-   "close": 508.65,
-   "prev_close": 507.56,
-   "pct_change": 0.21,
-   "market_cap": 234477554723.0,
+   "close": 503.15,
+   "prev_close": 508.16,
+   "pct_change": -0.99,
+   "market_cap": 231942163852.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -630,10 +637,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMGN",
    "name": "Amgen Inc.",
-   "close": 447.95,
-   "prev_close": 444.63,
-   "pct_change": 0.75,
-   "market_cap": 242176106637.0,
+   "close": 460.73,
+   "prev_close": 451.83,
+   "pct_change": 1.97,
+   "market_cap": 249085382813.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -642,10 +649,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SHOP",
    "name": "Shopify Inc.",
-   "close": 165.81,
-   "prev_close": 168.18,
-   "pct_change": -1.41,
-   "market_cap": 214858422073.0,
+   "close": 166.89,
+   "prev_close": 168.22,
+   "pct_change": -0.79,
+   "market_cap": 216257900347.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -654,66 +661,34 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ADI",
    "name": "Analog Devices Inc.",
-   "close": 425.35,
-   "prev_close": 407.93,
-   "pct_change": 4.27,
-   "market_cap": 206109920494.0,
-   "mover": true,
-   "reason": "No clear company-specific same-day catalyst. Analog Devices rode the broad semiconductor rebound as Anthropic-related Broadcom financing and AI infrastructure demand lifted chips and analog names for a second day.",
-   "sources": [
-    {
-     "outlet": "Broadcom IR",
-     "title": "Bank of America, Blackstone, Citi and Morgan Stanley announce $63B financing with Broadcom for Anthropic",
-     "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Stock market news for Oct. 27, 2026",
-     "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
-    },
-    {
-     "outlet": "Investopedia",
-     "title": "Tech shares extend rally ahead of Fed decision",
-     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10272026-12196175"
-    }
-   ],
+   "close": 433.28,
+   "prev_close": 428.27,
+   "pct_change": 1.17,
+   "market_cap": 209952521027.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "STX",
    "name": "Seagate Technology Holdings PLC",
-   "close": 667.85,
-   "prev_close": 644.21,
-   "pct_change": 3.67,
-   "market_cap": 152749674077.0,
-   "mover": true,
-   "reason": "Seagate rose in the regular session with the AI storage/HDD complex ahead of its after-close fiscal Q1 results (those results came after the bell and shares then fell in extended trading, so the day move was anticipatory/sector-driven).",
-   "sources": [
-    {
-     "outlet": "Investopedia",
-     "title": "Memory and storage names advanced with AI rebound",
-     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10272026-12196175"
-    },
-    {
-     "outlet": "Seagate IR",
-     "title": "Seagate Technology Reports Fiscal First Quarter 2027 Financial Results",
-     "url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-First-Quarter-2027-Financial-Results/default.aspx"
-    },
-    {
-     "outlet": "X (@Seagate)",
-     "title": "Seagate reports fiscal first quarter 2027 financial results",
-     "url": "https://x.com/Seagate/status/2115186776885051489"
-    }
-   ],
+   "close": 700.47,
+   "prev_close": 697.97,
+   "pct_change": 0.36,
+   "market_cap": 160210471868.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "QCOM",
    "name": "QUALCOMM Incorporated",
-   "close": 184.17,
-   "prev_close": 179.6,
-   "pct_change": 2.54,
-   "market_cap": 193421586491.0,
+   "close": 185.41,
+   "prev_close": 182.97,
+   "pct_change": 1.33,
+   "market_cap": 194723882370.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -722,22 +697,33 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GILD",
    "name": "Gilead Sciences Inc.",
-   "close": 159.08,
-   "prev_close": 158.69,
-   "pct_change": 0.25,
-   "market_cap": 197252061669.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 165.61,
+   "prev_close": 159.2,
+   "pct_change": 4.03,
+   "market_cap": 205348967044.0,
+   "mover": true,
+   "reason": "Climbed into the close ahead of Q3 results; after the bell Gilead beat with non-GAAP EPS $2.55 and product sales $8.3B (HIV +18%), and raised full-year product-sales guidance to $31.0–$31.3B.",
+   "sources": [
+    {
+     "outlet": "Gilead IR",
+     "title": "Gilead Sciences Announces Third Quarter 2026 Financial Results",
+     "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Why is Gilead Sciences stock surging today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-gilead-sciences-stock-surging-today-93CH-4985390"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "TMUS",
    "name": "T-Mobile US Inc.",
-   "close": 146.83,
-   "prev_close": 146.93,
-   "pct_change": -0.07,
-   "market_cap": 157500375485.0,
+   "close": 147.29,
+   "prev_close": 148.08,
+   "pct_change": -0.53,
+   "market_cap": 157993795262.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -746,10 +732,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PEP",
    "name": "PepsiCo Inc.",
-   "close": 133.5,
-   "prev_close": 135.46,
-   "pct_change": -1.45,
-   "market_cap": 182213020781.0,
+   "close": 133.79,
+   "prev_close": 132.63,
+   "pct_change": 0.87,
+   "market_cap": 182608830164.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -758,38 +744,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "WDC",
    "name": "Western Digital Corporation",
-   "close": 380.88,
-   "prev_close": 356.13,
-   "pct_change": 6.95,
-   "market_cap": 137322831956.0,
-   "mover": true,
-   "reason": "Follow-through on Western Digital’s Oct 22 fiscal Q1 beat and bullish Q2 guide (about $5.1B revenue / $5.80 EPS), with Zacks lifting the stock to Rank #2 (Buy) as AI/hyperscale HDD demand and rising price-per-terabyte kept storage names in the lead of Tuesday’s chip rally.",
-   "sources": [
-    {
-     "outlet": "Western Digital IR",
-     "title": "WD Reports Fiscal First Quarter 2027 Financial Results",
-     "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results"
-    },
-    {
-     "outlet": "Investing.com",
-     "title": "Why is Western Digital stock surging today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-surging-today-93CH-4975969"
-    },
-    {
-     "outlet": "Yahoo Finance",
-     "title": "WDC's Fiscal Q2 Forecast Improves: What's Fueling the Momentum?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/wdcs-fiscal-q2-forecast-improves-122700484.html"
-    }
-   ],
+   "close": 395.41,
+   "prev_close": 396.42,
+   "pct_change": -0.25,
+   "market_cap": 142561491259.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "ISRG",
    "name": "Intuitive Surgical Inc.",
-   "close": 445.88,
-   "prev_close": 451.63,
-   "pct_change": -1.27,
-   "market_cap": 157519609051.0,
+   "close": 448.76,
+   "prev_close": 444.18,
+   "pct_change": 1.03,
+   "market_cap": 158537051498.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -798,13 +768,29 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "FTNT",
    "name": "Fortinet Inc.",
-   "close": 185.0,
-   "prev_close": 183.33,
-   "pct_change": 0.91,
-   "market_cap": 135737022206.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 139.1,
+   "prev_close": 174.08,
+   "pct_change": -20.09,
+   "market_cap": 102059570904.0,
+   "mover": true,
+   "reason": "Followed through on Wednesday's after-close print: product revenue grew 37% (below the ~50% investors wanted) and full-year service revenue guidance was cut to $5.15–$5.17B; BofA downgraded to Neutral and cut its target to $140 from $220, with multiple banks trimming targets.",
+   "sources": [
+    {
+     "outlet": "Fortinet",
+     "title": "Fortinet Reports Strong Third Quarter 2026 Financial Results",
+     "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-reports-third-quarter-2026-financial-results"
+    },
+    {
+     "outlet": "Reuters / StreetInsider",
+     "title": "Software stocks slide as Fortinet, ServiceNow fail to meet lofty investor expectations",
+     "url": "https://www.streetinsider.com/Reuters/Software+stocks+slide+as+Fortinet%2C+ServiceNow+fail+to+meet+lofty+investor+expectations/27251929.html"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Why is Fortinet stock plunging today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-fortinet-stock-plunging-today-93CH-4983251"
+    }
+   ],
    "missing": false
   }
  ]
