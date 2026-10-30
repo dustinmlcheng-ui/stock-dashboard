@@ -1,198 +1,651 @@
 {
-  "session_date": "2026-10-29",
-  "generated_at": "2026-10-30T06:27:38+08:00",
+  "session_date": "2026-10-30",
+  "generated_at": "2026-10-31T06:23:15+08:00",
   "threshold_pct": 3,
-  "market_context": "QQQ fell 1.4% to $715.34 as Alphabet's revenue miss and deeper negative free cash flow revived AI-capex jitters a day after the Fed held rates; Fortinet's post-earnings plunge dragged cybersecurity while KLA and Gilead bucked the tape.",
-  "market_cap_basis": "Shares outstanding x 2026-10-29 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 fell 3.46% to 28,384.85 (QQQ −3.47% to $690.49) as Intel's weak PC outlook and Amazon's AI-capex miss sparked a semiconductor rout; Sandisk sold off post-earnings despite a beat while T-Mobile and Gilead bucked the tape.",
+  "market_cap_basis": "Shares outstanding x 2026-10-30 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
     {
-      "ticker": "FTNT",
-      "name": "Fortinet Inc. Common Stock",
-      "close": 139.1,
-      "prev_close": 174.08,
-      "pct_change": -20.09,
-      "market_cap_usd": 102059570904,
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 65.76,
+      "prev_close": 92.07,
+      "pct_change": -28.58,
+      "market_cap_usd": 347546175031,
       "is_mover": true,
-      "reason": "Followed through on Wednesday's after-close print: product revenue grew 37% (below the ~50% investors wanted) and full-year service revenue guidance was cut to $5.15–$5.17B; BofA downgraded to Neutral and cut its target to $140 from $220, with multiple banks trimming targets.",
+      "reason": "Worst day since the 1970s after Thursday's after-close print: Q3 beat (adj. EPS $0.52 / revenue $16.51B) but Q4 guide of $15–16B revenue and $0.25 adj. EPS badly missed Street (~$17.1B / $0.43) on a prolonged PC slowdown from soaring memory costs plus an Israel fab shutdown; BofA cut to Neutral ($100 from $145) and D.A. Davidson also went to Neutral.",
       "sources": [
         {
-          "outlet": "Fortinet",
-          "title": "Fortinet Reports Strong Third Quarter 2026 Financial Results",
-          "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-reports-third-quarter-2026-financial-results"
+          "outlet": "Intel",
+          "title": "Intel Reports Third-Quarter 2026 Financial Results",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-third-quarter-2026-financial-results.html"
         },
         {
-          "outlet": "Reuters / StreetInsider",
-          "title": "Software stocks slide as Fortinet, ServiceNow fail to meet lofty investor expectations",
-          "url": "https://www.streetinsider.com/Reuters/Software+stocks+slide+as+Fortinet%2C+ServiceNow+fail+to+meet+lofty+investor+expectations/27251929.html"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "Why is Fortinet stock plunging today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-fortinet-stock-plunging-today-93CH-4983251"
-        }
-      ]
-    },
-    {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 218.34,
-      "prev_close": 251.65,
-      "pct_change": -13.24,
-      "market_cap_usd": 191462342789,
-      "is_mover": true,
-      "reason": "Bloomberg reported Marvell is in advanced talks to buy AI-optics maker Lumentum in a likely all-stock deal that would dilute shareholders; the stock also took a read-across hit from Alphabet's miss given Marvell's data-center exposure.",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Marvell Is Said to Near Deal for Lumentum In AI-Related Megadeal",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal"
-        },
-        {
-          "outlet": "Motley Fool",
-          "title": "Why Marvell Stock Is Down Today",
-          "url": "https://www.fool.com/investing/2026/10/29/why-marvell-stock-is-down-today/"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "Marvell shares sink as Alphabet miss and Lumentum deal reports weigh on sentiment",
-          "url": "https://www.investing.com/news/stock-market-news/marvell-shares-sink-as-alphabet-miss-and-lumentum-deal-reports-weigh-on-sentiment-4983494"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. Class A Common Stock",
-      "close": 283.82,
-      "prev_close": 324.89,
-      "pct_change": -12.64,
-      "market_cap_usd": 3471118677346,
-      "is_mover": true,
-      "reason": "Worst one-day drop on record after Q3 revenue ($127.58B) and adjusted EPS missed, search ads grew only 12%, and free cash flow went deeper negative at −$9.07B while management held $195–$205B 2026 capex and flagged another big step-up in 2027.",
-      "sources": [
-        {
-          "outlet": "Alphabet IR",
-          "title": "Alphabet Announces Third Quarter 2026 Results",
-          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Third-Quarter-2026-Results-2026-FCcqxfIfmh/default.aspx"
+          "outlet": "X (@intel)",
+          "title": "Intel reports Q3 2026 financial results",
+          "url": "https://x.com/intel/status/2115901857298067459"
         },
         {
           "outlet": "CNBC",
-          "title": "Alphabet sinks as it holds 2026 capex unchanged, expects significant increase in 2027",
-          "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
-        },
-        {
-          "outlet": "X (@sundarpichai)",
-          "title": "Sundar Pichai on Q3: half-trillion revenue run rate, 25% growth",
-          "url": "https://x.com/sundarpichai/status/2115535455156642066"
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
         },
         {
           "outlet": "CNBC",
-          "title": "Alphabet tanks nearly 13% for worst day ever losing $500 billion value",
-          "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
-        }
-      ]
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA Corporation Common Stock",
-      "close": 167.43,
-      "prev_close": 158.77,
-      "pct_change": 5.45,
-      "market_cap_usd": 218497220950,
-      "is_mover": true,
-      "reason": "Rallied after Wednesday's after-close beat: fiscal Q1 revenue $4.14B (+29% YoY) and non-GAAP EPS $1.22 topped estimates, and December-quarter guide of ~$4.7B revenue / $1.44 non-GAAP EPS was well above consensus on AI process-control demand.",
-      "sources": [
-        {
-          "outlet": "KLA IR",
-          "title": "KLA Corporation Reports Fiscal 2027 First Quarter Results",
-          "url": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results"
+          "title": "Intel guidance disappoints as analysts cut price targets",
+          "url": "https://www.cnbc.com/2026/10/30/intel-guidance-analyst-price-targets.html"
         },
         {
-          "outlet": "Motley Fool",
-          "title": "Why KLA Corporation Rallied Today",
-          "url": "https://www.fool.com/investing/2026/10/29/why-kla-corporation-rallied-today/"
+          "outlet": "Investing.com",
+          "title": "BofA cuts Intel to Neutral, says turnaround pushed out by PC weakness",
+          "url": "https://www.investing.com/news/stock-market-news/bofa-cuts-intel-to-neutral-says-turnaround-pushed-out-by-pc-weakness-4986939"
         }
       ]
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation Common Stock",
-      "close": 1330.05,
-      "prev_close": 1404.77,
-      "pct_change": -5.32,
-      "market_cap_usd": 194744595523,
+      "close": 1150.89,
+      "prev_close": 1330.05,
+      "pct_change": -13.47,
+      "market_cap_usd": 168512162826,
       "is_mover": true,
-      "reason": "Sold off with memory peers after Samsung's post-earnings drop and Alphabet-led AI-capex jitters into Sandisk's own after-close report (which later beat on revenue/EPS and guided Q2 higher, plus an 8-for-1 split).",
+      "reason": "Sold off hard despite a blowout after-close beat: fiscal Q1 revenue $11.03B and non-GAAP EPS $49.51 topped estimates, Q2 guided to $12.2–$12.6B / $55–$57 EPS with an 8-for-1 split; investors took profits after a ~460% YTD run as Kioxia signaled NAND ASP growth is decelerating sharply.",
       "sources": [
-        {
-          "outlet": "Investing.com",
-          "title": "Micron shares dip as Samsung's post-earnings selloff spreads to memory peers",
-          "url": "https://www.investing.com/news/stock-market-news/micron-shares-dip-as-samsungs-postearnings-selloff-spreads-to-memory-peers-4983079"
-        },
         {
           "outlet": "Sandisk IR",
           "title": "Sandisk Reports Fiscal First Quarter 2027 Financial Results",
           "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "SanDisk stock tumbles as Kioxia warns on NAND price surge",
+          "url": "https://www.investing.com/news/stock-market-news/sandisk-stock-tumbles-as-kioxia-warns-on-nand-price-surge-4988296"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Sandisk Sinks Despite Earnings Beat, Raised Guidance and 8-for-1 Split",
+          "url": "https://247wallst.com/investing/2026/10/30/sandisk-sinks-9-despite-earnings-beat-raised-guidance-and-8-for-1-split-western-digital-tumbles-8-seagate-slides-7-micron-falls-6/"
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 164.79,
+      "prev_close": 185.41,
+      "pct_change": -11.12,
+      "market_cap_usd": 173068047218,
+      "is_mover": true,
+      "reason": "Caught in the Intel-led chip rout with PC and handset demand fears ahead of its Nov 4 fiscal Q4 report; no same-day company-specific catalyst beyond the sector selloff and lingering Arm licensing litigation overhang.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Qualcomm stock tumbling today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-qualcomm-stock-tumbling-today-93CH-4988443"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "close": 504.8,
+      "prev_close": 566.42,
+      "pct_change": -10.88,
+      "market_cap_usd": 824073381274,
+      "is_mover": true,
+      "reason": "Slid on the Intel PC/server read-across — Intel warned of a deep client-segment drop and a PC slowdown lasting into 1H27 — with AMD's own results due Nov 3; Jefferies reiterated Buy ($650) and Susquehanna raised its target to $650 from $620, but that didn't offset the fear trade.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Advanced Micro Devices stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-sliding-today-93CH-4988108"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Intel on course for worst day ever, triggers global chip rout",
+          "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 196.4,
+      "prev_close": 218.34,
+      "pct_change": -10.05,
+      "market_cap_usd": 172223154648,
+      "is_mover": true,
+      "reason": "Extended Thursday's plunge as Bloomberg's report of advanced talks to buy Lumentum in a large all-stock deal kept dilution and regulatory fears in focus; Raymond James flagged possible >10% EPS dilution depending on structure, while the Intel-led chip tape offered no relief.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Marvell Technology stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-marvell-technology-stock-sliding-today-93CH-4988117"
+        },
+        {
+          "outlet": "StreetInsider",
+          "title": "Marvell Technology shares drop on Lumentum deal concerns",
+          "url": "https://www.streetinsider.com/Investing/Marvell+Technology+shares+drop+on+Lumentum+deal+concerns/27263536.html"
+        },
+        {
+          "outlet": "CNBC / Seeking Alpha",
+          "title": "Marvell deal for Lumentum won't be at a big premium - CNBC",
+          "url": "https://seekingalpha.com/news/4661413-marvell-deal-for-lumentum-wont-be-at-a-big-premium-cnbc"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 205.97,
+      "prev_close": 228.77,
+      "pct_change": -9.97,
+      "market_cap_usd": 219163465970,
+      "is_mover": true,
+      "reason": "Fell with the Intel-sparked chip rout; no clear same-day company-specific catalyst beyond sector pressure and the lingering Qualcomm royalty/licensing dispute overhang ahead of Arm's early-November earnings.",
+      "sources": [
+        {
+          "outlet": "StreetInsider",
+          "title": "Arm Holdings stock sinks amid broad chip sector selloff",
+          "url": "https://www.streetinsider.com/Investing/Arm+Holdings+stock+sinks+amid+broad+chip+sector+selloff/27264914.html"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Intel on course for worst day ever, triggers global chip rout",
+          "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123"
+        }
+      ]
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "close": 644.58,
+      "prev_close": 700.47,
+      "pct_change": -7.98,
+      "market_cap_usd": 147427403049,
+      "is_mover": true,
+      "reason": "Extended the post-earnings sell-the-news slide after Oct 27's record beat-and-raise as Summit Insights cut to Hold and Susquehanna, Citi, TD Cowen and Bernstein SocGen trimmed targets (Bernstein to $1,100 from $1,350); Goldman flagged HDD supply-discipline risk while Sandisk/WDC dragged storage peers.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Seagate Technology stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-sliding-today-93CH-4988152"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Sandisk Sinks; Western Digital Tumbles 8%, Seagate Slides 7%, Micron Falls 6%",
+          "url": "https://247wallst.com/investing/2026/10/30/sandisk-sinks-9-despite-earnings-beat-raised-guidance-and-8-for-1-split-western-digital-tumbles-8-seagate-slides-7-micron-falls-6/"
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 149.21,
+      "prev_close": 162.09,
+      "pct_change": -7.95,
+      "market_cap_usd": 1087540237659,
+      "is_mover": true,
+      "reason": "Caught in the global memory/AI selloff as Amazon's cash burn revived AI-capex doubts; lingering overhang from a Q3 EPS miss versus Street despite record revenue/margins, with Cantor Fitzgerald trimming its price target while keeping Overweight.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is SK hynix stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-sliding-today-93CH-4988125"
+        },
+        {
+          "outlet": "CHOSUNBIZ",
+          "title": "AI expense fears slam Korea stocks; SK hynix slides",
+          "url": "https://biz.chosun.com/en/en-finance/2026/10/30/O2RKCBIJYFE3HJTA5PIPZATFVM/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        }
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 390.09,
+      "prev_close": 421.66,
+      "pct_change": -7.49,
+      "market_cap_usd": 309574406909,
+      "is_mover": true,
+      "reason": "No clear company-specific news; wafer-fab equipment names sold off with the Intel-led semiconductor rout and AI-capex skepticism that hit peer LRCX and KLAC.",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        }
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 366.11,
+      "prev_close": 395.41,
+      "pct_change": -7.41,
+      "market_cap_usd": 131997635348,
+      "is_mover": true,
+      "reason": "Dragged lower with Sandisk's post-earnings plunge and the broader memory/storage selloff; a Form 144 planned affiliate sale added a modest overhang, with no other company-specific catalyst.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Western Digital stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-4988128"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Sandisk Sinks; Western Digital Tumbles 8%, Seagate Slides 7%, Micron Falls 6%",
+          "url": "https://247wallst.com/investing/2026/10/30/sandisk-sinks-9-despite-earnings-beat-raised-guidance-and-8-for-1-split-western-digital-tumbles-8-seagate-slides-7-micron-falls-6/"
+        }
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1565.9,
+      "prev_close": 1675.7,
+      "pct_change": -6.55,
+      "market_cap_usd": 603525535787,
+      "is_mover": true,
+      "reason": "No clear company-specific news; sold off with global semis as Intel's PC warning and AI-spending doubts hit equipment and foundry-linked names.",
+      "sources": [
+        {
+          "outlet": "NBC News",
+          "title": "Tech stocks wipe out more than $1.5 trillion as AI boom fears deepen",
+          "url": "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "Intel on course for worst day ever, triggers global chip rout",
+          "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123"
+        }
+      ]
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 134.72,
+      "prev_close": 143.89,
+      "pct_change": -6.37,
+      "market_cap_usd": 1828530585027,
+      "is_mover": true,
+      "reason": "Slipped as telecom analyst William Webb estimated SpaceX may need another $120–130B beyond ~$28B of spectrum deals to rival major carriers, while T-Mobile CEO Srini Gopalan again ruled out an MVNO deal; the broad tech tape amplified the move.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance / Benzinga",
+          "title": "SpaceX's $28 Billion Spectrum Deals May Not Be Enough: Expert Sees Another $130 Billion to Rival T-Mobile",
+          "url": "https://finance.yahoo.com/technology/articles/spacexs-28-billion-spectrum-deals-134824768.html"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "T-Mobile Rallies 7% and SpaceX Falls as Price Tag for Musk's Wireless Push Balloons",
+          "url": "https://247wallst.com/investing/2026/10/30/t-mobile-rallies-7-and-spacex-falls-4-as-price-tag-for-musks-wireless-push-balloons-verizon-rises-3-att-gains-2/"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 184.11,
+      "prev_close": 196.42,
+      "pct_change": -6.27,
+      "market_cap_usd": 442242081920,
+      "is_mover": true,
+      "reason": "No clear company-specific news; sold off with high-beta AI/software names as Amazon and Intel results revived doubts about AI spending payoffs.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "BBC",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "url": "https://www.bbc.com/news/articles/cvwy72e0n72yo"
+        }
+      ]
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 156.44,
+      "prev_close": 147.29,
+      "pct_change": 6.21,
+      "market_cap_usd": 167808750378,
+      "is_mover": true,
+      "reason": "Rallied on follow-through from Wednesday's Q3 beat: EPS $3.22 (+34% YoY), service revenue $19.4B, and raised Core Adj. EBITDA / FCF guides; relief that SpaceX's wireless buildout looks costlier and T-Mobile ruled out an MVNO deal with SpaceX also helped carriers.",
+      "sources": [
+        {
+          "outlet": "T-Mobile Newsroom",
+          "title": "T‑Mobile Delivers Strong Account and ARPA Growth — Q3 2026 Earnings",
+          "url": "https://www.t-mobile.com/news/business/t-mobile-q3-2026-earnings"
+        },
+        {
+          "outlet": "X (@SriniGopalan)",
+          "title": "Srini Gopalan on Q3: 274K postpaid net account additions, industry-leading growth",
+          "url": "https://x.com/SriniGopalan/status/2115535556851769507"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "T-Mobile Rallies 7% and SpaceX Falls as Price Tag for Musk's Wireless Push Balloons",
+          "url": "https://247wallst.com/investing/2026/10/30/t-mobile-rallies-7-and-spacex-falls-4-as-price-tag-for-musks-wireless-push-balloons-verizon-rises-3-att-gains-2/"
+        },
+        {
+          "outlet": "Reuters / Investing.com",
+          "title": "T-Mobile raises annual free cash flow forecast as premium plans gain traction",
+          "url": "https://www.investing.com/news/stock-market-news/tmobile-raises-annual-free-cash-flow-forecast-as-premium-plans-gain-traction-4980626"
+        }
+      ]
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 239.11,
+      "prev_close": 254.39,
+      "pct_change": -6.01,
+      "market_cap_usd": 299228090525,
+      "is_mover": true,
+      "reason": "No clear company-specific news; wafer-fab equipment sold off with the Intel-led semiconductor rout and AI-capex skepticism that also hit AMAT and KLAC.",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        }
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 157.91,
+      "prev_close": 167.43,
+      "pct_change": -5.69,
+      "market_cap_usd": 206073573850,
+      "is_mover": true,
+      "reason": "Gave back much of Thursday's post-earnings rally as the Intel-led chip and equipment selloff hit process-control peers; no fresh company-specific KLAC news in the session.",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        }
+      ]
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 157.49,
+      "prev_close": 166.89,
+      "pct_change": -5.63,
+      "market_cap_usd": 204077284668,
+      "is_mover": true,
+      "reason": "No clear company-specific news; sold off with high-beta growth/tech names as Amazon and Intel results sparked a broad risk-off move in Nasdaq software.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "BBC",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+          "url": "https://www.bbc.com/news/articles/cvwy72e0n72yo"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 326.08,
+      "prev_close": 345.0,
+      "pct_change": -5.48,
+      "market_cap_usd": 1556585120347,
+      "is_mover": true,
+      "reason": "No clear company-specific news; fell with AI/semiconductor peers as Intel's PC warning and Amazon's AI-capex miss hit Broadcom and other data-center chip suppliers.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
         }
       ]
     },
     {
       "ticker": "MU",
       "name": "Micron Technology Inc. Common Stock",
-      "close": 934.27,
-      "prev_close": 983.23,
-      "pct_change": -4.98,
-      "market_cap_usd": 1055158199983,
+      "close": 884.74,
+      "prev_close": 934.27,
+      "pct_change": -5.3,
+      "market_cap_usd": 999219322072,
       "is_mover": true,
-      "reason": "Fell with the memory complex as Samsung Electronics' record-but-below-consensus profit sparked a peer selloff, amplified by Alphabet's AI-spending jitters; no company-specific Micron news.",
+      "reason": "Fell with the memory complex as Sandisk's post-earnings plunge and Kioxia's softer NAND ASP commentary sparked profit-taking; Intel also blamed soaring memory costs for PC weakness, amplifying sector pressure.",
       "sources": [
         {
-          "outlet": "Investing.com",
-          "title": "Micron shares dip as Samsung's post-earnings selloff spreads to memory peers",
-          "url": "https://www.investing.com/news/stock-market-news/micron-shares-dip-as-samsungs-postearnings-selloff-spreads-to-memory-peers-4983079"
+          "outlet": "24/7 Wall St.",
+          "title": "Sandisk Sinks; Western Digital Tumbles 8%, Seagate Slides 7%, Micron Falls 6%",
+          "url": "https://247wallst.com/investing/2026/10/30/sandisk-sinks-9-despite-earnings-beat-raised-guidance-and-8-for-1-split-western-digital-tumbles-8-seagate-slides-7-micron-falls-6/"
         },
         {
-          "outlet": "Reuters / Investing.com",
-          "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
-          "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
+          "outlet": "Investing.com",
+          "title": "SanDisk stock tumbles as Kioxia warns on NAND price surge",
+          "url": "https://www.investing.com/news/stock-market-news/sandisk-stock-tumbles-as-kioxia-warns-on-nand-price-surge-4988296"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
         }
       ]
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com Inc. Common Stock",
-      "close": 243.79,
-      "prev_close": 254.6,
-      "pct_change": -4.25,
-      "market_cap_usd": 2629595377142,
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 204.64,
+      "prev_close": 213.66,
+      "pct_change": -4.22,
+      "market_cap_usd": 4931824111291,
       "is_mover": true,
-      "reason": "Sold off into the close on the Alphabet AI-capex read-across ahead of its own Q3 results after the bell (which later missed on EPS/revenue and guided Q4 sales with a midpoint near Street, alongside −$42.4B TTM free cash flow).",
+      "reason": "No clear company-specific catalyst beyond the Intel-led semiconductor and AI-capex selloff; Nvidia's equity stake in Intel also marked lower with INTC's plunge.",
       "sources": [
         {
-          "outlet": "Reuters / Investing.com",
-          "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
-          "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
         },
         {
-          "outlet": "Amazon IR",
-          "title": "Amazon.com Announces Third Quarter Results",
-          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+          "outlet": "Reuters / Investing.com",
+          "title": "Intel on course for worst day ever, triggers global chip rout",
+          "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 250.43,
+      "prev_close": 261.15,
+      "pct_change": -4.1,
+      "market_cap_usd": 256423982355,
+      "is_mover": true,
+      "reason": "No clear company-specific news; continued the cybersecurity sympathy slide after Fortinet's mid-week guidance cut and traded lower with the broader Nasdaq risk-off session.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
+          "url": "https://247wallst.com/investing/2026/10/29/fortinet-tumbles-20-as-service-revenue-forecast-cut-overshadows-beat-palo-alto-drops-5-crowdstrike-falls-4/"
+        }
+      ]
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 300.84,
+      "prev_close": 312.94,
+      "pct_change": -3.87,
+      "market_cap_usd": 274741436198,
+      "is_mover": true,
+      "reason": "No clear company-specific news; analog/semiconductor names sold off with the Intel-led chip rout and soft end-market demand fears.",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
         },
         {
           "outlet": "CNBC",
-          "title": "Amazon Q3 earnings report 2026",
-          "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 365.87,
+      "prev_close": 380.57,
+      "pct_change": -3.86,
+      "market_cap_usd": 299281648821,
+      "is_mover": true,
+      "reason": "No clear company-specific news; cybersecurity peers kept sliding after Fortinet's service-guidance cut earlier in the week amid the broader tech selloff.",
+      "sources": [
+        {
+          "outlet": "24/7 Wall St.",
+          "title": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
+          "url": "https://247wallst.com/investing/2026/10/29/fortinet-tumbles-20-as-service-revenue-forecast-cut-overshadows-beat-palo-alto-drops-5-crowdstrike-falls-4/"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        }
+      ]
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 104.51,
+      "prev_close": 108.59,
+      "pct_change": -3.76,
+      "market_cap_usd": 412039763634,
+      "is_mover": true,
+      "reason": "No clear company-specific news; networking/tech hardware sold off with the Nasdaq as Amazon and Intel results revived AI-spending payoff doubts.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "Reuters / LiveMint",
+          "title": "Wall Street slides as AI cash burn worries spark tech selloff",
+          "url": "https://www.livemint.com/market/wall-street-slides-as-ai-cash-burn-worries-spark-tech-selloff-11793385103163.html"
+        }
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 432.01,
+      "prev_close": 448.76,
+      "pct_change": -3.73,
+      "market_cap_usd": 152619644521,
+      "is_mover": true,
+      "reason": "No clear same-day company-specific news; slipped with the broad risk-off tape (procedure-growth and guidance concerns from its mid-October print were already known).",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+        },
+        {
+          "outlet": "Reuters / LiveMint",
+          "title": "Wall Street slides as AI cash burn worries spark tech selloff",
+          "url": "https://www.livemint.com/market/wall-street-slides-as-ai-cash-burn-worries-spark-tech-selloff-11793385103163.html"
+        }
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 417.11,
+      "prev_close": 433.28,
+      "pct_change": -3.73,
+      "market_cap_usd": 202117091065,
+      "is_mover": true,
+      "reason": "No clear company-specific news; analog chip peers sold off with the Intel-led semiconductor rout.",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+          "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+          "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
         }
       ]
     },
     {
       "ticker": "GILD",
       "name": "Gilead Sciences Inc. Common Stock",
-      "close": 165.61,
-      "prev_close": 159.2,
-      "pct_change": 4.03,
-      "market_cap_usd": 205348967044,
+      "close": 170.68,
+      "prev_close": 165.61,
+      "pct_change": 3.06,
+      "market_cap_usd": 211635529629,
       "is_mover": true,
-      "reason": "Climbed into the close ahead of Q3 results; after the bell Gilead beat with non-GAAP EPS $2.55 and product sales $8.3B (HIV +18%), and raised full-year product-sales guidance to $31.0–$31.3B.",
+      "reason": "Followed through on Thursday's after-close beat: non-GAAP EPS $2.55 and product sales $8.3B topped Street, HIV sales +18% with Biktarvy at a record 53% U.S. share, and full-year product-sales guidance raised to $31.0–$31.3B.",
       "sources": [
         {
           "outlet": "Gilead IR",
@@ -202,335 +655,125 @@
         {
           "outlet": "Investing.com",
           "title": "Why is Gilead Sciences stock surging today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-gilead-sciences-stock-surging-today-93CH-4985390"
+          "url": "https://www.investing.com/news/stock-market-news/why-is-gilead-sciences-stock-surging-today-93CH-4986161"
         }
       ]
     },
     {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 92.07,
-      "prev_close": 95.53,
-      "pct_change": -3.62,
-      "market_cap_usd": 486596338040,
-      "is_mover": true,
-      "reason": "No clear company-specific catalyst in the regular session; slipped with semiconductors on Alphabet's AI-capex scare ahead of Intel's own after-close Q3 report.",
-      "sources": [
-        {
-          "outlet": "Reuters / Investing.com",
-          "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
-          "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Alphabet tanks nearly 13% for worst day ever",
-          "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 380.57,
-      "prev_close": 394.49,
-      "pct_change": -3.53,
-      "market_cap_usd": 311306258517,
-      "is_mover": true,
-      "reason": "Sympathy selloff with cybersecurity peers after Fortinet's service-guidance cut and product-growth slowdown; no company-specific Palo Alto news in the session.",
-      "sources": [
-        {
-          "outlet": "24/7 Wall St.",
-          "title": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
-          "url": "https://247wallst.com/investing/2026/10/29/fortinet-tumbles-20-as-service-revenue-forecast-cut-overshadows-beat-palo-alto-drops-5-crowdstrike-falls-4/"
-        },
-        {
-          "outlet": "Reuters / StreetInsider",
-          "title": "Software stocks slide as Fortinet, ServiceNow fail to meet lofty investor expectations",
-          "url": "https://www.streetinsider.com/Reuters/Software+stocks+slide+as+Fortinet%2C+ServiceNow+fail+to+meet+lofty+investor+expectations/27251929.html"
-        }
-      ]
-    },
-    {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 228.77,
-      "prev_close": 235.9,
-      "pct_change": -3.02,
-      "market_cap_usd": 243423929451,
-      "is_mover": true,
-      "reason": "No clear company-specific catalyst; fell with AI/semiconductor peers as Alphabet's miss revived doubts about AI spending returns ahead of Arm's early-November earnings.",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Alphabet tanks nearly 13% for worst day ever losing $500 billion value",
-          "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
-        },
-        {
-          "outlet": "Reuters / Investing.com",
-          "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters",
-          "url": "https://www.investing.com/news/economy-news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-4984885"
-        }
-      ]
-    },
-    {
-      "ticker": "WMT",
-      "name": "Walmart Inc. Common Stock",
-      "close": 121.25,
-      "prev_close": 118.77,
-      "pct_change": 2.09,
-      "market_cap_usd": 961966734515,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 566.42,
-      "prev_close": 578.44,
-      "pct_change": -2.08,
-      "market_cap_usd": 924666485391,
-      "is_mover": false
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 261.15,
-      "prev_close": 266.66,
-      "pct_change": -2.07,
-      "market_cap_usd": 267400564570,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 460.73,
-      "prev_close": 451.83,
-      "pct_change": 1.97,
-      "market_cap_usd": 249085382813,
-      "is_mover": false
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 624.52,
-      "prev_close": 612.49,
-      "pct_change": 1.96,
-      "market_cap_usd": 1590968585039,
-      "is_mover": false
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc. Common Stock",
-      "close": 345.0,
-      "prev_close": 351.81,
-      "pct_change": -1.94,
-      "market_cap_usd": 1646902259059,
-      "is_mover": false
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc. American Depositary Shares",
-      "close": 162.09,
-      "prev_close": 164.7,
-      "pct_change": -1.58,
-      "market_cap_usd": 1181418036376,
-      "is_mover": false
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 108.59,
-      "prev_close": 110.29,
-      "pct_change": -1.54,
-      "market_cap_usd": 428125495259,
-      "is_mover": false
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 348.91,
-      "prev_close": 343.83,
-      "pct_change": 1.48,
-      "market_cap_usd": 5092055173176,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 421.66,
-      "prev_close": 416.0,
-      "pct_change": 1.36,
-      "market_cap_usd": 334628282643,
-      "is_mover": false
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco Wholesale Corporation Common Stock",
-      "close": 996.08,
-      "prev_close": 982.73,
-      "pct_change": 1.36,
-      "market_cap_usd": 441740365325,
-      "is_mover": false
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 185.41,
-      "prev_close": 182.97,
-      "pct_change": 1.33,
-      "market_cap_usd": 194723882370,
-      "is_mover": false
-    },
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices Inc. Common Stock",
-      "close": 433.28,
-      "prev_close": 428.27,
-      "pct_change": 1.17,
-      "market_cap_usd": 209952521027,
-      "is_mover": false
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 448.76,
-      "prev_close": 444.18,
-      "pct_change": 1.03,
-      "market_cap_usd": 158537051498,
-      "is_mover": false
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated Common Stock",
-      "close": 312.94,
-      "prev_close": 309.83,
-      "pct_change": 1.0,
-      "market_cap_usd": 285791739001,
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 137.34,
+      "prev_close": 133.79,
+      "pct_change": 2.65,
+      "market_cap_usd": 187454199301,
       "is_mover": false
     },
     {
       "ticker": "LIN",
       "name": "Linde plc Ordinary Shares",
-      "close": 503.15,
-      "prev_close": 508.16,
-      "pct_change": -0.99,
-      "market_cap_usd": 231942163852,
+      "close": 514.24,
+      "prev_close": 503.15,
+      "pct_change": 2.2,
+      "market_cap_usd": 237054432120,
       "is_mover": false
     },
     {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 143.89,
-      "prev_close": 145.23,
-      "pct_change": -0.92,
-      "market_cap_usd": 1952993337140,
+      "ticker": "FTNT",
+      "name": "Fortinet Inc. Common Stock",
+      "close": 136.08,
+      "prev_close": 139.1,
+      "pct_change": -2.17,
+      "market_cap_usd": 99843752596,
       "is_mover": false
     },
     {
-      "ticker": "PEP",
-      "name": "PepsiCo Inc. Common Stock",
-      "close": 133.79,
-      "prev_close": 132.63,
-      "pct_change": 0.87,
-      "market_cap_usd": 182608830164,
+      "ticker": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "close": 123.51,
+      "prev_close": 121.25,
+      "pct_change": 1.86,
+      "market_cap_usd": 979897018020,
       "is_mover": false
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 213.66,
-      "prev_close": 215.38,
-      "pct_change": -0.8,
-      "market_cap_usd": 5149206219811,
-      "is_mover": false
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 166.89,
-      "prev_close": 168.22,
-      "pct_change": -0.79,
-      "market_cap_usd": 216257900347,
-      "is_mover": false
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1675.7,
-      "prev_close": 1662.85,
-      "pct_change": 0.77,
-      "market_cap_usd": 645844367508,
-      "is_mover": false
-    },
-    {
-      "ticker": "TMUS",
-      "name": "T-Mobile US Inc. Common Stock",
-      "close": 147.29,
-      "prev_close": 148.08,
-      "pct_change": -0.53,
-      "market_cap_usd": 157993795262,
-      "is_mover": false
-    },
-    {
-      "ticker": "STX",
-      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 700.47,
-      "prev_close": 697.97,
-      "pct_change": 0.36,
-      "market_cap_usd": 160210471868,
-      "is_mover": false
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 395.41,
-      "prev_close": 396.42,
-      "pct_change": -0.25,
-      "market_cap_usd": 142561491259,
-      "is_mover": false
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla Inc. Common Stock",
-      "close": 403.3,
-      "prev_close": 404.22,
-      "pct_change": -0.23,
-      "market_cap_usd": 1592852369582,
-      "is_mover": false
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation Common Stock",
-      "close": 254.39,
-      "prev_close": 253.82,
-      "pct_change": 0.22,
-      "market_cap_usd": 318349853924,
-      "is_mover": false
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 196.42,
-      "prev_close": 196.81,
-      "pct_change": -0.2,
-      "market_cap_usd": 471811355348,
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 1012.28,
+      "prev_close": 996.08,
+      "pct_change": 1.63,
+      "market_cap_usd": 448924727211,
       "is_mover": false
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation Common Stock",
-      "close": 530.14,
-      "prev_close": 531.01,
-      "pct_change": -0.16,
-      "market_cap_usd": 3936578850271,
+      "close": 521.91,
+      "prev_close": 530.14,
+      "pct_change": -1.55,
+      "market_cap_usd": 3875466301839,
+      "is_mover": false
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 614.99,
+      "prev_close": 624.52,
+      "pct_change": -1.53,
+      "market_cap_usd": 1566690776879,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 240.35,
+      "prev_close": 243.79,
+      "pct_change": -1.41,
+      "market_cap_usd": 2592490595806,
+      "is_mover": false
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 279.84,
+      "prev_close": 283.82,
+      "pct_change": -1.4,
+      "market_cap_usd": 3422443143154,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 344.63,
+      "prev_close": 348.91,
+      "pct_change": -1.23,
+      "market_cap_usd": 5029592103339,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 466.01,
+      "prev_close": 460.73,
+      "pct_change": 1.15,
+      "market_cap_usd": 251939919061,
+      "is_mover": false
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 399.81,
+      "prev_close": 403.3,
+      "pct_change": -0.87,
+      "market_cap_usd": 1579068488147,
       "is_mover": false
     },
     {
       "ticker": "NFLX",
       "name": "Netflix Inc. Common Stock",
-      "close": 62.05,
-      "prev_close": 61.99,
-      "pct_change": 0.1,
-      "market_cap_usd": 258372453719,
+      "close": 62.08,
+      "prev_close": 62.05,
+      "pct_change": 0.05,
+      "market_cap_usd": 258497382710,
       "is_mover": false
     }
   ]
