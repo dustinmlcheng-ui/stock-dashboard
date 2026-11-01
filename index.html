@@ -164,6 +164,7 @@ window.DASHBOARD_DATA = {
  "source": "latest.json (Stock Watcher, modified 2026-10-31 06:23 HKT)",
  "mover_threshold": 3.0,
  "notes": [
+  "No data in source for: VRTX",
   "Market-cap basis: Shares outstanding x 2026-10-30 close. Shares implied from Nasdaq market caps as of the 2026-10-05 close (watchlist market_cap_usd / 2026-10-05 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
  ],
  "stocks": [
@@ -203,24 +204,24 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "GOOGL",
-   "name": "Alphabet Inc.",
-   "close": 279.84,
-   "prev_close": 283.82,
-   "pct_change": -1.4,
-   "market_cap": 3422443143154.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
    "close": 521.91,
    "prev_close": 530.14,
    "pct_change": -1.55,
    "market_cap": 3875466301839.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc.",
+   "close": 279.84,
+   "prev_close": 283.82,
+   "pct_change": -1.4,
+   "market_cap": 3422443143154.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -262,18 +263,6 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "META",
-   "name": "Meta Platforms Inc.",
-   "close": 614.99,
-   "prev_close": 624.52,
-   "pct_change": -1.53,
-   "market_cap": 1566690776879.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
    "ticker": "AVGO",
    "name": "Broadcom Inc.",
    "close": 326.08,
@@ -294,6 +283,18 @@ window.DASHBOARD_DATA = {
      "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
     }
    ],
+   "missing": false
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms Inc.",
+   "close": 614.99,
+   "prev_close": 624.52,
+   "pct_change": -1.53,
+   "market_cap": 1566690776879.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
@@ -365,6 +366,18 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
+   "ticker": "WMT",
+   "name": "Walmart Inc.",
+   "close": 123.51,
+   "prev_close": 121.25,
+   "pct_change": 1.86,
+   "market_cap": 979897018020.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
    "ticker": "AMD",
    "name": "Advanced Micro Devices Inc.",
    "close": 504.8,
@@ -390,18 +403,6 @@ window.DASHBOARD_DATA = {
      "url": "https://www.investing.com/news/stock-market-news/intel-warning-sparks-chip-rout-as-pc-weakness-clouds-turnaround-4987123"
     }
    ],
-   "missing": false
-  },
-  {
-   "ticker": "WMT",
-   "name": "Walmart Inc.",
-   "close": 123.51,
-   "prev_close": 121.25,
-   "pct_change": 1.86,
-   "market_cap": 979897018020.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
    "missing": false
   },
   {
@@ -489,6 +490,18 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
+   "ticker": "COST",
+   "name": "Costco Wholesale Corporation",
+   "close": 1012.28,
+   "prev_close": 996.08,
+   "pct_change": 1.63,
+   "market_cap": 448924727211.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
    "ticker": "CSCO",
    "name": "Cisco Systems Inc.",
    "close": 104.51,
@@ -507,29 +520,6 @@ window.DASHBOARD_DATA = {
      "outlet": "Reuters / LiveMint",
      "title": "Wall Street slides as AI cash burn worries spark tech selloff",
      "url": "https://www.livemint.com/market/wall-street-slides-as-ai-cash-burn-worries-spark-tech-selloff-11793385103163.html"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "LRCX",
-   "name": "Lam Research Corporation",
-   "close": 239.11,
-   "prev_close": 254.39,
-   "pct_change": -6.01,
-   "market_cap": 299228090525.0,
-   "mover": true,
-   "reason": "No clear company-specific news; wafer-fab equipment sold off with the Intel-led semiconductor rout and AI-capex skepticism that also hit AMAT and KLAC.",
-   "sources": [
-    {
-     "outlet": "MarketWatch",
-     "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
-     "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
     }
    ],
    "missing": false
@@ -558,15 +548,26 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "COST",
-   "name": "Costco Wholesale Corporation",
-   "close": 1012.28,
-   "prev_close": 996.08,
-   "pct_change": 1.63,
-   "market_cap": 448924727211.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "ticker": "LRCX",
+   "name": "Lam Research Corporation",
+   "close": 239.11,
+   "prev_close": 254.39,
+   "pct_change": -6.01,
+   "market_cap": 299228090525.0,
+   "mover": true,
+   "reason": "No clear company-specific news; wafer-fab equipment sold off with the Intel-led semiconductor rout and AI-capex skepticism that also hit AMAT and KLAC.",
+   "sources": [
+    {
+     "outlet": "MarketWatch",
+     "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+     "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    }
+   ],
    "missing": false
   },
   {
@@ -590,6 +591,76 @@ window.DASHBOARD_DATA = {
      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
     }
    ],
+   "missing": false
+  },
+  {
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "close": 300.84,
+   "prev_close": 312.94,
+   "pct_change": -3.87,
+   "market_cap": 274741436198.0,
+   "mover": true,
+   "reason": "No clear company-specific news; analog/semiconductor names sold off with the Intel-led chip rout and soft end-market demand fears.",
+   "sources": [
+    {
+     "outlet": "MarketWatch",
+     "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+     "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings Inc.",
+   "close": 250.43,
+   "prev_close": 261.15,
+   "pct_change": -4.1,
+   "market_cap": 256423982355.0,
+   "mover": true,
+   "reason": "No clear company-specific news; continued the cybersecurity sympathy slide after Fortinet's mid-week guidance cut and traded lower with the broader Nasdaq risk-off session.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
+     "url": "https://247wallst.com/investing/2026/10/29/fortinet-tumbles-20-as-service-revenue-forecast-cut-overshadows-beat-palo-alto-drops-5-crowdstrike-falls-4/"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix Inc.",
+   "close": 62.08,
+   "prev_close": 62.05,
+   "pct_change": 0.05,
+   "market_cap": 258497382710.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
+   "ticker": "AMGN",
+   "name": "Amgen Inc.",
+   "close": 466.01,
+   "prev_close": 460.73,
+   "pct_change": 1.15,
+   "market_cap": 251939919061.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
@@ -621,38 +692,15 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "NFLX",
-   "name": "Netflix Inc.",
-   "close": 62.08,
-   "prev_close": 62.05,
-   "pct_change": 0.05,
-   "market_cap": 258497382710.0,
+   "ticker": "LIN",
+   "name": "Linde plc",
+   "close": 514.24,
+   "prev_close": 503.15,
+   "pct_change": 2.2,
+   "market_cap": 237054432120.0,
    "mover": false,
    "reason": "",
    "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "CRWD",
-   "name": "CrowdStrike Holdings Inc.",
-   "close": 250.43,
-   "prev_close": 261.15,
-   "pct_change": -4.1,
-   "market_cap": 256423982355.0,
-   "mover": true,
-   "reason": "No clear company-specific news; continued the cybersecurity sympathy slide after Fortinet's mid-week guidance cut and traded lower with the broader Nasdaq risk-off session.",
-   "sources": [
-    {
-     "outlet": "CNBC",
-     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
-    },
-    {
-     "outlet": "24/7 Wall St.",
-     "title": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
-     "url": "https://247wallst.com/investing/2026/10/29/fortinet-tumbles-20-as-service-revenue-forecast-cut-overshadows-beat-palo-alto-drops-5-crowdstrike-falls-4/"
-    }
-   ],
    "missing": false
   },
   {
@@ -679,14 +727,37 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "TXN",
-   "name": "Texas Instruments Incorporated",
-   "close": 300.84,
-   "prev_close": 312.94,
-   "pct_change": -3.87,
-   "market_cap": 274741436198.0,
+   "ticker": "SHOP",
+   "name": "Shopify Inc.",
+   "close": 157.49,
+   "prev_close": 166.89,
+   "pct_change": -5.63,
+   "market_cap": 204077284668.0,
    "mover": true,
-   "reason": "No clear company-specific news; analog/semiconductor names sold off with the Intel-led chip rout and soft end-market demand fears.",
+   "reason": "No clear company-specific news; sold off with high-beta growth/tech names as Amazon and Intel results sparked a broad risk-off move in Nasdaq software.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+     "outlet": "BBC",
+     "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+     "url": "https://www.bbc.com/news/articles/cvwy72e0n72yo"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "ADI",
+   "name": "Analog Devices Inc.",
+   "close": 417.11,
+   "prev_close": 433.28,
+   "pct_change": -3.73,
+   "market_cap": 202117091065.0,
+   "mover": true,
+   "reason": "No clear company-specific news; analog chip peers sold off with the Intel-led semiconductor rout.",
    "sources": [
     {
      "outlet": "MarketWatch",
@@ -697,6 +768,57 @@ window.DASHBOARD_DATA = {
      "outlet": "CNBC",
      "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
      "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "GILD",
+   "name": "Gilead Sciences Inc.",
+   "close": 170.68,
+   "prev_close": 165.61,
+   "pct_change": 3.06,
+   "market_cap": 211635529629.0,
+   "mover": true,
+   "reason": "Followed through on Thursday's after-close beat: non-GAAP EPS $2.55 and product sales $8.3B topped Street, HIV sales +18% with Biktarvy at a record 53% U.S. share, and full-year product-sales guidance raised to $31.0–$31.3B.",
+   "sources": [
+    {
+     "outlet": "Gilead IR",
+     "title": "Gilead Sciences Announces Third Quarter 2026 Financial Results",
+     "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Why is Gilead Sciences stock surging today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-gilead-sciences-stock-surging-today-93CH-4986161"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "QCOM",
+   "name": "QUALCOMM Incorporated",
+   "close": 164.79,
+   "prev_close": 185.41,
+   "pct_change": -11.12,
+   "market_cap": 173068047218.0,
+   "mover": true,
+   "reason": "Caught in the Intel-led chip rout with PC and handset demand fears ahead of its Nov 4 fiscal Q4 report; no same-day company-specific catalyst beyond the sector selloff and lingering Arm licensing litigation overhang.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Why is Qualcomm stock tumbling today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-qualcomm-stock-tumbling-today-93CH-4988443"
+    },
+    {
+     "outlet": "MarketWatch",
+     "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
+     "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
     }
    ],
    "missing": false
@@ -758,73 +880,15 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "LIN",
-   "name": "Linde plc",
-   "close": 514.24,
-   "prev_close": 503.15,
-   "pct_change": 2.2,
-   "market_cap": 237054432120.0,
+   "ticker": "PEP",
+   "name": "PepsiCo Inc.",
+   "close": 137.34,
+   "prev_close": 133.79,
+   "pct_change": 2.65,
+   "market_cap": 187454199301.0,
    "mover": false,
    "reason": "",
    "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "AMGN",
-   "name": "Amgen Inc.",
-   "close": 466.01,
-   "prev_close": 460.73,
-   "pct_change": 1.15,
-   "market_cap": 251939919061.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "SHOP",
-   "name": "Shopify Inc.",
-   "close": 157.49,
-   "prev_close": 166.89,
-   "pct_change": -5.63,
-   "market_cap": 204077284668.0,
-   "mover": true,
-   "reason": "No clear company-specific news; sold off with high-beta growth/tech names as Amazon and Intel results sparked a broad risk-off move in Nasdaq software.",
-   "sources": [
-    {
-     "outlet": "CNBC",
-     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
-    },
-    {
-     "outlet": "BBC",
-     "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-     "url": "https://www.bbc.com/news/articles/cvwy72e0n72yo"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "ADI",
-   "name": "Analog Devices Inc.",
-   "close": 417.11,
-   "prev_close": 433.28,
-   "pct_change": -3.73,
-   "market_cap": 202117091065.0,
-   "mover": true,
-   "reason": "No clear company-specific news; analog chip peers sold off with the Intel-led semiconductor rout.",
-   "sources": [
-    {
-     "outlet": "MarketWatch",
-     "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
-     "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
-    }
-   ],
    "missing": false
   },
   {
@@ -846,57 +910,6 @@ window.DASHBOARD_DATA = {
      "outlet": "24/7 Wall St.",
      "title": "Sandisk Sinks; Western Digital Tumbles 8%, Seagate Slides 7%, Micron Falls 6%",
      "url": "https://247wallst.com/investing/2026/10/30/sandisk-sinks-9-despite-earnings-beat-raised-guidance-and-8-for-1-split-western-digital-tumbles-8-seagate-slides-7-micron-falls-6/"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "QCOM",
-   "name": "QUALCOMM Incorporated",
-   "close": 164.79,
-   "prev_close": 185.41,
-   "pct_change": -11.12,
-   "market_cap": 173068047218.0,
-   "mover": true,
-   "reason": "Caught in the Intel-led chip rout with PC and handset demand fears ahead of its Nov 4 fiscal Q4 report; no same-day company-specific catalyst beyond the sector selloff and lingering Arm licensing litigation overhang.",
-   "sources": [
-    {
-     "outlet": "CNBC",
-     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
-    },
-    {
-     "outlet": "Investing.com",
-     "title": "Why is Qualcomm stock tumbling today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-qualcomm-stock-tumbling-today-93CH-4988443"
-    },
-    {
-     "outlet": "MarketWatch",
-     "title": "Semiconductor Stocks Fall as Intel Earnings Trigger Broad Tech Selloff",
-     "url": "https://www.marketwatch.com/story/semiconductor-stocks-fall-as-intel-earnings-trigger-broad-tech-selloff-eb7c019b"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "GILD",
-   "name": "Gilead Sciences Inc.",
-   "close": 170.68,
-   "prev_close": 165.61,
-   "pct_change": 3.06,
-   "market_cap": 211635529629.0,
-   "mover": true,
-   "reason": "Followed through on Thursday's after-close beat: non-GAAP EPS $2.55 and product sales $8.3B topped Street, HIV sales +18% with Biktarvy at a record 53% U.S. share, and full-year product-sales guidance raised to $31.0–$31.3B.",
-   "sources": [
-    {
-     "outlet": "Gilead IR",
-     "title": "Gilead Sciences Announces Third Quarter 2026 Financial Results",
-     "url": "https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
-    },
-    {
-     "outlet": "Investing.com",
-     "title": "Why is Gilead Sciences stock surging today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-gilead-sciences-stock-surging-today-93CH-4986161"
     }
    ],
    "missing": false
@@ -935,15 +948,26 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "PEP",
-   "name": "PepsiCo Inc.",
-   "close": 137.34,
-   "prev_close": 133.79,
-   "pct_change": 2.65,
-   "market_cap": 187454199301.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical Inc.",
+   "close": 432.01,
+   "prev_close": 448.76,
+   "pct_change": -3.73,
+   "market_cap": 152619644521.0,
+   "mover": true,
+   "reason": "No clear same-day company-specific news; slipped with the broad risk-off tape (procedure-growth and guidance concerns from its mid-October print were already known).",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+     "outlet": "Reuters / LiveMint",
+     "title": "Wall Street slides as AI cash burn worries spark tech selloff",
+     "url": "https://www.livemint.com/market/wall-street-slides-as-ai-cash-burn-worries-spark-tech-selloff-11793385103163.html"
+    }
+   ],
    "missing": false
   },
   {
@@ -970,27 +994,16 @@ window.DASHBOARD_DATA = {
    "missing": false
   },
   {
-   "ticker": "ISRG",
-   "name": "Intuitive Surgical Inc.",
-   "close": 432.01,
-   "prev_close": 448.76,
-   "pct_change": -3.73,
-   "market_cap": 152619644521.0,
-   "mover": true,
-   "reason": "No clear same-day company-specific news; slipped with the broad risk-off tape (procedure-growth and guidance concerns from its mid-October print were already known).",
-   "sources": [
-    {
-     "outlet": "CNBC",
-     "title": "Amazon, Intel shares fall after earnings amid AI spending concerns",
-     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
-    },
-    {
-     "outlet": "Reuters / LiveMint",
-     "title": "Wall Street slides as AI cash burn worries spark tech selloff",
-     "url": "https://www.livemint.com/market/wall-street-slides-as-ai-cash-burn-worries-spark-tech-selloff-11793385103163.html"
-    }
-   ],
-   "missing": false
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals Incorporated",
+   "close": null,
+   "prev_close": null,
+   "pct_change": null,
+   "market_cap": 136868898960.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": true
   },
   {
    "ticker": "FTNT",
