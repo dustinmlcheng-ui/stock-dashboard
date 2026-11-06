@@ -1,780 +1,604 @@
 {
-  "session_date": "2026-11-05",
-  "generated_at": "2026-11-06T06:19:42+08:00",
+  "session_date": "2026-11-06",
+  "generated_at": "2026-11-07T06:21:45+08:00",
   "threshold_pct": 3,
-  "market_context": "The Nasdaq-100 plunged 6.36% to 26,629.81 (QQQ −6.49% to $647.05)—its worst day since April 2025—as post-midterm fears of slower AI data-center buildouts collided with soft Qualcomm and Arm guidance, crushing chips, memory and AI software.",
-  "market_cap_basis": "Shares outstanding x 2026-11-05 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 bounced 1.35% to 26,989.99 (QQQ +1.40% to $656.10) as chips and AI names clawed back part of Thursday’s ~6% plunge; SOX rose ~4% after a ~12% rout, aided by a strong October jobs print (165k).",
+  "market_cap_basis": "Shares outstanding x 2026-11-06 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation Common Stock",
-      "close": 806.43,
-      "prev_close": 1037.4,
-      "pct_change": -22.26,
-      "market_cap_usd": 117196597228,
-      "is_mover": true,
-      "reason": "Worst S&P 500 performer as the memory/AI trade collapsed on Democratic midterm fears of data-center moratoria and softer handset NAND demand after Qualcomm’s weak outlook; no company-specific news beyond the sector rout.",
-      "sources": [
-        {
-          "outlet": "Morningstar / Dow Jones",
-          "title": "Micron, Sandisk and other AI stocks see steep drops: 'Investors don't like uncertainty'",
-          "url": "https://www.morningstar.com/news/marketwatch/20261105237/micron-sandisk-and-other-ai-stocks-see-steep-drops-investors-dont-like-uncertainty"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower",
-          "url": "https://finance.yahoo.com/markets/article/qualcomm-micron-arm-stocks-sink-lead-chip-sector-lower-133100607.html"
-        }
-      ]
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology Inc. Common Stock",
-      "close": 656.39,
-      "prev_close": 795.23,
-      "pct_change": -17.46,
-      "market_cap_usd": 742654883173,
-      "is_mover": true,
-      "reason": "Memory names led the rout on AI data-center slowdown fears after the midterms, with an added overhang from a Bloomberg report that Micron paused work on its $4.5B Taiwan Fab 11E amid a labor/profit-sharing dispute.",
-      "sources": [
-        {
-          "outlet": "Reuters via Investing.com",
-          "title": "Micron pauses work on $4.5 billion Taiwan plant, Bloomberg News reports",
-          "url": "https://www.investing.com/news/stock-market-news/micron-pauses-work-on-45-billion-taiwan-plant-bloomberg-news-reports-5002732"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Micron stock sinks 17% as chip sector crashes",
-          "url": "https://finance.yahoo.com/markets/article/micron-declines-12-as-chip-sell-off-deepens-163137019.html"
-        },
-        {
-          "outlet": "Morningstar / Dow Jones",
-          "title": "Micron, Sandisk and other AI stocks see steep drops",
-          "url": "https://www.morningstar.com/news/marketwatch/20261105237/micron-sandisk-and-other-ai-stocks-see-steep-drops-investors-dont-like-uncertainty"
-        }
-      ]
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 267.63,
-      "prev_close": 323.83,
-      "pct_change": -17.35,
-      "market_cap_usd": 100180137382,
-      "is_mover": true,
-      "reason": "No company-specific news; sold off with SanDisk, Micron and Seagate as investors priced a slower AI storage/data-center buildout after Democratic wins and soft Qualcomm handset/memory commentary.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Micron stock sinks 17% as chip sector crashes",
-          "url": "https://finance.yahoo.com/markets/article/micron-declines-12-as-chip-sell-off-deepens-163137019.html"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        }
-      ]
-    },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 404.4,
-      "prev_close": 488.78,
-      "pct_change": -17.26,
-      "market_cap_usd": 660172916940,
+      "close": 449.04,
+      "prev_close": 404.4,
+      "pct_change": 11.04,
+      "market_cap_usd": 733046628927,
       "is_mover": true,
-      "reason": "No company-specific news Thursday; plunged with the SOX as AI/data-center regulation fears after the midterms wiped out this week’s post-earnings data-center rally, alongside peers Micron and Applied Materials.",
+      "reason": "Biggest rebound in the chip complex after Thursday’s 17% slide, as investors revisited AMD’s Nov. 3 record Q3 (revenue $13.4B, +45% y/y; Data Center +97%) and ~$17B Q4 guide that the midterm AI-regulation selloff had buried.",
       "sources": [
         {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+          "outlet": "AMD IR",
+          "title": "AMD Reports Third Quarter 2026 Financial Results",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower",
-          "url": "https://finance.yahoo.com/markets/article/qualcomm-micron-arm-stocks-sink-lead-chip-sector-lower-133100607.html"
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
         },
         {
-          "outlet": "X (@CNBC)",
-          "title": "Tech stocks are getting pummeled; AMD and Micron walloped",
-          "url": "https://x.com/CNBC/status/2118385917643940101"
-        }
-      ]
-    },
-    {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 133.55,
-      "prev_close": 159.8,
-      "pct_change": -16.43,
-      "market_cap_usd": 117109999640,
-      "is_mover": true,
-      "reason": "No company-specific news; extended its October slide with AI networking/custom-silicon peers as the PHLX Semiconductor Index suffered its worst day since March 2020 on data-center moratorium fears.",
-      "sources": [
-        {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Routed on Capitulation out of Chipmakers and AI Stocks",
-          "url": "https://www.barchart.com/story/news/8685256/stock-indexes-routed-on-capitulation-out-of-chipmakers-and-ai-stocks"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        }
-      ]
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation Common Stock",
-      "close": 185.2,
-      "prev_close": 221.43,
-      "pct_change": -16.36,
-      "market_cap_usd": 231346465943,
-      "is_mover": true,
-      "reason": "No company-specific news; semiconductor-equipment names Lam, Applied Materials and KLA were swept lower as investors cut AI/fab-capex expectations after the midterm blue wave and soft Qualcomm/Arm prints.",
-      "sources": [
-        {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Routed on Capitulation out of Chipmakers and AI Stocks",
-          "url": "https://www.barchart.com/story/news/8685256/stock-indexes-routed-on-capitulation-out-of-chipmakers-and-ai-stocks"
-        },
-        {
-          "outlet": "TIKR",
-          "title": "Applied Materials Sinks 12%, Lam Research Down 14% as Chip Stock Rout Deepens After Midterms",
-          "url": "https://www.tikr.com/blog/applied-materials-sinks-12-lam-research-down-14-as-chip-stock-rout-deepens-after-midterms"
-        }
-      ]
-    },
-    {
-      "ticker": "STX",
-      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 466.53,
-      "prev_close": 557.06,
-      "pct_change": -16.25,
-      "market_cap_usd": 106704069782,
-      "is_mover": true,
-      "reason": "No company-specific news; AI hard-drive/storage names Seagate and Western Digital tumbled with memory peers on midterm data-center policy fears and the broader chip capitulation.",
-      "sources": [
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Micron stock sinks 17% as chip sector crashes",
-          "url": "https://finance.yahoo.com/markets/article/micron-declines-12-as-chip-sell-off-deepens-163137019.html"
-        }
-      ]
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 319.25,
-      "prev_close": 369.4,
-      "pct_change": -13.58,
-      "market_cap_usd": 253355981477,
-      "is_mover": true,
-      "reason": "No company-specific news; Applied Materials dropped double-digits with Lam and KLA as the SOX slumped ~12% on fears Democratic wins will slow AI fab and data-center equipment demand.",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        },
-        {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Routed on Capitulation out of Chipmakers and AI Stocks",
-          "url": "https://www.barchart.com/story/news/8685256/stock-indexes-routed-on-capitulation-out-of-chipmakers-and-ai-stocks"
-        }
-      ]
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc. American Depositary Shares",
-      "close": 123.9,
-      "prev_close": 143.07,
-      "pct_change": -13.4,
-      "market_cap_usd": 903064386025,
-      "is_mover": true,
-      "reason": "No U.S.-listed company news; SK hynix ADRs fell with Micron and SanDisk as Korea-session peers (SK hynix, Samsung) also sold off on AI memory demand/data-center regulation worries after Qualcomm’s soft handset outlook.",
-      "sources": [
-        {
-          "outlet": "Business Insider",
-          "title": "Micron, SanDisk, and SK Hynix Stocks Sink as Chip Sell-Off Deepens",
-          "url": "https://markets.businessinsider.com/news/stocks/micron-sandisk-and-sk-hynix-stocks-sink-as-chip-sell-off-deepens-what-s-behind-the-decline-on-nov-5-1036723725"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower",
-          "url": "https://finance.yahoo.com/markets/article/qualcomm-micron-arm-stocks-sink-lead-chip-sector-lower-133100607.html"
-        }
-      ]
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA Corporation Common Stock",
-      "close": 129.8,
-      "prev_close": 149.79,
-      "pct_change": -13.35,
-      "market_cap_usd": 169389854054,
-      "is_mover": true,
-      "reason": "No company-specific news; process-control/equipment peer KLA fell with AMAT and LRCX as chip-capex expectations were cut after the midterm-driven AI infrastructure selloff.",
-      "sources": [
-        {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Routed on Capitulation out of Chipmakers and AI Stocks",
-          "url": "https://www.barchart.com/story/news/8685256/stock-indexes-routed-on-capitulation-out-of-chipmakers-and-ai-stocks"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        }
-      ]
-    },
-    {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 166.72,
-      "prev_close": 191.8,
-      "pct_change": -13.08,
-      "market_cap_usd": 177399289599,
-      "is_mover": true,
-      "reason": "Sold off after Wednesday’s fiscal Q2 beat ($1.44B rev / $0.52 adj. EPS) as royalty revenue missed ($670M vs ~$721M est.) and Q3 guidance ($1.54B ±$50M) only edged consensus, failing to offset AI-sector risk-off.",
-      "sources": [
-        {
-          "outlet": "Arm Newsroom",
-          "title": "Arm delivers a record second quarter, reaching $1.44 billion in total revenue",
-          "url": "https://newsroom.arm.com/news/arm-q2-fye27-results"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "Why is Arm stock sliding today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-arm-stock-sliding-today-93CH-5001498"
-        },
-        {
-          "outlet": "X (@Arm)",
-          "title": "We've delivered a record second quarter in Q2 FYE27",
-          "url": "https://x.com/Arm/status/2118095211104461167"
-        }
-      ]
-    },
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices Inc. Common Stock",
-      "close": 361.01,
-      "prev_close": 406.24,
-      "pct_change": -11.13,
-      "market_cap_usd": 174932983744,
-      "is_mover": true,
-      "reason": "No company-specific news; analog/chip peer Analog Devices fell with Texas Instruments as the semiconductor complex sold off on AI buildout and handset-demand concerns.",
-      "sources": [
-        {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Routed on Capitulation out of Chipmakers and AI Stocks",
-          "url": "https://www.barchart.com/story/news/8685256/stock-indexes-routed-on-capitulation-out-of-chipmakers-and-ai-stocks"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        }
-      ]
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla Inc. Common Stock",
-      "close": 343.69,
-      "prev_close": 385.19,
-      "pct_change": -10.77,
-      "market_cap_usd": 1358523429231,
-      "is_mover": true,
-      "reason": "Fell with SpaceX as investors priced stricter regulation and congressional scrutiny of Elon Musk after Democrats swept Congress and flipped Texas; both firms’ Texas AI/data-center plans (including Terafab) face moratorium risk under Gov.-elect Hinojosa.",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-          "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        }
-      ]
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated Common Stock",
-      "close": 278.15,
-      "prev_close": 311.49,
-      "pct_change": -10.7,
-      "market_cap_usd": 254165205835,
-      "is_mover": true,
-      "reason": "No company-specific news; Texas Instruments sold off with analog/semiconductor peers as the SOX’s worst day since March 2020 dragged industrial and auto chip suppliers lower.",
-      "sources": [
-        {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Routed on Capitulation out of Chipmakers and AI Stocks",
-          "url": "https://www.barchart.com/story/news/8685256/stock-indexes-routed-on-capitulation-out-of-chipmakers-and-ai-stocks"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc. Common Stock",
-      "close": 291.53,
-      "prev_close": 325.48,
-      "pct_change": -10.43,
-      "market_cap_usd": 1391656308716,
-      "is_mover": true,
-      "reason": "No company-specific news; Broadcom fell with Nvidia and other AI semis as investors questioned data-center capex durability after Democratic midterm wins and soft Qualcomm/Arm guidance.",
-      "sources": [
-        {
-          "outlet": "Morningstar",
-          "title": "AI Stock Selloff Gains Steam on Election Fallout",
-          "url": "https://www.morningstar.com/stocks/ai-stock-selloff-gains-steam-election-fallout-spreads"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Micron stock sinks 17% as chip sector crashes",
-          "url": "https://finance.yahoo.com/markets/article/micron-declines-12-as-chip-sell-off-deepens-163137019.html"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 52.25,
-      "prev_close": 58.27,
-      "pct_change": -10.33,
-      "market_cap_usd": 276144882865,
-      "is_mover": true,
-      "reason": "Extended last week’s post-earnings slide as memory-shortage cost worries and the broader AI-chip rout deepened; no fresh company release Thursday amid the SOX’s ~12% drop.",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        },
-        {
-          "outlet": "Morningstar / Dow Jones",
-          "title": "Micron, Sandisk and other AI stocks see steep drops",
-          "url": "https://www.morningstar.com/news/marketwatch/20261105237/micron-sandisk-and-other-ai-stocks-see-steep-drops-investors-dont-like-uncertainty"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 217.2,
-      "prev_close": 241.0,
-      "pct_change": -9.88,
-      "market_cap_usd": 222398649755,
-      "is_mover": true,
-      "reason": "No company-specific news; cybersecurity/AI-software winners CrowdStrike, Palo Alto and peers were dumped as Wall Street rotated out of richly valued AI software alongside the chip capitulation.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Palantir and CrowdStrike stocks tumble as Wall Street dumps software's AI winners",
-          "url": "https://finance.yahoo.com/markets/article/palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-softwares-ai-winners-173540737.html"
-        },
-        {
-          "outlet": "TIKR",
-          "title": "CrowdStrike Sinks 9%, Palo Alto Down 8%, Cloudflare Down 9% as AI Trade Unwinds",
-          "url": "https://www.tikr.com/blog/crowdstrike-sinks-9-palo-alto-down-8-cloudflare-down-9-as-ai-trade-unwinds"
-        }
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 154.99,
-      "prev_close": 171.7,
-      "pct_change": -9.73,
-      "market_cap_usd": 372294285531,
-      "is_mover": true,
-      "reason": "No company-specific news; Palantir had its worst day since February as AI-software names tied to the buildout were sold with chips after midterm data-center regulation fears spread beyond hardware.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Palantir and CrowdStrike stocks tumble as Wall Street dumps software's AI winners",
-          "url": "https://finance.yahoo.com/markets/article/palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-softwares-ai-winners-173540737.html"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 314.67,
-      "prev_close": 348.04,
-      "pct_change": -9.59,
-      "market_cap_usd": 257539500087,
-      "is_mover": true,
-      "reason": "No company-specific news; Palo Alto Networks fell with CrowdStrike and other AI-linked cyber/software names as the midterm-driven AI trade unwind spread from chips into software.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Palantir and CrowdStrike stocks tumble as Wall Street dumps software's AI winners",
-          "url": "https://finance.yahoo.com/markets/article/palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-softwares-ai-winners-173540737.html"
-        },
-        {
-          "outlet": "TIKR",
-          "title": "CrowdStrike Sinks 9%, Palo Alto Down 8%, Cloudflare Down 9% as AI Trade Unwinds",
-          "url": "https://www.tikr.com/blog/crowdstrike-sinks-9-palo-alto-down-8-cloudflare-down-9-as-ai-trade-unwinds"
-        }
-      ]
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 156.75,
-      "prev_close": 173.19,
-      "pct_change": -9.49,
-      "market_cap_usd": 164624163866,
-      "is_mover": true,
-      "reason": "Slid after Wednesday’s Q4 beat as handset chip sales fell 26% to $5.14B and FQ1 adj. EPS guidance of $2.15–$2.35 undershot the ~$2.27 Street view; memory-cost pressure and Apple modem roll-off overshadowed a $5B FY27 data-center target.",
-      "sources": [
-        {
-          "outlet": "Qualcomm IR",
-          "title": "Qualcomm Earnings Release Available on Company's Investor Relations Website",
-          "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Earnings-Release-Available-on-Companys-Investor-Relations-Website-c5258267a/default.aspx"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        },
-        {
-          "outlet": "X (@Qualcomm)",
-          "title": "Q4 non-GAAP revenues of $10.4 billion; QCT at high end of guidance",
-          "url": "https://x.com/Qualcomm/status/2118109709295104194"
-        },
-        {
-          "outlet": "Reuters via Investing.com",
-          "title": "Qualcomm shares slump as weak smartphone chip sales overshadow data-center momentum",
-          "url": "https://www.investing.com/news/stock-market-news/qualcomm-slumps-as-weak-smartphone-chip-sales-overshadow-datacenter-momentum-5002833"
-        }
-      ]
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1356.65,
-      "prev_close": 1496.3,
-      "pct_change": -9.33,
-      "market_cap_usd": 522876899868,
-      "is_mover": true,
-      "reason": "No company-specific news; the EUV lithography leader fell with global semi-equipment peers as investors cut AI/fab-capex expectations after the U.S. midterm blue wave and soft Qualcomm/Arm outlooks.",
-      "sources": [
-        {
-          "outlet": "Investing.com",
-          "title": "Why is ASML stock sliding today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-asml-stock-sliding-today-93CH-5005149"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        }
-      ]
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 181.6,
-      "prev_close": 200.13,
-      "pct_change": -9.26,
-      "market_cap_usd": 4376560072081,
-      "is_mover": true,
-      "reason": "No company-specific news Thursday; the AI-chip bellwether lost nearly $450B in market cap as post-midterm data-center slowdown fears and soft Qualcomm/Arm guidance drove the Nasdaq’s worst day since April 2025.",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        },
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        },
-        {
-          "outlet": "X (@CNBC)",
-          "title": "Qualcomm slides 9% after earnings, leading post-election chip stock sell-off",
-          "url": "https://x.com/CNBC/status/2118363265335996654"
+          "outlet": "Motley Fool",
+          "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/"
         }
       ]
     },
     {
       "ticker": "SPCX",
       "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 123.62,
-      "prev_close": 135.92,
-      "pct_change": -9.05,
-      "market_cap_usd": 1678891140130,
+      "close": 134.27,
+      "prev_close": 123.62,
+      "pct_change": 8.62,
+      "market_cap_usd": 1823529489967,
       "is_mover": true,
-      "reason": "Fell with Tesla as Musk-backed GOP losses and a Democratic Texas sweep raised odds of data-center moratoria (Gov.-elect Hinojosa), Starlink probes, and tougher hurdles for any Tesla–SpaceX merger; combined two-day market-cap loss with Tesla exceeded $420B.",
+      "reason": "Relief bounce after a ~13% two-day post-midterm slide on Democratic “retribution” and Texas data-center fears; Deutsche Bank’s Edison Yu reiterated Buy with a $250 target, arguing political risk is more perception than near-term earnings hit.",
       "sources": [
         {
           "outlet": "CNBC",
-          "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-          "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+          "title": "SpaceX is down big on fears of Dem 'retribution' against Musk. Deutsche Bank says buy the dip",
+          "url": "https://www.cnbc.com/2026/11/06/spacex-is-down-big-on-dem-retribution-fears-against-musk-deutsche-bank-says-buy-the-dip.html"
         },
         {
-          "outlet": "Reuters via Investing.com",
-          "title": "SpaceX, Tesla extend losses as midterm results cloud data center, merger outlook",
-          "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-extend-losses-as-midterm-results-cloud-data-center-merger-outlook-5005412"
+          "outlet": "Motley Fool",
+          "title": "Why SpaceX Stock Is Up Today",
+          "url": "https://www.fool.com/investing/2026/11/06/why-spacex-stock-is-up-today/"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
         }
       ]
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 95.72,
-      "prev_close": 103.61,
-      "pct_change": -7.62,
-      "market_cap_usd": 377384433023,
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 200.44,
+      "prev_close": 185.2,
+      "pct_change": 8.23,
+      "market_cap_usd": 250383838890,
       "is_mover": true,
-      "reason": "No company-specific news; Cisco, a major AI data-center networking supplier, sold off with the broader infrastructure complex as investors reassessed buildout pacing after Democratic wins.",
+      "reason": "Led equipment peers after the board authorized a $25B share repurchase (announced after Thursday’s close) plus a $0.33 quarterly dividend, amplifying a broader chip-equipment rebound.",
       "sources": [
         {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+          "outlet": "Lam Research IR",
+          "title": "Lam Research Corporation Announces $25 Billion Share Repurchase Authorization and Declares Quarterly Dividend",
+          "url": "https://investor.lamresearch.com/2026-11-05-Lam-Research-Corporation-Announces-25-Billion-Share-Repurchase-Authorization-and-Declares-Quarterly-Dividend"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Lam Research stock surging today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-lam-research-stock-surging-today-93CH-5008698"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 56.28,
+      "prev_close": 52.25,
+      "pct_change": 7.71,
+      "market_cap_usd": 297443706614,
+      "is_mover": true,
+      "reason": "No clear company-specific news beyond the sector; Intel bounced with semis as dip-buyers returned after Thursday’s ~10% drop, with CEO Lip-Bu Tan’s recent open-market purchase still cited as a confidence signal.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Intel stock rallying today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-rallying-today-93CH-5008749"
+        }
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 138.49,
+      "prev_close": 129.8,
+      "pct_change": 6.69,
+      "market_cap_usd": 180730364152,
+      "is_mover": true,
+      "reason": "No company-specific catalyst; rode the semiconductor-equipment rebound with peers as buyers returned after Thursday’s AI/data-center policy rout.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 141.2,
+      "prev_close": 133.55,
+      "pct_change": 5.73,
+      "market_cap_usd": 123818279401,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Marvell bounced with AI/networking chip peers after Thursday’s sector collapse on midterm data-center regulation fears.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 165.41,
+      "prev_close": 156.75,
+      "pct_change": 5.52,
+      "market_cap_usd": 173719193288,
+      "is_mover": true,
+      "reason": "Partial recovery after Thursday’s guidance-driven plunge that helped spark the chip rout; no new company news Friday—moved with the sector bounce.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "close": 690.0,
+      "prev_close": 656.39,
+      "pct_change": 5.12,
+      "market_cap_usd": 780681999959,
+      "is_mover": true,
+      "reason": "Memory names bounced with the AI trade as SOX recovered ~4% after Thursday’s worst chip day since 2020; no new company-specific catalyst Friday.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1424.75,
+      "prev_close": 1356.65,
+      "pct_change": 5.02,
+      "market_cap_usd": 549123834210,
+      "is_mover": true,
+      "reason": "No company-specific news; ASML rose with wafer-fab equipment peers as chip buyers returned after Thursday’s midterm-driven AI selloff.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "U.S. chip stocks bounce back sharply after Thursday’s AI rout",
+          "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-rebound-sharply-after-thursdays-brutal-selloff-5007137"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 174.62,
+      "prev_close": 166.72,
+      "pct_change": 4.74,
+      "market_cap_usd": 185805319439,
+      "is_mover": true,
+      "reason": "No new company news; Arm rebounded with chip designers after Thursday’s soft-guidance and AI-regulation selloff.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 358.22,
+      "prev_close": 343.69,
+      "pct_change": 4.23,
+      "market_cap_usd": 1415956999099,
+      "is_mover": true,
+      "reason": "Musk said Tesla will wind down Cybertruck production at Gigafactory Texas around mid-2027 to make room for Cybercab robotaxi output, giving a company-specific spark on top of a broader growth-stock bounce after Thursday’s Musk/political selloff.",
+      "sources": [
+        {
+          "outlet": "X (@elonmusk)",
+          "title": "Tesla will be winding down production of the Cybertruck at Gigafactory Texas around the middle of next year to make room for increased Cybercab production",
+          "url": "https://x.com/elonmusk/status/2118591788701421573"
         },
         {
           "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+          "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
+          "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Tesla stock rallying today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-rallying-today-93CH-5008775"
+        }
+      ]
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 332.71,
+      "prev_close": 319.25,
+      "pct_change": 4.22,
+      "market_cap_usd": 264041768048,
+      "is_mover": true,
+      "reason": "No company-specific catalyst; Applied Materials rose with chip-equipment peers in the SOX rebound after Thursday’s rout.",
+      "sources": [
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "U.S. chip stocks bounce back sharply after Thursday’s AI rout",
+          "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-rebound-sharply-after-thursdays-brutal-selloff-5007137"
         }
       ]
     },
     {
       "ticker": "SHOP",
       "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 143.75,
-      "prev_close": 153.03,
-      "pct_change": -6.06,
-      "market_cap_usd": 186272835525,
+      "close": 148.91,
+      "prev_close": 143.75,
+      "pct_change": 3.59,
+      "market_cap_usd": 192959225184,
       "is_mover": true,
-      "reason": "No fresh company news; gave back part of Wednesday’s bounce as risk-off hit growth/software names two days after Shopify’s Q3 GMV/subscription miss, despite the prior day’s focus on 32% revenue growth and strong FCF.",
+      "reason": "Continued recovery from the post-Q3 GMV miss, helped by UBS raising its price target to $160 (Neutral) on Nov. 4 and broader dip-buying in growth software as Nasdaq bounced.",
       "sources": [
         {
-          "outlet": "CNBC",
-          "title": "Shopify Q3 2026 earnings: Revenue, GMV miss estimates",
-          "url": "https://www.cnbc.com/2026/11/03/shopify-q3-2026-earnings-gmv.html"
+          "outlet": "MarketBeat",
+          "title": "Shopify (NASDAQ:SHOP) Stock Price Target Raised at UBS Group",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-shopify-nasdaq-shop-stock-price-target-raised-at-ubs-group-2026-11-04/"
         },
         {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
         }
       ]
     },
     {
-      "ticker": "GILD",
-      "name": "Gilead Sciences Inc. Common Stock",
-      "close": 167.57,
-      "prev_close": 174.48,
-      "pct_change": -3.96,
-      "market_cap_usd": 207779293640,
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation Common Stock",
+      "close": 835.06,
+      "prev_close": 806.43,
+      "pct_change": 3.55,
+      "market_cap_usd": 121357329321,
       "is_mover": true,
-      "reason": "No clear company-specific catalyst Thursday; likely gave back part of Wednesday’s healthcare election-relief rally in a broad risk-off tape as the Nasdaq slumped over 6%.",
+      "reason": "Memory/storage rebound with Micron and peers after Thursday’s AI-trade collapse; no company-specific news Friday.",
       "sources": [
         {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+          "outlet": "Yahoo Finance",
+          "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
         },
         {
-          "outlet": "AP News",
-          "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
-          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
         }
       ]
     },
     {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 605.08,
-      "prev_close": 630.0,
-      "pct_change": -3.96,
-      "market_cap_usd": 1546730452679,
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 160.38,
+      "prev_close": 154.99,
+      "pct_change": 3.48,
+      "market_cap_usd": 385241352443,
       "is_mover": true,
-      "reason": "Gave back part of Wednesday’s megacap rally as Meta President Dina Powell McCormick said data-center building will be “harder” post-election; hyperscalers fell less than chips but still tracked AI-capex uncertainty.",
+      "reason": "Relief bounce after an extended losing streak and Thursday’s AI selloff; Rosenblatt reiterated Buy/$260 and Citigroup raised its target to $265 (Buy), while the broader Nasdaq rebound helped high-beta AI software.",
       "sources": [
         {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+          "outlet": "Investing.com",
+          "title": "Why is Palantir Technologies stock rallying today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rallying-today-93CH-5008767"
         },
         {
-          "outlet": "Morningstar",
-          "title": "AI Stock Selloff Gains Steam on Election Fallout",
-          "url": "https://www.morningstar.com/stocks/ai-stock-selloff-gains-steam-election-fallout-spreads"
-        }
-      ]
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 460.28,
-      "prev_close": 478.48,
-      "pct_change": -3.8,
-      "market_cap_usd": 248842092668,
-      "is_mover": true,
-      "reason": "No clear same-day company catalyst; Amgen slipped with other healthcare names that had rallied on Wednesday’s Democratic sweep, as Thursday’s tech-led rout pulled the broader tape lower.",
-      "sources": [
-        {
-          "outlet": "NBC News",
-          "title": "Stocks plunge as election outcome and AI worries crush tech shares",
-          "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
-        },
-        {
-          "outlet": "AP News",
-          "title": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
-          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
-        }
-      ]
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation Common Stock",
-      "close": 535.93,
-      "prev_close": 555.8,
-      "pct_change": -3.58,
-      "market_cap_usd": 3979920281892,
-      "is_mover": true,
-      "reason": "No company-specific news; Microsoft and other hyperscalers gave back Wednesday’s megacap gains as investors reassessed AI infrastructure spending plans amid midterm regulation fears, though they fell less than chip/memory names.",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Qualcomm sinks after earnings, leading postelection chip sell-off",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        },
-        {
-          "outlet": "Morningstar",
-          "title": "AI Stock Selloff Gains Steam on Election Fallout",
-          "url": "https://www.morningstar.com/stocks/ai-stock-selloff-gains-steam-election-fallout-spreads"
+          "outlet": "CBS News",
+          "title": "Stocks rebound after tech selloff that pushed Nasdaq into correction",
+          "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
         }
       ]
     },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 468.52,
-      "prev_close": 482.1,
-      "pct_change": -2.82,
-      "market_cap_usd": 162409507415,
-      "is_mover": false
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. Class A Common Stock",
-      "close": 282.57,
-      "prev_close": 288.93,
-      "pct_change": -2.2,
-      "market_cap_usd": 3473915580397,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com Inc. Common Stock",
-      "close": 260.21,
-      "prev_close": 266.03,
-      "pct_change": -2.19,
-      "market_cap_usd": 2806706639697,
-      "is_mover": false
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco Wholesale Corporation Common Stock",
-      "close": 1065.59,
-      "prev_close": 1046.47,
-      "pct_change": 1.83,
-      "market_cap_usd": 472194179753,
-      "is_mover": false
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 344.17,
-      "prev_close": 349.51,
-      "pct_change": -1.53,
-      "market_cap_usd": 5022879073847,
-      "is_mover": false
+      "close": 452.8,
+      "prev_close": 468.52,
+      "pct_change": -3.36,
+      "market_cap_usd": 156960267864,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Intuitive Surgical underperformed as high-multiple medtech faced profit-taking and hospital CapEx scrutiny while the session’s rebound stayed concentrated in chips/AI.",
+      "sources": [
+        {
+          "outlet": "TradingKey",
+          "title": "Intuitive Surgical Inc Stock (ISRG) Moved Down by 3.14% on Nov 6: Drivers Behind the Movement",
+          "url": "https://www.tradingkey.com/news/market-movers/262292861-market-movers-isrg-20261106"
+        },
+        {
+          "outlet": "Fox Business",
+          "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
+          "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+        }
+      ]
     },
     {
       "ticker": "NFLX",
       "name": "Netflix Inc. Common Stock",
-      "close": 65.56,
-      "prev_close": 66.39,
-      "pct_change": -1.25,
-      "market_cap_usd": 269210719485,
+      "close": 63.41,
+      "prev_close": 65.56,
+      "pct_change": -3.28,
+      "market_cap_usd": 260382128084,
+      "is_mover": true,
+      "reason": "Fell despite the tech rebound as investors focused on Form 4 sales by Co-CEO Ted Sarandos and CFO Spencer Neumann (tax-withholding on vested awards) and ongoing debate over ad-tier monetization versus content spend.",
+      "sources": [
+        {
+          "outlet": "MarketBeat",
+          "title": "Netflix (NASDAQ:NFLX) Stock Price Down 3.3% on Insider Selling",
+          "url": "https://www.marketbeat.com/instant-alerts/price-netflix-nasdaq-nflx-stock-price-down-33-on-insider-selling-2026-11-06/"
+        },
+        {
+          "outlet": "TradingKey",
+          "title": "Netflix Inc Stock (NFLX) Closed Down by 3.28% on Nov 6: A Full Analysis",
+          "url": "https://www.tradingkey.com/news/market-movers/262293698-market-movers-nflx-20261106"
+        }
+      ]
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 127.34,
+      "prev_close": 123.9,
+      "pct_change": 2.78,
+      "market_cap_usd": 928137321978,
       "is_mover": false
     },
     {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
-      "close": 542.5,
-      "prev_close": 549.04,
-      "pct_change": -1.19,
-      "market_cap_usd": 137502551270,
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 186.64,
+      "prev_close": 181.6,
+      "pct_change": 2.78,
+      "market_cap_usd": 4498023908195,
+      "is_mover": false
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 93.85,
+      "prev_close": 95.72,
+      "pct_change": -1.95,
+      "market_cap_usd": 370011784493,
       "is_mover": false
     },
     {
       "ticker": "WMT",
       "name": "Walmart Inc. Common Stock",
-      "close": 127.72,
-      "prev_close": 129.17,
-      "pct_change": -1.12,
-      "market_cap_usd": 1013298079585,
+      "close": 125.52,
+      "prev_close": 127.72,
+      "pct_change": -1.72,
+      "market_cap_usd": 995843801537,
       "is_mover": false
     },
     {
-      "ticker": "TMUS",
-      "name": "T-Mobile US Inc. Common Stock",
-      "close": 160.59,
-      "prev_close": 159.17,
-      "pct_change": 0.89,
-      "market_cap_usd": 170108586052,
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 263.78,
+      "prev_close": 267.63,
+      "pct_change": -1.44,
+      "market_cap_usd": 98738990525,
+      "is_mover": false
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "close": 460.99,
+      "prev_close": 466.53,
+      "pct_change": -1.19,
+      "market_cap_usd": 105436967002,
       "is_mover": false
     },
     {
       "ticker": "LIN",
       "name": "Linde plc Ordinary Shares",
-      "close": 521.23,
-      "prev_close": 524.74,
-      "pct_change": -0.67,
-      "market_cap_usd": 240276684271,
+      "close": 515.25,
+      "prev_close": 521.23,
+      "pct_change": -1.15,
+      "market_cap_usd": 237520031867,
+      "is_mover": false
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 1053.56,
+      "prev_close": 1065.59,
+      "pct_change": -1.13,
+      "market_cap_usd": 466863374887,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 530.61,
+      "prev_close": 535.93,
+      "pct_change": -0.99,
+      "market_cap_usd": 3940412873576,
       "is_mover": false
     },
     {
       "ticker": "PEP",
       "name": "PepsiCo Inc. Common Stock",
-      "close": 142.71,
-      "prev_close": 142.42,
-      "pct_change": 0.2,
-      "market_cap_usd": 194476800148,
+      "close": 141.34,
+      "prev_close": 142.71,
+      "pct_change": -0.96,
+      "market_cap_usd": 192609830619,
+      "is_mover": false
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 162.01,
+      "prev_close": 160.59,
+      "pct_change": 0.88,
+      "market_cap_usd": 171612751232,
+      "is_mover": false
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+      "close": 547.09,
+      "prev_close": 542.5,
+      "pct_change": 0.85,
+      "market_cap_usd": 138665943718,
+      "is_mover": false
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 610.15,
+      "prev_close": 605.08,
+      "pct_change": 0.84,
+      "market_cap_usd": 1559690614149,
+      "is_mover": false
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 284.78,
+      "prev_close": 282.57,
+      "pct_change": 0.78,
+      "market_cap_usd": 3501085214644,
+      "is_mover": false
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 293.69,
+      "prev_close": 291.53,
+      "pct_change": 0.74,
+      "market_cap_usd": 1401967366706,
+      "is_mover": false
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 363.56,
+      "prev_close": 361.01,
+      "pct_change": 0.71,
+      "market_cap_usd": 176168619769,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 342.37,
+      "prev_close": 344.17,
+      "pct_change": -0.52,
+      "market_cap_usd": 4996609282896,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 166.89,
+      "prev_close": 167.57,
+      "pct_change": -0.41,
+      "market_cap_usd": 206936114299,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 259.3,
+      "prev_close": 260.21,
+      "pct_change": -0.35,
+      "market_cap_usd": 2796891054576,
+      "is_mover": false
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 277.36,
+      "prev_close": 278.15,
+      "pct_change": -0.28,
+      "market_cap_usd": 253443319483,
+      "is_mover": false
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 313.84,
+      "prev_close": 314.67,
+      "pct_change": -0.26,
+      "market_cap_usd": 256860178330,
+      "is_mover": false
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 216.9,
+      "prev_close": 217.2,
+      "pct_change": -0.14,
+      "market_cap_usd": 222091466171,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 460.42,
+      "prev_close": 460.28,
+      "pct_change": 0.03,
+      "market_cap_usd": 248917789066,
       "is_mover": false
     }
   ]
