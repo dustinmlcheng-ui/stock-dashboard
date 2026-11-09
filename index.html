@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nasdaq 40 Dashboard · 2026-11-06</title>
+<title>Nasdaq 40 Dashboard · 2026-11-09</title>
 <style>
 :root {
   --bg: #f5f7fb; --panel: #fff; --text: #0f172a; --muted: #64748b; --line: #e2e8f0;
@@ -158,34 +158,50 @@ footer p { margin: 4px 0; overflow-wrap: anywhere; }
 <script>
 window.DASHBOARD_DATA = {
  "is_example": false,
- "session_date": "2026-11-06",
- "market_context": "The Nasdaq-100 bounced 1.35% to 26,989.99 (QQQ +1.40% to $656.10) as chips and AI names clawed back part of Thursday’s ~6% plunge; SOX rose ~4% after a ~12% rout, aided by a strong October jobs print (165k).",
- "generated_at": "2026-11-07T06:21:45+08:00",
- "source": "latest.json (Stock Watcher, modified 2026-11-07 06:21 HKT)",
+ "session_date": "2026-11-09",
+ "market_context": "The Nasdaq-100 jumped 3.40% to 27,907.63 (QQQ +3.54% to $679.35) as dip-buyers returned to chips and AI after last week’s midterm-driven rout; a drop in oil cooled inflation worries and the Philadelphia Semiconductor Index rose about 6.9%, even as Nvidia slumped on a board probe of CEO Jensen Huang.",
+ "generated_at": "2026-11-10T06:26:26+08:00",
+ "source": "latest.json (Stock Watcher, modified 2026-11-10 06:26 HKT)",
  "mover_threshold": 3.0,
  "notes": [
-  "Market-cap basis: Shares outstanding x 2026-11-06 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
+  "Market-cap basis: Shares outstanding x 2026-11-09 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
  ],
  "stocks": [
   {
    "ticker": "NVDA",
    "name": "NVIDIA Corporation",
-   "close": 186.64,
-   "prev_close": 181.6,
-   "pct_change": 2.78,
-   "market_cap": 4498023908195.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 178.67,
+   "prev_close": 186.64,
+   "pct_change": -4.27,
+   "market_cap": 4305946882068.0,
+   "mover": true,
+   "reason": "Nvidia’s board launched an independent investigation, announced Sunday, after reports that CEO Jensen Huang was the target of a foreign intelligence effort tied to an affair with Megaspeed executive Alice Huang, whom U.S. intelligence agencies have alleged was passing information to Beijing. The company said it has no reason to believe national security or Nvidia secrets were compromised; Huang said he fully supports the review. Nvidia was the Philadelphia Semiconductor Index’s only decliner.",
+   "sources": [
+    {
+     "outlet": "NVIDIA Newsroom",
+     "title": "Statement From NVIDIA Board of Directors",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+     "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+    },
+    {
+     "outlet": "Motley Fool",
+     "title": "Stock Market Today, Nov. 9: Nvidia Stock Plunges 4% on Jensen Huang Investigation as Nasdaq Surges Nearly 3%",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-nvidia-stock-plunges-4-on-jensen-huang-investigation-as-nasdaq-surges-nearly-3/"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AAPL",
    "name": "Apple Inc.",
-   "close": 342.37,
-   "prev_close": 344.17,
-   "pct_change": -0.52,
-   "market_cap": 4996609282896.0,
+   "close": 350.69,
+   "prev_close": 342.37,
+   "pct_change": 2.43,
+   "market_cap": 5118032966112.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -194,10 +210,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
-   "close": 530.61,
-   "prev_close": 535.93,
-   "pct_change": -0.99,
-   "market_cap": 3940412873576.0,
+   "close": 545.18,
+   "prev_close": 530.61,
+   "pct_change": 2.75,
+   "market_cap": 4048612579600.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -206,10 +222,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GOOGL",
    "name": "Alphabet Inc.",
-   "close": 284.78,
-   "prev_close": 282.57,
-   "pct_change": 0.78,
-   "market_cap": 3501085214644.0,
+   "close": 288.15,
+   "prev_close": 284.78,
+   "pct_change": 1.18,
+   "market_cap": 3542515933546.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -218,10 +234,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMZN",
    "name": "Amazon.com Inc.",
-   "close": 259.3,
-   "prev_close": 260.21,
-   "pct_change": -0.35,
-   "market_cap": 2796891054576.0,
+   "close": 266.93,
+   "prev_close": 259.3,
+   "pct_change": 2.94,
+   "market_cap": 2879190682064.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -230,27 +246,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SPCX",
    "name": "Space Exploration Technologies Corp.",
-   "close": 134.27,
-   "prev_close": 123.62,
-   "pct_change": 8.62,
-   "market_cap": 1823529489967.0,
+   "close": 142.07,
+   "prev_close": 134.27,
+   "pct_change": 5.81,
+   "market_cap": 1929461828793.0,
    "mover": true,
-   "reason": "Relief bounce after a ~13% two-day post-midterm slide on Democratic “retribution” and Texas data-center fears; Deutsche Bank’s Edison Yu reiterated Buy with a $250 target, arguing political risk is more perception than near-term earnings hit.",
+   "reason": "SpaceX advanced plans for a roughly $24 billion gas-fired power plant and super-compute facility in Starbase, Texas, with a public hearing on a tax abatement set for December 9; Stifel also reiterated Buy with a $190 target, arguing terrestrial data-center curbs strengthen the case for orbital compute.",
    "sources": [
     {
-     "outlet": "CNBC",
-     "title": "SpaceX is down big on fears of Dem 'retribution' against Musk. Deutsche Bank says buy the dip",
-     "url": "https://www.cnbc.com/2026/11/06/spacex-is-down-big-on-dem-retribution-fears-against-musk-deutsche-bank-says-buy-the-dip.html"
+     "outlet": "Reuters",
+     "title": "SpaceX plans $24 billion gas power plant, data center project in Texas",
+     "url": "https://www.investing.com/news/stock-market-news/spacex-plans-24-billion-gas-power-plant-data-center-project-in-texas-5013083"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "SPCX Stock Rises As SpaceX Advances $24B Texas Data Center And Gas Plant Plans",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/spcx-stock-rises-spacex-advances-214647323.html"
     },
     {
      "outlet": "Motley Fool",
-     "title": "Why SpaceX Stock Is Up Today",
-     "url": "https://www.fool.com/investing/2026/11/06/why-spacex-stock-is-up-today/"
-    },
-    {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "title": "Why SpaceX Stock Popped on Monday",
+     "url": "https://www.fool.com/investing/2026/11/09/why-spacex-stock-popped-on-monday/"
     }
    ],
    "missing": false
@@ -258,51 +274,73 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AVGO",
    "name": "Broadcom Inc.",
-   "close": 293.69,
-   "prev_close": 291.53,
-   "pct_change": 0.74,
-   "market_cap": 1401967366706.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 319.48,
+   "prev_close": 293.69,
+   "pct_change": 8.78,
+   "market_cap": 1525079321715.0,
+   "mover": true,
+   "reason": "No clear company-specific news Monday; Broadcom was one of the two biggest boosts to the Philadelphia Semiconductor Index (alongside AMD) as investors rotated back into AI chips while Nvidia slumped.",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
+    },
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "META",
    "name": "Meta Platforms Inc.",
-   "close": 610.15,
-   "prev_close": 605.08,
-   "pct_change": 0.84,
-   "market_cap": 1559690614149.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 641.37,
+   "prev_close": 610.15,
+   "pct_change": 5.12,
+   "market_cap": 1639496388682.0,
+   "mover": true,
+   "reason": "JPMorgan’s Doug Anmuth added Meta to the bank’s Analyst Focus List (replacing Alphabet) and kept an Overweight rating with a $940 target, citing AI-powered advertising strength after Q3 ad revenue rose 26% and naming Meta and Amazon its preferred internet stocks.",
+   "sources": [
+    {
+     "outlet": "Investing.com",
+     "title": "JPMorgan drops Alphabet from focus list, adds Meta on AI advertising gains",
+     "url": "https://www.investing.com/news/stock-market-news/jpmorgan-drops-alphabet-from-focus-list-adds-meta-on-ai-advertising-gains-5012087"
+    },
+    {
+     "outlet": "Motley Fool",
+     "title": "Why Meta Platforms Stock Rallied on Monday",
+     "url": "https://www.fool.com/investing/2026/11/09/why-meta-platforms-stock-rallied-on-monday/"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "TSLA",
    "name": "Tesla Inc.",
-   "close": 358.22,
-   "prev_close": 343.69,
-   "pct_change": 4.23,
-   "market_cap": 1415956999099.0,
+   "close": 378.05,
+   "prev_close": 358.22,
+   "pct_change": 5.54,
+   "market_cap": 1494340138465.0,
    "mover": true,
-   "reason": "Musk said Tesla will wind down Cybertruck production at Gigafactory Texas around mid-2027 to make room for Cybercab robotaxi output, giving a company-specific spark on top of a broader growth-stock bounce after Thursday’s Musk/political selloff.",
+   "reason": "Tesla’s official Robotaxi account said service would be available in San Antonio starting at 5 a.m., adding a fifth Texas city and Tesla’s largest unsupervised launch zone; that company-specific spark landed on top of Friday’s Cybertruck-to-Cybercab capacity-shift news and a broader growth-stock rebound.",
    "sources": [
     {
-     "outlet": "X (@elonmusk)",
-     "title": "Tesla will be winding down production of the Cybertruck at Gigafactory Texas around the middle of next year to make room for increased Cybercab production",
-     "url": "https://x.com/elonmusk/status/2118591788701421573"
+     "outlet": "X (@robotaxi)",
+     "title": "Robotaxi available in San Antonio starting tomorrow, 5am",
+     "url": "https://x.com/robotaxi/status/2119678179963187564"
     },
     {
-     "outlet": "CNBC",
-     "title": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says",
-     "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html"
+     "outlet": "TechCrunch",
+     "title": "Tesla expands robotaxi service to San Antonio",
+     "url": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/"
     },
     {
-     "outlet": "Investing.com",
-     "title": "Why is Tesla stock rallying today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-rallying-today-93CH-5008775"
+     "outlet": "Motley Fool",
+     "title": "Stock Market Today, Nov. 9: Markets Rally as Semiconductor Gains Lift Nasdaq",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-markets-rally-as-semiconductor-gains-lift-nasdaq/"
     }
    ],
    "missing": false
@@ -310,34 +348,45 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SKHY",
    "name": "SK hynix Inc.",
-   "close": 127.34,
-   "prev_close": 123.9,
-   "pct_change": 2.78,
-   "market_cap": 928137321978.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 134.38,
+   "prev_close": 127.34,
+   "pct_change": 5.53,
+   "market_cap": 979449516618.0,
+   "mover": true,
+   "reason": "No clear company-specific news on the U.S. ADR; SK hynix bounced with U.S. memory and chip peers after last week’s scare that a Democrat-led Congress could slow AI data-center buildouts (Seoul-listed shares were also higher earlier Monday).",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-sk-hynix-samsung-asian-083520835.html"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Chip stocks gain despite Nvidia investigating Jensen Huang's affair",
+     "url": "https://www.cnbc.com/2026/11/09/asia-chip-stocks-south-korea-taiwan-nvidia.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "MU",
    "name": "Micron Technology Inc.",
-   "close": 690.0,
-   "prev_close": 656.39,
-   "pct_change": 5.12,
-   "market_cap": 780681999959.0,
+   "close": 733.15,
+   "prev_close": 690.0,
+   "pct_change": 6.25,
+   "market_cap": 829502938159.0,
    "mover": true,
-   "reason": "Memory names bounced with the AI trade as SOX recovered ~4% after Thursday’s worst chip day since 2020; no new company-specific catalyst Friday.",
+   "reason": "No new company-specific catalyst Monday; Micron bounced with memory and storage names as dip-buyers focused on its depressed valuation and a previously authorized $35.16 billion buyback slated to start December 9.",
    "sources": [
     {
      "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "title": "Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
     }
    ],
    "missing": false
@@ -345,10 +394,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "WMT",
    "name": "Walmart Inc.",
-   "close": 125.52,
-   "prev_close": 127.72,
-   "pct_change": -1.72,
-   "market_cap": 995843801537.0,
+   "close": 125.66,
+   "prev_close": 125.52,
+   "pct_change": 0.11,
+   "market_cap": 996954581698.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -357,27 +406,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMD",
    "name": "Advanced Micro Devices Inc.",
-   "close": 449.04,
-   "prev_close": 404.4,
-   "pct_change": 11.04,
-   "market_cap": 733046628927.0,
+   "close": 508.58,
+   "prev_close": 449.04,
+   "pct_change": 13.26,
+   "market_cap": 830244159990.0,
    "mover": true,
-   "reason": "Biggest rebound in the chip complex after Thursday’s 17% slide, as investors revisited AMD’s Nov. 3 record Q3 (revenue $13.4B, +45% y/y; Data Center +97%) and ~$17B Q4 guide that the midterm AI-regulation selloff had buried.",
+   "reason": "AMD announced that its 5th Gen EPYC CPUs will power Google Cloud’s TPU 8tx, the first cloud TPU system with hardware-enforced confidential computing, while Oppenheimer upgraded the stock to Outperform from Perform with a $600 target after last week’s strong Q3.",
    "sources": [
     {
      "outlet": "AMD IR",
-     "title": "AMD Reports Third Quarter 2026 Financial Results",
-     "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+     "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
+     "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai"
     },
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "CNBC",
+     "title": "AMD shares are primed for a comeback, says Oppenheimer",
+     "url": "https://www.cnbc.com/2026/11/09/amd-oppenheimer-upgrade-outperform.html"
     },
     {
      "outlet": "Motley Fool",
-     "title": "Stock Market Today, Nov. 6: AMD Surges 11% on Record Quarterly Revenue and Stronger Growth Outlook",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/06/stock-market-today-nov-6-amd-surges-11-on-record-quarterly-revenue-and-stronger-growth-outlook/"
+     "title": "Stock Market Today, Nov. 9: AMD Jumps on Oppenheimer Upgrade and Google Cloud Chip Selection",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-amd-jumps-on-oppenheimer-upgrade-and-google-cloud-chip-selection/"
     }
    ],
    "missing": false
@@ -385,22 +434,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ASML",
    "name": "ASML Holding N.V.",
-   "close": 1424.75,
-   "prev_close": 1356.65,
-   "pct_change": 5.02,
-   "market_cap": 549123834210.0,
+   "close": 1513.25,
+   "prev_close": 1424.75,
+   "pct_change": 6.21,
+   "market_cap": 583233298557.0,
    "mover": true,
-   "reason": "No company-specific news; ASML rose with wafer-fab equipment peers as chip buyers returned after Thursday’s midterm-driven AI selloff.",
+   "reason": "ASML disclosed a routine weekly update of buybacks under its existing program (purchases from Nov. 2–6), but the move was mainly the chip-equipment rebound as peers recovered from last week’s AI-regulation selloff.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "ASML IR",
+     "title": "ASML reports transactions under its current share buyback program",
+     "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-transactions-under-its-current-share-buyback-program-8"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Applied Materials Jumps 11% Ahead of Earnings; Lam Research Surges 9%, ASML Rises 6%",
+     "url": "https://247wallst.com/investing/2026/11/09/applied-materials-jumps-11-ahead-of-earnings-lam-research-surges-9-asml-rises-6/"
     },
     {
      "outlet": "Investing.com",
-     "title": "U.S. chip stocks bounce back sharply after Thursday’s AI rout",
-     "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-rebound-sharply-after-thursdays-brutal-selloff-5007137"
+     "title": "Why is ASML NV ADR stock surging today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-asml-nv-adr-stock-surging-today-93CH-5012705"
     }
    ],
    "missing": false
@@ -408,22 +462,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "INTC",
    "name": "Intel Corporation",
-   "close": 56.28,
-   "prev_close": 52.25,
-   "pct_change": 7.71,
-   "market_cap": 297443706614.0,
+   "close": 59.37,
+   "prev_close": 56.28,
+   "pct_change": 5.49,
+   "market_cap": 313774572263.0,
    "mover": true,
-   "reason": "No clear company-specific news beyond the sector; Intel bounced with semis as dip-buyers returned after Thursday’s ~10% drop, with CEO Lip-Bu Tan’s recent open-market purchase still cited as a confidence signal.",
+   "reason": "No company-specific news; Intel bounced with semiconductors as the Philadelphia Semiconductor Index rose about 6.9% and Nvidia was the index’s only decliner.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
     },
     {
-     "outlet": "Investing.com",
-     "title": "Why is Intel stock rallying today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-rallying-today-93CH-5008749"
+     "outlet": "CNBC",
+     "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+     "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
     }
    ],
    "missing": false
@@ -431,22 +485,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PLTR",
    "name": "Palantir Technologies Inc.",
-   "close": 160.38,
-   "prev_close": 154.99,
-   "pct_change": 3.48,
-   "market_cap": 385241352443.0,
+   "close": 169.2,
+   "prev_close": 160.38,
+   "pct_change": 5.5,
+   "market_cap": 406427445275.0,
    "mover": true,
-   "reason": "Relief bounce after an extended losing streak and Thursday’s AI selloff; Rosenblatt reiterated Buy/$260 and Citigroup raised its target to $265 (Buy), while the broader Nasdaq rebound helped high-beta AI software.",
+   "reason": "No new company-specific catalyst Monday; Palantir extended Friday’s bounce as high-beta AI software recovered with the Nasdaq after a multi-session post-Q3 slump, with last month’s revenue beat and U.S. commercial overtaking government still the fundamental backdrop.",
    "sources": [
     {
      "outlet": "Investing.com",
      "title": "Why is Palantir Technologies stock rallying today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rallying-today-93CH-5008767"
+     "url": "https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rallying-today-93CH-5012734"
     },
     {
-     "outlet": "CBS News",
-     "title": "Stocks rebound after tech selloff that pushed Nasdaq into correction",
-     "url": "https://www.cbsnews.com/news/stocks-tech-sell-off-nasdaq-correction-dow/"
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
     }
    ],
    "missing": false
@@ -454,10 +508,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "COST",
    "name": "Costco Wholesale Corporation",
-   "close": 1053.56,
-   "prev_close": 1065.59,
-   "pct_change": -1.13,
-   "market_cap": 466863374887.0,
+   "close": 1066.18,
+   "prev_close": 1053.56,
+   "pct_change": 1.2,
+   "market_cap": 472455665012.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -466,34 +520,50 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "CSCO",
    "name": "Cisco Systems Inc.",
-   "close": 93.85,
-   "prev_close": 95.72,
-   "pct_change": -1.95,
-   "market_cap": 370011784493.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 98.65,
+   "prev_close": 93.85,
+   "pct_change": 5.11,
+   "market_cap": 388936214154.0,
+   "mover": true,
+   "reason": "No company-specific announcement Monday; Cisco rose with networking and AI-infrastructure names as investors positioned ahead of Thursday’s fiscal first-quarter results, due after the close on November 12.",
+   "sources": [
+    {
+     "outlet": "Cisco IR",
+     "title": "Cisco Schedules Conference Call for Q1 Fiscal Year 2027 Financial Results",
+     "url": "https://investor.cisco.com/news/news-details/2026/Cisco-Schedules-Conference-Call-for-Q1-Fiscal-Year-2027-Financial-Results/default.aspx"
+    },
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AMAT",
    "name": "Applied Materials Inc.",
-   "close": 332.71,
-   "prev_close": 319.25,
-   "pct_change": 4.22,
-   "market_cap": 264041768048.0,
+   "close": 370.55,
+   "prev_close": 332.72,
+   "pct_change": 11.37,
+   "market_cap": 294067520262.0,
    "mover": true,
-   "reason": "No company-specific catalyst; Applied Materials rose with chip-equipment peers in the SOX rebound after Thursday’s rout.",
+   "reason": "No new operational announcement; Applied Materials led the chip-equipment rebound as investors positioned ahead of Thursday’s fiscal Q4 report (guided revenue about $10.25B ± $500M), with Citi and UBS maintaining Buy ratings into the print after last week’s midterm-driven selloff.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "Applied Materials IR",
+     "title": "Applied Materials to Report Fourth Quarter and Fiscal 2026 Results on Nov. 12, 2026",
+     "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results/"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Applied Materials Jumps 11% Ahead of Earnings; Lam Research Surges 9%, ASML Rises 6%",
+     "url": "https://247wallst.com/investing/2026/11/09/applied-materials-jumps-11-ahead-of-earnings-lam-research-surges-9-asml-rises-6/"
     },
     {
      "outlet": "Investing.com",
-     "title": "U.S. chip stocks bounce back sharply after Thursday’s AI rout",
-     "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-rebound-sharply-after-thursdays-brutal-selloff-5007137"
+     "title": "Why is Applied Materials stock surging today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-applied-materials-stock-surging-today-93CH-5012605"
     }
    ],
    "missing": false
@@ -501,12 +571,12 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LRCX",
    "name": "Lam Research Corporation",
-   "close": 200.44,
-   "prev_close": 185.2,
-   "pct_change": 8.23,
-   "market_cap": 250383838890.0,
+   "close": 221.31,
+   "prev_close": 200.44,
+   "pct_change": 10.41,
+   "market_cap": 276454031624.0,
    "mover": true,
-   "reason": "Led equipment peers after the board authorized a $25B share repurchase (announced after Thursday’s close) plus a $0.33 quarterly dividend, amplifying a broader chip-equipment rebound.",
+   "reason": "No new company-specific announcement Monday; Lam extended Friday’s rebound after its Nov. 5 $25 billion share-repurchase authorization as wafer-fab equipment peers ripped higher with the broader chip bounce.",
    "sources": [
     {
      "outlet": "Lam Research IR",
@@ -514,9 +584,9 @@ window.DASHBOARD_DATA = {
      "url": "https://investor.lamresearch.com/2026-11-05-Lam-Research-Corporation-Announces-25-Billion-Share-Repurchase-Authorization-and-Declares-Quarterly-Dividend"
     },
     {
-     "outlet": "Investing.com",
-     "title": "Why is Lam Research stock surging today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-lam-research-stock-surging-today-93CH-5008698"
+     "outlet": "24/7 Wall St.",
+     "title": "Applied Materials Jumps 11% Ahead of Earnings; Lam Research Surges 9%, ASML Rises 6%",
+     "url": "https://247wallst.com/investing/2026/11/09/applied-materials-jumps-11-ahead-of-earnings-lam-research-surges-9-asml-rises-6/"
     }
    ],
    "missing": false
@@ -524,69 +594,91 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks Inc.",
-   "close": 313.84,
-   "prev_close": 314.67,
-   "pct_change": -0.26,
-   "market_cap": 256860178330.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "TXN",
-   "name": "Texas Instruments Incorporated",
-   "close": 277.36,
-   "prev_close": 278.15,
-   "pct_change": -0.28,
-   "market_cap": 253443319483.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "CRWD",
-   "name": "CrowdStrike Holdings Inc.",
-   "close": 216.9,
-   "prev_close": 217.2,
-   "pct_change": -0.14,
-   "market_cap": 222091466171.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "NFLX",
-   "name": "Netflix Inc.",
-   "close": 63.41,
-   "prev_close": 65.56,
-   "pct_change": -3.28,
-   "market_cap": 260382128084.0,
+   "close": 330.89,
+   "prev_close": 313.84,
+   "pct_change": 5.43,
+   "market_cap": 270814648107.0,
    "mover": true,
-   "reason": "Fell despite the tech rebound as investors focused on Form 4 sales by Co-CEO Ted Sarandos and CFO Spencer Neumann (tax-withholding on vested awards) and ongoing debate over ad-tier monetization versus content spend.",
+   "reason": "No clear company-specific news; Palo Alto Networks rose with cybersecurity and growth software as tech risk appetite returned, with investors also looking ahead to the company’s Nov. 18 fiscal first-quarter report.",
    "sources": [
     {
-     "outlet": "MarketBeat",
-     "title": "Netflix (NASDAQ:NFLX) Stock Price Down 3.3% on Insider Selling",
-     "url": "https://www.marketbeat.com/instant-alerts/price-netflix-nasdaq-nflx-stock-price-down-33-on-insider-selling-2026-11-06/"
+     "outlet": "Palo Alto Networks",
+     "title": "Palo Alto Networks to Announce Fiscal First Quarter 2027 Financial Results on Wednesday, November 18, 2026",
+     "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-announce-fiscal-first-quarter-2027-financial-results-on-wednesday--november-18--2026"
     },
     {
-     "outlet": "TradingKey",
-     "title": "Netflix Inc Stock (NFLX) Closed Down by 3.28% on Nov 6: A Full Analysis",
-     "url": "https://www.tradingkey.com/news/market-movers/262293698-market-movers-nflx-20261106"
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
     }
    ],
    "missing": false
   },
   {
+   "ticker": "TXN",
+   "name": "Texas Instruments Incorporated",
+   "close": 295.73,
+   "prev_close": 277.36,
+   "pct_change": 6.62,
+   "market_cap": 270229303481.0,
+   "mover": true,
+   "reason": "No company-specific catalyst; Texas Instruments rose with analog and semiconductor peers in the SOX rebound after last week’s midterm-driven chip rout.",
+   "sources": [
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    },
+    {
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike Holdings Inc.",
+   "close": 228.58,
+   "prev_close": 216.9,
+   "pct_change": 5.38,
+   "market_cap": 234051033529.0,
+   "mover": true,
+   "reason": "No clear company-specific news; CrowdStrike rose with cybersecurity and high-growth software peers as risk appetite returned to tech after last week’s selloff.",
+   "sources": [
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    },
+    {
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix Inc.",
+   "close": 63.95,
+   "prev_close": 63.41,
+   "pct_change": 0.85,
+   "market_cap": 262599547858.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
+   "missing": false
+  },
+  {
    "ticker": "AMGN",
    "name": "Amgen Inc.",
-   "close": 460.42,
-   "prev_close": 460.28,
-   "pct_change": 0.03,
-   "market_cap": 248917789066.0,
+   "close": 465.23,
+   "prev_close": 460.42,
+   "pct_change": 1.04,
+   "market_cap": 251518227628.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -595,22 +687,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ARM",
    "name": "Arm Holdings plc",
-   "close": 174.62,
-   "prev_close": 166.72,
-   "pct_change": 4.74,
-   "market_cap": 185805319439.0,
+   "close": 186.3,
+   "prev_close": 174.62,
+   "pct_change": 6.69,
+   "market_cap": 198233492993.0,
    "mover": true,
-   "reason": "No new company news; Arm rebounded with chip designers after Thursday’s soft-guidance and AI-regulation selloff.",
+   "reason": "No new company news; Arm rose with chip designers as the sector recovered from last week’s AI-regulation selloff, even as Nvidia’s leadership probe kept that name under pressure.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "CNBC",
+     "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+     "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
     }
    ],
    "missing": false
@@ -618,10 +710,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LIN",
    "name": "Linde plc",
-   "close": 515.25,
-   "prev_close": 521.23,
-   "pct_change": -1.15,
-   "market_cap": 237520031867.0,
+   "close": 520.33,
+   "prev_close": 515.25,
+   "pct_change": 0.99,
+   "market_cap": 239861819001.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -630,22 +722,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "KLAC",
    "name": "KLA Corporation",
-   "close": 138.49,
-   "prev_close": 129.8,
-   "pct_change": 6.69,
-   "market_cap": 180730364152.0,
+   "close": 151.38,
+   "prev_close": 138.49,
+   "pct_change": 9.31,
+   "market_cap": 197551897773.0,
    "mover": true,
-   "reason": "No company-specific catalyst; rode the semiconductor-equipment rebound with peers as buyers returned after Thursday’s AI/data-center policy rout.",
+   "reason": "No company-specific catalyst; KLA rose in step with wafer-fab equipment peers Applied Materials, Lam Research, and ASML as buyers returned to the chip-tool complex.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "24/7 Wall St.",
+     "title": "Applied Materials Jumps 11% Ahead of Earnings; Lam Research Surges 9%, ASML Rises 6%",
+     "url": "https://247wallst.com/investing/2026/11/09/applied-materials-jumps-11-ahead-of-earnings-lam-research-surges-9-asml-rises-6/"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
     }
    ],
    "missing": false
@@ -653,45 +745,45 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SHOP",
    "name": "Shopify Inc.",
-   "close": 148.91,
-   "prev_close": 143.75,
-   "pct_change": 3.59,
-   "market_cap": 192959225184.0,
-   "mover": true,
-   "reason": "Continued recovery from the post-Q3 GMV miss, helped by UBS raising its price target to $160 (Neutral) on Nov. 4 and broader dip-buying in growth software as Nasdaq bounced.",
-   "sources": [
-    {
-     "outlet": "MarketBeat",
-     "title": "Shopify (NASDAQ:SHOP) Stock Price Target Raised at UBS Group",
-     "url": "https://www.marketbeat.com/instant-alerts/analyst-shopify-nasdaq-shop-stock-price-target-raised-at-ubs-group-2026-11-04/"
-    },
-    {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "ADI",
-   "name": "Analog Devices Inc.",
-   "close": 363.56,
-   "prev_close": 361.01,
-   "pct_change": 0.71,
-   "market_cap": 176168619769.0,
+   "close": 152.06,
+   "prev_close": 148.91,
+   "pct_change": 2.12,
+   "market_cap": 197041022018.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
+   "ticker": "ADI",
+   "name": "Analog Devices Inc.",
+   "close": 394.66,
+   "prev_close": 363.56,
+   "pct_change": 8.55,
+   "market_cap": 191238608730.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Analog Devices joined the semiconductor rebound as analog and chip peers recovered from last week’s AI-regulation selloff.",
+   "sources": [
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    },
+    {
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
+    }
+   ],
+   "missing": false
+  },
+  {
    "ticker": "GILD",
    "name": "Gilead Sciences Inc.",
-   "close": 166.89,
-   "prev_close": 167.57,
-   "pct_change": -0.41,
-   "market_cap": 206936114299.0,
+   "close": 169.32,
+   "prev_close": 166.89,
+   "pct_change": 1.46,
+   "market_cap": 209949215153.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -700,22 +792,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "QCOM",
    "name": "QUALCOMM Incorporated",
-   "close": 165.41,
-   "prev_close": 156.75,
-   "pct_change": 5.52,
-   "market_cap": 173719193288.0,
+   "close": 171.47,
+   "prev_close": 165.41,
+   "pct_change": 3.66,
+   "market_cap": 180083608159.0,
    "mover": true,
-   "reason": "Partial recovery after Thursday’s guidance-driven plunge that helped spark the chip rout; no new company news Friday—moved with the sector bounce.",
+   "reason": "No new company news Monday; Qualcomm recovered further with the chip complex after last week’s guidance-driven slump and the broader midterm-driven semiconductor rout.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "CNBC",
+     "title": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s affair with alleged Chinese spy",
+     "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
     }
    ],
    "missing": false
@@ -723,22 +815,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SNDK",
    "name": "Sandisk Corporation",
-   "close": 835.06,
-   "prev_close": 806.43,
-   "pct_change": 3.55,
-   "market_cap": 121357329321.0,
+   "close": 886.51,
+   "prev_close": 835.06,
+   "pct_change": 6.16,
+   "market_cap": 128834440059.0,
    "mover": true,
-   "reason": "Memory/storage rebound with Micron and peers after Thursday’s AI-trade collapse; no company-specific news Friday.",
+   "reason": "No clear company-specific news Monday; SanDisk rallied with Micron and other memory/storage names as investors bought the group after last week’s chip rout.",
    "sources": [
     {
      "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "title": "Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
     }
    ],
    "missing": false
@@ -746,22 +838,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MRVL",
    "name": "Marvell Technology Inc.",
-   "close": 141.2,
-   "prev_close": 133.55,
-   "pct_change": 5.73,
-   "market_cap": 123818279401.0,
+   "close": 154.6,
+   "prev_close": 141.2,
+   "pct_change": 9.49,
+   "market_cap": 135568747626.0,
    "mover": true,
-   "reason": "No clear company-specific news; Marvell bounced with AI/networking chip peers after Thursday’s sector collapse on midterm data-center regulation fears.",
+   "reason": "No clear company-specific news; Marvell bounced with AI and networking chip peers as the Philadelphia Semiconductor Index rose about 6.9% and Nvidia was the index’s only decliner.",
    "sources": [
     {
-     "outlet": "Yahoo Finance",
-     "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
-     "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-sandsik-lead-chip-sector-higher-134336542.html"
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
     }
    ],
    "missing": false
@@ -769,10 +861,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PEP",
    "name": "PepsiCo Inc.",
-   "close": 141.34,
-   "prev_close": 142.71,
-   "pct_change": -0.96,
-   "market_cap": 192609830619.0,
+   "close": 141.88,
+   "prev_close": 141.34,
+   "pct_change": 0.38,
+   "market_cap": 193345722490.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -781,69 +873,91 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "STX",
    "name": "Seagate Technology Holdings PLC",
-   "close": 460.99,
-   "prev_close": 466.53,
-   "pct_change": -1.19,
-   "market_cap": 105436967002.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "TMUS",
-   "name": "T-Mobile US Inc.",
-   "close": 162.01,
-   "prev_close": 160.59,
-   "pct_change": 0.88,
-   "market_cap": 171612751232.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
-   "missing": false
-  },
-  {
-   "ticker": "ISRG",
-   "name": "Intuitive Surgical Inc.",
-   "close": 452.8,
-   "prev_close": 468.52,
-   "pct_change": -3.36,
-   "market_cap": 156960267864.0,
+   "close": 506.14,
+   "prev_close": 460.99,
+   "pct_change": 9.79,
+   "market_cap": 115763615595.0,
    "mover": true,
-   "reason": "No clear company-specific news; Intuitive Surgical underperformed as high-multiple medtech faced profit-taking and hospital CapEx scrutiny while the session’s rebound stayed concentrated in chips/AI.",
+   "reason": "No clear company-specific news Monday; Seagate rallied with Western Digital and the memory/storage group as hyperscaler AI storage demand stayed the longer-term backdrop and dip-buyers returned after last week’s rout.",
    "sources": [
     {
-     "outlet": "TradingKey",
-     "title": "Intuitive Surgical Inc Stock (ISRG) Moved Down by 3.14% on Nov 6: Drivers Behind the Movement",
-     "url": "https://www.tradingkey.com/news/market-movers/262292861-market-movers-isrg-20261106"
+     "outlet": "Yahoo Finance",
+     "title": "Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html"
     },
     {
-     "outlet": "Fox Business",
-     "title": "Nasdaq rises as AI and chip stocks recover after post-midterm sell-off",
-     "url": "https://www.foxbusiness.com/markets/stocks-11-6-2026"
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
     }
    ],
    "missing": false
   },
   {
-   "ticker": "WDC",
-   "name": "Western Digital Corporation",
-   "close": 263.78,
-   "prev_close": 267.63,
-   "pct_change": -1.44,
-   "market_cap": 98738990525.0,
+   "ticker": "TMUS",
+   "name": "T-Mobile US Inc.",
+   "close": 168.71,
+   "prev_close": 162.01,
+   "pct_change": 4.14,
+   "market_cap": 178709890712.0,
+   "mover": true,
+   "reason": "No clear company-specific news; T-Mobile participated in a broad risk-on session in which all 11 S&P 500 sectors finished higher.",
+   "sources": [
+    {
+     "outlet": "Reuters",
+     "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-rough-103539344.html"
+    },
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical Inc.",
+   "close": 460.56,
+   "prev_close": 452.8,
+   "pct_change": 1.71,
+   "market_cap": 159650226442.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
+   "ticker": "WDC",
+   "name": "Western Digital Corporation",
+   "close": 289.78,
+   "prev_close": 263.78,
+   "pct_change": 9.86,
+   "market_cap": 108471395429.0,
+   "mover": true,
+   "reason": "No clear company-specific news Monday; Western Digital jumped with Seagate and other memory/storage names as investors bought the AI-storage dip after last week’s post-midterm chip rout.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Micron Rises 6% as Bulls Tout Its Bargain Valuation and Buyback Firepower; Seagate and Western Digital Jump 11%",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/micron-rises-6-bulls-tout-175231901.html"
+    },
+    {
+     "outlet": "Barchart",
+     "title": "Stock Indexes Surge as Buyers Return to Chipmakers and AI Stocks",
+     "url": "https://www.barchart.com/story/news/8743001/stock-indexes-surge-as-buyers-return-to-chipmakers-and-ai-stocks"
+    }
+   ],
+   "missing": false
+  },
+  {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "close": 547.09,
-   "prev_close": 542.5,
-   "pct_change": 0.85,
-   "market_cap": 138665943718.0,
+   "close": 550.87,
+   "prev_close": 547.09,
+   "pct_change": 0.69,
+   "market_cap": 139624017966.0,
    "mover": false,
    "reason": "",
    "sources": [],
