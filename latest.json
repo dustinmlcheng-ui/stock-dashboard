@@ -1,479 +1,531 @@
 {
-  "session_date": "2026-11-12",
-  "generated_at": "2026-11-13T06:20:18+08:00",
+  "session_date": "2026-11-13",
+  "generated_at": "2026-11-14T06:26:59+08:00",
   "threshold_pct": 3,
-  "market_context": "The Nasdaq-100 slipped 0.30% to 28,289.19 (QQQ −0.32% to $688.17) after Nvidia said founder Jensen Huang resigned as CEO; the Philadelphia Semiconductor Index eased 0.54%.",
-  "market_cap_basis": "Shares outstanding x 2026-11-12 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 fell 1.22% to 27,943.74 (QQQ −1.20% to $679.89) as chip stocks reversed Thursday’s rotation away from Nvidia; the Philadelphia Semiconductor Index dropped 3.43%. October PPI rose 0.3%, but the 6.5% annual pace (fastest since November 2022) did little to support tech.",
+  "market_cap_basis": "Shares outstanding x 2026-11-13 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 585.3,
-      "prev_close": 552.9,
-      "pct_change": 5.86,
-      "market_cap_usd": 955487650984,
+      "close": 534.06,
+      "prev_close": 585.3,
+      "pct_change": -8.75,
+      "market_cap_usd": 871839643250,
       "is_mover": true,
-      "reason": "Investors rotated into Nvidia’s closest GPU rival after founder Jensen Huang resigned as CEO. William Blair’s Sebastien Naji upgraded AMD to Outperform from Market Perform, arguing it could benefit from a “leadership vacuum” at Nvidia, and Bank of America raised its price target to $700 from $650, keeping a Buy rating.",
+      "reason": "Investors unwound Thursday’s rotation into Nvidia rivals after founder Jensen Huang resigned as CEO. AMD had rallied sharply over the prior five sessions on bets that customers might shift AI-chip orders, and Friday’s drop was a sector-wide reversal and profit-taking rather than company-specific news.",
       "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "AMD upgraded because it will benefit from Nvidia's 'leadership vacuum'",
-          "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html"
-        },
-        {
-          "outlet": "TipRanks",
-          "title": "AMD price target raised to $700 from $650 at BofA",
-          "url": "https://www.tipranks.com/news/the-fly/amd-price-target-raised-to-700-from-650-at-bofa-thefly-news"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc. Common Stock",
-      "close": 364.36,
-      "prev_close": 345.22,
-      "pct_change": 5.54,
-      "market_cap_usd": 1739319707685,
-      "is_mover": true,
-      "reason": "Broadcom also rallied as investors looked for alternative AI-chip and custom-accelerator exposure after Nvidia said Huang had resigned and named CFO Colette Kress interim CEO.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance",
-          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html"
-        },
         {
           "outlet": "Investing.com",
-          "title": "AMD, Broadcom shares rally as Nvidia CEO Huang resigns",
-          "url": "https://www.investing.com/news/stock-market-news/amd-broadcom-gain-after-reports-say-nvidia-board-preparing-to-oust-huang-5020894"
+          "title": "Why is Advanced Micro Devices stock sliding today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-sliding-today-93CH-5025995"
+        },
+        {
+          "outlet": "Motley Fool",
+          "title": "Why Advanced Micro Devices Stock Is Down Today",
+          "url": "https://www.fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today/"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Wall Street Slides As Chip Stocks Extend Selloff. Nasdaq Takes Biggest Hit Despite Cooler Inflation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-slides-chip-stocks-211835523.html"
         }
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 166.19,
-      "prev_close": 173.73,
-      "pct_change": -4.34,
-      "market_cap_usd": 4005178990190,
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 95.64,
+      "prev_close": 102.01,
+      "pct_change": -6.24,
+      "market_cap_usd": 377069018844,
       "is_mover": true,
-      "reason": "Nvidia fell after the company said founder Jensen Huang resigned as president, CEO, and a director, effective immediately. The board named CFO Colette Kress interim CEO and appointed longtime director Harvey C. Jones as its first chair; an 8-K says the board accepted the resignation on Nov. 11. Shares recouped some of a steeper morning drop.",
+      "reason": "Cisco fell in the first regular session after Thursday’s fiscal first-quarter results. Revenue hit a record $18.5 billion, up 24%, non-GAAP EPS was $1.40, and the company raised fiscal 2027 guidance and its hyperscaler AI-infrastructure target to $9 billion, but non-GAAP gross margin slipped to 65.6% from 68.1% on a heavier mix of lower-margin AI networking hardware and higher memory costs, while product-order growth slowed to 21% from 35%. Citi cut its price target to $120 from $139 (keeping Buy), Barclays to $109 from $123 (Equal Weight), and Wells Fargo to $130 from $150 (Overweight).",
       "sources": [
         {
-          "outlet": "NVIDIA Newsroom",
-          "title": "NVIDIA Announces CEO Transition",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          "outlet": "Cisco Newsroom",
+          "title": "Cisco Reports First Quarter Earnings",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
         },
         {
-          "outlet": "SEC 8-K",
-          "title": "NVIDIA Corporation Form 8-K (Item 5.02)",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+          "outlet": "X (@Cisco)",
+          "title": "Just announced — CSCO Q1FY27 Earnings",
+          "url": "https://x.com/Cisco/status/2120987169074356329"
         },
         {
-          "outlet": "X (@nvidianewsroom)",
-          "title": "NVIDIA announces CEO transition. Read the release.",
-          "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
+          "outlet": "Yahoo Finance",
+          "title": "Cisco’s Growth May Have Peaked Despite Raised AI Revenue Outlook, Says Citi — Barclays Sees Margins Holding Up",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-growth-may-peaked-despite-124930816.html"
         }
       ]
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation Common Stock",
-      "close": 937.46,
-      "prev_close": 977.69,
-      "pct_change": -4.11,
-      "market_cap_usd": 136238886959,
+      "close": 885.01,
+      "prev_close": 937.46,
+      "pct_change": -5.59,
+      "market_cap_usd": 128616448544,
       "is_mover": true,
-      "reason": "Sandisk gave back part of Wednesday’s 13.7% rally as Huang’s resignation weighed on memory and storage suppliers whose data-center sales are tied to AI accelerator demand.",
+      "reason": "No clear company-specific news; Sandisk fell with other memory and storage names as the AI-chip selloff deepened and investors gave back more of Wednesday’s rally, which had been tied to AI infrastructure demand.",
       "sources": [
         {
-          "outlet": "Motley Fool",
-          "title": "Why Sandisk Stock Dropped on Thursday",
-          "url": "https://www.fool.com/investing/2026/11/12/why-sandisk-stock-dropped-on-thursday/"
+          "outlet": "Forbes",
+          "title": "AI And Chip Stocks Finish Down On Friday As Markets Digest Nvidia Turmoil",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-finish-down-213620910.html"
         },
         {
-          "outlet": "24/7 Wall St.",
-          "title": "Sandisk, Micron, and SK Hynix Slide 3% as NVIDIA Shake-Up Hits Memory Stocks",
-          "url": "https://247wallst.com/investing/2026/11/12/sandisk-micron-and-sk-hynix-slide-3-as-nvidia-shake-up-hits-memory-stocks/"
+          "outlet": "MarketWatch",
+          "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+          "url": "https://www.morningstar.com/news/marketwatch/20261113202/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang"
         }
       ]
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 380.95,
-      "prev_close": 395.08,
-      "pct_change": -3.58,
-      "market_cap_usd": 302320952972,
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 295.65,
+      "prev_close": 311.21,
+      "pct_change": -5.0,
+      "market_cap_usd": 110668671170,
       "is_mover": true,
-      "reason": "Applied Materials slipped with other wafer-fab equipment names as Nvidia’s leadership shock deepened anxiety across the AI supply chain. Fiscal fourth-quarter results were due after the close, so they do not explain the regular-session drop.",
+      "reason": "No clear company-specific news on Friday; Western Digital fell with memory and storage peers as the semiconductor selloff deepened, reversing much of Wednesday’s bounce after its fiscal first-quarter report.",
       "sources": [
         {
-          "outlet": "StockStory",
-          "title": "Applied Materials, Seagate, Photronics, Vishay Intertechnology, and Allegro MicroSystems stocks trade down, what you need to know",
-          "url": "https://stockstory.org/us/stocks/nasdaq/amat/news/why-up-down/applied-materials-seagate-photronics-vishay-intertechnology-and-allegro-microsystems-stocks-trade-down-what-you-need-to-know"
+          "outlet": "Investing.com",
+          "title": "Why is Western Digital stock sliding today?",
+          "url": "https://uk.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-4981672"
         },
         {
-          "outlet": "Applied Materials IR",
-          "title": "Applied Materials to Report Fourth Quarter and Fiscal 2026 Results on Nov. 12, 2026",
-          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results/"
+          "outlet": "MarketWatch",
+          "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+          "url": "https://www.morningstar.com/news/marketwatch/20261113202/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang"
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 347.01,
+      "prev_close": 364.36,
+      "pct_change": -4.76,
+      "market_cap_usd": 1656497346071,
+      "is_mover": true,
+      "reason": "Broadcom reversed Thursday’s rally as traders unwound the rotation into Nvidia alternatives. Rothschild & Co Redburn also downgraded the stock to Neutral from Buy and cut its price target to $398 from $595, with analyst Mike Harrison citing Broadcom’s reliance on Anthropic and OpenAI becoming self-financing and Google designing more chips in-house.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Rothschild downgrades Broadcom stock rating on AI financing concerns",
+          "url": "https://www.investing.com/news/analyst-ratings/rothschild-downgrades-broadcom-stock-rating-on-ai-financing-concerns-93CH-5024402"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia turmoil reshuffles the AI trade. Winners, losers and what investors should watch",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html"
+          "title": "Broadcom Sinks 7% as Rothschild Redburn Downgrade Slashes Target to $398",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-sinks-7-rothschild-redburn-160649946.html"
         }
       ]
     },
     {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 322.66,
-      "prev_close": 334.47,
-      "pct_change": -3.53,
-      "market_cap_usd": 264078852433,
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 156.76,
+      "prev_close": 164.45,
+      "pct_change": -4.68,
+      "market_cap_usd": 137462841489,
       "is_mover": true,
-      "reason": "Palo Alto Networks fell after Jefferies analyst Joseph Gallo cut the price target to $400 from $450 while keeping a Buy rating, adding pressure ahead of fiscal first-quarter results due after the close on Nov. 18.",
+      "reason": "No clear company-specific news; Marvell fell with other AI-chip and custom-accelerator names as the semiconductor selloff deepened and Thursday’s rotation away from Nvidia reversed.",
       "sources": [
         {
-          "outlet": "TipRanks",
-          "title": "Palo Alto Networks price target lowered to $400 from $450 at Jefferies",
-          "url": "https://www.tipranks.com/news/the-fly/palo-alto-networks-price-target-lowered-to-400-from-450-at-jefferies-thefly-news"
+          "outlet": "Forbes",
+          "title": "AI And Chip Stocks Finish Down On Friday As Markets Digest Nvidia Turmoil",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-finish-down-213620910.html"
         },
         {
-          "outlet": "Investing.com",
-          "title": "Why is Palo Alto Networks stock sliding today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-5022364"
+          "outlet": "Yahoo Finance",
+          "title": "Wall Street Slides As Chip Stocks Extend Selloff. Nasdaq Takes Biggest Hit Despite Cooler Inflation",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-slides-chip-stocks-211835523.html"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 190.53,
+      "prev_close": 199.78,
+      "pct_change": -4.63,
+      "market_cap_usd": 202734442078,
+      "is_mover": true,
+      "reason": "Arm fell after the Financial Times reported that Nvidia’s board had approached CEO Rene Haas as a potential successor to Jensen Huang; Arm declined to comment. Later Friday, Nvidia’s board told CNBC it has not formally engaged any candidates and called speculation about individual names premature.",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+          "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926"
+        },
+        {
+          "outlet": "X (@FT)",
+          "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+          "url": "https://x.com/FT/status/2121288613010829486"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
         }
       ]
     },
     {
       "ticker": "SKHY",
       "name": "SK hynix Inc. American Depositary Shares",
-      "close": 137.71,
-      "prev_close": 142.25,
-      "pct_change": -3.19,
-      "market_cap_usd": 1003720751662,
+      "close": 131.79,
+      "prev_close": 137.71,
+      "pct_change": -4.3,
+      "market_cap_usd": 960571815217,
       "is_mover": true,
-      "reason": "SK hynix declined with other memory names on concerns about its heavier exposure to Nvidia through high-bandwidth memory used in AI accelerators; its Seoul-listed shares fell 1.8%.",
+      "reason": "SK hynix, a key high-bandwidth-memory supplier to Nvidia, was swept up in the leadership-uncertainty selloff. Its Seoul-listed shares reversed an early gain and closed 3.03% lower; the Nasdaq ADR fell further with other memory names.",
       "sources": [
         {
-          "outlet": "Aju Press",
-          "title": "South Korean chip giants diverge amid Nvidia's deepening scandal",
-          "url": "https://www.ajupress.com/view/20261112153627740"
-        },
-        {
-          "outlet": "24/7 Wall St.",
-          "title": "Sandisk, Micron, and SK Hynix Slide 3% as NVIDIA Shake-Up Hits Memory Stocks",
-          "url": "https://247wallst.com/investing/2026/11/12/sandisk-micron-and-sk-hynix-slide-3-as-nvidia-shake-up-hits-memory-stocks/"
+          "outlet": "CNBC",
+          "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-without-jensen-huang-what-lies-ahead-for-asian-chipmakers-.html"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-sinks-but-rivals-amd-broadcom-rise-133910081.html"
+          "title": "SK hynix Stocks Fall 3.03% as Nvidia Leadership Shock Hits Key HBM Supplier",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-3-183209379.html"
         }
       ]
     },
     {
-      "ticker": "NFLX",
-      "name": "Netflix Inc. Common Stock",
-      "close": 62.69,
-      "prev_close": 64.54,
-      "pct_change": -2.87,
-      "market_cap_usd": 257425568385,
-      "is_mover": false
-    },
-    {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 164.45,
-      "prev_close": 168.8,
-      "pct_change": -2.58,
-      "market_cap_usd": 144206204743,
-      "is_mover": false
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1497.12,
-      "prev_close": 1534.42,
-      "pct_change": -2.43,
-      "market_cap_usd": 577016509557,
-      "is_mover": false
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 225.92,
+      "prev_close": 233.78,
+      "pct_change": -3.36,
+      "market_cap_usd": 282212710710,
+      "is_mover": true,
+      "reason": "Lam slipped with other wafer-fab equipment names after Applied Materials, a close peer, reported a record quarter after Thursday’s close but guided first-quarter revenue to $11.1 billion plus or minus $500 million, below estimates. That outlook bears on the same chipmaker budgets that pay Lam, and the broader semiconductor selloff added pressure.",
+      "sources": [
+        {
+          "outlet": "Applied Materials",
+          "title": "Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
+          "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Applied Materials Sinks 6% After Record Quarter as 10 Analysts Cut Targets; Morningstar Calls AI Worries “Overblown”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sinks-6-record-165209582.html"
+        }
+      ]
     },
     {
       "ticker": "KLAC",
       "name": "KLA Corporation Common Stock",
-      "close": 157.3,
-      "prev_close": 161.01,
-      "pct_change": -2.3,
-      "market_cap_usd": 205277534154,
-      "is_mover": false
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 439.89,
-      "prev_close": 449.53,
-      "pct_change": -2.14,
-      "market_cap_usd": 152485106871,
-      "is_mover": false
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 61.2,
-      "prev_close": 62.5,
-      "pct_change": -2.08,
-      "market_cap_usd": 323446259178,
-      "is_mover": false
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. Class A Common Stock",
-      "close": 298.7,
-      "prev_close": 293.45,
-      "pct_change": 1.79,
-      "market_cap_usd": 3672217855309,
-      "is_mover": false
-    },
-    {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 199.78,
-      "prev_close": 203.36,
-      "pct_change": -1.76,
-      "market_cap_usd": 212576952976,
-      "is_mover": false
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla Inc. Common Stock",
-      "close": 397.45,
-      "prev_close": 390.84,
-      "pct_change": 1.69,
-      "market_cap_usd": 1571023741441,
-      "is_mover": false
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 146.78,
-      "prev_close": 149.26,
-      "pct_change": -1.66,
-      "market_cap_usd": 190199141363,
-      "is_mover": false
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology Inc. Common Stock",
-      "close": 798.44,
-      "prev_close": 811.3,
-      "pct_change": -1.59,
-      "market_cap_usd": 903373533266,
-      "is_mover": false
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 102.01,
-      "prev_close": 100.76,
-      "pct_change": 1.24,
-      "market_cap_usd": 402183308900,
-      "is_mover": false
+      "close": 152.32,
+      "prev_close": 157.3,
+      "pct_change": -3.17,
+      "market_cap_usd": 198778607116,
+      "is_mover": true,
+      "reason": "KLA also fell with wafer-fab equipment peers after Applied Materials’ record results still came with a first-quarter revenue guide that missed estimates, a read-through for the same chipmaker spending that supports KLA, on top of Friday’s broader chip selloff.",
+      "sources": [
+        {
+          "outlet": "Applied Materials",
+          "title": "Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
+          "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Applied Materials Sinks 6% After Record Quarter as 10 Analysts Cut Targets; Morningstar Calls AI Worries “Overblown”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sinks-6-record-165209582.html"
+        }
+      ]
     },
     {
       "ticker": "STX",
       "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 545.14,
-      "prev_close": 551.72,
-      "pct_change": -1.19,
-      "market_cap_usd": 124683639457,
-      "is_mover": false
+      "close": 528.29,
+      "prev_close": 545.14,
+      "pct_change": -3.09,
+      "market_cap_usd": 120829723336,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Seagate fell with other storage and semiconductor names as the AI-chip selloff deepened after Thursday’s Nvidia leadership shock.",
+      "sources": [
+        {
+          "outlet": "StockStory",
+          "title": "onsemi, Seagate, Amtech, Impinj, and FormFactor stocks trade down, what you need to know",
+          "url": "https://stockstory.org/us/stocks/nasdaq/on/news/why-up-down/onsemi-seagate-amtech-impinj-and-formfactor-stocks-trade-down-what-you-need-to-know"
+        },
+        {
+          "outlet": "Forbes",
+          "title": "AI And Chip Stocks Finish Down On Friday As Markets Digest Nvidia Turmoil",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-finish-down-213620910.html"
+        }
+      ]
     },
     {
-      "ticker": "PEP",
-      "name": "PepsiCo Inc. Common Stock",
-      "close": 142.26,
-      "prev_close": 143.94,
-      "pct_change": -1.17,
-      "market_cap_usd": 193863549991,
-      "is_mover": false
-    },
-    {
-      "ticker": "GILD",
-      "name": "Gilead Sciences Inc. Common Stock",
-      "close": 167.95,
-      "prev_close": 169.73,
-      "pct_change": -1.05,
-      "market_cap_usd": 208250463731,
-      "is_mover": false
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation Common Stock",
-      "close": 233.78,
-      "prev_close": 235.88,
-      "pct_change": -0.89,
-      "market_cap_usd": 292031195556,
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 641.69,
+      "prev_close": 623.61,
+      "pct_change": 2.9,
+      "market_cap_usd": 1640314404580,
       "is_mover": false
     },
     {
       "ticker": "TXN",
       "name": "Texas Instruments Incorporated Common Stock",
-      "close": 312.48,
-      "prev_close": 309.81,
-      "pct_change": 0.86,
-      "market_cap_usd": 285534956155,
-      "is_mover": false
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 623.61,
-      "prev_close": 628.77,
-      "pct_change": -0.82,
-      "market_cap_usd": 1594097520485,
-      "is_mover": false
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
-      "close": 542.62,
-      "prev_close": 547.03,
-      "pct_change": -0.81,
-      "market_cap_usd": 137532965343,
-      "is_mover": false
-    },
-    {
-      "ticker": "LIN",
-      "name": "Linde plc Ordinary Shares",
-      "close": 522.49,
-      "prev_close": 526.55,
-      "pct_change": -0.77,
-      "market_cap_usd": 240857523785,
-      "is_mover": false
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 311.21,
-      "prev_close": 313.31,
-      "pct_change": -0.67,
-      "market_cap_usd": 116493140268,
-      "is_mover": false
-    },
-    {
-      "ticker": "TMUS",
-      "name": "T-Mobile US Inc. Common Stock",
-      "close": 171.03,
-      "prev_close": 172.16,
-      "pct_change": -0.66,
-      "market_cap_usd": 181167394784,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon.com Inc. Common Stock",
-      "close": 267.44,
-      "prev_close": 266.17,
-      "pct_change": 0.48,
-      "market_cap_usd": 2884691807473,
-      "is_mover": false
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 171.58,
-      "prev_close": 172.4,
-      "pct_change": -0.48,
-      "market_cap_usd": 412144344339,
-      "is_mover": false
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco Wholesale Corporation Common Stock",
-      "close": 1092.21,
-      "prev_close": 1087.61,
-      "pct_change": 0.42,
-      "market_cap_usd": 483990280658,
-      "is_mover": false
-    },
-    {
-      "ticker": "WMT",
-      "name": "Walmart Inc. Common Stock",
-      "close": 126.19,
-      "prev_close": 125.67,
-      "pct_change": 0.41,
-      "market_cap_usd": 1001159457521,
-      "is_mover": false
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation Common Stock",
-      "close": 523.0,
-      "prev_close": 521.13,
-      "pct_change": 0.36,
-      "market_cap_usd": 3883899643379,
-      "is_mover": false
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 229.87,
-      "prev_close": 229.06,
-      "pct_change": 0.35,
-      "market_cap_usd": 235371902632,
-      "is_mover": false
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 177.14,
-      "prev_close": 176.57,
-      "pct_change": 0.32,
-      "market_cap_usd": 186038432451,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 467.06,
-      "prev_close": 468.11,
-      "pct_change": -0.22,
-      "market_cap_usd": 252507576915,
-      "is_mover": false
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 354.88,
-      "prev_close": 355.63,
-      "pct_change": -0.21,
-      "market_cap_usd": 5179182615301,
-      "is_mover": false
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 139.94,
-      "prev_close": 139.75,
-      "pct_change": 0.14,
-      "market_cap_usd": 1900534096656,
+      "close": 303.6,
+      "prev_close": 312.48,
+      "pct_change": -2.84,
+      "market_cap_usd": 277420671350,
       "is_mover": false
     },
     {
       "ticker": "ADI",
       "name": "Analog Devices Inc. Common Stock",
-      "close": 409.29,
-      "prev_close": 409.08,
-      "pct_change": 0.05,
-      "market_cap_usd": 198327803869,
+      "close": 397.97,
+      "prev_close": 409.29,
+      "pct_change": -2.77,
+      "market_cap_usd": 192842519241,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 370.5,
+      "prev_close": 380.95,
+      "pct_change": -2.74,
+      "market_cap_usd": 294027850078,
+      "is_mover": false
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 172.47,
+      "prev_close": 177.14,
+      "pct_change": -2.64,
+      "market_cap_usd": 181133842060,
+      "is_mover": false
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "close": 778.31,
+      "prev_close": 798.44,
+      "pct_change": -2.52,
+      "market_cap_usd": 880597978960,
+      "is_mover": false
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 59.66,
+      "prev_close": 61.2,
+      "pct_change": -2.52,
+      "market_cap_usd": 315307247265,
+      "is_mover": false
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 145.44,
+      "prev_close": 142.26,
+      "pct_change": 2.24,
+      "market_cap_usd": 198197077694,
+      "is_mover": false
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 167.99,
+      "prev_close": 171.58,
+      "pct_change": -2.09,
+      "market_cap_usd": 403520981062,
+      "is_mover": false
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 162.85,
+      "prev_close": 166.19,
+      "pct_change": -2.01,
+      "market_cap_usd": 3924685079826,
+      "is_mover": false
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 390.22,
+      "prev_close": 397.45,
+      "pct_change": -1.82,
+      "market_cap_usd": 1542445257200,
+      "is_mover": false
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "close": 128.09,
+      "prev_close": 126.19,
+      "pct_change": 1.51,
+      "market_cap_usd": 1016233526955,
+      "is_mover": false
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 226.61,
+      "prev_close": 229.87,
+      "pct_change": -1.42,
+      "market_cap_usd": 232033880593,
+      "is_mover": false
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "close": 1106.21,
+      "prev_close": 1092.21,
+      "pct_change": 1.28,
+      "market_cap_usd": 490194091437,
+      "is_mover": false
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 295.77,
+      "prev_close": 298.7,
+      "pct_change": -0.98,
+      "market_cap_usd": 3636196151099,
+      "is_mover": false
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc. Common Stock",
+      "close": 62.15,
+      "prev_close": 62.69,
+      "pct_change": -0.86,
+      "market_cap_usd": 255208164275,
+      "is_mover": false
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 443.59,
+      "prev_close": 439.89,
+      "pct_change": 0.84,
+      "market_cap_usd": 153767682252,
+      "is_mover": false
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+      "close": 538.6,
+      "prev_close": 542.62,
+      "pct_change": -0.74,
+      "market_cap_usd": 136514047478,
+      "is_mover": false
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 526.06,
+      "prev_close": 522.49,
+      "pct_change": 0.68,
+      "market_cap_usd": 242503226364,
+      "is_mover": false
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "close": 169.95,
+      "prev_close": 171.03,
+      "pct_change": -0.63,
+      "market_cap_usd": 180023378415,
+      "is_mover": false
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 139.11,
+      "prev_close": 139.94,
+      "pct_change": -0.59,
+      "market_cap_usd": 1889261788862,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 356.27,
+      "prev_close": 354.88,
+      "pct_change": 0.39,
+      "market_cap_usd": 5199468293691,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 465.67,
+      "prev_close": 467.06,
+      "pct_change": -0.3,
+      "market_cap_usd": 251756107025,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 266.66,
+      "prev_close": 267.44,
+      "pct_change": -0.29,
+      "market_cap_usd": 2876278495822,
+      "is_mover": false
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 147.09,
+      "prev_close": 146.78,
+      "pct_change": 0.21,
+      "market_cap_usd": 190600839619,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 523.88,
+      "prev_close": 523.0,
+      "pct_change": 0.17,
+      "market_cap_usd": 3890434730665,
+      "is_mover": false
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1495.16,
+      "prev_close": 1497.12,
+      "pct_change": -0.13,
+      "market_cap_usd": 576261105967,
+      "is_mover": false
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 322.24,
+      "prev_close": 322.66,
+      "pct_change": -0.13,
+      "market_cap_usd": 263735095343,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 168.08,
+      "prev_close": 167.95,
+      "pct_change": 0.08,
+      "market_cap_usd": 208411663955,
       "is_mover": false
     }
   ]
