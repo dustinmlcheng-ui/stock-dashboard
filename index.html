@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nasdaq 40 Dashboard · 2026-11-13</title>
+<title>Nasdaq 40 Dashboard · 2026-11-16</title>
 <style>
 :root {
   --bg: #f5f7fb; --panel: #fff; --text: #0f172a; --muted: #64748b; --line: #e2e8f0;
@@ -158,34 +158,55 @@ footer p { margin: 4px 0; overflow-wrap: anywhere; }
 <script>
 window.DASHBOARD_DATA = {
  "is_example": false,
- "session_date": "2026-11-13",
- "market_context": "The Nasdaq-100 fell 1.22% to 27,943.74 (QQQ −1.20% to $679.89) as chip stocks reversed Thursday’s rotation away from Nvidia; the Philadelphia Semiconductor Index dropped 3.43%. October PPI rose 0.3%, but the 6.5% annual pace (fastest since November 2022) did little to support tech.",
- "generated_at": "2026-11-14T06:26:59+08:00",
- "source": "latest.json (Stock Watcher, modified 2026-11-16 06:53 HKT)",
+ "session_date": "2026-11-16",
+ "market_context": "The Nasdaq-100 fell 2.67% to 27,197.15 (QQQ −2.67% to $661.75) in a third straight decline, as chip and AI stocks sold off ahead of Nvidia’s Tuesday earnings; the Philadelphia Semiconductor Index dropped 5.28%. Treasury Secretary Scott Bessent called over the weekend for a “dramatic shakeup” at Nvidia, and the Commerce Department issued new rules tightening overseas access to advanced AI chips.",
+ "generated_at": "2026-11-17T06:25:05+08:00",
+ "source": "latest.json (Stock Watcher, modified 2026-11-17 06:25 HKT)",
  "mover_threshold": 3.0,
  "notes": [
-  "Market-cap basis: Shares outstanding x 2026-11-13 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
+  "Market-cap basis: Shares outstanding x 2026-11-16 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
  ],
  "stocks": [
   {
    "ticker": "NVDA",
    "name": "NVIDIA Corporation",
-   "close": 162.85,
-   "prev_close": 166.19,
-   "pct_change": -2.01,
-   "market_cap": 3924685079826.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 156.14,
+   "prev_close": 162.85,
+   "pct_change": -4.12,
+   "market_cap": 3762973920794.0,
+   "mover": true,
+   "reason": "Nvidia fell as a source told CNBC the board is not considering bringing Jensen Huang back as CEO, Treasury Secretary Scott Bessent called over the weekend for a “dramatic shakeup” and an outside chief, and the Commerce Department issued an interim final rule tightening remote access and licensing for advanced AI chips. Morgan Stanley’s Joseph Moore kept a Buy rating but cut his price target to $267 from $300 ahead of Tuesday’s earnings, the first report since Huang’s resignation.",
+   "sources": [
+    {
+     "outlet": "BIS",
+     "title": "BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology",
+     "url": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+    },
+    {
+     "outlet": "X (@CNBC)",
+     "title": "BREAKING: Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+     "url": "https://x.com/CNBC/status/2122385316292235328"
+    },
+    {
+     "outlet": "TipRanks",
+     "title": "Morgan Stanley Cuts Nvidia Stock Price Target Ahead of Q3 Earnings, but Says ‘Risk-Reward Is Still Very Positive’",
+     "url": "https://www.tipranks.com/news/morgan-stanley-cuts-nvidia-stock-price-target-ahead-of-q3-earnings-but-says-risk-reward-is-still-very-positive"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AAPL",
    "name": "Apple Inc.",
-   "close": 356.27,
-   "prev_close": 354.88,
-   "pct_change": 0.39,
-   "market_cap": 5199468293691.0,
+   "close": 352.78,
+   "prev_close": 356.27,
+   "pct_change": -0.98,
+   "market_cap": 5148534748547.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -194,10 +215,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
-   "close": 523.88,
-   "prev_close": 523.0,
-   "pct_change": 0.17,
-   "market_cap": 3890434730665.0,
+   "close": 517.99,
+   "prev_close": 523.88,
+   "pct_change": -1.12,
+   "market_cap": 3846694337180.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -206,34 +227,61 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GOOGL",
    "name": "Alphabet Inc.",
-   "close": 295.77,
-   "prev_close": 298.7,
-   "pct_change": -0.98,
-   "market_cap": 3636196151099.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 283.72,
+   "prev_close": 295.77,
+   "pct_change": -4.07,
+   "market_cap": 3488053604995.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Alphabet fell with other mega-cap AI and tech names as the Nasdaq-100 slid 2.67% and the AI-infrastructure trade sold off ahead of Nvidia earnings.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Nasdaq falls more than 2%, extending slide to third day as Nvidia drags down AI trade",
+     "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AMZN",
    "name": "Amazon.com Inc.",
-   "close": 266.66,
-   "prev_close": 267.44,
-   "pct_change": -0.29,
-   "market_cap": 2876278495822.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 257.75,
+   "prev_close": 266.66,
+   "pct_change": -3.34,
+   "market_cap": 2780172399748.0,
+   "mover": true,
+   "reason": "Amazon fell with the broader tech and AI-infrastructure selloff after the new U.S. AI-chip export rules. Company-specific news also weighed: a United Launch Alliance Vulcan rocket failed about 10 minutes after Sunday’s liftoff from Florida, destroying all 40 Amazon Leo broadband satellites on board — the first of 38 contracted Vulcan missions for the constellation.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+     "url": "https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html"
+    },
+    {
+     "outlet": "Motley Fool",
+     "title": "Amazon Falls on New AI Chip Export Rule and Leo Satellite Launch Failure",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-amazon-falls-on-new-ai-chip-export-rule-and-leo-satellite-launch-failure/"
+    },
+    {
+     "outlet": "BIS",
+     "title": "BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology",
+     "url": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "SPCX",
    "name": "Space Exploration Technologies Corp.",
-   "close": 139.11,
-   "prev_close": 139.94,
-   "pct_change": -0.59,
-   "market_cap": 1889261788862.0,
+   "close": 137.36,
+   "prev_close": 139.11,
+   "pct_change": -1.26,
+   "market_cap": 1865494927270.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -242,27 +290,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AVGO",
    "name": "Broadcom Inc.",
-   "close": 347.01,
-   "prev_close": 364.36,
-   "pct_change": -4.76,
-   "market_cap": 1656497346071.0,
+   "close": 333.4,
+   "prev_close": 347.01,
+   "pct_change": -3.92,
+   "market_cap": 1591528167855.0,
    "mover": true,
-   "reason": "Broadcom reversed Thursday’s rally as traders unwound the rotation into Nvidia alternatives. Rothschild & Co Redburn also downgraded the stock to Neutral from Buy and cut its price target to $398 from $595, with analyst Mike Harrison citing Broadcom’s reliance on Anthropic and OpenAI becoming self-financing and Google designing more chips in-house.",
+   "reason": "Broadcom fell with other AI-chip names as investors weighed Nvidia’s leadership turmoil and the Commerce Department’s new restrictions on overseas access to advanced semiconductors.",
    "sources": [
     {
-     "outlet": "Investing.com",
-     "title": "Rothschild downgrades Broadcom stock rating on AI financing concerns",
-     "url": "https://www.investing.com/news/analyst-ratings/rothschild-downgrades-broadcom-stock-rating-on-ai-financing-concerns-93CH-5024402"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Nvidia turmoil reshuffles the AI trade. Winners, losers and what investors should watch",
-     "url": "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html"
-    },
-    {
      "outlet": "Yahoo Finance",
-     "title": "Broadcom Sinks 7% as Rothschild Redburn Downgrade Slashes Target to $398",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-sinks-7-rothschild-redburn-160649946.html"
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Motley Fool",
+     "title": "Nvidia Sinks as U.S. Tightens AI Chip Restrictions and Analysts Slash Price Targets",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-nvidia-sinks-as-u-s-tightens-ai-chip-restrictions-and-analysts-slash-price-targets/"
     }
    ],
    "missing": false
@@ -270,10 +313,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "META",
    "name": "Meta Platforms Inc.",
-   "close": 641.69,
-   "prev_close": 623.61,
-   "pct_change": 2.9,
-   "market_cap": 1640314404580.0,
+   "close": 626.41,
+   "prev_close": 641.69,
+   "pct_change": -2.38,
+   "market_cap": 1601254964565.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -282,10 +325,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "TSLA",
    "name": "Tesla Inc.",
-   "close": 390.22,
-   "prev_close": 397.45,
-   "pct_change": -1.82,
-   "market_cap": 1542445257200.0,
+   "close": 379.74,
+   "prev_close": 390.22,
+   "pct_change": -2.69,
+   "market_cap": 1501020309246.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -294,22 +337,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SKHY",
    "name": "SK hynix Inc.",
-   "close": 131.79,
-   "prev_close": 137.71,
-   "pct_change": -4.3,
-   "market_cap": 960571815217.0,
+   "close": 122.18,
+   "prev_close": 131.79,
+   "pct_change": -7.29,
+   "market_cap": 890527890244.0,
    "mover": true,
-   "reason": "SK hynix, a key high-bandwidth-memory supplier to Nvidia, was swept up in the leadership-uncertainty selloff. Its Seoul-listed shares reversed an early gain and closed 3.03% lower; the Nasdaq ADR fell further with other memory names.",
+   "reason": "SK hynix’s Seoul-listed shares closed 7.89% lower at 1,120,000 won, and the Nasdaq ADR followed, as the key Nvidia HBM supplier was hit by the AI-memory selloff, new U.S. export rules, and caution ahead of Nvidia earnings. That outweighed the company’s Monday plan to spend 1.4 trillion won (about $1.05 billion) over five years to support Korean chip suppliers.",
    "sources": [
     {
-     "outlet": "CNBC",
-     "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
-     "url": "https://www.cnbc.com/2026/11/13/nvidia-without-jensen-huang-what-lies-ahead-for-asian-chipmakers-.html"
+     "outlet": "CNA",
+     "title": "SK Hynix to spend US$1 billion over five years to support chip suppliers",
+     "url": "https://www.channelnewsasia.com/business/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-6553691"
     },
     {
      "outlet": "Yahoo Finance",
-     "title": "SK hynix Stocks Fall 3.03% as Nvidia Leadership Shock Hits Key HBM Supplier",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stocks-fall-3-183209379.html"
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Why is SK hynix stock sliding today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-sliding-today-93CH-5030355"
     }
    ],
    "missing": false
@@ -317,22 +365,38 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MU",
    "name": "Micron Technology Inc.",
-   "close": 778.31,
-   "prev_close": 798.44,
-   "pct_change": -2.52,
-   "market_cap": 880597978960.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 719.02,
+   "prev_close": 778.31,
+   "pct_change": -7.62,
+   "market_cap": 813515922983.0,
+   "mover": true,
+   "reason": "Micron, a key high-bandwidth-memory supplier to Nvidia, was swept up in the broader AI and memory selloff ahead of Nvidia’s Tuesday earnings and the new U.S. export rules. A federal judge on Saturday also refused to dismiss a proposed DRAM price-fixing class action against Micron, Samsung, and SK hynix, adding a legal overhang.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Why is Micron Technology stock sliding today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-sliding-today-93CH-5030329"
+    },
+    {
+     "outlet": "TrendForce",
+     "title": "U.S. Judge Rejects Samsung, SK hynix, Micron’s DRAM Price-Fixing Dismissal Bid, Citing Plausible Collusion",
+     "url": "https://www.trendforce.com/news/2026/11/16/news-u-s-judge-rejects-samsung-sk-hynix-microns-dram-price-fixing-dismissal-bid-citing-plausible-collusion/"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "WMT",
    "name": "Walmart Inc.",
-   "close": 128.09,
-   "prev_close": 126.19,
-   "pct_change": 1.51,
-   "market_cap": 1016233526955.0,
+   "close": 128.41,
+   "prev_close": 128.09,
+   "pct_change": 0.25,
+   "market_cap": 1018772383861.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -341,27 +405,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMD",
    "name": "Advanced Micro Devices Inc.",
-   "close": 534.06,
-   "prev_close": 585.3,
-   "pct_change": -8.75,
-   "market_cap": 871839643250.0,
+   "close": 504.28,
+   "prev_close": 534.06,
+   "pct_change": -5.58,
+   "market_cap": 823224537025.0,
    "mover": true,
-   "reason": "Investors unwound Thursday’s rotation into Nvidia rivals after founder Jensen Huang resigned as CEO. AMD had rallied sharply over the prior five sessions on bets that customers might shift AI-chip orders, and Friday’s drop was a sector-wide reversal and profit-taking rather than company-specific news.",
+   "reason": "AMD reversed last week’s gains, when traders had bet it could take share after Jensen Huang’s exit; those rival bets were unwound ahead of Nvidia’s Tuesday earnings, and the Commerce Department’s new license rules on advanced-chip exports added pressure.",
    "sources": [
     {
      "outlet": "Investing.com",
-     "title": "Why is Advanced Micro Devices stock sliding today?",
-     "url": "https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-sliding-today-93CH-5025995"
-    },
-    {
-     "outlet": "Motley Fool",
-     "title": "Why Advanced Micro Devices Stock Is Down Today",
-     "url": "https://www.fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today/"
+     "title": "U.S. chip stocks slide as traders unwind Nvidia rival bets before earnings",
+     "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-slide-as-traders-unwind-nvidia-rival-bets-before-earnings-5030435"
     },
     {
      "outlet": "Yahoo Finance",
-     "title": "Wall Street Slides As Chip Stocks Extend Selloff. Nasdaq Takes Biggest Hit Despite Cooler Inflation",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-slides-chip-stocks-211835523.html"
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
     }
    ],
    "missing": false
@@ -369,46 +428,79 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ASML",
    "name": "ASML Holding N.V.",
-   "close": 1495.16,
-   "prev_close": 1497.12,
-   "pct_change": -0.13,
-   "market_cap": 576261105967.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 1406.79,
+   "prev_close": 1495.16,
+   "pct_change": -5.91,
+   "market_cap": 542199818830.0,
+   "mover": true,
+   "reason": "No clear company-specific news; ASML declined with the broader chip-equipment complex as investors de-risked ahead of Nvidia earnings and digested tighter U.S. export rules.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "INTC",
    "name": "Intel Corporation",
-   "close": 59.66,
-   "prev_close": 61.2,
-   "pct_change": -2.52,
-   "market_cap": 315307247265.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 55.47,
+   "prev_close": 59.66,
+   "pct_change": -7.02,
+   "market_cap": 293162813199.0,
+   "mover": true,
+   "reason": "Intel fell with the rest of the chip sector ahead of Nvidia’s earnings and the new export restrictions. A lawsuit filed Friday alleging Intel was too slow to disclose weak PC demand and excess inventory before its late-October drop added noise, though the move was roughly in line with peers.",
+   "sources": [
+    {
+     "outlet": "Motley Fool",
+     "title": "Why Intel Stock Is Falling Monday",
+     "url": "https://www.fool.com/investing/2026/11/16/why-intel-stock-is-falling-monday/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "PLTR",
    "name": "Palantir Technologies Inc.",
-   "close": 167.99,
-   "prev_close": 171.58,
-   "pct_change": -2.09,
-   "market_cap": 403520981062.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 160.39,
+   "prev_close": 167.99,
+   "pct_change": -4.52,
+   "market_cap": 385265359783.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Palantir declined with other high-beta AI and tech names as the Nasdaq-100 dropped 2.67% and the AI trade sold off ahead of Nvidia’s results.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "Nasdaq falls more than 2%, extending slide to third day as Nvidia drags down AI trade",
+     "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "COST",
    "name": "Costco Wholesale Corporation",
-   "close": 1106.21,
-   "prev_close": 1092.21,
-   "pct_change": 1.28,
-   "market_cap": 490194091437.0,
+   "close": 1113.74,
+   "prev_close": 1106.21,
+   "pct_change": 0.68,
+   "market_cap": 493530868360.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -417,62 +509,57 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "CSCO",
    "name": "Cisco Systems Inc.",
-   "close": 95.64,
-   "prev_close": 102.01,
-   "pct_change": -6.24,
-   "market_cap": 377069018844.0,
-   "mover": true,
-   "reason": "Cisco fell in the first regular session after Thursday’s fiscal first-quarter results. Revenue hit a record $18.5 billion, up 24%, non-GAAP EPS was $1.40, and the company raised fiscal 2027 guidance and its hyperscaler AI-infrastructure target to $9 billion, but non-GAAP gross margin slipped to 65.6% from 68.1% on a heavier mix of lower-margin AI networking hardware and higher memory costs, while product-order growth slowed to 21% from 35%. Citi cut its price target to $120 from $139 (keeping Buy), Barclays to $109 from $123 (Equal Weight), and Wells Fargo to $130 from $150 (Overweight).",
-   "sources": [
-    {
-     "outlet": "Cisco Newsroom",
-     "title": "Cisco Reports First Quarter Earnings",
-     "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
-    },
-    {
-     "outlet": "X (@Cisco)",
-     "title": "Just announced — CSCO Q1FY27 Earnings",
-     "url": "https://x.com/Cisco/status/2120987169074356329"
-    },
-    {
-     "outlet": "Yahoo Finance",
-     "title": "Cisco’s Growth May Have Peaked Despite Raised AI Revenue Outlook, Says Citi — Barclays Sees Margins Holding Up",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-growth-may-peaked-despite-124930816.html"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "AMAT",
-   "name": "Applied Materials Inc.",
-   "close": 370.5,
-   "prev_close": 380.95,
-   "pct_change": -2.74,
-   "market_cap": 294027850078.0,
+   "close": 94.52,
+   "prev_close": 95.64,
+   "pct_change": -1.17,
+   "market_cap": 372653310568.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
-   "ticker": "LRCX",
-   "name": "Lam Research Corporation",
-   "close": 225.92,
-   "prev_close": 233.78,
-   "pct_change": -3.36,
-   "market_cap": 282212710710.0,
+   "ticker": "AMAT",
+   "name": "Applied Materials Inc.",
+   "close": 350.25,
+   "prev_close": 370.5,
+   "pct_change": -5.47,
+   "market_cap": 277957501996.0,
    "mover": true,
-   "reason": "Lam slipped with other wafer-fab equipment names after Applied Materials, a close peer, reported a record quarter after Thursday’s close but guided first-quarter revenue to $11.1 billion plus or minus $500 million, below estimates. That outlook bears on the same chipmaker budgets that pay Lam, and the broader semiconductor selloff added pressure.",
+   "reason": "No clear company-specific news today; Applied Materials fell with other wafer-fab equipment names as the semiconductor selloff deepened, extending pressure after Friday’s drop on a first-quarter revenue guide that missed estimates.",
    "sources": [
     {
-     "outlet": "Applied Materials",
-     "title": "Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
-     "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html"
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
     },
     {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
+    }
+   ],
+   "missing": false
+  },
+  {
+   "ticker": "LRCX",
+   "name": "Lam Research Corporation",
+   "close": 210.83,
+   "prev_close": 225.92,
+   "pct_change": -6.68,
+   "market_cap": 263362724849.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Lam Research fell with other wafer-fab equipment names as the Philadelphia Semiconductor Index dropped 5.28%, with investors de-risking ahead of Nvidia earnings and digesting tighter U.S. export rules.",
+   "sources": [
+    {
      "outlet": "Yahoo Finance",
-     "title": "Applied Materials Sinks 6% After Record Quarter as 10 Analysts Cut Targets; Morningstar Calls AI Worries “Overblown”",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sinks-6-record-165209582.html"
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
     }
    ],
    "missing": false
@@ -480,10 +567,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks Inc.",
-   "close": 322.24,
-   "prev_close": 322.66,
-   "pct_change": -0.13,
-   "market_cap": 263735095343.0,
+   "close": 316.09,
+   "prev_close": 322.24,
+   "pct_change": -1.91,
+   "market_cap": 258701675296.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -492,22 +579,33 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "TXN",
    "name": "Texas Instruments Incorporated",
-   "close": 303.6,
-   "prev_close": 312.48,
-   "pct_change": -2.84,
-   "market_cap": 277420671350.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 294.21,
+   "prev_close": 303.6,
+   "pct_change": -3.09,
+   "market_cap": 268840354765.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Texas Instruments slipped with the semiconductor complex, just clearing the 3% threshold as the Philadelphia Semiconductor Index fell 5.28%.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "CRWD",
    "name": "CrowdStrike Holdings Inc.",
-   "close": 226.61,
-   "prev_close": 229.87,
-   "pct_change": -1.42,
-   "market_cap": 232033880593.0,
+   "close": 223.21,
+   "prev_close": 226.61,
+   "pct_change": -1.5,
+   "market_cap": 228552508299.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -516,10 +614,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "NFLX",
    "name": "Netflix Inc.",
-   "close": 62.15,
-   "prev_close": 62.69,
-   "pct_change": -0.86,
-   "market_cap": 255208164275.0,
+   "close": 60.75,
+   "prev_close": 62.15,
+   "pct_change": -2.25,
+   "market_cap": 249459301674.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -528,10 +626,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMGN",
    "name": "Amgen Inc.",
-   "close": 465.67,
-   "prev_close": 467.06,
-   "pct_change": -0.3,
-   "market_cap": 251756107025.0,
+   "close": 462.32,
+   "prev_close": 465.67,
+   "pct_change": -0.72,
+   "market_cap": 249944986552.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -540,27 +638,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ARM",
    "name": "Arm Holdings plc",
-   "close": 190.53,
-   "prev_close": 199.78,
-   "pct_change": -4.63,
-   "market_cap": 202734442078.0,
+   "close": 175.05,
+   "prev_close": 190.53,
+   "pct_change": -8.12,
+   "market_cap": 186262871631.0,
    "mover": true,
-   "reason": "Arm fell after the Financial Times reported that Nvidia’s board had approached CEO Rene Haas as a potential successor to Jensen Huang; Arm declined to comment. Later Friday, Nvidia’s board told CNBC it has not formally engaged any candidates and called speculation about individual names premature.",
+   "reason": "Arm fell with the semiconductor sector ahead of Nvidia earnings. Motley Fool reported that research firm SemiAnalysis issued a weekend update to institutional clients cutting AI-accelerator revenue estimates by 19% to 41% for 2027–2030; Arm’s licensing ties to Nvidia, a rich valuation, and lingering speculation that CEO Rene Haas could be a candidate for Nvidia’s job left the stock more exposed.",
    "sources": [
     {
-     "outlet": "Financial Times",
-     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-     "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926"
+     "outlet": "Motley Fool",
+     "title": "Why Arm Holdings Plunged Today",
+     "url": "https://www.fool.com/investing/2026/11/16/why-arm-holdings-plunged-today/"
     },
     {
-     "outlet": "X (@FT)",
-     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-     "url": "https://x.com/FT/status/2121288613010829486"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
-     "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
+     "outlet": "Yahoo Finance",
+     "title": "Arm Stocks Slide 6.72% as Nvidia CEO Search Keeps Rene Haas in Focus",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/arm-stocks-slide-6-72-174928553.html"
     }
    ],
    "missing": false
@@ -568,10 +661,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LIN",
    "name": "Linde plc",
-   "close": 526.06,
-   "prev_close": 522.49,
-   "pct_change": 0.68,
-   "market_cap": 242503226364.0,
+   "close": 523.46,
+   "prev_close": 526.06,
+   "pct_change": -0.49,
+   "market_cap": 241304689180.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -580,22 +673,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "KLAC",
    "name": "KLA Corporation",
-   "close": 152.32,
-   "prev_close": 157.3,
-   "pct_change": -3.17,
-   "market_cap": 198778607116.0,
+   "close": 143.96,
+   "prev_close": 152.32,
+   "pct_change": -5.49,
+   "market_cap": 187868751569.0,
    "mover": true,
-   "reason": "KLA also fell with wafer-fab equipment peers after Applied Materials’ record results still came with a first-quarter revenue guide that missed estimates, a read-through for the same chipmaker spending that supports KLA, on top of Friday’s broader chip selloff.",
+   "reason": "No clear company-specific news; KLA fell with other wafer-fab equipment peers as the Philadelphia Semiconductor Index dropped 5.28% and investors pulled back from the AI-chip complex ahead of Nvidia earnings.",
    "sources": [
     {
-     "outlet": "Applied Materials",
-     "title": "Applied Materials Announces Fourth Quarter and Fiscal Year 2026 Results",
-     "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html"
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
     },
     {
-     "outlet": "Yahoo Finance",
-     "title": "Applied Materials Sinks 6% After Record Quarter as 10 Analysts Cut Targets; Morningstar Calls AI Worries “Overblown”",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sinks-6-record-165209582.html"
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
     }
    ],
    "missing": false
@@ -603,10 +696,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SHOP",
    "name": "Shopify Inc.",
-   "close": 147.09,
-   "prev_close": 146.78,
-   "pct_change": 0.21,
-   "market_cap": 190600839619.0,
+   "close": 147.81,
+   "prev_close": 147.09,
+   "pct_change": 0.49,
+   "market_cap": 191533825142.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -615,22 +708,33 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ADI",
    "name": "Analog Devices Inc.",
-   "close": 397.97,
-   "prev_close": 409.29,
-   "pct_change": -2.77,
-   "market_cap": 192842519241.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 383.17,
+   "prev_close": 397.97,
+   "pct_change": -3.72,
+   "market_cap": 185670956254.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Analog Devices declined with other semiconductor names as the Philadelphia Semiconductor Index dropped 5.28%.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop",
+     "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-amd-micron-sink-on-us-chips-restrictions-coreweave-tanks-as-cloud-providers-tank-too-142453519.html"
+    },
+    {
+     "outlet": "Investopedia",
+     "title": "Stocks Sink at the Start of a Big Week for the AI Trade; Nvidia Sell-Off Intensifies Ahead of Earnings",
+     "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "GILD",
    "name": "Gilead Sciences Inc.",
-   "close": 168.08,
-   "prev_close": 167.95,
-   "pct_change": 0.08,
-   "market_cap": 208411663955.0,
+   "close": 167.58,
+   "prev_close": 168.08,
+   "pct_change": -0.3,
+   "market_cap": 207791686380.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -639,10 +743,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "QCOM",
    "name": "QUALCOMM Incorporated",
-   "close": 172.47,
-   "prev_close": 177.14,
-   "pct_change": -2.64,
-   "market_cap": 181133842060.0,
+   "close": 168.52,
+   "prev_close": 172.47,
+   "pct_change": -2.29,
+   "market_cap": 176985421359.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -651,22 +755,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SNDK",
    "name": "Sandisk Corporation",
-   "close": 885.01,
-   "prev_close": 937.46,
-   "pct_change": -5.59,
-   "market_cap": 128616448544.0,
+   "close": 809.11,
+   "prev_close": 885.01,
+   "pct_change": -8.58,
+   "market_cap": 117586074337.0,
    "mover": true,
-   "reason": "No clear company-specific news; Sandisk fell with other memory and storage names as the AI-chip selloff deepened and investors gave back more of Wednesday’s rally, which had been tied to AI infrastructure demand.",
+   "reason": "No clear company-specific news; Sandisk fell with other memory and storage names as the AI-chip selloff deepened ahead of Nvidia’s first earnings report since Jensen Huang resigned as CEO, and as investors worried that any hit to AI-chip demand would also weigh on NAND used in data centers.",
    "sources": [
     {
-     "outlet": "Forbes",
-     "title": "AI And Chip Stocks Finish Down On Friday As Markets Digest Nvidia Turmoil",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-finish-down-213620910.html"
+     "outlet": "Motley Fool",
+     "title": "Why Sandisk Stock Keeps Going Down",
+     "url": "https://www.fool.com/investing/2026/11/16/why-sandisk-stock-keeps-going-down/"
     },
     {
-     "outlet": "MarketWatch",
-     "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-     "url": "https://www.morningstar.com/news/marketwatch/20261113202/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang"
+     "outlet": "Yahoo Finance",
+     "title": "Sandisk Sinks 8%, Micron Down 6% as Memory Selloff Deepens Before Nvidia Earnings",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sinks-8-micron-down-143148744.html"
     }
    ],
    "missing": false
@@ -674,22 +778,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MRVL",
    "name": "Marvell Technology Inc.",
-   "close": 156.76,
-   "prev_close": 164.45,
-   "pct_change": -4.68,
-   "market_cap": 137462841489.0,
+   "close": 145.36,
+   "prev_close": 156.76,
+   "pct_change": -7.27,
+   "market_cap": 127466186673.0,
    "mover": true,
-   "reason": "No clear company-specific news; Marvell fell with other AI-chip and custom-accelerator names as the semiconductor selloff deepened and Thursday’s rotation away from Nvidia reversed.",
+   "reason": "No clear operational news today; Marvell fell with other AI-chip names ahead of Nvidia earnings and after the new U.S. export rules. Motley Fool also pointed to dilution concerns around Marvell’s pending all-stock acquisition of Lumentum, a deal announced weeks earlier that continued to weigh on the shares.",
    "sources": [
     {
-     "outlet": "Forbes",
-     "title": "AI And Chip Stocks Finish Down On Friday As Markets Digest Nvidia Turmoil",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-finish-down-213620910.html"
+     "outlet": "Motley Fool",
+     "title": "Why Marvell Stock Is Down Today",
+     "url": "https://www.fool.com/investing/2026/11/16/why-marvell-stock-is-down-today/"
     },
     {
-     "outlet": "Yahoo Finance",
-     "title": "Wall Street Slides As Chip Stocks Extend Selloff. Nasdaq Takes Biggest Hit Despite Cooler Inflation",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-slides-chip-stocks-211835523.html"
+     "outlet": "Investing.com",
+     "title": "U.S. chip stocks slide as traders unwind Nvidia rival bets before earnings",
+     "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-slide-as-traders-unwind-nvidia-rival-bets-before-earnings-5030435"
     }
    ],
    "missing": false
@@ -697,10 +801,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PEP",
    "name": "PepsiCo Inc.",
-   "close": 145.44,
-   "prev_close": 142.26,
-   "pct_change": 2.24,
-   "market_cap": 198197077694.0,
+   "close": 146.43,
+   "prev_close": 145.44,
+   "pct_change": 0.68,
+   "market_cap": 199546178135.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -709,22 +813,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "STX",
    "name": "Seagate Technology Holdings PLC",
-   "close": 528.29,
-   "prev_close": 545.14,
-   "pct_change": -3.09,
-   "market_cap": 120829723336.0,
+   "close": 499.0,
+   "prev_close": 528.29,
+   "pct_change": -5.54,
+   "market_cap": 114130561722.0,
    "mover": true,
-   "reason": "No clear company-specific news; Seagate fell with other storage and semiconductor names as the AI-chip selloff deepened after Thursday’s Nvidia leadership shock.",
+   "reason": "No clear company-specific news; Seagate fell with other memory and storage names as the AI-hardware selloff hit hardest ahead of Nvidia’s first earnings report since Jensen Huang resigned.",
    "sources": [
     {
-     "outlet": "StockStory",
-     "title": "onsemi, Seagate, Amtech, Impinj, and FormFactor stocks trade down, what you need to know",
-     "url": "https://stockstory.org/us/stocks/nasdaq/on/news/why-up-down/onsemi-seagate-amtech-impinj-and-formfactor-stocks-trade-down-what-you-need-to-know"
+     "outlet": "Yahoo Finance",
+     "title": "Sandisk Sinks 8%, Micron Down 6% as Memory Selloff Deepens Before Nvidia Earnings",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sinks-8-micron-down-143148744.html"
     },
     {
-     "outlet": "Forbes",
-     "title": "AI And Chip Stocks Finish Down On Friday As Markets Digest Nvidia Turmoil",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chip-stocks-finish-down-213620910.html"
+     "outlet": "Investing.com",
+     "title": "Why is Western Digital stock sliding today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-5030357"
     }
    ],
    "missing": false
@@ -732,10 +836,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "TMUS",
    "name": "T-Mobile US Inc.",
-   "close": 169.95,
-   "prev_close": 171.03,
-   "pct_change": -0.63,
-   "market_cap": 180023378415.0,
+   "close": 170.01,
+   "prev_close": 169.95,
+   "pct_change": 0.04,
+   "market_cap": 180086932186.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -744,10 +848,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ISRG",
    "name": "Intuitive Surgical Inc.",
-   "close": 443.59,
-   "prev_close": 439.89,
-   "pct_change": 0.84,
-   "market_cap": 153767682252.0,
+   "close": 437.75,
+   "prev_close": 443.59,
+   "pct_change": -1.32,
+   "market_cap": 151743284253.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -756,22 +860,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "WDC",
    "name": "Western Digital Corporation",
-   "close": 295.65,
-   "prev_close": 311.21,
-   "pct_change": -5.0,
-   "market_cap": 110668671170.0,
+   "close": 280.93,
+   "prev_close": 295.65,
+   "pct_change": -4.98,
+   "market_cap": 105158632244.0,
    "mover": true,
-   "reason": "No clear company-specific news on Friday; Western Digital fell with memory and storage peers as the semiconductor selloff deepened, reversing much of Wednesday’s bounce after its fiscal first-quarter report.",
+   "reason": "No clear company-specific news today; Western Digital fell with Sandisk, Micron and other memory and storage names as investors reassessed AI and data-center spending ahead of Nvidia earnings.",
    "sources": [
     {
      "outlet": "Investing.com",
      "title": "Why is Western Digital stock sliding today?",
-     "url": "https://uk.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-4981672"
+     "url": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-sliding-today-93CH-5030357"
     },
     {
-     "outlet": "MarketWatch",
-     "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-     "url": "https://www.morningstar.com/news/marketwatch/20261113202/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang"
+     "outlet": "Yahoo Finance",
+     "title": "Sandisk Sinks 8%, Micron Down 6% as Memory Selloff Deepens Before Nvidia Earnings",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sinks-8-micron-down-143148744.html"
     }
    ],
    "missing": false
@@ -779,10 +883,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "close": 538.6,
-   "prev_close": 542.62,
-   "pct_change": -0.74,
-   "market_cap": 136514047478.0,
+   "close": 537.79,
+   "prev_close": 538.6,
+   "pct_change": -0.15,
+   "market_cap": 136308744749.0,
    "mover": false,
    "reason": "",
    "sources": [],
