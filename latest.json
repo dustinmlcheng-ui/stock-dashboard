@@ -1,420 +1,469 @@
 {
-  "session_date": "2026-11-17",
-  "generated_at": "2026-11-18T06:25:04+08:00",
+  "session_date": "2026-11-18",
+  "generated_at": "2026-11-19T06:24:33+08:00",
   "threshold_pct": 3,
-  "market_context": "The Nasdaq-100 fell 0.72% to 27,001.79 (QQQ −0.73% to $656.95), extending Monday’s slide, as investors awaited Nvidia’s first earnings report since Jensen Huang resigned; software stocks sold off ahead of Anthropic’s IPO, and St. Louis Fed President Alberto Musalem said several rate hikes may be needed before spring 2027.",
-  "market_cap_basis": "Shares outstanding x 2026-11-17 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 rose 0.42% to 27,116.26 (QQQ +0.39% to $659.51) after Nvidia beat estimates in its first earnings report since Jensen Huang resigned and guided fourth-quarter revenue to $130 billion, plus or minus 3%; Nvidia itself still fell 2.89% on succession and China-export concerns, while the S&P 500 slipped 0.23% and the Dow lost 1.11%.",
+  "market_cap_basis": "Shares outstanding x 2026-11-18 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
     {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 183.39,
-      "prev_close": 175.05,
-      "pct_change": 4.76,
-      "market_cap_usd": 195137088370,
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 339.92,
+      "prev_close": 309.29,
+      "pct_change": 9.9,
+      "market_cap_usd": 278205188267,
       "is_mover": true,
-      "reason": "Morgan Stanley raised its medium-term earnings forecasts for Arm, citing expanding AI data-center CPU demand as AI agents proliferate, while keeping an Equal-Weight rating and a $212 price target. The shares bounced after Monday’s 8.1% drop, still ahead of Nvidia’s after-hours earnings.",
+      "reason": "Shares jumped during the regular session, hours before after-close fiscal first-quarter results, after Homeland Security Secretary Markwayne Mullin told Congress that adversaries can pose a “severe cyber threat” to U.S. critical infrastructure and that criminals are using advanced AI in attacks. Peers including Okta, Zscaler, Cloudflare and CrowdStrike also rallied.",
       "sources": [
         {
-          "outlet": "StreetInsider",
-          "title": "Arm Holdings gains as Morgan Stanley lifts earnings forecast",
-          "url": "https://www.streetinsider.com/Investing/Arm+Holdings+gains+as+Morgan+Stanley+lifts+earnings+forecast/27361337.html"
+          "outlet": "Yahoo Finance",
+          "title": "Palo Alto Soars 7%, Okta Up 11% as DHS Chief Warns of “A Severe Cyber Threat”",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-soars-7-okta-194351975.html"
         },
         {
-          "outlet": "Investing.com",
-          "title": "Why is Arm stock rallying today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-arm-stock-rallying-today-93CH-5033381"
+          "outlet": "TipRanks",
+          "title": "Cybersecurity Stocks Surge as U.S. Warns of AI-Powered Attacks",
+          "url": "https://www.tipranks.com/news/cybersecurity-stocks-surge-as-u-s-warns-of-ai-powered-attacks"
         }
       ]
     },
     {
-      "ticker": "SHOP",
-      "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 141.9,
-      "prev_close": 147.81,
-      "pct_change": -4.0,
-      "market_cap_usd": 183875577211,
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 237.03,
+      "prev_close": 219.58,
+      "pct_change": 7.95,
+      "market_cap_usd": 242703280021,
       "is_mover": true,
-      "reason": "No clear company-specific news; Shopify fell with a broad software selloff. The iShares Expanded Tech-Software Sector ETF (IGV) dropped 3.4%, and Salesforce led the decline with a loss of more than 9%, as investors pared software exposure ahead of Anthropic’s expected IPO and Nvidia’s earnings.",
+      "reason": "CrowdStrike rallied with other cybersecurity stocks after Nvidia’s upbeat results and Homeland Security Secretary Markwayne Mullin’s warning to Congress about AI-powered cyberattacks, snapping back from a multi-session slide. Rosenblatt and Cantor Fitzgerald had each raised their price targets to $275 in the prior two sessions.",
       "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is CrowdStrike stock rallying today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-crowdstrike-stock-rallying-today-93CH-5036526"
+        },
         {
           "outlet": "Benzinga",
-          "title": "Dow Slides 1.4% as Salesforce Leads Software Rout Before Anthropic IPO: Stock Market Today",
-          "url": "https://www.benzinga.com/markets/equities/26/11/63359152/stock-market-today-salesforce-software-selloff-anthropic-ipo-nvidia-november-17"
+          "title": "Why Is CrowdStrike Stock Surging on Wednesday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63400654/why-is-crowdstrike-stock-surging-on-wednesday"
         },
         {
-          "outlet": "Barchart",
-          "title": "Stock Indexes Finish Lower as Tech Stocks Retreat",
-          "url": "https://www.barchart.com/story/news/8884563/stock-indexes-finish-lower-as-tech-stocks-retreat"
+          "outlet": "Seeking Alpha",
+          "title": "CrowdStrike advances 7% amid cybersecurity rally",
+          "url": "https://seekingalpha.com/news/4674326-crowdstrike-advances-7-amid-cybersecurity-rally"
         }
       ]
     },
     {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 141.7,
-      "prev_close": 137.36,
-      "pct_change": 3.16,
-      "market_cap_usd": 1924436694282,
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "close": 530.14,
+      "prev_close": 503.41,
+      "pct_change": 5.31,
+      "market_cap_usd": 865440368791,
       "is_mover": true,
-      "reason": "Bloomberg reported that a portion of SpaceX’s $40 billion debt financing to buy Nvidia AI chips may start being sold as soon as this week, with Goldman Sachs and Apollo Global Management as underwriters. The structure uses a special-purpose vehicle managed by Apollo-backed Atlas SP to keep the debt off SpaceX’s balance sheet and protect its investment-grade ratings.",
+      "reason": "AMD recovered part of a two-day, more than 13% slide after Nvidia beat estimates and guided fourth-quarter revenue to $130 billion, plus or minus 3%, easing fears about AI infrastructure demand. The company also completed its approximately $2.9 billion acquisition of Toronto-based AI-inference chip designer Taalas the prior day.",
       "sources": [
         {
-          "outlet": "Bloomberg",
-          "title": "SpaceX Debt for AI Chips to Hit Market as Soon as This Week",
-          "url": "https://finance.yahoo.com/technology/ai/articles/spacex-debt-ai-chips-hit-145310043.html"
+          "outlet": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
         },
         {
-          "outlet": "24/7 Wall St.",
-          "title": "SpaceX Rises 3% on Report of $4 Billion Bond Sale to Fund NVIDIA Chips; Rocket Lab Falls 3%, AST SpaceMobile Slides 2%",
-          "url": "https://247wallst.com/investing/2026/11/17/spacex-rises-3-on-report-of-4-billion-bond-sale-to-fund-nvidia-chips-rocket-lab-falls-3-ast-spacemobile-slides-2/"
-        }
-      ]
-    },
-    {
-      "ticker": "PEP",
-      "name": "PepsiCo Inc. Common Stock",
-      "close": 142.02,
-      "prev_close": 146.43,
-      "pct_change": -3.01,
-      "market_cap_usd": 193536505421,
-      "is_mover": true,
-      "reason": "Bernstein downgraded PepsiCo to Underperform from Market-Perform and cut its price target to $128 from $131. Analyst Cristian Rios warned of an EPS miss over the next 12 months, citing persistent weakness in North America, including expected Frito-Lay volume declines in 2027 as earlier price cuts fade and chip consumption softens.",
-      "sources": [
-        {
-          "outlet": "Investing.com",
-          "title": "Bernstein cuts PepsiCo to Underperform on North America pressure",
-          "url": "https://www.investing.com/news/stock-market-news/bernstein-cuts-pepsico-to-underperform-on-north-america-pressure-5033241"
+          "outlet": "AMD",
+          "title": "AMD Completes Acquisition of Taalas to Advance AI Inference Innovation",
+          "url": "https://newsroom.amd.com/news/amd-completes-acquisition-taalas-advance-ai-inference-innovation/"
         },
         {
           "outlet": "Yahoo Finance",
-          "title": "Why Is PepsiCo Stock Falling 1.8% Following Bernstein Analyst Downgrade?",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-pepsico-stock-falling-1-133753491.html"
+          "title": "Why Is Advanced Micro Devices Stock Rising Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-advanced-micro-devices-stock-121232264.html"
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 159.81,
+      "prev_close": 166.67,
+      "pct_change": -4.12,
+      "market_cap_usd": 167837877036,
+      "is_mover": true,
+      "reason": "Baird cut its price target to $300 from $320, while keeping an Outperform rating, and removed a previously assumed custom ASIC engagement with ByteDance from its model, citing U.S. export-control restrictions on funding AI chips to the TikTok parent.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Baird lowers Qualcomm stock price target on AI chip export concerns",
+          "url": "https://www.investing.com/news/analyst-ratings/baird-lowers-qualcomm-stock-price-target-on-ai-chip-export-concerns-93CH-5035856"
+        },
+        {
+          "outlet": "Proactive Investors",
+          "title": "Baird cuts Qualcomm estimates over potential loss of ByteDance chip business",
+          "url": "https://www.proactiveinvestors.com/companies/news/1102042/baird-cuts-qualcomm-estimates-over-potential-loss-of-bytedance-chip-business-1102042.html"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "close": 267.74,
+      "prev_close": 257.89,
+      "pct_change": 3.82,
+      "market_cap_usd": 2887927569965,
+      "is_mover": true,
+      "reason": "Anthropic, in which Amazon is a major shareholder, priced its IPO at $83 a share, above the marketed $70–$78 range; the Claude developer is set to start trading Thursday on Nasdaq under the ticker ANT. Nvidia’s earnings beat also lifted AI-related names, and UBS assumed coverage with a Buy rating and a $340 price target.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Anthropic prices IPO at $83 per share, above expected range, source tells CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Amazon stock climbing today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-amazon-stock-climbing-today-93CH-5036532"
+        },
+        {
+          "outlet": "Yahoo Finance",
+          "title": "Amazon Stocks Rise 0.89% Premarket After UBS Trims Target to $340 but Keeps Buy",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-rise-0-89-183829798.html"
         }
       ]
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc. Common Stock",
-      "close": 341.6,
-      "prev_close": 333.4,
-      "pct_change": 2.46,
-      "market_cap_usd": 1630671991020,
-      "is_mover": false
+      "close": 354.05,
+      "prev_close": 341.6,
+      "pct_change": 3.64,
+      "market_cap_usd": 1690103595431,
+      "is_mover": true,
+      "reason": "Broadcom rose with other AI chip names after Nvidia beat estimates and guided fourth-quarter revenue to $130 billion, plus or minus 3%, easing fears about AI demand. Investors also pointed to Broadcom as an alternative AI-compute supplier; CEO Hock Tan has said the company has secured supply to roughly double AI revenue to about $115 billion in fiscal 2027.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "AI stocks rally as Nvidia outlook calms demand fears",
+          "url": "https://www.investing.com/news/stock-market-news/ai-stocks-rally-as-nvidia-outlook-calms-demand-fears-5035514"
+        },
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Broadcom stock climbing today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-broadcom-stock-climbing-today-93CH-5035214"
+        }
+      ]
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 156.56,
-      "prev_close": 160.39,
-      "pct_change": -2.39,
-      "market_cap_usd": 376065490470,
-      "is_mover": false
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 443.89,
+      "prev_close": 457.93,
+      "pct_change": -3.07,
+      "market_cap_usd": 239981142897,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Amgen fell with a weaker healthcare tape. UnitedHealth dropped about 10% and helped drag the Dow down 1.11%, and Amgen underperformed a pharmaceuticals and medical-research group that was also lower.",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Stock market news for Nov. 18, 2026",
+          "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+        }
+      ]
     },
     {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 148.74,
-      "prev_close": 145.36,
-      "pct_change": 2.33,
-      "market_cap_usd": 130430113005,
-      "is_mover": false
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation Common Stock",
-      "close": 506.24,
-      "prev_close": 517.99,
-      "pct_change": -2.27,
-      "market_cap_usd": 3759436553605,
-      "is_mover": false
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 309.29,
-      "prev_close": 316.09,
-      "pct_change": -2.15,
-      "market_cap_usd": 253136272232,
-      "is_mover": false
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix Inc. Common Stock",
-      "close": 59.68,
-      "prev_close": 60.75,
-      "pct_change": -1.76,
-      "market_cap_usd": 245065534157,
-      "is_mover": false
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1383.11,
-      "prev_close": 1406.79,
-      "pct_change": -1.68,
-      "market_cap_usd": 533075036526,
-      "is_mover": false
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 430.53,
-      "prev_close": 437.75,
-      "pct_change": -1.65,
-      "market_cap_usd": 149240516240,
-      "is_mover": false
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 219.58,
-      "prev_close": 223.21,
-      "pct_change": -1.63,
-      "market_cap_usd": 224835619736,
-      "is_mover": false
-    },
-    {
-      "ticker": "GILD",
-      "name": "Gilead Sciences Inc. Common Stock",
-      "close": 170.26,
-      "prev_close": 167.58,
-      "pct_change": 1.6,
-      "market_cap_usd": 211114757101,
-      "is_mover": false
-    },
-    {
-      "ticker": "LIN",
-      "name": "Linde plc Ordinary Shares",
-      "close": 515.11,
-      "prev_close": 523.46,
-      "pct_change": -1.6,
-      "market_cap_usd": 237455487890,
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 150.96,
+      "prev_close": 155.46,
+      "pct_change": -2.89,
+      "market_cap_usd": 3638136099447,
       "is_mover": false
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation Common Stock",
-      "close": 797.24,
-      "prev_close": 809.11,
-      "pct_change": -1.47,
-      "market_cap_usd": 115861035525,
+      "close": 776.22,
+      "prev_close": 797.24,
+      "pct_change": -2.64,
+      "market_cap_usd": 112806244923,
       "is_mover": false
     },
     {
       "ticker": "TMUS",
       "name": "T-Mobile US Inc. Common Stock",
-      "close": 167.9,
-      "prev_close": 170.01,
-      "pct_change": -1.24,
-      "market_cap_usd": 177851866313,
-      "is_mover": false
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. Class A Common Stock",
-      "close": 280.2,
-      "prev_close": 283.72,
-      "pct_change": -1.24,
-      "market_cap_usd": 3444778861178,
-      "is_mover": false
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 618.87,
-      "prev_close": 626.41,
-      "pct_change": -1.2,
-      "market_cap_usd": 1581980962288,
-      "is_mover": false
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 166.67,
-      "prev_close": 168.52,
-      "pct_change": -1.1,
-      "market_cap_usd": 175042482233,
+      "close": 164.02,
+      "prev_close": 167.9,
+      "pct_change": -2.31,
+      "market_cap_usd": 173741899541,
       "is_mover": false
     },
     {
       "ticker": "STX",
       "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 504.4,
-      "prev_close": 499.0,
-      "pct_change": 1.08,
-      "market_cap_usd": 115365640554,
+      "close": 515.9,
+      "prev_close": 504.4,
+      "pct_change": 2.28,
+      "market_cap_usd": 117995910980,
       "is_mover": false
     },
     {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 457.93,
-      "prev_close": 462.32,
-      "pct_change": -0.95,
-      "market_cap_usd": 247571604187,
-      "is_mover": false
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology Inc. Common Stock",
-      "close": 712.42,
-      "prev_close": 719.02,
-      "pct_change": -0.92,
-      "market_cap_usd": 806048488506,
-      "is_mover": false
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 283.33,
-      "prev_close": 280.93,
-      "pct_change": 0.85,
-      "market_cap_usd": 106057005797,
-      "is_mover": false
-    },
-    {
-      "ticker": "WMT",
-      "name": "Walmart Inc. Common Stock",
-      "close": 127.52,
-      "prev_close": 128.41,
-      "pct_change": -0.69,
-      "market_cap_usd": 1011711294019,
-      "is_mover": false
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
-      "close": 534.2,
-      "prev_close": 537.79,
-      "pct_change": -0.67,
-      "market_cap_usd": 135398828695,
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 420.95,
+      "prev_close": 430.53,
+      "pct_change": -2.23,
+      "market_cap_usd": 145919674148,
       "is_mover": false
     },
     {
       "ticker": "CSCO",
       "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 95.11,
-      "prev_close": 94.52,
-      "pct_change": 0.62,
-      "market_cap_usd": 374979452543,
+      "close": 97.18,
+      "prev_close": 95.11,
+      "pct_change": 2.18,
+      "market_cap_usd": 383140606442,
       "is_mover": false
     },
     {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated Common Stock",
-      "close": 295.86,
-      "prev_close": 294.21,
-      "pct_change": 0.56,
-      "market_cap_usd": 270348070197,
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 145.54,
+      "prev_close": 148.74,
+      "pct_change": -2.15,
+      "market_cap_usd": 127624022253,
       "is_mover": false
     },
     {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 55.17,
-      "prev_close": 55.47,
-      "pct_change": -0.54,
-      "market_cap_usd": 291577276211,
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 139.42,
+      "prev_close": 141.9,
+      "pct_change": -1.75,
+      "market_cap_usd": 180661971393,
       "is_mover": false
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 155.46,
-      "prev_close": 156.14,
-      "pct_change": -0.44,
-      "market_cap_usd": 3746586097588,
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 288.19,
+      "prev_close": 283.33,
+      "pct_change": 1.72,
+      "market_cap_usd": 107876222808,
       "is_mover": false
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA Corporation Common Stock",
-      "close": 144.56,
-      "prev_close": 143.96,
-      "pct_change": 0.42,
-      "market_cap_usd": 188651743550,
-      "is_mover": false
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc. American Depositary Shares",
-      "close": 122.61,
-      "prev_close": 122.18,
-      "pct_change": 0.35,
-      "market_cap_usd": 893662014189,
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 143.5,
+      "prev_close": 141.7,
+      "pct_change": 1.27,
+      "market_cap_usd": 1948882650508,
       "is_mover": false
     },
     {
       "ticker": "COST",
       "name": "Costco Wholesale Corporation Common Stock",
-      "close": 1110.08,
-      "prev_close": 1113.74,
-      "pct_change": -0.33,
-      "market_cap_usd": 491908999825,
+      "close": 1096.62,
+      "prev_close": 1110.08,
+      "pct_change": -1.21,
+      "market_cap_usd": 485944496199,
       "is_mover": false
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 349.23,
-      "prev_close": 350.25,
-      "pct_change": -0.29,
-      "market_cap_usd": 277148041330,
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 292.43,
+      "prev_close": 295.86,
+      "pct_change": -1.16,
+      "market_cap_usd": 267213844731,
       "is_mover": false
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 351.91,
-      "prev_close": 352.78,
-      "pct_change": -0.25,
-      "market_cap_usd": 5135837883340,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 503.41,
-      "prev_close": 504.28,
-      "pct_change": -0.17,
-      "market_cap_usd": 821804291667,
-      "is_mover": false
-    },
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices Inc. Common Stock",
-      "close": 383.67,
-      "prev_close": 383.17,
-      "pct_change": 0.13,
-      "market_cap_usd": 185913238987,
+      "ticker": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "close": 705.27,
+      "prev_close": 712.42,
+      "pct_change": -1.0,
+      "market_cap_usd": 797958854144,
       "is_mover": false
     },
     {
       "ticker": "TSLA",
       "name": "Tesla Inc. Common Stock",
-      "close": 380.11,
-      "prev_close": 379.74,
-      "pct_change": 0.1,
-      "market_cap_usd": 1502482810429,
+      "close": 383.72,
+      "prev_close": 380.11,
+      "pct_change": 0.95,
+      "market_cap_usd": 1516752329773,
+      "is_mover": false
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 54.67,
+      "prev_close": 55.17,
+      "pct_change": -0.91,
+      "market_cap_usd": 288934741447,
+      "is_mover": false
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1395.27,
+      "prev_close": 1383.11,
+      "pct_change": 0.88,
+      "market_cap_usd": 537761728642,
+      "is_mover": false
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 352.3,
+      "prev_close": 349.23,
+      "pct_change": 0.88,
+      "market_cap_usd": 279584367053,
+      "is_mover": false
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 282.44,
+      "prev_close": 280.2,
+      "pct_change": 0.8,
+      "market_cap_usd": 3472317300409,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 168.98,
+      "prev_close": 170.26,
+      "pct_change": -0.75,
+      "market_cap_usd": 209527616022,
+      "is_mover": false
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 512.16,
+      "prev_close": 515.11,
+      "pct_change": -0.57,
+      "market_cap_usd": 236095590766,
       "is_mover": false
     },
     {
       "ticker": "LRCX",
       "name": "Lam Research Corporation Common Stock",
-      "close": 210.69,
-      "prev_close": 210.83,
-      "pct_change": -0.07,
-      "market_cap_usd": 263187841671,
+      "close": 211.67,
+      "prev_close": 210.69,
+      "pct_change": 0.47,
+      "market_cap_usd": 264412023917,
       "is_mover": false
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon.com Inc. Common Stock",
-      "close": 257.89,
-      "prev_close": 257.75,
-      "pct_change": 0.05,
-      "market_cap_usd": 2781682641692,
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 381.98,
+      "prev_close": 383.67,
+      "pct_change": -0.44,
+      "market_cap_usd": 185094322166,
+      "is_mover": false
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+      "close": 536.45,
+      "prev_close": 534.2,
+      "pct_change": 0.42,
+      "market_cap_usd": 135969115774,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 508.29,
+      "prev_close": 506.24,
+      "pct_change": 0.4,
+      "market_cap_usd": 3774660387993,
+      "is_mover": false
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 616.38,
+      "prev_close": 618.87,
+      "pct_change": -0.4,
+      "market_cap_usd": 1575615946730,
+      "is_mover": false
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 182.76,
+      "prev_close": 183.39,
+      "pct_change": -0.34,
+      "market_cap_usd": 194466728379,
+      "is_mover": false
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc. Common Stock",
+      "close": 59.82,
+      "prev_close": 59.68,
+      "pct_change": 0.23,
+      "market_cap_usd": 245640417284,
+      "is_mover": false
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 144.88,
+      "prev_close": 144.56,
+      "pct_change": 0.22,
+      "market_cap_usd": 189069355204,
+      "is_mover": false
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 352.45,
+      "prev_close": 351.91,
+      "pct_change": 0.15,
+      "market_cap_usd": 5143718865164,
+      "is_mover": false
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "close": 127.36,
+      "prev_close": 127.52,
+      "pct_change": -0.13,
+      "market_cap_usd": 1010441926096,
+      "is_mover": false
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 122.47,
+      "prev_close": 122.61,
+      "pct_change": -0.11,
+      "market_cap_usd": 892641606915,
+      "is_mover": false
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 141.87,
+      "prev_close": 142.02,
+      "pct_change": -0.11,
+      "market_cap_usd": 193332081770,
+      "is_mover": false
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 156.67,
+      "prev_close": 156.56,
+      "pct_change": 0.07,
+      "market_cap_usd": 376329717822,
       "is_mover": false
     }
   ]
