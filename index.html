@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nasdaq 40 Dashboard · 2026-11-19</title>
+<title>Nasdaq 40 Dashboard · 2026-11-20</title>
 <style>
 :root {
   --bg: #f5f7fb; --panel: #fff; --text: #0f172a; --muted: #64748b; --line: #e2e8f0;
@@ -158,34 +158,39 @@ footer p { margin: 4px 0; overflow-wrap: anywhere; }
 <script>
 window.DASHBOARD_DATA = {
  "is_example": false,
- "session_date": "2026-11-19",
- "market_context": "The Nasdaq-100 fell 2.21% to 26,517.05 (QQQ -2.19% to $645.04) as a morning AI rally reversed once Anthropic (ANT) began trading, closing up 17% after a 34% opening pop; the S&P 500 dropped 2.02% to 7,175.83 for a sixth straight loss, the Dow lost 1,101 points, or 2.19%, to 49,097.06, and the VIX jumped 15.8% to 28.44.",
- "generated_at": "2026-11-20T06:25:53+08:00",
- "source": "latest.json (Stock Watcher, modified 2026-11-20 06:25 HKT)",
+ "session_date": "2026-11-20",
+ "market_context": "The Nasdaq-100 sank 5.61% to 25,028.98 (QQQ -5.67% to $608.45), coming within a whisker of a bear market; the Nasdaq Composite fell 5.28% to 22,617.73 and turned negative for 2026, while the S&P 500 dropped 3.7% to 6,910.39 and, with the Dow, closed in a correction as the AI and semiconductor trade unwound.",
+ "generated_at": "2026-11-21T06:25:23+08:00",
+ "source": "latest.json (Stock Watcher, modified 2026-11-21 06:25 HKT)",
  "mover_threshold": 3.0,
  "notes": [
-  "Market-cap basis: Shares outstanding x 2026-11-19 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
+  "Market-cap basis: Shares outstanding x 2026-11-20 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes."
  ],
  "stocks": [
   {
    "ticker": "NVDA",
    "name": "NVIDIA Corporation",
-   "close": 145.98,
-   "prev_close": 150.96,
-   "pct_change": -3.3,
-   "market_cap": 3518117836734.0,
+   "close": 125.53,
+   "prev_close": 145.98,
+   "pct_change": -14.01,
+   "market_cap": 3025272918728.0,
    "mover": true,
-   "reason": "Nvidia gave up a morning bounce tied to Anthropic's IPO as investors continued to weigh Jensen Huang's resignation, tighter China-export rules, and whether AI infrastructure spending can keep pace, despite Wednesday's beat-and-raise that guided fourth-quarter revenue to about $130 billion.",
+   "reason": "Shares had their worst day since the January 2025 DeepSeek rout and a seventh straight decline, extending a weekly losing streak not seen since 2008. Selling intensified after Reuters reported that SEC enforcement staff are examining potential accounting issues at Nvidia — a focus the Wall Street Journal had not identified when it reported an SEC probe on Tuesday. The stock was already down more than 6% before the Reuters report, in a broad AI-chip selloff; Nvidia did not immediately comment, and an investigation is not evidence of wrongdoing.",
    "sources": [
     {
-     "outlet": "The Motley Fool",
-     "title": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-nvidia-slides-as-investors-weigh-ceo-transition-fallout-despite-strong-q3-results/"
+     "outlet": "Reuters",
+     "title": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say",
+     "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
     },
     {
-     "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "outlet": "Yahoo Finance",
+     "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
+     "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+    },
+    {
+     "outlet": "X (@business)",
+     "title": "Bloomberg post on the Reuters report that the SEC is investigating Nvidia's accounting practices",
+     "url": "https://x.com/business/status/2123871539732865138"
     }
    ],
    "missing": false
@@ -193,10 +198,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AAPL",
    "name": "Apple Inc.",
-   "close": 349.21,
-   "prev_close": 352.45,
-   "pct_change": -0.92,
-   "market_cap": 5096433419602.0,
+   "close": 342.56,
+   "prev_close": 349.21,
+   "pct_change": -1.9,
+   "market_cap": 4999382212697.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -205,10 +210,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "MSFT",
    "name": "Microsoft Corporation",
-   "close": 498.3,
-   "prev_close": 508.29,
-   "pct_change": -1.97,
-   "market_cap": 3700472552361.0,
+   "close": 484.52,
+   "prev_close": 498.3,
+   "pct_change": -2.77,
+   "market_cap": 3598139603327.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -217,55 +222,34 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "GOOGL",
    "name": "Alphabet Inc.",
-   "close": 272.66,
-   "prev_close": 282.44,
-   "pct_change": -3.46,
-   "market_cap": 3352081998519.0,
-   "mover": true,
-   "reason": "Alphabet fell with other large-cap AI names after Anthropic's debut faded; the IPO put a fresh mark on Alphabet's nearly 14% stake, worth about $175 billion at Anthropic's initial close, and some investors may have rotated into ANT. Separately, Google said it selected Blue Origin's New Glenn rocket for a Project Suncatcher launch targeted for the first quarter of 2029.",
-   "sources": [
-    {
-     "outlet": "The Motley Fool",
-     "title": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-googles-stake/"
-    },
-    {
-     "outlet": "Google",
-     "title": "We're partnering with Blue Origin on our first heavy-lift Project Suncatcher launch",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-origin-project-suncatcher-partnership/"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
-    }
-   ],
+   "close": 265.29,
+   "prev_close": 272.66,
+   "pct_change": -2.7,
+   "market_cap": 3261475280886.0,
+   "mover": false,
+   "reason": "",
+   "sources": [],
    "missing": false
   },
   {
    "ticker": "AMZN",
    "name": "Amazon.com Inc.",
-   "close": 257.37,
-   "prev_close": 267.74,
-   "pct_change": -3.87,
-   "market_cap": 2776073547810.0,
+   "close": 246.82,
+   "prev_close": 257.37,
+   "pct_change": -4.1,
+   "market_cap": 2662278068160.0,
    "mover": true,
-   "reason": "Amazon sold off with other large-cap AI and cloud names after Anthropic's Nasdaq debut faded into a “sell the rally” move, even though Amazon's roughly 14.7% stake was worth about $159 billion at the $83 IPO price.",
+   "reason": "Amazon fell with Big Tech and the AI-infrastructure trade. President Trump also threatened a “tremendous tax” on U.S. companies that build data centers overseas, a group that includes Amazon and other major cloud providers; no rate or timeline was specified.",
    "sources": [
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+     "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
     },
     {
-     "outlet": "The Motley Fool",
-     "title": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-googles-stake/"
-    },
-    {
-     "outlet": "TipRanks",
-     "title": "Amazon’s Anthropic Stake Is Worth $159 Billion – What It Means for AMZN Stock",
-     "url": "https://www.tipranks.com/news/amazons-anthropic-stake-is-worth-159-billion-what-it-means-for-amzn-stock"
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     }
    ],
    "missing": false
@@ -273,22 +257,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "SPCX",
    "name": "Space Exploration Technologies Corp.",
-   "close": 138.43,
-   "prev_close": 143.5,
-   "pct_change": -3.53,
-   "market_cap": 1880026557741.0,
+   "close": 127.79,
+   "prev_close": 138.43,
+   "pct_change": -7.69,
+   "market_cap": 1735524151169.0,
    "mover": true,
-   "reason": "SpaceX fell as the morning AI rally reversed after Anthropic's debut faded. Anthropic is the biggest customer of SpaceX's AI computing arm, with IPO filings showing a commitment of up to $120.5 billion through 2029, tying a large slice of that growth to one customer.",
+   "reason": "SpaceX sold off with other high-beta AI-linked names as investors pulled back from the AI trade after Anthropic fell on its second day of trading. Attention also stayed on SpaceX's compute relationship with Anthropic and still-unannounced merger talks with Tesla; no deal has been agreed.",
    "sources": [
     {
-     "outlet": "The Motley Fool",
-     "title": "Why SpaceX Stock Is Down Today",
-     "url": "https://www.fool.com/investing/2026/11/19/why-spacex-stock-is-down-today/"
+     "outlet": "Benzinga",
+     "title": "SpaceX Stock Drops Nearly 6% During AI Pullback, Anthropic Ties, Tesla Merger Talk",
+     "url": "https://www.benzinga.com/markets/tech/26/11/63474723/spacex-stock-drops-nearly-6-during-ai-pullback-anthropic-ties-tesla-merger-talk"
     },
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     }
    ],
    "missing": false
@@ -296,34 +280,50 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AVGO",
    "name": "Broadcom Inc.",
-   "close": 346.65,
-   "prev_close": 354.05,
-   "pct_change": -2.09,
-   "market_cap": 1654778763566.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 304.41,
+   "prev_close": 346.65,
+   "pct_change": -12.19,
+   "market_cap": 1453140684686.0,
+   "mover": true,
+   "reason": "TF International's Ming-Chi Kuo said his latest industry survey indicates Google has cut planned 2027 shipments of Broadcom-designed TPU 8i chips by about 1 million units, or roughly 20%, mostly the higher-priced 8i Max (Whalefish), and plans to increase MediaTek-designed TPU 8t shipments; details are not final, and Google has not announced a change. The stock also fell with the broader semiconductor rout.",
+   "sources": [
+    {
+     "outlet": "X (@mingchikuo)",
+     "title": "Ming-Chi Kuo industry survey on Google cutting 2027 Broadcom TPU 8i shipments and raising MediaTek TPU 8t plans",
+     "url": "https://x.com/mingchikuo/status/2123792271195918462"
+    },
+    {
+     "outlet": "Investing.com",
+     "title": "Google reportedly cuts Broadcom-designed TPU plans, eyes more MediaTek chips",
+     "url": "https://www.investing.com/news/stock-market-news/google-reportedly-cuts-broadcomdesigned-tpu-plans-eyes-more-mediatek-chips-5042253"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Broadcom Plunges 11% as Google Reportedly Shifts TPU Orders to MediaTek, Overshadowing Goldman's $460 Target; Marvell Sinks 10%",
+     "url": "https://247wallst.com/investing/2026/11/20/broadcom-plunges-11-as-google-reportedly-shifts-tpu-orders-to-mediatek-overshadowing-goldmans-460-target-marvell-sinks-10/"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "META",
    "name": "Meta Platforms Inc.",
-   "close": 596.22,
-   "prev_close": 616.38,
-   "pct_change": -3.27,
-   "market_cap": 1524082037310.0,
+   "close": 560.84,
+   "prev_close": 596.22,
+   "pct_change": -5.93,
+   "market_cap": 1433642368146.0,
    "mover": true,
-   "reason": "No clear company-specific news; Meta gave up early gains and closed lower with other large-cap AI and advertising peers after Anthropic's debut sparked a “sell the rally” move across tech.",
+   "reason": "Meta fell with other hyperscalers as investors questioned returns on AI and data-center spending. President Trump also said U.S. companies that build data centers overseas would face a “tremendous tax,” a group that includes Meta, Amazon, Alphabet and Microsoft; he gave no details on rate or timing.",
    "sources": [
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+     "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
     },
     {
-     "outlet": "The Motley Fool",
-     "title": "Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-googles-stake/"
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     }
    ],
    "missing": false
@@ -331,46 +331,84 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "TSLA",
    "name": "Tesla Inc.",
-   "close": 374.41,
-   "prev_close": 383.72,
-   "pct_change": -2.43,
-   "market_cap": 1479952161832.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 345.82,
+   "prev_close": 374.41,
+   "pct_change": -7.64,
+   "market_cap": 1366942823211.0,
+   "mover": true,
+   "reason": "Tesla fell with high-beta tech in the AI-led selloff, overshadowing an HSBC upgrade to Hold from Reduce and a price-target raise to $359 from $157, which the firm tied to Tesla-SpaceX merger talks under review.",
+   "sources": [
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Tesla upgraded, Berkshire Hathaway downgraded: Wall Street's top analyst calls",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-upgraded-applovin-initiated-wall-135331262.html"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "SKHY",
    "name": "SK hynix Inc.",
-   "close": 119.2,
-   "prev_close": 122.47,
-   "pct_change": -2.67,
-   "market_cap": 868807673386.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 103.57,
+   "prev_close": 119.2,
+   "pct_change": -13.11,
+   "market_cap": 754886013181.0,
+   "mover": true,
+   "reason": "SK hynix fell 5.92% in Seoul as the Kospi dropped 5.21% in an Asian chip selloff, and the U.S.-listed ADRs dropped further with U.S. memory peers Micron and Sandisk.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
+    },
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+     "url": "https://247wallst.com/investing/2026/11/20/micron-stock-plunges-13-as-barrons-calls-memory-stocks-agonizingly-cheap-western-digital-sandisk-and-seagate-sink-in-ai-chip-selloff/"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "MU",
    "name": "Micron Technology Inc.",
-   "close": 690.44,
-   "prev_close": 705.27,
-   "pct_change": -2.1,
-   "market_cap": 781179828925.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 594.51,
+   "prev_close": 690.44,
+   "pct_change": -13.89,
+   "market_cap": 672642410753.0,
+   "mover": true,
+   "reason": "Micron was swept up in a sector-wide memory selloff, falling alongside Sandisk, Western Digital and Seagate, and now sits about 50% below its June record close. Before the open, Barron's called memory stocks “agonizingly cheap,” a label that also flags the risk that low P/E ratios can mark a cycle peak rather than a bargain.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+     "url": "https://247wallst.com/investing/2026/11/20/micron-stock-plunges-13-as-barrons-calls-memory-stocks-agonizingly-cheap-western-digital-sandisk-and-seagate-sink-in-ai-chip-selloff/"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "WMT",
    "name": "Walmart Inc.",
-   "close": 126.04,
-   "prev_close": 127.36,
-   "pct_change": -1.04,
-   "market_cap": 999969383479.0,
+   "close": 127.95,
+   "prev_close": 126.04,
+   "pct_change": 1.52,
+   "market_cap": 1015122807324.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -379,27 +417,27 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMD",
    "name": "Advanced Micro Devices Inc.",
-   "close": 489.19,
-   "prev_close": 530.14,
-   "pct_change": -7.72,
-   "market_cap": 798590493877.0,
+   "close": 424.39,
+   "prev_close": 489.19,
+   "pct_change": -13.25,
+   "market_cap": 692806127891.0,
    "mover": true,
-   "reason": "Shares sank after short-seller Hunterbrook Media published a report alleging that newer AMD firmware kept reaching blacklisted Chinese server maker IEIT Systems and that tighter U.S. export rules could hit AMD's China and Singapore business; Hunterbrook Capital disclosed a short position. AMD said the claims “misrepresent AMD's business practices and relationships” and that it complies with U.S. export-control laws.",
+   "reason": "No clear new company-specific news on Friday; AMD extended Thursday's slide, when short-seller Hunterbrook Media alleged export-control issues, as the broader semiconductor rout deepened and chip peers such as Nvidia and Micron also fell by double digits.",
    "sources": [
     {
-     "outlet": "Hunterbrook Media",
-     "title": "AMD Has Its Own China Problem",
-     "url": "https://newsletter.hntrbrk.com/p/amd-has-its-own-china-problem"
-    },
-    {
      "outlet": "CNBC",
-     "title": "AMD stock dives on short-seller report of alleged China exposure",
-     "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     },
     {
      "outlet": "Yahoo Finance",
-     "title": "AMD stock drops after Hunterbrook Media raises export control concerns",
-     "url": "https://finance.yahoo.com/technology/article/amd-stock-drops-after-hunterbrook-media-raises-export-control-concerns-171508145.html"
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    },
+    {
+     "outlet": "AP",
+     "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
+     "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
     }
    ],
    "missing": false
@@ -407,46 +445,79 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ASML",
    "name": "ASML Holding N.V.",
-   "close": 1356.2,
-   "prev_close": 1395.27,
-   "pct_change": -2.8,
-   "market_cap": 522703433685.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 1266.22,
+   "prev_close": 1356.2,
+   "pct_change": -6.63,
+   "market_cap": 488023558706.0,
+   "mover": true,
+   "reason": "No clear company-specific news; ASML fell with semiconductor-equipment peers after Japanese toolmakers sold off sharply in Asia and U.S. chip stocks extended the decline.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "INTC",
    "name": "Intel Corporation",
-   "close": 55.72,
-   "prev_close": 54.67,
-   "pct_change": 1.92,
-   "market_cap": 294484080581.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 51.28,
+   "prev_close": 55.72,
+   "pct_change": -7.97,
+   "market_cap": 271018358971.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Intel fell with the broader semiconductor group as the AI-chip trade unwound.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "PLTR",
    "name": "Palantir Technologies Inc.",
-   "close": 153.68,
-   "prev_close": 156.67,
-   "pct_change": -1.91,
-   "market_cap": 369147564655.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 143.49,
+   "prev_close": 153.68,
+   "pct_change": -6.63,
+   "market_cap": 344670670253.0,
+   "mover": true,
+   "reason": "No clear new company-specific catalyst; Palantir, a high-multiple AI software name, sold off with the broader tech rout as investors de-risked growth stocks.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "AP",
+     "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
+     "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "COST",
    "name": "Costco Wholesale Corporation",
-   "close": 1093.83,
-   "prev_close": 1096.62,
-   "pct_change": -0.25,
-   "market_cap": 484708148027.0,
+   "close": 1102.15,
+   "prev_close": 1093.83,
+   "pct_change": 0.76,
+   "market_cap": 488395014440.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -455,34 +526,45 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "CSCO",
    "name": "Cisco Systems Inc.",
-   "close": 94.7,
-   "prev_close": 97.18,
-   "pct_change": -2.55,
-   "market_cap": 373362977433.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 90.64,
+   "prev_close": 94.7,
+   "pct_change": -4.29,
+   "market_cap": 357356083814.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Cisco fell with other technology and networking stocks in the risk-off session.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "AP",
+     "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
+     "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "AMAT",
    "name": "Applied Materials Inc.",
-   "close": 338.93,
-   "prev_close": 352.3,
-   "pct_change": -3.8,
-   "market_cap": 268973973207.0,
+   "close": 302.63,
+   "prev_close": 338.93,
+   "pct_change": -10.71,
+   "market_cap": 240166395964.0,
    "mover": true,
-   "reason": "No clear company-specific news; semiconductor-equipment shares fell with the broader AI and chip selloff (SMH -2.62%) as the morning rally reversed after Anthropic began trading.",
+   "reason": "No clear company-specific news; Applied Materials fell with semiconductor-equipment peers as Japanese toolmakers such as Tokyo Electron and Lasertec dropped sharply overnight and U.S. chip stocks sold off.",
    "sources": [
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
     },
     {
-     "outlet": "Reuters",
-     "title": "Wall Street slides as Anthropic’s debut fails to revive AI enthusiasm",
-     "url": "https://www.investing.com/news/stock-market-news/wall-street-slides-as-anthropics-debut-fails-to-revive-ai-enthusiasm-5039839"
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
     }
    ],
    "missing": false
@@ -490,22 +572,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LRCX",
    "name": "Lam Research Corporation",
-   "close": 203.68,
-   "prev_close": 211.67,
-   "pct_change": -3.77,
-   "market_cap": 254431140741.0,
+   "close": 183.27,
+   "prev_close": 203.68,
+   "pct_change": -10.02,
+   "market_cap": 228935575056.0,
    "mover": true,
-   "reason": "No clear company-specific news; Lam Research fell with other semiconductor-equipment and AI-linked names (SMH -2.62%) as the morning rally reversed after Anthropic began trading.",
+   "reason": "No clear company-specific news; Lam Research fell with semiconductor-equipment peers in the broad chip selloff.",
    "sources": [
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
     },
     {
-     "outlet": "Reuters",
-     "title": "Wall Street slides as Anthropic’s debut fails to revive AI enthusiasm",
-     "url": "https://www.investing.com/news/stock-market-news/wall-street-slides-as-anthropics-debut-fails-to-revive-ai-enthusiasm-5039839"
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
     }
    ],
    "missing": false
@@ -513,32 +595,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks Inc.",
-   "close": 361.73,
-   "prev_close": 339.92,
-   "pct_change": 6.42,
-   "market_cap": 296055430198.0,
+   "close": 343.32,
+   "prev_close": 361.73,
+   "pct_change": -5.09,
+   "market_cap": 280987889799.0,
    "mover": true,
-   "reason": "Shares rose after fiscal first-quarter results beat estimates (revenue $3.44 billion vs. $3.31 billion expected; adjusted EPS $1.05 vs. $0.97) and the company materially raised fiscal 2027 revenue guidance to $14.52–$14.57 billion. It also announced a $4.5 billion all-stock deal to buy Applied Compute; Reuters said at least 20 brokerages raised price targets, with a median of $425.",
+   "reason": "Shares pulled back in the broad tech selloff after Thursday's jump on a fiscal first-quarter beat, a raised fiscal 2027 revenue outlook, and the Applied Compute deal. No new company-specific news was found Friday; the stock remains above Wednesday's close.",
    "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
     {
      "outlet": "Palo Alto Networks",
      "title": "Palo Alto Networks Reports Fiscal First Quarter 2027 Financial Results",
      "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-first-quarter-2027-financial-results"
-    },
-    {
-     "outlet": "Palo Alto Networks",
-     "title": "Palo Alto Networks to Acquire Applied Compute, Bringing Secure Open-Weight AI to the Enterprise",
-     "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-to-acquire-applied-compute--bringing-secure-open-weight-ai-to-the-enterprise"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
-     "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
-    },
-    {
-     "outlet": "Reuters",
-     "title": "Palo Alto’s raised sales forecast powers rally in cybersecurity stocks",
-     "url": "https://www.investing.com/news/stock-market-news/palo-altos-raised-sales-forecast-powers-cybersecurity-stock-rally-5038632"
     }
    ],
    "missing": false
@@ -546,34 +618,56 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "TXN",
    "name": "Texas Instruments Incorporated",
-   "close": 285.75,
-   "prev_close": 292.43,
-   "pct_change": -2.28,
-   "market_cap": 261109865760.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 263.75,
+   "prev_close": 285.75,
+   "pct_change": -7.7,
+   "market_cap": 241006918965.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Texas Instruments fell with other semiconductor stocks in the sector-wide selloff.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "CRWD",
    "name": "CrowdStrike Holdings Inc.",
-   "close": 243.46,
-   "prev_close": 237.03,
-   "pct_change": 2.71,
-   "market_cap": 249287189334.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 229.44,
+   "prev_close": 243.46,
+   "pct_change": -5.76,
+   "market_cap": 234931618139.0,
+   "mover": true,
+   "reason": "CrowdStrike gave back part of a two-day rally that followed Palo Alto Networks' strong earnings, as the AI and high-multiple tech selloff hit cybersecurity names. No new company-specific announcement was found.",
+   "sources": [
+    {
+     "outlet": "Investing.com",
+     "title": "Why is CrowdStrike stock sliding today?",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-crowdstrike-stock-sliding-today-93CH-5042186"
+    },
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "NFLX",
    "name": "Netflix Inc.",
-   "close": 58.46,
-   "prev_close": 59.82,
-   "pct_change": -2.27,
-   "market_cap": 240055811481.0,
+   "close": 56.73,
+   "prev_close": 58.46,
+   "pct_change": -2.96,
+   "market_cap": 232951869462.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -582,10 +676,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "AMGN",
    "name": "Amgen Inc.",
-   "close": 438.82,
-   "prev_close": 443.89,
-   "pct_change": -1.14,
-   "market_cap": 237240134737.0,
+   "close": 435.64,
+   "prev_close": 438.82,
+   "pct_change": -0.72,
+   "market_cap": 235520928962.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -594,22 +688,22 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ARM",
    "name": "Arm Holdings plc",
-   "close": 177.17,
-   "prev_close": 182.76,
-   "pct_change": -3.06,
-   "market_cap": 188518663528.0,
+   "close": 152.2,
+   "prev_close": 177.17,
+   "pct_change": -14.09,
+   "market_cap": 161949203083.0,
    "mover": true,
-   "reason": "No clear company-specific news; Arm fell with other semiconductor and AI-linked names (SMH -2.62%) as the morning rally reversed after Anthropic began trading.",
+   "reason": "Arm fell with the semiconductor selloff. SoftBank, which owns most of Arm, closed 14.48% lower in Tokyo — its worst day since August 2024 — as Asian tech stocks were hit by the AI-trade unwind after Anthropic's debut.",
    "sources": [
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
     },
     {
-     "outlet": "Reuters",
-     "title": "Wall Street slides as Anthropic’s debut fails to revive AI enthusiasm",
-     "url": "https://www.investing.com/news/stock-market-news/wall-street-slides-as-anthropics-debut-fails-to-revive-ai-enthusiasm-5039839"
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     }
    ],
    "missing": false
@@ -617,10 +711,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "LIN",
    "name": "Linde plc",
-   "close": 510.21,
-   "prev_close": 512.16,
-   "pct_change": -0.38,
-   "market_cap": 235196687878.0,
+   "close": 502.83,
+   "prev_close": 510.21,
+   "pct_change": -1.45,
+   "market_cap": 231794651983.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -629,39 +723,45 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "KLAC",
    "name": "KLA Corporation",
-   "close": 141.48,
-   "prev_close": 144.88,
-   "pct_change": -2.35,
-   "market_cap": 184632320990.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 126.87,
+   "prev_close": 141.48,
+   "pct_change": -10.33,
+   "market_cap": 165566184467.0,
+   "mover": true,
+   "reason": "No clear company-specific news; KLA fell with other semiconductor-equipment stocks as the chip rout extended from Asia into the U.S. session.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "SoftBank suffers worst day in over two years as AI sell-off hits Asian tech stocks",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "SHOP",
    "name": "Shopify Inc.",
-   "close": 131.97,
-   "prev_close": 139.42,
-   "pct_change": -5.34,
-   "market_cap": 171008183176.0,
+   "close": 123.72,
+   "prev_close": 131.97,
+   "pct_change": -6.25,
+   "market_cap": 160317742181.0,
    "mover": true,
-   "reason": "No clear company-specific news today; the high-beta e-commerce software name sold off with the broader growth-stock retreat after Anthropic's debut faded, and still carries lingering pressure from its early-November report, which was light on revenue and GMV versus some estimates.",
+   "reason": "No clear company-specific news; Shopify sold off with other high-beta tech stocks in the risk-off session.",
    "sources": [
     {
      "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
     },
     {
      "outlet": "AP",
-     "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
-     "url": "https://apnews.com/article/stocks-markets-ai-us-anthropic-206c84045137824feabe052a29ff6140"
-    },
-    {
-     "outlet": "Shopify",
-     "title": "Shopify Sustains Rapid Growth with Revenue up 32% and Free Cash Flow Margin of 22%",
-     "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-with-revenue-up-32-and-free-cash-flow-margin-of-22"
+     "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
+     "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad"
     }
    ],
    "missing": false
@@ -669,22 +769,33 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ADI",
    "name": "Analog Devices Inc.",
-   "close": 377.44,
-   "prev_close": 381.98,
-   "pct_change": -1.19,
-   "market_cap": 182894390808.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 345.92,
+   "prev_close": 377.44,
+   "pct_change": -8.35,
+   "market_cap": 167620892632.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Analog Devices fell with other semiconductor names in the sector-wide selloff.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "GILD",
    "name": "Gilead Sciences Inc.",
-   "close": 166.53,
-   "prev_close": 168.98,
-   "pct_change": -1.45,
-   "market_cap": 206489729688.0,
+   "close": 166.43,
+   "prev_close": 166.53,
+   "pct_change": -0.06,
+   "market_cap": 206365726605.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -693,46 +804,78 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "QCOM",
    "name": "QUALCOMM Incorporated",
-   "close": 162.01,
-   "prev_close": 159.81,
-   "pct_change": 1.38,
-   "market_cap": 170148388412.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 149.94,
+   "prev_close": 162.01,
+   "pct_change": -7.45,
+   "market_cap": 157472073569.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Qualcomm fell with other semiconductor stocks in the sector-wide selloff.",
+   "sources": [
+    {
+     "outlet": "CNBC",
+     "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+     "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "SNDK",
    "name": "Sandisk Corporation",
-   "close": 755.16,
-   "prev_close": 776.22,
-   "pct_change": -2.71,
-   "market_cap": 109745644407.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 79.24,
+   "prev_close": 94.39,
+   "pct_change": -16.05,
+   "market_cap": 92126118308.0,
+   "mover": true,
+   "reason": "Memory and storage stocks led the chip rout, with Sandisk, Micron, Western Digital and Seagate all down 12% or more; TrendForce now expects NAND flash contract prices to start falling in the first quarter of 2027. An 8-for-1 split took effect after Thursday's close, but Friday's decline is from the split-adjusted $94.40 close, not a split artifact.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+     "url": "https://247wallst.com/investing/2026/11/20/micron-stock-plunges-13-as-barrons-calls-memory-stocks-agonizingly-cheap-western-digital-sandisk-and-seagate-sink-in-ai-chip-selloff/"
+    },
+    {
+     "outlet": "RTT News",
+     "title": "Sandisk Stock Drops 11% Following 8-for-1 Stock Split Amid Semiconductor Sell-Off",
+     "url": "https://www.rttnews.com/3716843/sandisk-stock-drops-11-following-8-for-1-stock-split-amid-semiconductor-sell-off.aspx"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "MRVL",
    "name": "Marvell Technology Inc.",
-   "close": 138.47,
-   "prev_close": 145.54,
-   "pct_change": -4.86,
-   "market_cap": 121424346107.0,
+   "close": 122.28,
+   "prev_close": 138.47,
+   "pct_change": -11.69,
+   "market_cap": 107227332728.0,
    "mover": true,
-   "reason": "No clear company-specific news today; Marvell underperformed the semiconductor sector (SMH -2.62%) as AI-linked chip stocks sold off after a morning rally reversed once Anthropic began trading.",
+   "reason": "Marvell, a custom-silicon peer of Broadcom, sold off with other AI chip designers after Ming-Chi Kuo's report that Google is shifting some 2027 TPU volume toward MediaTek, and in the broader semiconductor rout.",
    "sources": [
     {
-     "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+     "outlet": "24/7 Wall St.",
+     "title": "Broadcom Plunges 11% as Google Reportedly Shifts TPU Orders to MediaTek, Overshadowing Goldman's $460 Target; Marvell Sinks 10%",
+     "url": "https://247wallst.com/investing/2026/11/20/broadcom-plunges-11-as-google-reportedly-shifts-tpu-orders-to-mediatek-overshadowing-goldmans-460-target-marvell-sinks-10/"
     },
     {
-     "outlet": "Reuters",
-     "title": "Wall Street slides as Anthropic’s debut fails to revive AI enthusiasm",
-     "url": "https://www.investing.com/news/stock-market-news/wall-street-slides-as-anthropics-debut-fails-to-revive-ai-enthusiasm-5039839"
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    },
+    {
+     "outlet": "X (@mingchikuo)",
+     "title": "Ming-Chi Kuo industry survey on Google TPU shipment mix",
+     "url": "https://x.com/mingchikuo/status/2123792271195918462"
     }
    ],
    "missing": false
@@ -740,10 +883,10 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "PEP",
    "name": "PepsiCo Inc.",
-   "close": 139.0,
-   "prev_close": 141.87,
-   "pct_change": -2.02,
-   "market_cap": 189421021294.0,
+   "close": 140.54,
+   "prev_close": 139.0,
+   "pct_change": 1.11,
+   "market_cap": 191519633532.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -752,22 +895,33 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "STX",
    "name": "Seagate Technology Holdings PLC",
-   "close": 521.39,
-   "prev_close": 515.9,
-   "pct_change": 1.06,
-   "market_cap": 119251573644.0,
-   "mover": false,
-   "reason": "",
-   "sources": [],
+   "close": 457.01,
+   "prev_close": 521.39,
+   "pct_change": -12.35,
+   "market_cap": 104526671598.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Seagate fell with the memory and storage group, as Sandisk, Western Digital and Micron also dropped 12% or more in the AI-chip selloff.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+     "url": "https://247wallst.com/investing/2026/11/20/micron-stock-plunges-13-as-barrons-calls-memory-stocks-agonizingly-cheap-western-digital-sandisk-and-seagate-sink-in-ai-chip-selloff/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
    "missing": false
   },
   {
    "ticker": "TMUS",
    "name": "T-Mobile US Inc.",
-   "close": 162.53,
-   "prev_close": 164.02,
-   "pct_change": -0.91,
-   "market_cap": 172163577520.0,
+   "close": 165.6,
+   "prev_close": 162.53,
+   "pct_change": 1.89,
+   "market_cap": 175415552219.0,
    "mover": false,
    "reason": "",
    "sources": [],
@@ -776,45 +930,45 @@ window.DASHBOARD_DATA = {
   {
    "ticker": "ISRG",
    "name": "Intuitive Surgical Inc.",
-   "close": 407.24,
-   "prev_close": 420.95,
-   "pct_change": -3.26,
-   "market_cap": 141167181261.0,
-   "mover": true,
-   "reason": "No clear company-specific news; Intuitive Surgical moved with the broad market selloff (S&P 500 -2.02%).",
-   "sources": [
-    {
-     "outlet": "AP",
-     "title": "Wall Street tumbles to its longest losing streak since 2024 as the Dow drops 1,100 points",
-     "url": "https://apnews.com/article/stocks-markets-ai-us-anthropic-206c84045137824feabe052a29ff6140"
-    },
-    {
-     "outlet": "CNBC",
-     "title": "Dow closes below 50,000; Nasdaq falls 2% as Anthropic IPO fails to resuscitate AI trade",
-     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
-    }
-   ],
-   "missing": false
-  },
-  {
-   "ticker": "WDC",
-   "name": "Western Digital Corporation",
-   "close": 296.78,
-   "prev_close": 288.19,
-   "pct_change": 2.98,
-   "market_cap": 111091658288.0,
+   "close": 399.05,
+   "prev_close": 407.24,
+   "pct_change": -2.01,
+   "market_cap": 138328168426.0,
    "mover": false,
    "reason": "",
    "sources": [],
    "missing": false
   },
   {
+   "ticker": "WDC",
+   "name": "Western Digital Corporation",
+   "close": 261.11,
+   "prev_close": 296.78,
+   "pct_change": -12.02,
+   "market_cap": 97739542380.0,
+   "mover": true,
+   "reason": "No clear company-specific news; Western Digital fell with Sandisk, Seagate and Micron in a sector-wide memory and storage selloff.",
+   "sources": [
+    {
+     "outlet": "24/7 Wall St.",
+     "title": "Micron Stock Plunges 13% as Barron's Calls Memory Stocks 'Agonizingly Cheap'; Western Digital, SanDisk and Seagate Sink in AI Chip Selloff",
+     "url": "https://247wallst.com/investing/2026/11/20/micron-stock-plunges-13-as-barrons-calls-memory-stocks-agonizingly-cheap-western-digital-sandisk-and-seagate-sink-in-ai-chip-selloff/"
+    },
+    {
+     "outlet": "Yahoo Finance",
+     "title": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   ],
+   "missing": false
+  },
+  {
    "ticker": "VRTX",
    "name": "Vertex Pharmaceuticals Incorporated",
-   "close": 520.66,
-   "prev_close": 536.45,
-   "pct_change": -2.94,
-   "market_cap": 131966957883.0,
+   "close": 515.02,
+   "prev_close": 520.66,
+   "pct_change": -1.08,
+   "market_cap": 130537450029.0,
    "mover": false,
    "reason": "",
    "sources": [],
