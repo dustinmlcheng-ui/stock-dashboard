@@ -1,500 +1,703 @@
 {
-  "session_date": "2026-11-25",
-  "generated_at": "2026-11-26T06:20:17+08:00",
+  "session_date": "2026-11-27",
+  "generated_at": "2026-11-28T06:23:05+08:00",
   "threshold_pct": 3,
-  "market_context": "The Nasdaq-100 fell 0.64% to 26,046.90 (QQQ -0.65% to $633.93) after recovering from a steep early drop, as hotter October core PCE inflation (3.3% vs 3.2% expected), new 20% tariff proposals, and a continued AI-stock pullback weighed on tech; the PHLX Semiconductor Index closed down 0.65% after falling as much as 8% early, the Nasdaq Composite lost 0.62% to 23,585.80 and the S&P 500 0.25% to 7,182.78, while the Dow rose 0.33% to 50,182.95.",
-  "market_cap_basis": "Shares outstanding x 2026-11-25 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
+  "market_context": "The Nasdaq-100 rose 2.61% to 26,726.39 (QQQ +2.69% to $650.99) in a half-day Black Friday session as investors bought beaten-down AI and semiconductor shares; the PHLX Semiconductor Index jumped 4.69%, the Nasdaq Composite gained 2.31% to 24,129.50, the S&P 500 1.60% to 7,297.49 and the Dow 1.18% to 50,774.94.",
+  "market_cap_basis": "Shares outstanding x 2026-11-27 close. Shares implied from Nasdaq market caps as of the 2026-10-29 close (watchlist market_cap_usd / 2026-10-29 close), so multi-class companies (e.g. GOOGL) reflect all share classes.",
   "stocks": [
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices Inc. Common Stock",
-      "close": 333.11,
-      "prev_close": 312.95,
-      "pct_change": 6.44,
-      "market_cap_usd": 161411184997,
-      "is_mover": true,
-      "reason": "Analog Devices bounced a day after plunging 17.4% on disappointing fiscal first-quarter EPS guidance. BMO Capital reiterated its Outperform rating and $430 price target, while Truist cut its target to $323 from $405 and kept a Hold, and Bank of America lowered its target to $425 from $500 but kept a Buy, calling Tuesday's drop an overreaction.",
-      "sources": [
-        {
-          "outlet": "Investing.com",
-          "title": "BMO Capital reiterates ADI stock Outperform on mid-cycle recovery",
-          "url": "https://www.investing.com/news/analyst-ratings/bmo-capital-reiterates-adi-stock-outperform-on-midcycle-recovery-93CH-5051065"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "Truist cuts Analog Devices stock price target to $323 on cyclical peak signals",
-          "url": "https://www.investing.com/news/analyst-ratings/truist-cuts-analog-devices-stock-price-target-to-323-on-cyclical-peak-signals-93CH-5050894"
-        },
-        {
-          "outlet": "TipRanks",
-          "title": "Analog Devices price target lowered to $425 from $500 at BofA",
-          "url": "https://www.tipranks.com/news/the-fly/analog-devices-price-target-lowered-to-425-from-500-at-bofa-thefly-news"
-        }
-      ]
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation Common Stock",
-      "close": 185.01,
-      "prev_close": 196.16,
-      "pct_change": -5.68,
-      "market_cap_usd": 231109120403,
-      "is_mover": true,
-      "reason": "Lam Research fell as investors focused on reports that lawmakers may attach the MATCH Act, which would tighten chip-equipment export controls on China, to the FY2027 defense bill. China accounted for 35% of Lam's September-quarter revenue, the highest exposure among the large U.S. toolmakers.",
-      "sources": [
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Lam Research Stocks Plunge 9.54% With 35% of Sales Tied to China",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-stocks-plunge-9-173756556.html"
-        },
-        {
-          "outlet": "Investing.com",
-          "title": "Why is Lam Research stock tumbling today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-lam-research-stock-tumbling-today-93CH-5051152"
-        },
-        {
-          "outlet": "24/7 Wall St.",
-          "title": "Applied Materials Falls 6% Despite UBS's $575 Target as China Chip Curbs Hit Equipment Stocks; Lam Research Drops 7%, KLA Edges Lower",
-          "url": "https://247wallst.com/investing/2026/11/25/applied-materials-falls-6-despite-ubss-575-target-as-china-chip-curbs-hit-equipment-stocks-lam-research-drops-7-kla-edges-lower/"
-        }
-      ]
-    },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation Common Stock",
-      "close": 73.61,
-      "prev_close": 77.95,
-      "pct_change": -5.57,
-      "market_cap_usd": 85580562944,
+      "close": 85.36,
+      "prev_close": 73.61,
+      "pct_change": 15.96,
+      "market_cap_usd": 99241364550,
       "is_mover": true,
-      "reason": "No clear company-specific news today; Sandisk fell with other memory stocks as investors continued to reassess 2027 NAND pricing and the AI-memory trade. Micron also dropped more than 4%, following Tuesday's Evercore price-target cut on Sandisk.",
+      "reason": "Sandisk led the session, rebounding with other memory and AI-storage names after this month's sharp selloff. Reuters highlighted it among the day's biggest AI-beneficiary gainers, and there was no separate company release.",
       "sources": [
         {
-          "outlet": "BestStocks",
-          "title": "SNDK Stock Today: Why Sandisk Fell 5.6% on Nov 25, 2026",
-          "url": "https://beststocks.com/stocks/sndk/what-changed"
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
         },
         {
-          "outlet": "Investing.com",
-          "title": "Why is Micron Technology stock tumbling today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-tumbling-today-93CH-5051081"
+          "outlet": "Motley Fool",
+          "title": "Sandisk Surges 16% as Memory Stocks Rebound From AI-Driven Selloff",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-sandisk-surges-16-as-memory-stocks-rebound-from-ai-driven-selloff/"
         }
       ]
     },
     {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated Common Stock",
-      "close": 270.19,
-      "prev_close": 258.44,
-      "pct_change": 4.55,
-      "market_cap_usd": 246891601985,
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "close": 509.66,
+      "prev_close": 472.33,
+      "pct_change": 7.9,
+      "market_cap_usd": 116568702416,
       "is_mover": true,
-      "reason": "Texas Instruments had no company-specific news of its own; the shares bounced 4.5% with analog peer Analog Devices after Tuesday's 11.2% drop, even as the PHLX Semiconductor Index finished slightly lower.",
+      "reason": "No clear company-specific news; Seagate rose with other data-storage and semiconductor names as the PHLX Semiconductor Index jumped 4.69% in the Black Friday rebound.",
       "sources": [
         {
-          "outlet": "OptimistFi",
-          "title": "Analog Devices wins back 6.4% after its post-results drop, as chip stocks slip",
-          "url": "https://optimistfi.com/research/analog-devices-wins-back-6-4-after-its-post-results-drop-as-chip-stocks-slip"
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
         },
         {
-          "outlet": "Investing.com",
-          "title": "BMO Capital reiterates ADI stock Outperform on mid-cycle recovery",
-          "url": "https://www.investing.com/news/analyst-ratings/bmo-capital-reiterates-adi-stock-outperform-on-midcycle-recovery-93CH-5051065"
+          "outlet": "Motley Fool",
+          "title": "Sandisk Surges 16% as Memory Stocks Rebound From AI-Driven Selloff",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-sandisk-surges-16-as-memory-stocks-rebound-from-ai-driven-selloff/"
         }
       ]
     },
     {
       "ticker": "MU",
       "name": "Micron Technology Inc. Common Stock",
-      "close": 601.25,
-      "prev_close": 629.79,
-      "pct_change": -4.53,
-      "market_cap_usd": 680268191994,
+      "close": 646.95,
+      "prev_close": 601.25,
+      "pct_change": 7.6,
+      "market_cap_usd": 731974245512,
       "is_mover": true,
-      "reason": "Micron fell further as Tuesday's BNP Paribas downgrade — Neutral from Outperform, with Karl Ackerman cutting the price target to $775 from $1,700 — continued to weigh, alongside weaker 2027–28 memory-pricing forecasts. Goldman Sachs had earlier in the week cut its 2028 DRAM and NAND price forecasts by about 20%, and TrendForce lowered its 2027 DRAM contract-price outlook.",
+      "reason": "No clear company-specific news; Micron was among the chipmakers Reuters singled out as recovering ground after this month's selloff, in a session when the PHLX Semiconductor Index rose 4.69%.",
       "sources": [
         {
-          "outlet": "Investing.com",
-          "title": "Why is Micron Technology stock tumbling today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-tumbling-today-93CH-5051081"
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
         },
         {
-          "outlet": "StreetInsider",
-          "title": "Micron shares drop after wave of analyst downgrades",
-          "url": "https://www.streetinsider.com/Investing/Micron+shares+drop+after+wave+of+analyst+downgrades/27399730.html"
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
         }
       ]
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation Common Stock",
-      "close": 149.3,
-      "prev_close": 155.38,
-      "pct_change": -3.91,
-      "market_cap_usd": 3598130011876,
+      "ticker": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "close": 119.5,
+      "prev_close": 111.14,
+      "pct_change": 7.52,
+      "market_cap_usd": 870994292178,
       "is_mover": true,
-      "reason": "Nvidia dropped as Monday's rally on Jensen Huang's reinstatement faded and investors sold AI-linked stocks on hotter October PCE inflation, new 20% tariff proposals, and renewed doubts about AI spending and returns. The shares recovered from a steeper early decline to close down 3.9%.",
+      "reason": "No clear company-specific U.S. news; the SK hynix ADR rose with the memory-chip rebound, in line with a strong session for Korean chip shares and a 4.69% gain in the PHLX Semiconductor Index.",
       "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Yonhap",
+          "title": "Samsung Electronics and SK hynix jump at the close",
+          "url": "https://www.yna.co.kr/view/AKR20261127032851008"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "close": 140.54,
+      "prev_close": 130.93,
+      "pct_change": 7.34,
+      "market_cap_usd": 123239522180,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Marvell was one of the chipmakers Reuters named as recovering after this month's selloff, alongside a 4.69% rise in the PHLX Semiconductor Index.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "close": 292.11,
+      "prev_close": 272.45,
+      "pct_change": 7.22,
+      "market_cap_usd": 109343563611,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Western Digital advanced with Seagate and other memory and storage names as investors bought back AI-linked shares.",
+      "sources": [
+        {
+          "outlet": "Motley Fool",
+          "title": "Sandisk Surges 16% as Memory Stocks Rebound From AI-Driven Selloff",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-sandisk-surges-16-as-memory-stocks-rebound-from-ai-driven-selloff/"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        }
+      ]
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "close": 179.27,
+      "prev_close": 168.66,
+      "pct_change": 6.29,
+      "market_cap_usd": 188275435786,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Qualcomm rose with the broader semiconductor rebound in the holiday-shortened session.",
+      "sources": [
+        {
+          "outlet": "Motley Fool",
+          "title": "Chip Stocks Rebound Sharply on Broad AI Enthusiasm",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-chip-stocks-rebound-sharply-on-broad-ai-enthusiasm/"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        }
+      ]
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "close": 141.78,
+      "prev_close": 133.4,
+      "pct_change": 6.28,
+      "market_cap_usd": 183720086214,
+      "is_mover": true,
+      "reason": "Shopify jumped as Black Friday kicked off the holiday online-shopping stretch, with e-commerce names rising alongside the broader tech rebound. Adobe forecast about $12.9 billion in U.S. online spending on Friday.",
+      "sources": [
+        {
+          "outlet": "Benzinga",
+          "title": "Why Is Shopify Stock Surging on Friday?",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63678866/why-is-shopify-stock-surging-on-friday"
+        },
+        {
+          "outlet": "Investor's Business Daily",
+          "title": "Amazon Stock Leads E-Commerce Stocks Higher On Black Friday",
+          "url": "https://www.investors.com/news/technology/amazon-stock-black-friday-deals-ecommerce-stocks-to-watch/"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "close": 171.55,
+      "prev_close": 161.51,
+      "pct_change": 6.22,
+      "market_cap_usd": 182538678319,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Arm rose with other semiconductor names as investors returned to beaten-down AI-linked shares.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "close": 57.4,
+      "prev_close": 54.47,
+      "pct_change": 5.38,
+      "market_cap_usd": 303362999001,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Intel participated in a broad chip rebound after Thanksgiving, a session Motley Fool also described as lacking a company-specific catalyst.",
+      "sources": [
+        {
+          "outlet": "Motley Fool",
+          "title": "Chip Stocks Rebound Sharply on Broad AI Enthusiasm",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-chip-stocks-rebound-sharply-on-broad-ai-enthusiasm/"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "close": 172.17,
+      "prev_close": 163.59,
+      "pct_change": 5.24,
+      "market_cap_usd": 413561547109,
+      "is_mover": true,
+      "reason": "Poland's defence ministry signed a five-year, roughly $300 million contract on Friday for Palantir's Maven Smart System, an AI tool to help military commanders make decisions. Minister Władysław Kosiniak-Kamysz said all keys, servers and information will remain the exclusive property of the Polish Armed Forces.",
+      "sources": [
+        {
+          "outlet": "Poland Ministry of National Defence",
+          "title": "Wojsko Polskie sięga po nowoczesne i sprawdzone technologie wykorzystujące sztuczną inteligencję",
+          "url": "https://www.gov.pl/web/obrona-narodowa/wojsko-polskie-siega-po-nowoczesne-i-sprawdzone-technologie-wykorzystujace-sztuczna-inteligencje"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Poland signs contract with Palantir worth $300 mln over 5 years",
+          "url": "https://www.reuters.com/5f374b32b07b/technology/poland-signs-contract-with-palantir-worth-300-mln-over-5-years-2026-11-27/"
+        },
+        {
+          "outlet": "X (@PalantirTech)",
+          "title": "Palantir says it is proud to stand with Poland as it adopts Maven Smart System",
+          "url": "https://x.com/PalantirTech/status/2126281506024792449"
+        }
+      ]
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+      "close": 534.57,
+      "prev_close": 564.12,
+      "pct_change": -5.24,
+      "market_cap_usd": 135492607999,
+      "is_mover": true,
+      "reason": "Vertex fell on the first trading session after it said the FDA had extended the review of povetacicept, its experimental IgA nephropathy drug, pushing the decision deadline to no later than February 28, 2027 from November 30. The agency treated an information request as a major amendment; Citi's Geoffrey Meacham said the stock faced near-term pressure as expectations reset but did not see the delay as thesis-changing.",
+      "sources": [
+        {
+          "outlet": "Vertex Pharmaceuticals",
+          "title": "Vertex Announces Extension of PDUFA Target Action Date by up to Three Months as FDA Completes Review of the Biologics License Application for Povetacicept in IgA Nephropathy",
+          "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-extension-pdufa-target-action-date-three-months"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Vertex Pharma falls after FDA extends review of kidney disease drug",
+          "url": "https://www.investing.com/news/stock-market-news/vertex-pharma-falls-after-fda-extends-review-of-kidney-disease-drug-5053713"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "close": 400.0,
+      "prev_close": 380.14,
+      "pct_change": 5.22,
+      "market_cap_usd": 1581103226257,
+      "is_mover": true,
+      "reason": "Tesla climbed after Germany's Federal Cartel Office published its antitrust filing to acquire EMAG, a German maker of precision machining systems used for humanoid-robot gears. A European Commission draft agenda also indicated EU countries may vote on December 15 on approving Tesla's assisted-driving system.",
+      "sources": [
+        {
+          "outlet": "Investing.com",
+          "title": "Why is Tesla stock climbing today?",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-climbing-today-93CH-5053632"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "EU may vote on authorising Tesla assisted-driving system at Dec 15 meeting",
+          "url": "https://www.investing.com/news/stock-market-news/eu-may-vote-on-authorising-tesla-assisteddriving-system-at-dec-15-meeting-5052607"
+        }
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "close": 140.86,
+      "prev_close": 134.2,
+      "pct_change": 4.96,
+      "market_cap_usd": 183823223301,
+      "is_mover": true,
+      "reason": "No clear company-specific news; KLA rose with other semiconductor-equipment names as the PHLX Semiconductor Index gained 4.69%.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "close": 133.59,
+      "prev_close": 127.44,
+      "pct_change": 4.83,
+      "market_cap_usd": 1814294258846,
+      "is_mover": true,
+      "reason": "SpaceX rose with the tech rebound after CEO Elon Musk said on Thanksgiving that he would donate another SpaceX share to all kids in America every year, expanding Wednesday's plan to give a company share to active Trump Accounts.",
+      "sources": [
+        {
+          "outlet": "X (@elonmusk)",
+          "title": "I will be donating another share of SpaceX to all kids in America every year",
+          "url": "https://x.com/elonmusk/status/2126064597039997254"
+        },
         {
           "outlet": "CNBC",
-          "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles",
-          "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
-        },
-        {
-          "outlet": "The Motley Fool",
-          "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "title": "Stock market today: Dow erases losses to end positive, S&P 500 and Nasdaq recover ground amid AI sell-off",
-          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
+          "title": "SpaceX shares jump over 4% amid tech rally and after Musk says he will expand on Trump Account share donations",
+          "url": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
         }
       ]
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials Inc. Common Stock",
-      "close": 311.18,
-      "prev_close": 323.76,
-      "pct_change": -3.89,
-      "market_cap_usd": 246951644355,
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "close": 424.54,
+      "prev_close": 406.03,
+      "pct_change": 4.56,
+      "market_cap_usd": 693050989191,
       "is_mover": true,
-      "reason": "Applied Materials fell with other chip-equipment names on fears the MATCH Act could further restrict tool sales to China, which accounted for 28% of revenue in the first nine months of fiscal 2026. UBS analyst Timothy Arcuri cut his price target to $575 from $640 and kept a Buy rating.",
+      "reason": "No clear company-specific news; AMD rose with other chipmakers in the Black Friday semiconductor rebound.",
       "sources": [
         {
-          "outlet": "24/7 Wall St.",
-          "title": "Applied Materials Falls 6% Despite UBS's $575 Target as China Chip Curbs Hit Equipment Stocks; Lam Research Drops 7%, KLA Edges Lower",
-          "url": "https://247wallst.com/investing/2026/11/25/applied-materials-falls-6-despite-ubss-575-target-as-china-chip-curbs-hit-equipment-stocks-lam-research-drops-7-kla-edges-lower/"
+          "outlet": "Motley Fool",
+          "title": "Chip Stocks Rebound Sharply on Broad AI Enthusiasm",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-today-nov-27-chip-stocks-rebound-sharply-on-broad-ai-enthusiasm/"
         },
         {
-          "outlet": "MarketBeat",
-          "title": "Applied Materials (NASDAQ:AMAT) Stock Price Target Cut by UBS Group",
-          "url": "https://www.marketbeat.com/instant-alerts/analyst-applied-materials-nasdaq-amat-stock-price-target-cut-by-ubs-group-2026-11-25/"
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
         }
       ]
     },
     {
-      "ticker": "META",
-      "name": "Meta Platforms Inc. Class A Common Stock",
-      "close": 609.89,
-      "prev_close": 589.82,
-      "pct_change": 3.4,
-      "market_cap_usd": 1559025966481,
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "close": 281.85,
+      "prev_close": 270.19,
+      "pct_change": 4.32,
+      "market_cap_usd": 257546167133,
       "is_mover": true,
-      "reason": "Meta rose even as most other mega-cap tech stocks fell. Fortune reported that Amazon and Meta are in talks to lift a blockade on Meta's Muse shopping agent, and Bloomberg reported that CoreWeave's banks are preparing a $4.5 billion GPU-backed loan tied to a Meta data-center contract in Georgia.",
+      "reason": "No clear company-specific news; Texas Instruments advanced with the broader semiconductor rebound.",
       "sources": [
         {
-          "outlet": "TechCrunch",
-          "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
         },
         {
-          "outlet": "Investing.com",
-          "title": "CoreWeave banks prepare $4.5 billion Meta-tied loan sale next week, Bloomberg says",
-          "url": "https://www.investing.com/news/stock-market-news/coreweave-banks-prepare-45-billion-metatied-loan-sale-next-week-bloomberg-says-5051311"
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "close": 192.69,
+      "prev_close": 185.01,
+      "pct_change": 4.15,
+      "market_cap_usd": 240702763617,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Lam Research bounced with other chip-equipment names after recent weakness tied to China export-control concerns.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
         }
       ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc. Common Stock",
-      "close": 244.43,
-      "prev_close": 252.29,
-      "pct_change": -3.12,
-      "market_cap_usd": 2636498620011,
+      "close": 254.12,
+      "prev_close": 244.43,
+      "pct_change": 3.96,
+      "market_cap_usd": 2741018027736,
       "is_mover": true,
-      "reason": "Amazon fell as investors focused on the cost of its AI build-out — trailing capital spending of about $215 billion and negative free cash flow — and Bernstein flagged that AWS usage metrics were running about 16% below third-quarter levels, which it said could slow first-quarter 2027 revenue growth.",
+      "reason": "Amazon rose as Black Friday opened the holiday shopping season and e-commerce stocks advanced, and it also participated in the rebound among AI hyperscalers.",
       "sources": [
         {
-          "outlet": "Investing.com",
-          "title": "Why is Amazon stock sliding today?",
-          "url": "https://www.investing.com/news/stock-market-news/why-is-amazon-stock-sliding-today-93CH-5051122"
+          "outlet": "Investor's Business Daily",
+          "title": "Amazon Stock Leads E-Commerce Stocks Higher On Black Friday",
+          "url": "https://www.investors.com/news/technology/amazon-stock-black-friday-deals-ecommerce-stocks-to-watch/"
         },
         {
-          "outlet": "Yahoo Finance",
-          "title": "Amazon Stocks Fall 4.26% as $215 Billion Capex Run Rate Meets AI Doubts",
-          "url": "https://sg.finance.yahoo.com/news/amazon-stocks-fall-4-26-154117429.html"
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
         }
       ]
     },
     {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V. New York Registry Shares",
-      "close": 1303.08,
-      "prev_close": 1336.06,
-      "pct_change": -2.47,
-      "market_cap_usd": 502230048606,
-      "is_mover": false
+      "ticker": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "close": 346.0,
+      "prev_close": 333.11,
+      "pct_change": 3.87,
+      "market_cap_usd": 167659651362,
+      "is_mover": true,
+      "reason": "No clear company-specific news today; Analog Devices continued to rebound with other chip names after its sharp drop earlier in the week on weak guidance.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
     },
     {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated Common Stock",
-      "close": 168.66,
-      "prev_close": 164.96,
-      "pct_change": 2.24,
-      "market_cap_usd": 177132453464,
-      "is_mover": false
+      "ticker": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "close": 312.34,
+      "prev_close": 300.86,
+      "pct_change": 3.82,
+      "market_cap_usd": 1490995534553,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Broadcom rose with other semiconductor and AI-linked shares in the holiday-shortened rebound.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet Inc. Class A Common Stock",
-      "close": 273.1,
-      "prev_close": 279.05,
-      "pct_change": -2.13,
-      "market_cap_usd": 3357491388394,
-      "is_mover": false
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "close": 217.2,
+      "prev_close": 209.3,
+      "pct_change": 3.77,
+      "market_cap_usd": 222398649755,
+      "is_mover": true,
+      "reason": "No clear company-specific news; CrowdStrike rose with the broader technology rebound in the half-day session.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
     },
     {
-      "ticker": "STX",
-      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
-      "close": 472.33,
-      "prev_close": 482.48,
-      "pct_change": -2.1,
-      "market_cap_usd": 108030634641,
-      "is_mover": false
+      "ticker": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "close": 322.04,
+      "prev_close": 311.18,
+      "pct_change": 3.49,
+      "market_cap_usd": 255570125105,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Applied Materials advanced with other semiconductor-equipment stocks as the PHLX Semiconductor Index rose 4.69%.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
     },
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices Inc. Common Stock",
-      "close": 406.03,
-      "prev_close": 413.27,
-      "pct_change": -1.75,
-      "market_cap_usd": 662833859310,
-      "is_mover": false
+      "ticker": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "close": 628.96,
+      "prev_close": 609.89,
+      "pct_change": 3.13,
+      "market_cap_usd": 1607773504373,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Meta rose with other AI hyperscalers as investors bought back beaten-down technology shares.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical Inc. Common Stock",
-      "close": 427.18,
-      "prev_close": 434.46,
-      "pct_change": -1.68,
-      "market_cap_usd": 148079257694,
-      "is_mover": false
+      "ticker": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "close": 97.04,
+      "prev_close": 94.2,
+      "pct_change": 3.01,
+      "market_cap_usd": 382588646668,
+      "is_mover": true,
+      "reason": "No clear company-specific news; Cisco eked out a 3% gain with the broader technology rebound.",
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+          "url": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052"
+        },
+        {
+          "outlet": "Schwab Network",
+          "title": "Stocks Stage Black Friday Rally as Tech Rebounds, Volatility Retreats",
+          "url": "https://schwabnetwork.com/articles/closing-bell-stocks-stage-black-friday-rally-as-tech-rebounds-volatility-retreats"
+        }
+      ]
     },
     {
-      "ticker": "LIN",
-      "name": "Linde plc Ordinary Shares",
-      "close": 524.61,
-      "prev_close": 516.83,
-      "pct_change": 1.51,
-      "market_cap_usd": 241834799492,
-      "is_mover": false
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies Inc. Class A Common Stock",
-      "close": 163.59,
-      "prev_close": 161.18,
-      "pct_change": 1.5,
-      "market_cap_usd": 392951923660,
-      "is_mover": false
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies Corp. Class A Common Stock",
-      "close": 127.44,
-      "prev_close": 125.81,
-      "pct_change": 1.3,
-      "market_cap_usd": 1730770799573,
-      "is_mover": false
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft Corporation Common Stock",
-      "close": 489.93,
-      "prev_close": 496.13,
-      "pct_change": -1.25,
-      "market_cap_usd": 3638315341939,
-      "is_mover": false
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla Inc. Common Stock",
-      "close": 380.14,
-      "prev_close": 384.68,
-      "pct_change": -1.18,
-      "market_cap_usd": 1502601508975,
-      "is_mover": false
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc. Common Stock",
-      "close": 469.24,
-      "prev_close": 473.94,
-      "pct_change": -0.99,
-      "market_cap_usd": 253686150698,
+      "ticker": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "close": 366.76,
+      "prev_close": 356.14,
+      "pct_change": 2.98,
+      "market_cap_usd": 300172197973,
       "is_mover": false
     },
     {
       "ticker": "NFLX",
       "name": "Netflix Inc. Common Stock",
-      "close": 59.41,
-      "prev_close": 58.87,
-      "pct_change": 0.92,
-      "market_cap_usd": 243956824270,
-      "is_mover": false
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks Inc. Common Stock",
-      "close": 356.14,
-      "prev_close": 352.99,
-      "pct_change": 0.89,
-      "market_cap_usd": 291480336287,
-      "is_mover": false
-    },
-    {
-      "ticker": "PEP",
-      "name": "PepsiCo Inc. Common Stock",
-      "close": 143.93,
-      "prev_close": 142.68,
-      "pct_change": 0.88,
-      "market_cap_usd": 196139325234,
-      "is_mover": false
-    },
-    {
-      "ticker": "GILD",
-      "name": "Gilead Sciences Inc. Common Stock",
-      "close": 176.74,
-      "prev_close": 178.29,
-      "pct_change": -0.87,
-      "market_cap_usd": 219149680099,
-      "is_mover": false
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify Inc. Class A Subordinate Voting Shares",
-      "close": 133.4,
-      "prev_close": 132.31,
-      "pct_change": 0.82,
-      "market_cap_usd": 172861183458,
-      "is_mover": false
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc. American Depositary Shares",
-      "close": 111.14,
-      "prev_close": 111.98,
-      "pct_change": -0.75,
-      "market_cap_usd": 810061130553,
-      "is_mover": false
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
-      "close": 209.3,
-      "prev_close": 210.86,
-      "pct_change": -0.74,
-      "market_cap_usd": 214309570564,
+      "close": 60.93,
+      "prev_close": 59.41,
+      "pct_change": 2.56,
+      "market_cap_usd": 250198441599,
       "is_mover": false
     },
     {
       "ticker": "TMUS",
       "name": "T-Mobile US Inc. Common Stock",
-      "close": 166.25,
-      "prev_close": 167.3,
-      "pct_change": -0.63,
-      "market_cap_usd": 176104072957,
+      "close": 170.19,
+      "prev_close": 166.25,
+      "pct_change": 2.37,
+      "market_cap_usd": 180277609663,
       "is_mover": false
     },
     {
-      "ticker": "INTC",
-      "name": "Intel Corporation Common Stock",
-      "close": 54.47,
-      "prev_close": 54.8,
-      "pct_change": -0.6,
-      "market_cap_usd": 287877743670,
+      "ticker": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "close": 1325.82,
+      "prev_close": 1303.08,
+      "pct_change": 1.75,
+      "market_cap_usd": 510994442799,
       "is_mover": false
     },
     {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation Common Stock",
-      "close": 272.45,
-      "prev_close": 273.95,
-      "pct_change": -0.55,
-      "market_cap_usd": 101984378264,
+      "ticker": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "close": 532.61,
+      "prev_close": 524.61,
+      "pct_change": 1.52,
+      "market_cap_usd": 245522640841,
       "is_mover": false
     },
     {
-      "ticker": "MRVL",
-      "name": "Marvell Technology Inc. Common Stock",
-      "close": 130.93,
-      "prev_close": 131.57,
-      "pct_change": -0.49,
-      "market_cap_usd": 114812512503,
+      "ticker": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "close": 474.08,
+      "prev_close": 469.24,
+      "pct_change": 1.03,
+      "market_cap_usd": 256302807560,
       "is_mover": false
     },
     {
       "ticker": "COST",
       "name": "Costco Wholesale Corporation Common Stock",
-      "close": 1086.81,
-      "prev_close": 1091.71,
-      "pct_change": -0.45,
-      "market_cap_usd": 481597425489,
-      "is_mover": false
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple Inc. Common Stock",
-      "close": 355.58,
-      "prev_close": 354.07,
-      "pct_change": 0.43,
-      "market_cap_usd": 5189398273966,
-      "is_mover": false
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA Corporation Common Stock",
-      "close": 134.2,
-      "prev_close": 133.65,
-      "pct_change": 0.41,
-      "market_cap_usd": 175131874905,
+      "close": 1097.81,
+      "prev_close": 1086.81,
+      "pct_change": 1.01,
+      "market_cap_usd": 486471848244,
       "is_mover": false
     },
     {
       "ticker": "WMT",
       "name": "Walmart Inc. Common Stock",
-      "close": 131.94,
-      "prev_close": 132.31,
-      "pct_change": -0.28,
-      "market_cap_usd": 1046778498407,
+      "close": 133.13,
+      "prev_close": 131.94,
+      "pct_change": 0.9,
+      "market_cap_usd": 1056219675803,
       "is_mover": false
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco Systems Inc. Common Stock (DE)",
-      "close": 94.2,
-      "prev_close": 93.99,
-      "pct_change": 0.22,
-      "market_cap_usd": 371391683930,
+      "ticker": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "close": 358.54,
+      "prev_close": 355.58,
+      "pct_change": 0.83,
+      "market_cap_usd": 5232597366986,
       "is_mover": false
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc. Common Stock",
-      "close": 300.86,
-      "prev_close": 301.08,
-      "pct_change": -0.07,
-      "market_cap_usd": 1436194211258,
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "close": 150.49,
+      "prev_close": 149.3,
+      "pct_change": 0.8,
+      "market_cap_usd": 3626809070222,
       "is_mover": false
     },
     {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
-      "close": 564.12,
-      "prev_close": 563.92,
-      "pct_change": 0.04,
-      "market_cap_usd": 142982375209,
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "close": 430.18,
+      "prev_close": 427.18,
+      "pct_change": 0.7,
+      "market_cap_usd": 149119188826,
       "is_mover": false
     },
     {
-      "ticker": "ARM",
-      "name": "Arm Holdings plc American Depositary Shares",
-      "close": 161.51,
-      "prev_close": 161.56,
-      "pct_change": -0.03,
-      "market_cap_usd": 171855554696,
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "close": 274.96,
+      "prev_close": 273.1,
+      "pct_change": 0.68,
+      "market_cap_usd": 3380358047716,
+      "is_mover": false
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "close": 492.85,
+      "prev_close": 489.93,
+      "pct_change": 0.6,
+      "market_cap_usd": 3659999929148,
+      "is_mover": false
+    },
+    {
+      "ticker": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "close": 144.6,
+      "prev_close": 143.93,
+      "pct_change": 0.47,
+      "market_cap_usd": 197052380110,
+      "is_mover": false
+    },
+    {
+      "ticker": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "close": 177.0,
+      "prev_close": 176.74,
+      "pct_change": 0.15,
+      "market_cap_usd": 219472061627,
       "is_mover": false
     }
   ]
